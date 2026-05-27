@@ -1,0 +1,181 @@
+{
+  "source_url": "https://wts-info-api.tossinvest.com/api/v2/news/companies/005930?number=1&size=100&orderBy=latest",
+  "page_url": "https://www.tossinvest.com/stocks/A005930/news",
+  "count": 100,
+  "range": {
+    "latest": "2026-05-26 21:31",
+    "oldest": "2026-05-26 16:31"
+  },
+  "category_counts": {
+    "시장·반도체 랠리": 30,
+    "노사·성과급·임금": 19,
+    "정책·지역·반도체 클러스터": 16,
+    "환율·거시·자금 흐름": 11,
+    "기타": 9,
+    "AI·사업전략·제품": 8,
+    "기술경쟁·화웨이": 5,
+    "거래 데이터·프리마켓 노이즈": 2
+  },
+  "word_counts": [
+    {
+      "term": "코스피",
+      "count": 46
+    },
+    {
+      "term": "반도체",
+      "count": 43
+    },
+    {
+      "term": "AI",
+      "count": 27
+    },
+    {
+      "term": "성과급",
+      "count": 15
+    },
+    {
+      "term": "레버리지",
+      "count": 15
+    },
+    {
+      "term": "삼전닉스",
+      "count": 14
+    },
+    {
+      "term": "외국인",
+      "count": 13
+    },
+    {
+      "term": "8천피",
+      "count": 10
+    },
+    {
+      "term": "증시",
+      "count": 9
+    },
+    {
+      "term": "최저임금",
+      "count": 9
+    },
+    {
+      "term": "글로벌",
+      "count": 8
+    },
+    {
+      "term": "대비",
+      "count": 8
+    },
+    {
+      "term": "삼성전자가",
+      "count": 8
+    },
+    {
+      "term": "단일종목",
+      "count": 8
+    },
+    {
+      "term": "DX",
+      "count": 7
+    },
+    {
+      "term": "인공지능",
+      "count": 7
+    },
+    {
+      "term": "돌파",
+      "count": 7
+    },
+    {
+      "term": "코스피는",
+      "count": 7
+    },
+    {
+      "term": "ETF",
+      "count": 7
+    },
+    {
+      "term": "1만피",
+      "count": 7
+    },
+    {
+      "term": "만에",
+      "count": 6
+    },
+    {
+      "term": "프리마켓",
+      "count": 6
+    },
+    {
+      "term": "따르면",
+      "count": 6
+    },
+    {
+      "term": "투표",
+      "count": 6
+    },
+    {
+      "term": "법칙",
+      "count": 6
+    },
+    {
+      "term": "원안",
+      "count": 6
+    },
+    {
+      "term": "외부",
+      "count": 6
+    },
+    {
+      "term": "메모리",
+      "count": 6
+    },
+    {
+      "term": "시대",
+      "count": 6
+    },
+    {
+      "term": "SK하이닉스",
+      "count": 6
+    },
+    {
+      "term": "처음으로",
+      "count": 6
+    },
+    {
+      "term": "상승",
+      "count": 5
+    },
+    {
+      "term": "영향",
+      "count": 5
+    },
+    {
+      "term": "투자",
+      "count": 5
+    },
+    {
+      "term": "가결",
+      "count": 5
+    },
+    {
+      "term": "잠정합의안에",
+      "count": 5
+    },
+    {
+      "term": "노조",
+      "count": 5
+    },
+    {
+      "term": "가처분",
+      "count": 5
+    },
+    {
+      "term": "연합뉴스",
+      "count": 5
+    },
+    {
+      "term": "출시",
+      "count": 5
+    }
+  ]
+}

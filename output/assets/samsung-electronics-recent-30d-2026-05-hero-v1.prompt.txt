@@ -1,0 +1,20 @@
+Create a premium hero image for a Korean stock market economic report.
+
+Topic: 삼성전자 최근 30일 동향
+Subtitle/context: 실적, AI 메모리 기대, 수급 변화, 파업 이슈가 한 달 흐름을 만들었다
+Report summary cues: 삼성전자 최근 30일 동향 최근 30일 삼성전자 주가는 실적 발표, AI 메모리 기대, 외국인·기관·개인 수급 변화, 그리고 파업 이슈가 겹치며 크게 움직였다. 개요 2026 04 27부터 2026 05 26까지 삼성전자 종가는 224,500원에서 300,000원으로 33.63% 올랐다. 하지만 2026 04 30 실적 발표일 종가는 220,500원으로, 기간 초반에는 오히려 눌림이 먼저 나타났다. 핵심은 단순하다. 1분기 실적 숫자는 매우 강했지만, 주가는 그 숫자만으로 움직이지 않았다. 이후 시장은 HBM4 중심의 AI 메모리 기대, 수급 변화, 파업 리스크 완화 가능성을 함께 반영해 갔다. 배경 삼성전자의 최근 한 달은 한국 증시의 AI 기대와 반도체 강세 속에서 전개됐다. 2026 05 06에는 코스피가 7,000선을 돌파하는 과정에서 삼성전자 시가총액도 1조달러를 넘어섰다. 같은 흐름 속에서 삼성전자는 2026 04 30 1분기 실적 발표에서 연결 매출 133.9조원, 영업
+
+The visual must reflect this report topic specifically.
+Variant A: emphasize the AI memory chip as the single hero object, with the upward growth cue secondary and very subtle.
+
+Minimal futuristic 3D infographic, ultra clean white studio background, premium semiconductor industry visualization, single floating AI memory chip as the central focus, HBM4 inspired chip design, glossy white circular pedestal, minimal RAM modules behind the chip, soft blue and green accent colors only
+
+Simple upward growth graph floating on one side, abstract cloud server icon on the other side, symbolic investor flow visualization, all elements separated with large clean spacing
+
+Apple keynote presentation aesthetic, Toss-inspired minimal UI, enterprise presentation style, smooth rounded geometry, subtle glassmorphism, premium material rendering, cinematic soft lighting, soft ambient shadows, ultra polished surfaces
+
+Isometric composition, centered camera angle, balanced visual hierarchy, minimalist storytelling, no clutter, no complex dashboard, no unnecessary icons
+
+No text, no typography, no labels, no paragraphs, no UI screenshots, no watermark, no busy background
+
+High-end 3D render, octane render, blender style, unreal engine quality, ultra detailed materials, 8k

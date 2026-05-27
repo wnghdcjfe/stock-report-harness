@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="generator" content="stock-report-harness v1">
+<title>삼성전자 최근 1년 흐름</title>
+<meta property="og:title" content="삼성전자 최근 1년 흐름">
+<meta property="og:description" content="저점 출발, 메모리 재평가, AI/HBM 기대가 만든 1년 가격 흐름">
+<meta property="og:type" content="article">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.min.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<style>:root {
+  --bg-base: #ffffff; --bg-surface: #f7f7f8; --bg-elevated: #ffffff;
+  --text-strong: #18181b; --text-base: #3f3f46; --text-muted: #71717a;
+  --accent: #2563eb; --up: #16a34a; --down: #dc2626; --border: #e4e4e7;
+}
+@media (prefers-color-scheme: dark) {:root {
+    --bg-base: #0a0a0a; --bg-surface: #18181b; --bg-elevated: #27272a;
+    --text-strong: #fafafa; --text-base: #d4d4d8; --text-muted: #a1a1aa;
+    --accent: #60a5fa; --up: #4ade80; --down: #f87171; --border: #3f3f46;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg-surface); color: var(--text-base);
+  font-family: "Pretendard Variable", "Pretendard", -apple-system, sans-serif;
+  font-size: 16px; line-height: 1.7;
+  font-feature-settings: "ss06"; -webkit-font-smoothing: antialiased;
+}
+main.report-shell {
+  max-width: 792px;
+  margin: 32px auto 96px;
+  padding: 0 36px 64px;
+  background: var(--bg-base);
+  border: 1px solid var(--border);
+  border-radius: 28px;
+  box-shadow: 0 28px 80px rgba(24, 24, 27, 0.08);
+}
+h1 { font-size: 32px; font-weight: 700; letter-spacing: -0.02em; color: var(--text-strong); margin: 0 0 8px; }
+h2 { font-size: 24px; font-weight: 700; letter-spacing: -0.01em; color: var(--text-strong); margin: 48px 0 16px; }
+h3 { font-size: 18px; font-weight: 600; color: var(--text-strong); margin: 32px 0 12px; }.report-header { padding: 48px 0 28px; border-bottom: 1px solid var(--border); }.report-header.subtitle { color: var(--text-muted); margin: 8px 0 0; }.report-date { color: var(--text-muted); margin: 12px 0 0; font-size: 13px; }.hero-image {
+  margin: 28px 0 0;
+  border-radius: 20px;
+  overflow: hidden;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.06);
+}.hero-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+section {
+  margin-top: 0;
+  padding: 56px 0 0;
+  border-top: 1px solid var(--border);
+}.hero-image + section { border-top: 0; }
+section > h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 0;
+}
+section > h2::before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 1.1em;
+  border-radius: 999px;
+  background: var(--accent);
+}
+blockquote.callout {
+  margin: 16px 0; padding: 12px 16px; background: var(--bg-surface);
+  border-left: 4px solid var(--accent); border-radius: 4px; color: var(--text-base);
+}.stat-card {
+  display: flex; flex-wrap: wrap; gap: 10px; align-items: baseline;
+  padding: 14px 18px;
+  background: var(--bg-elevated); border: 1px solid var(--border); border-radius: 12px;
+  margin: 12px 0;
+}.stat-card__label { font-size: 12px; color: var(--text-muted); font-weight: 600; }.stat-card__title { font-size: 15px; color: var(--text-strong); font-weight: 600; }.stat-card__value {
+  font-size: 28px; font-weight: 700; line-height: 1;
+  font-family: "Pretendard Variable", "Pretendard", -apple-system, sans-serif;
+  font-variant-numeric: tabular-nums;
+}.chart-container,.chart-container *, code, pre, button, input, textarea, select {
+  font-family: "Pretendard Variable", "Pretendard", -apple-system, sans-serif;
+}.stat-card--up.stat-card__value { color: var(--up); }.stat-card--down.stat-card__value { color: var(--down); }.stat-card__compare { font-size: 13px; color: var(--text-muted); }.chart-container { margin: 24px 0; padding: 16px; background: var(--bg-elevated); border: 1px solid var(--border); border-radius: 12px; }.chart-container canvas { width: 100%!important; height: 320px!important; }.word-cloud {
+  display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; justify-content: center;
+  margin: 18px 0; padding: 20px; background: var(--bg-elevated);
+  border: 1px solid var(--border); border-radius: 16px; line-height: 1.15;
+}.word-cloud__term {
+  display: inline-block; font-weight: 700; color: var(--accent); letter-spacing: -0.03em;
+}.word-cloud__term:nth-child(3n) { color: var(--up); }.word-cloud__term:nth-child(4n) { color: var(--down); }.chart-summary { display:flex; gap:12px; margin-bottom:12px; flex-wrap:wrap; }.chart-summary-card {
+  flex:1 1 160px; background:var(--bg-surface); border-radius:12px; padding:12px 14px;
+  border:1px solid var(--border);
+}.chart-summary-card__label { font-size:12px; color:var(--text-muted); margin-bottom:4px; }.chart-summary-card__value { font-size:20px; font-weight:600; color:var(--text-strong); font-variant-numeric:tabular-nums; }.chart-summary-card--up.chart-summary-card__value { color: var(--up); }.chart-summary-card--down.chart-summary-card__value { color: var(--down); }.chart-legend { display:flex; flex-wrap:wrap; gap:14px; margin-top:12px; font-size:12px; color:var(--text-muted); }.chart-legend__item { display:flex; align-items:center; gap:6px; }.chart-legend__line { width:14px; height:2px; display:inline-block; }.chart-legend__dot { width:10px; height:10px; border-radius:50%; display:inline-block; }.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+#references ul { list-style: none; padding-left: 0; margin: 0; }
+#references li {
+  font-size: 12px; color: var(--text-muted); margin-bottom: 10px;
+  padding: 10px 12px; background: var(--bg-surface); border: 1px solid var(--border);
+  border-radius: 10px; line-height: 1.55;
+}
+#disclaimer {
+  margin-top: 56px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  font-size: 12px;
+  line-height: 1.65;
+  color: var(--text-muted);
+}
+#disclaimer p { margin: 0; }
+#disclaimer strong { font-size: 0; line-height: 0; }.toc {
+  position: sticky; top: 0; background: color-mix(in srgb, var(--bg-base) 88%, transparent);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--border); padding: 12px 16px; font-size: 13px;
+  display: flex; gap: 16px; overflow-x: auto; white-space: nowrap;
+  z-index: 20;
+}.toc a { color: var(--text-muted); text-decoration: none; }.toc a:hover { color: var(--accent); }.theme-toggle {
+  position: fixed; top: 16px; right: 16px;
+  width: 36px; height: 36px; border-radius: 50%;
+  border: 1px solid var(--border); background: var(--bg-elevated);
+  cursor: pointer; font-size: 16px; line-height: 1;
+}
+@media print {.toc,.theme-toggle { display: none; }
+  body { font-size: 12pt; background: #fff; }
+  main.report-shell { margin: 0; padding: 0; border: 0; box-shadow: none; max-width: none; }
+  section { page-break-inside: avoid; }
+}
+@media (max-width: 640px) {
+  main.report-shell {
+    margin: 0;
+    padding: 0 18px 56px;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }.report-header { padding-top: 40px; }
+  section { padding-top: 44px; }.stat-card { display: block; }.stat-card__label,.stat-card__title,.stat-card__value,.stat-card__compare { display: block; margin-bottom: 4px; }.hero-image { margin: 22px 0 0; border-radius: 16px; }
+}</style>
+</head>
+<body>
+<button class="theme-toggle" aria-label="테마 전환" onclick="document.documentElement.toggleAttribute('data-theme-dark')">🌓</button>
+<nav class="toc" aria-label="목차"><a href="#overview">개요</a> <a href="#background">배경</a> <a href="#mechanism">메커니즘</a> <a href="#뉴스-100건-점검">뉴스 100건 점검</a> <a href="#투자자별-매매-동향">투자자별 매매 동향</a> <a href="#impact">영향과 적용</a> <a href="#summary">핵심 정리</a> <a href="#references">References</a></nav>
+<main class="report-shell">
+  <header class="report-header">
+    <h1>삼성전자 최근 1년 흐름</h1>
+    <p class="subtitle">저점 출발, 메모리 재평가, AI/HBM 기대가 만든 1년 가격 흐름</p>
+    <p class="report-date">2026-05-27</p>
+  </header>
+  <figure class="hero-image"><img src="assets/samsung-electronics-recent-1y-2026-05-hero-v3.png" alt="삼성전자 최근 1년 흐름 대표 이미지"></figure>
+  <section id="overview"><h2>개요</h2><p>삼성전자(005930.KS)의 최근 1년 흐름은 한 문장으로 말하면 <strong>낮은 기준점에서 출발해 메모리 업황 회복과 AI/HBM 기대가 붙으며 급격히 재평가된 흐름</strong>입니다. yfinance 1일봉 기준 종가는 2025년 5월 27일 53,900원에서 2026년 5월 26일 299,000원으로 올랐고, 기간 수익률은 +454.73%였습니다.::stat-card
+label: 1년 종가 변화
+title: 2025-05-27 → 2026-05-26
+value: +454.73%
+compare: 53,900원 → 299,000원
+direction: up::</p>
+<div class="chart-summary"><div class="chart-summary-card chart-summary-card--up"><div class="chart-summary-card__label">기간 수익률</div><div class="chart-summary-card__value">+454.73%</div></div><div class="chart-summary-card chart-summary-card--neutral"><div class="chart-summary-card__label">시작 종가</div><div class="chart-summary-card__value">₩53,900</div></div><div class="chart-summary-card chart-summary-card--up"><div class="chart-summary-card__label">최고가</div><div class="chart-summary-card__value">₩299,500</div></div><div class="chart-summary-card chart-summary-card--neutral"><div class="chart-summary-card__label">종료 종가</div><div class="chart-summary-card__value">₩299,000</div></div></div><div class="chart-container"><canvas id="chart-0" aria-label="삼성전자 2025년 5월 27일부터 2026년 5월 26일까지 일별 종가 추이"></canvas><p class="sr-only">삼성전자 2025년 5월 27일부터 2026년 5월 26일까지 일별 종가 추이</p></div><div class="chart-legend"><span class="chart-legend__item"><span class="chart-legend__line" style="background:#2563eb"></span>삼성전자 최근 1년 일별 종가</span></div>
+<p>구간 최저 종가는 2025년 5월 27일 53,900원, 최고 종가는 2026년 5월 21일 299,500원였습니다. 즉 마지막 한 달에 가까워질수록 가격이 고점권으로 이동했습니다.</p></section><section id="background"><h2>배경</h2><p>이 흐름의 배경은 <strong>메모리 사이클 회복</strong>입니다. 삼성전자는 2026년 1분기 연결 기준 매출 133.9조원, 영업이익 57.2조원을 발표했고, DS 부문은 매출 81.7조원과 영업이익 53.7조원을 기록했습니다. 회사는 AI 고부가 제품 판매 확대와 메모리 가격 상승을 실적 개선 배경으로 제시했습니다.</p>
+<p>여기에 HBM4 기대가 더해졌습니다. 삼성전자 글로벌 뉴스룸은 HBM4 상업 출하와 11.7Gbps 일관 처리 속도, 최대 13Gbps 가능성을 발표했습니다. 시장은 이 뉴스를 단순한 제품 출시가 아니라 AI 서버 투자 사이클에 삼성전자가 얼마나 참여할 수 있는지 보여주는 신호로 해석했습니다.</p></section><section id="mechanism"><h2>메커니즘</h2><p>첫째, <strong>기준점 효과</strong>입니다. 2025년 5월 말 종가가 53,900원였기 때문에 이후 업황 회복 기대가 붙자 1년 수익률이 크게 계산됐습니다. 다만 낮은 가격 자체가 투자 판단 근거는 아닙니다. 중요한 것은 이후 실적과 수요 기대가 실제로 강화됐는지입니다.</p>
+<p>둘째, <strong>메모리 실적의 숫자화</strong>입니다. 2026년 1분기 실적에서 DS 부문의 이익 기여가 뚜렷해지면서, 시장은 “AI 수요가 실제 실적으로 연결되는가”라는 질문에 더 긍정적으로 반응했습니다.</p>
+<p>셋째, <strong>HBM4 기대의 가격 반영</strong>입니다. HBM4는 AI 인프라 투자와 직접 연결되는 고부가 메모리입니다. 그래서 주가 흐름은 단순 소비전자 회사의 회복이 아니라, AI 반도체 공급망 재평가에 가까운 모습을 보였습니다.</p>
+<p>넷째, <strong>변동성</strong>입니다. 2026년 3월 4일에는 종가 기준 일간 최대 하락률 -11.74%와 최대 거래량 89,427,954주가 동시에 나왔습니다. 반대로 2026년 5월 6일에는 일간 최대 상승률 +14.41%가 나왔습니다. 기대가 커질수록 가격은 더 빠르게 오르지만, 실망이나 차익실현에도 크게 흔들릴 수 있습니다.</p></section><section id="뉴스-100건-점검"><h2>뉴스 100건 점검</h2><p>최신 뉴스 100건은 1년 전체를 대표한다기보다, 2026년 5월 26일 장 마감 전후 시장이 무엇을 보고 있었는지를 보여줍니다. 분류 결과 가장 많이 반복된 축은 반도체·시장 랠리, 노사·성과급·임금, 정책·반도체 클러스터, 환율·외국인 수급, AI·사업전략 이슈였습니다.</p>
+<p>뉴스를 리포트식으로 압축하면 세 가지입니다. 첫째, 반도체 랠리 뉴스는 삼성전자가 지수 상승의 중심 축으로 해석됐다는 뜻입니다. 둘째, 노사·성과급 뉴스는 파업 우려 완화와 비용 부담을 동시에 보여줍니다. 셋째, 화웨이 등 기술경쟁 뉴스는 AI/HBM 기대와 별개로 중장기 경쟁 리스크를 남깁니다.</p></section><section id="투자자별-매매-동향"><h2>투자자별 매매 동향</h2><p>토스증권 투자자별 매매 동향 원자료는 최근 19거래일 구간을 제공합니다. 이 기간 누적 순매수는 개인 27,172,885주, 외국인 -47,568,685주, 기관 19,764,281주였습니다. 따라서 1년 상승 흐름의 마지막 구간은 외국인이 계속 산 흐름이라기보다, 개인·기관이 받아내는 가운데 가격이 고점권을 유지한 구조로 볼 수 있습니다.</p></section><section id="impact"><h2>영향과 적용</h2><p>이 1년 흐름을 볼 때 핵심은 “가격이 많이 올랐다”가 아니라 <strong>왜 재평가가 일어났는지</strong>입니다. 재평가의 언어는 메모리 가격, AI 고부가 제품, HBM4, DS 실적, 그리고 단기 공급 리스크 완화였습니다.</p>
+<p>반대로 주의할 점도 있습니다. 1년 수익률이 매우 크게 보이는 것은 시작점이 낮았기 때문이고, 2026년 3월처럼 큰 하락과 큰 거래량이 동시에 나온 날도 있었습니다. 따라서 이 자료는 흐름을 설명하는 교육용 자료이지, 향후 수익률이나 매매 시점을 제시하는 자료가 아닙니다.</p></section><section id="summary"><h2>핵심 정리</h2><ul><li>삼성전자의 최근 1년 종가 수익률은 yfinance 기준 +454.73%였습니다.</li><li>가격 흐름은 저점 출발, 메모리 사이클 회복, 2026년 1분기 DS 실적, HBM4 기대가 순서대로 붙은 재평가로 설명할 수 있습니다.</li><li>최신 뉴스 100건은 반도체 랠리, 노사·성과급, 정책, 환율·수급, 기술경쟁 리스크를 반복적으로 보여줍니다.</li><li>이 자료는 교육용 설명이며 투자 조언이나 매매 권유가 아닙니다.</li></ul></section><section id="references"><h2>References</h2><ul><li>Samsung Newsroom Korea, “삼성전자, 2026년 1분기 실적 발표,” 2026-04-30. https://news.samsung.com/kr/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90-2026%EB%85%84-1%EB%B6%84%EA%B8%B0-%EC%8B%A4%EC%A0%81-%EB%B0%9C%ED%91%9C</li><li>Samsung Investor Relations, “Samsung Electronics 1Q 2026 Earnings Presentation,” 2026-04-30. https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2026_1Q_conference_eng.pdf</li><li>Samsung Global Newsroom, “Samsung Ships Industry-First Commercial HBM4 With Ultimate Performance for AI Computing,” 2026-02-12. https://news.samsung.com/global/samsung-ships-industry-first-commercial-hbm4-with-ultimate-performance-for-ai-computing</li><li>yfinance local data pull, <code>005930.KS</code> 1d, 2025-05-27~2026-05-26; saved to <code>output/assets/samsung-electronics-recent-1y-2026-05-price-chart-v1.json</code>.</li><li>Reuters via StreetInsider, “Samsung union suspends planned strike after reaching tentative pay deal,” 2026-05-20. https://www.streetinsider.com/Reuters/Samsung%2BElec%2C%2Bunion%2Bbegin%2Beleventh-hour%2Btalks%2Bto%2Bavert%2Bhuge%2Bstrike%2C%2Bstuck%2Bon%2Ba%2Bkey%2Bissue/26523418.html</li><li>Toss Securities, “삼성전자 뉴스 최신순 100건,” accessed 2026-05-26. https://www.tossinvest.com/stocks/A005930/news</li><li>Toss Securities, “삼성전자 투자자별 매매 동향,” accessed 2026-05-26. https://www.tossinvest.com/stocks/A005930/transaction-status</li></ul></section>
+  
+</main>
+<script>Chart.defaults.font.family = "Pretendard Variable, Pretendard, -apple-system, sans-serif";
+new Chart(document.getElementById("chart-0"), {"type": "line", "data": {"labels": ["2025-05-27", "2025-05-28", "2025-05-29", "2025-05-30", "2025-06-02", "2025-06-04", "2025-06-05", "2025-06-09", "2025-06-10", "2025-06-11", "2025-06-12", "2025-06-13", "2025-06-16", "2025-06-17", "2025-06-18", "2025-06-19", "2025-06-20", "2025-06-23", "2025-06-24", "2025-06-25", "2025-06-26", "2025-06-27", "2025-06-30", "2025-07-01", "2025-07-02", "2025-07-03", "2025-07-04", "2025-07-07", "2025-07-08", "2025-07-09", "2025-07-10", "2025-07-11", "2025-07-14", "2025-07-15", "2025-07-16", "2025-07-17", "2025-07-18", "2025-07-21", "2025-07-22", "2025-07-23", "2025-07-24", "2025-07-25", "2025-07-28", "2025-07-29", "2025-07-30", "2025-07-31", "2025-08-01", "2025-08-04", "2025-08-05", "2025-08-06", "2025-08-07", "2025-08-08", "2025-08-11", "2025-08-12", "2025-08-13", "2025-08-14", "2025-08-18", "2025-08-19", "2025-08-20", "2025-08-21", "2025-08-22", "2025-08-25", "2025-08-26", "2025-08-27", "2025-08-28", "2025-08-29", "2025-09-01", "2025-09-02", "2025-09-03", "2025-09-04", "2025-09-05", "2025-09-08", "2025-09-09", "2025-09-10", "2025-09-11", "2025-09-12", "2025-09-15", "2025-09-16", "2025-09-17", "2025-09-18", "2025-09-22", "2025-09-23", "2025-09-24", "2025-09-25", "2025-09-26", "2025-09-29", "2025-09-30", "2025-10-01", "2025-10-02", "2025-10-10", "2025-10-13", "2025-10-14", "2025-10-15", "2025-10-16", "2025-10-17", "2025-10-20", "2025-10-21", "2025-10-22", "2025-10-23", "2025-10-24", "2025-10-27", "2025-10-28", "2025-10-29", "2025-10-30", "2025-10-31", "2025-11-03", "2025-11-04", "2025-11-05", "2025-11-06", "2025-11-07", "2025-11-10", "2025-11-11", "2025-11-12", "2025-11-13", "2025-11-14", "2025-11-17", "2025-11-18", "2025-11-19", "2025-11-20", "2025-11-21", "2025-11-24", "2025-11-25", "2025-11-26", "2025-11-27", "2025-11-28", "2025-12-01", "2025-12-02", "2025-12-03", "2025-12-04", "2025-12-05", "2025-12-08", "2025-12-09", "2025-12-10", "2025-12-11", "2025-12-12", "2025-12-15", "2025-12-16", "2025-12-17", "2025-12-18", "2025-12-19", "2025-12-22", "2025-12-23", "2025-12-24", "2025-12-26", "2025-12-29", "2025-12-30", "2026-01-02", "2026-01-05", "2026-01-06", "2026-01-07", "2026-01-08", "2026-01-09", "2026-01-12", "2026-01-13", "2026-01-14", "2026-01-15", "2026-01-16", "2026-01-19", "2026-01-20", "2026-01-21", "2026-01-22", "2026-01-23", "2026-01-26", "2026-01-27", "2026-01-28", "2026-01-29", "2026-01-30", "2026-02-02", "2026-02-03", "2026-02-04", "2026-02-05", "2026-02-06", "2026-02-09", "2026-02-10", "2026-02-11", "2026-02-12", "2026-02-13", "2026-02-19", "2026-02-20", "2026-02-23", "2026-02-24", "2026-02-25", "2026-02-26", "2026-02-27", "2026-03-03", "2026-03-04", "2026-03-05", "2026-03-06", "2026-03-09", "2026-03-10", "2026-03-11", "2026-03-12", "2026-03-13", "2026-03-16", "2026-03-17", "2026-03-18", "2026-03-19", "2026-03-20", "2026-03-23", "2026-03-24", "2026-03-25", "2026-03-26", "2026-03-27", "2026-03-30", "2026-03-31", "2026-04-01", "2026-04-02", "2026-04-03", "2026-04-06", "2026-04-07", "2026-04-08", "2026-04-09", "2026-04-10", "2026-04-13", "2026-04-14", "2026-04-15", "2026-04-16", "2026-04-17", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-04", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-26"], "datasets": [{"label": "삼성전자 최근 1년 일별 종가", "data": [53900.0, 55900.0, 56100.0, 56200.0, 56800.0, 57800.0, 59100.0, 59800.0, 59200.0, 59900.0, 59500.0, 58300.0, 57200.0, 58100.0, 59800.0, 59200.0, 59500.0, 58000.0, 60500.0, 61300.0, 60200.0, 60800.0, 59800.0, 60200.0, 60800.0, 63800.0, 63300.0, 61700.0, 61400.0, 60400.0, 61000.0, 62600.0, 62500.0, 63700.0, 64700.0, 66700.0, 67100.0, 67800.0, 66000.0, 66400.0, 66000.0, 65900.0, 70400.0, 70600.0, 72600.0, 71400.0, 68900.0, 69700.0, 69900.0, 68800.0, 70500.0, 71800.0, 71000.0, 71100.0, 71900.0, 71600.0, 70000.0, 70000.0, 70500.0, 70600.0, 71400.0, 71500.0, 70300.0, 70600.0, 69600.0, 69700.0, 67600.0, 69100.0, 69800.0, 70100.0, 69500.0, 70100.0, 71500.0, 72600.0, 73400.0, 75400.0, 76500.0, 79400.0, 78200.0, 80300.0, 83500.0, 84700.0, 85400.0, 86100.0, 83300.0, 84200.0, 83900.0, 86000.0, 89750.0, 94400.0, 93300.0, 91600.0, 95000.0, 97700.0, 97900.0, 98100.0, 97500.0, 98600.0, 96500.0, 98800.0, 102000.0, 99500.0, 100500.0, 104100.0, 107500.0, 111100.0, 104900.0, 100600.0, 99200.0, 97900.0, 100600.0, 103500.0, 103100.0, 102800.0, 97200.0, 100600.0, 97800.0, 96500.0, 100600.0, 94800.0, 96700.0, 99300.0, 102800.0, 103500.0, 100500.0, 100800.0, 103400.0, 104500.0, 105100.0, 108400.0, 109500.0, 108400.0, 108000.0, 107300.0, 108900.0, 104800.0, 102800.0, 107900.0, 107600.0, 106300.0, 110500.0, 111500.0, 111100.0, 117000.0, 119500.0, 119900.0, 128500.0, 138100.0, 138900.0, 141000.0, 138800.0, 139000.0, 138800.0, 137600.0, 140300.0, 143900.0, 148900.0, 149300.0, 145200.0, 149500.0, 152300.0, 152100.0, 152100.0, 159500.0, 162400.0, 160700.0, 160500.0, 150400.0, 167500.0, 169100.0, 159300.0, 158600.0, 166400.0, 165800.0, 167800.0, 178600.0, 181200.0, 190000.0, 190100.0, 193000.0, 200000.0, 203500.0, 218000.0, 216500.0, 195100.0, 172200.0, 191600.0, 188200.0, 173500.0, 187900.0, 190000.0, 187900.0, 183500.0, 188700.0, 193900.0, 208500.0, 200500.0, 199400.0, 186300.0, 189700.0, 189000.0, 180100.0, 180100.0, 176300.0, 167200.0, 189650.0, 178400.0, 186200.0, 193100.0, 196500.0, 210500.0, 204000.0, 206000.0, 201000.0, 206500.0, 211000.0, 217500.0, 216000.0, 214500.0, 219000.0, 217500.0, 224500.0, 219500.0, 224500.0, 222000.0, 226000.0, 220500.0, 232500.0, 266000.0, 271500.0, 268500.0, 285500.0, 279000.0, 284000.0, 296000.0, 270500.0, 281000.0, 275500.0, 276000.0, 299500.0, 292500.0, 299000.0], "borderColor": "#2563eb", "backgroundColor": "rgba(37,99,235,0.14)", "fill": true, "tension": 0.2, "pointRadius": 0, "pointHoverRadius": 3, "borderWidth": 2}]}, "options": {"responsive": true, "maintainAspectRatio": false, "interaction": {"mode": "index", "intersect": false}, "plugins": {"legend": {"display": false}, "tooltip": {"displayColors": false}}, "scales": {"x": {"grid": {"display": false}}, "y": {"grid": {"color": "rgba(115,114,108,0.12)"}}}}});</script>
+</body>
+</html>

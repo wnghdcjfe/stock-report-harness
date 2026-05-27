@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "score": 8.6,
+  "criteria": {
+    "relevance": "삼성전자 1년/반도체/HBM 흐름 반영",
+    "readability": "텍스트 없이 헤더에서 식별 가능",
+    "risk": "로고·매수매도 신호 없음"
+  },
+  "selected": false
+}

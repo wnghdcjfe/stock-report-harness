@@ -1,0 +1,27 @@
+{
+  "slug": "samsung-electronics-recent-1y-2026-05",
+  "variants": [
+    {
+      "version": 1,
+      "path": "assets/samsung-electronics-recent-1y-2026-05-hero-v1.png",
+      "prompt_file": "assets/samsung-electronics-recent-1y-2026-05-hero-v1.prompt.txt",
+      "score_file": "assets/samsung-electronics-recent-1y-2026-05-hero-v1.score.json",
+      "score": 8.6
+    },
+    {
+      "version": 2,
+      "path": "assets/samsung-electronics-recent-1y-2026-05-hero-v2.png",
+      "prompt_file": "assets/samsung-electronics-recent-1y-2026-05-hero-v2.prompt.txt",
+      "score_file": "assets/samsung-electronics-recent-1y-2026-05-hero-v2.score.json",
+      "score": 8.2
+    },
+    {
+      "version": 3,
+      "path": "assets/samsung-electronics-recent-1y-2026-05-hero-v3.png",
+      "prompt_file": "assets/samsung-electronics-recent-1y-2026-05-hero-v3.prompt.txt",
+      "score_file": "assets/samsung-electronics-recent-1y-2026-05-hero-v3.score.json",
+      "score": 9.2
+    }
+  ],
+  "selected_version": 3
+}

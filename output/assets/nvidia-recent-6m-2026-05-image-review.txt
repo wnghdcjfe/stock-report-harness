@@ -1,0 +1,27 @@
+You are an image review agent for a stock economic report.
+
+Task:
+- Compare 3 candidate hero images for this report.
+- Judge how well each image matches the report topic, tone, clarity, and premium presentation quality.
+- Score each image from 1 to 10 on:
+  1. report relevance
+  2. semiconductor / topic relevance
+  3. visual clarity
+  4. premium presentation quality
+  5. minimal cleanliness
+- Select the best one.
+
+Report title: 엔비디아 최근 6개월 동향
+Subtitle: 블랙웰 수요, 루빈 로드맵, 중국 변수, 그리고 너무 높아진 기대가 함께 만든 6개월
+Summary: 엔비디아 최근 6개월 동향 2025 11 21부터 2026 05 26까지 엔비디아는 실적이 세 분기 연속 커졌지만, 주가는 실적 숫자만이 아니라 차세대 칩 로드맵과 중국 규제, 그리고 높아진 기대치까지 함께 반영했다. 개요 최근 6개월 엔비디아 주가는 Barchart 기준 +20.38% 올랐다. 같은 구간 저점은 2026 03 30의 164.27달러, 고점은 2026 05 14의 236.54달러, 2026 05 26 종가는 215.33달러였다. 이 움직임을 한 문장으로 줄이면 이렇다. 엔비디아는 실적이 계속 좋아졌고, 시장은 그 다음 칩까지 미리 가격에 넣었지만, 기대가 너무 높아질수록 발표 직후 반응은 오히려 차가워질 수 있었다. 배경 이 6개월 동안 엔비디아를 이해하려면 세 가지 배경이 필요하다. 첫째, 블랙웰 수요 강세 다. 2025년 11월 엔비디아는 FY26 3분기 매출 570억 달러, 데이터센터 매출 512억 달러를 발표했고, 젠슨 황은 블랙웰 판매가 매우 강하고 클라우드
+
+Return JSON:
+{
+  "best_variant": 1,
+  "scores": [
+    {"variant": 1, "total": 45, "notes": "..." },
+    {"variant": 2, "total": 42, "notes": "..." },
+    {"variant": 3, "total": 39, "notes": "..." }
+  ],
+  "final_reason": "..."
+}

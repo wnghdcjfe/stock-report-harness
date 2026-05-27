@@ -1,0 +1,2603 @@
+{
+  "pagingParam": {
+    "number": 2,
+    "size": 100,
+    "key": null
+  },
+  "body": [
+    {
+      "id": "edaily_2026052621315801340",
+      "title": "\"수원의 영광 재현\" 이재준이 꺼낸 '비장의 카드'",
+      "summary": "수원대전환 3대 전략 마지막 '글로벌 첨단과학 연구도시'\n 연구클러스터, 경제자유구역, 1조원 새빛기업펀드 제시\n \"다른 도시로 출근하지 않아도 되는 수원 만들겠다\"\n\n[수원=이데...",
+      "contentText": "수원대전환 3대 전략 마지막 '글로벌 첨단과학 연구도시'\n 연구클러스터, 경제자유구역, 1조원 새빛기업펀드 제시\n \"다른 도시로 출근하지 않아도 되는 수원 만들겠다\"\n\n[수원=이데...",
+      "imageUrls": [
+        "https://image.edaily.co.kr/images/photo/files/NP/S/2026/05/PS26052601387.jpg",
+        "https://image.edaily.co.kr/images/photo/files/NP/S/2026/05/PS26052601388.jpg"
+      ],
+      "source": {
+        "code": "edaily",
+        "name": "이데일리",
+        "faviconUrl": "https://static.toss.im/illusts/edaily_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/edaily_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/edaily_full.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T21:31:58",
+      "updatedAt": "2026-05-26T21:31:58",
+      "category": "정책·지역·반도체 클러스터"
+    },
+    {
+      "id": "hankyung_X20260526.205534",
+      "title": "블룸버그 \"반도체 보너스, 한국 물가와 주택 시장 압박\" 경고",
+      "summary": "\"반도체 업계 기록적 이익, 거시경제 전파 경로로 진화\"\n\"물가 및 주택 압박 대비, 한국 은행 대책 서둘러야\"\n\n한국의 AI 기반 반도체붐에 따른 대규모 보너스 상승이 새로운 인...",
+      "contentText": "\"반도체 업계 기록적 이익, 거시경제 전파 경로로 진화\"\n\"물가 및 주택 압박 대비, 한국 은행 대책 서둘러야\"\n\n한국의 AI 기반 반도체붐에 따른 대규모 보너스 상승이 새로운 인...",
+      "imageUrls": [
+        "https://static.tossinvest.com/assets/image/detail-news-default/image1.png"
+      ],
+      "source": {
+        "code": "hankyung",
+        "name": "한국경제",
+        "faviconUrl": "https://static.toss.im/illusts/hankyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/hankyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/hankyung_full.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T20:55:34",
+      "updatedAt": "2026-05-26T20:58:41",
+      "category": "노사·성과급·임금"
+    },
+    {
+      "id": "seokyung_2KCK2NGW0O",
+      "title": "李 “환율 상승, 외인 자금 이동 영향”…중동 긴장 완화에 1504원 마감  [김혜란의 FX]",
+      "summary": "원?달러 환율이 중동 지정학적 긴장 완화와 외국인 수급 변화 영향으로 1504원대로 내려왔다. 최근 1500원을 웃돌며 고공행진하던 환율을 두고 정부가 ‘경제 체력이 과거와 다르다...",
+      "contentText": "원?달러 환율이 중동 지정학적 긴장 완화와 외국인 수급 변화 영향으로 1504원대로 내려왔다. 최근 1500원을 웃돌며 고공행진하던 환율을 두고 정부가 ‘경제 체력이 과거와 다르다...",
+      "imageUrls": [
+        "https://wimg.sedaily.com/news/cms/2026/05/26/rcv.YNA.20260526.PYH2026052607340001300_P1.jpg",
+        "https://wimg.sedaily.com/news/cms/2026/05/26/news-p.v1.20260126.fc345c5a59f24c4896af1104f3474dfb_P1.jpg"
+      ],
+      "source": {
+        "code": "seokyung",
+        "name": "서울경제",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/seoul_favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/seoul_full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/seoul_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T20:26:25",
+      "updatedAt": "2026-05-26T20:26:57",
+      "category": "환율·거시·자금 흐름"
+    },
+    {
+      "id": "hankyung_X20260526.201643",
+      "title": "AI가 밀어붙인 한국 증시 세계 7위…대만 증시는 5위",
+      "summary": "AI 밸류체인 핵심 대만과 한국 부상에 인도 등 밀려\n미국-중국본토-일본-홍콩-대만-인도-한국-캐나다 순\n\nAI 투자 심리의 바로미터로 평가되는 대만 증시와 한국 증시가 시가총액으...",
+      "contentText": "AI 밸류체인 핵심 대만과 한국 부상에 인도 등 밀려\n미국-중국본토-일본-홍콩-대만-인도-한국-캐나다 순\n\nAI 투자 심리의 바로미터로 평가되는 대만 증시와 한국 증시가 시가총액으...",
+      "imageUrls": [
+        "https://img.hankyung.com/photo/202605/AA.44427106.1.jpg",
+        "https://img.hankyung.com/photo/202605/01.44427373.1.png"
+      ],
+      "source": {
+        "code": "hankyung",
+        "name": "한국경제",
+        "faviconUrl": "https://static.toss.im/illusts/hankyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/hankyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/hankyung_full.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T20:16:43",
+      "updatedAt": "2026-05-26T20:21:06",
+      "category": "기술경쟁·화웨이"
+    },
+    {
+      "id": "asiae_2026052619531690662",
+      "title": "최저임금 '월 환산액 표시' 결정…내달 4일 도급제 적용 논의(종합)",
+      "summary": "26일 2차 전원회의 열고 월환산액 표시 결정\n노사 모두 \"삼성 성과급\" 주장 근거로 제시\n\n내년도 최저임금 결정을 위한 최저임금위원회 전원회의가 한 달 만에 재개됐다. 사용자 측...",
+      "contentText": "26일 2차 전원회의 열고 월환산액 표시 결정\n노사 모두 \"삼성 성과급\" 주장 근거로 제시\n\n내년도 최저임금 결정을 위한 최저임금위원회 전원회의가 한 달 만에 재개됐다. 사용자 측...",
+      "imageUrls": [
+        "https://cphoto.asiae.co.kr/listimg_link.php?idx=2&no=2026052619512277094_1779792682.jpg",
+        "https://cphoto.asiae.co.kr/listimg_link.php?idx=2&no=2026052619513577095_1779792695.jpg"
+      ],
+      "source": {
+        "code": "asiae",
+        "name": "아시아경제",
+        "faviconUrl": "https://static.toss.im/illusts/asia_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/asia_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/asia_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T19:53:16",
+      "updatedAt": "2026-05-26T19:53:16",
+      "category": "노사·성과급·임금"
+    },
+    {
+      "id": "maekyung_000012058235",
+      "title": "“이십만전자 깨지는 줄 알았다”…프리마켓 시초가 18% 급락, 이유가?",
+      "summary": "삼성전자가 26일 프리마켓 개장 직후 전장보다 20% 가까이 내린 24만원에 거래되는 일이 벌어졌다.\n\n금융정보서비스업체 연합인포맥스 자료에 따르면 이날 오전 8시 프리마켓 개장 ...",
+      "contentText": "삼성전자가 26일 프리마켓 개장 직후 전장보다 20% 가까이 내린 24만원에 거래되는 일이 벌어졌다.\n\n금융정보서비스업체 연합인포맥스 자료에 따르면 이날 오전 8시 프리마켓 개장 ...",
+      "imageUrls": [
+        "https://wimg.mk.co.kr/news/cms/202605/26/news-p.v1.20260523.923f34179ff64af99be8190256d01b1d_P1.jpeg"
+      ],
+      "source": {
+        "code": "maekyung",
+        "name": "매일경제",
+        "faviconUrl": "https://static.toss.im/illusts/maekyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/maekyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/maekyung_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T19:46:47",
+      "updatedAt": "2026-05-26T19:46:47",
+      "category": "거래 데이터·프리마켓 노이즈"
+    },
+    {
+      "id": "asiae_2026052619405382699",
+      "title": "삼성전자 임협 잠정합의안 투표율 92%…가결 가능성 커져",
+      "summary": "27일 오전 10시 투표 마감\n반도체 성과급 신설·OPI 기준 변경\nDX 중심 반발·가처분은 변수\n\n삼성전자 임금협상 잠정합의안에 대한 찬반투표가 막바지에 접어든 가운데 가결 가능...",
+      "contentText": "27일 오전 10시 투표 마감\n반도체 성과급 신설·OPI 기준 변경\nDX 중심 반발·가처분은 변수\n\n삼성전자 임금협상 잠정합의안에 대한 찬반투표가 막바지에 접어든 가운데 가결 가능...",
+      "imageUrls": [
+        "https://cphoto.asiae.co.kr/listimg_link.php?idx=2&no=2026052619341477086_1779791654.jpg"
+      ],
+      "source": {
+        "code": "asiae",
+        "name": "아시아경제",
+        "faviconUrl": "https://static.toss.im/illusts/asia_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/asia_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/asia_full_dark.png"
+      },
+      "relatedNews": [
+        {
+          "id": "yna_AKR20260526053101003",
+          "source": {
+            "code": "yna",
+            "name": "연합뉴스",
+            "faviconUrl": "https://static.toss.im/png-icons/timeline/vna-fill.png",
+            "logoImageUrl": "https://static.toss.im/png-icons/timeline/vna-light.png",
+            "logoImageUrlDark": "https://static.toss.im/png-icons/timeline/vna-dark.png"
+          },
+          "title": "삼전 임협 잠정합의안 투표율 92%…가결 가능성 높아져(종합)",
+          "createdAt": "2026-05-26T17:43:40"
+        },
+        {
+          "id": "yna_AKR20260526053100003",
+          "source": {
+            "code": "yna",
+            "name": "연합뉴스",
+            "faviconUrl": "https://static.toss.im/png-icons/timeline/vna-fill.png",
+            "logoImageUrl": "https://static.toss.im/png-icons/timeline/vna-light.png",
+            "logoImageUrlDark": "https://static.toss.im/png-icons/timeline/vna-dark.png"
+          },
+          "title": "삼성전자 임협 투표율 90%…가결 가능성 높지만 가처분 리스크",
+          "createdAt": "2026-05-26T11:21:17"
+        }
+      ],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T19:40:53",
+      "updatedAt": "2026-05-26T19:40:53",
+      "category": "노사·성과급·임금"
+    },
+    {
+      "id": "tokenpost_P00420260526363221",
+      "title": "한국 법원, 삼성 주요 노조 교섭 중단 가처분 기각",
+      "summary": "오데일리에 따르면 한국 법원이 삼성 주요 노동조합의 교섭을 중단해 달라는 가처분 신청을 기각했다.\n\n이번 결정으로 해당 노조 관련 교섭 절차는 법원의 제동 없이 이어질 수 있게 됐...",
+      "contentText": "오데일리에 따르면 한국 법원이 삼성 주요 노동조합의 교섭을 중단해 달라는 가처분 신청을 기각했다.\n\n이번 결정으로 해당 노조 관련 교섭 절차는 법원의 제동 없이 이어질 수 있게 됐...",
+      "imageUrls": [
+        "https://static.tossinvest.com/assets/image/detail-news-default/image15.png"
+      ],
+      "source": {
+        "code": "tokenpost",
+        "name": "토큰포스트",
+        "faviconUrl": "https://static.toss.im/illusts/tokenpost-favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/tokenpost-full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/tokenpost-full-dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T19:30:53",
+      "updatedAt": "2026-05-26T19:30:53",
+      "category": "노사·성과급·임금"
+    },
+    {
+      "id": "seokyung_2KCK3CKQV8",
+      "title": "[6?3지선 우리 동네는]이재준 수원시장 후보 “글로벌 핵심 기술이 모이는 첨단과학 연구도시로”",
+      "summary": "AI?반도체?바이오 기반 첨단과학 연구 클러스터 조성 계획\n“협력업체와 중소기업까지 함께 성장하는 산업 생태계 구축”\n\n이재준 더불어민주당 수원시장 후보가 26일 “수원을 반도체와...",
+      "contentText": "AI?반도체?바이오 기반 첨단과학 연구 클러스터 조성 계획\n“협력업체와 중소기업까지 함께 성장하는 산업 생태계 구축”\n\n이재준 더불어민주당 수원시장 후보가 26일 “수원을 반도체와...",
+      "imageUrls": [
+        "https://wimg.sedaily.com/news/cms/2026/05/26/news-p.v1.20260526.e108375e22804ceeaa58109360ed6620_P1.jpg"
+      ],
+      "source": {
+        "code": "seokyung",
+        "name": "서울경제",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/seoul_favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/seoul_full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/seoul_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T19:27:03",
+      "updatedAt": "2026-05-26T19:27:03",
+      "category": "정책·지역·반도체 클러스터"
+    },
+    {
+      "id": "yna_AKR20260526133651530",
+      "title": "내년 최저임금 2차심의…사용자 \"업종 구분\" 근로자 \"도급 적용\"(종합)",
+      "summary": "내년 최저임금 2차심의…사용자 \"업종 구분\" 근로자 \"도급 적용\"(종합)\n\n노사 모두 \"반도체 성과급 상대적 박탈감\"…3차심의서 도급제 논의 시작\n\n    (세종=연합뉴스) 한혜원...",
+      "contentText": "내년 최저임금 2차심의…사용자 \"업종 구분\" 근로자 \"도급 적용\"(종합)\n\n노사 모두 \"반도체 성과급 상대적 박탈감\"…3차심의서 도급제 논의 시작\n\n    (세종=연합뉴스) 한혜원...",
+      "imageUrls": [
+        "https://static.tossinvest.com/assets/image/detail-news-default/image14.png"
+      ],
+      "source": {
+        "code": "yna",
+        "name": "연합뉴스",
+        "faviconUrl": "https://static.toss.im/png-icons/timeline/vna-fill.png",
+        "logoImageUrl": "https://static.toss.im/png-icons/timeline/vna-light.png",
+        "logoImageUrlDark": "https://static.toss.im/png-icons/timeline/vna-dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T19:24:58",
+      "updatedAt": "2026-05-26T19:24:58",
+      "category": "노사·성과급·임금"
+    },
+    {
+      "id": "edaily_2026052619070001153",
+      "title": "나노칩 기술자립 선언한 화웨이…삼성·TSMC 완전 대체 '임박'",
+      "summary": "[초미세 공정 도전장]\n EUV 장비 없이…속도로 승부\n 1.4나노칩 2031년 출시 예고\n \"물리적 한계…수율 지켜봐야\"\n\n[베이징=이데일리 이명철 특파원] 중국 화웨이와 국영 ...",
+      "contentText": "[초미세 공정 도전장]\n EUV 장비 없이…속도로 승부\n 1.4나노칩 2031년 출시 예고\n \"물리적 한계…수율 지켜봐야\"\n\n[베이징=이데일리 이명철 특파원] 중국 화웨이와 국영 ...",
+      "imageUrls": [
+        "https://image.edaily.co.kr/images/photo/files/NP/S/2026/05/PS26052601390.jpg",
+        "https://image.edaily.co.kr/images/photo/files/NP/S/2026/05/PS26052601389.jpg"
+      ],
+      "source": {
+        "code": "edaily",
+        "name": "이데일리",
+        "faviconUrl": "https://static.toss.im/illusts/edaily_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/edaily_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/edaily_full.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T19:07:00",
+      "updatedAt": "2026-05-26T21:44:19",
+      "category": "기술경쟁·화웨이"
+    },
+    {
+      "id": "edaily_2026052619042501149",
+      "title": "삼전 턱밑추격 화웨이, 첨단 칩 독자생산 속도",
+      "summary": "ISCAS서 새 설계방식 발표\n 美 제재 우회, 기술격차 줄이기 나서\n\n[베이징=이데일리 이명철 특파원] 중국 화웨이와 국영 파운드리 SMIC(중신궈지) 동맹이 ‘타우(τ)의 법칙...",
+      "contentText": "ISCAS서 새 설계방식 발표\n 美 제재 우회, 기술격차 줄이기 나서\n\n[베이징=이데일리 이명철 특파원] 중국 화웨이와 국영 파운드리 SMIC(중신궈지) 동맹이 ‘타우(τ)의 법칙...",
+      "imageUrls": [
+        "https://image.edaily.co.kr/images/photo/files/NP/S/2026/05/PS26052601271.jpg"
+      ],
+      "source": {
+        "code": "edaily",
+        "name": "이데일리",
+        "faviconUrl": "https://static.toss.im/illusts/edaily_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/edaily_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/edaily_full.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T19:04:25",
+      "updatedAt": "2026-05-26T19:06:35",
+      "category": "기술경쟁·화웨이"
+    },
+    {
+      "id": "seokyung_2KCK3J9HGZ",
+      "title": "[6?3지선 우리 동네는]이상일 용인시장 후보 “반도체 원안 추진…대통령?중앙정부 실행 의지 천명해야”",
+      "summary": "현근택 민주당 후보, ‘원안 사수…사퇴 배수진‘ 기자회견에 맞대응\n“선언만으로 시민 불안 해소 못 해” 삼성전자 3?4기 전력 공급 계획 원안 이행 등 요구\n\n이상일 국민의힘 용인...",
+      "contentText": "현근택 민주당 후보, ‘원안 사수…사퇴 배수진‘ 기자회견에 맞대응\n“선언만으로 시민 불안 해소 못 해” 삼성전자 3?4기 전력 공급 계획 원안 이행 등 요구\n\n이상일 국민의힘 용인...",
+      "imageUrls": [
+        "https://wimg.sedaily.com/news/cms/2026/05/26/news-p.v1.20260526.f90cad169c0247b4b86872406d7cc93a_P1.jpg"
+      ],
+      "source": {
+        "code": "seokyung",
+        "name": "서울경제",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/seoul_favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/seoul_full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/seoul_full_dark.png"
+      },
+      "relatedNews": [
+        {
+          "id": "seokyung_2KCK3W5OVC",
+          "source": {
+            "code": "seokyung",
+            "name": "서울경제",
+            "faviconUrl": "https://static.tossinvest.com/assets/image/press/seoul_favicon.png",
+            "logoImageUrl": "https://static.tossinvest.com/assets/image/press/seoul_full.png",
+            "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/seoul_full_dark.png"
+          },
+          "title": "[6?3지선 우리 동네는]현근택 용인시장 후보 “삼성전자 팹 지방가면 당선돼도 사퇴”",
+          "createdAt": "2026-05-26T18:28:17"
+        }
+      ],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:49:34",
+      "updatedAt": "2026-05-26T18:49:34",
+      "category": "정책·지역·반도체 클러스터"
+    },
+    {
+      "id": "chosunbiz_2026052604465",
+      "title": "삼성전자 노사합의안 투표율, 마감 16시간 전 93%… 교섭중지 가처분 기각에 가결 무게",
+      "summary": "삼성전자 노사가 마련한 2026년 임금·성과급 잠정합의안에 대한 삼성그룹 초기업노동조합 삼성전자지부(초기업노조) 조합원 찬반 투표의 투표율이 마감을 약 16시간 앞두고 93%를 넘...",
+      "contentText": "삼성전자 노사가 마련한 2026년 임금·성과급 잠정합의안에 대한 삼성그룹 초기업노동조합 삼성전자지부(초기업노조) 조합원 찬반 투표의 투표율이 마감을 약 16시간 앞두고 93%를 넘...",
+      "imageUrls": [
+        "https://biz.chosun.com/resizer/v2/IGYMQQ3K3RPRFNG2HQVXERDXLU.JPG?auth=81a0e43397dfb850040e36d7f87f9184ea74cc8a185f0276e6ffbd915a123770&width=4291&height=2573&smart=true",
+        "https://biz.chosun.com/resizer/v2/BPYLWKONHZMO5JDG6XOYINH6VA.jpg?auth=c56d3bf76e0be99595be930a3b4cb7e3473aece2e5d33596d9e428b9e32e76df&width=5292&height=3485&smart=true"
+      ],
+      "source": {
+        "code": "chosunbiz",
+        "name": "조선비즈",
+        "faviconUrl": "https://static.toss.im/illusts/cho_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/cho_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/cho_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:39:16",
+      "updatedAt": "2026-05-26T18:54:01",
+      "category": "노사·성과급·임금"
+    },
+    {
+      "id": "ajukyung_20260526153937686",
+      "title": "\"삼전·닉스 레버리지 ETF는 내가 1등\"… 삼성운용 VS 미래에셋 정면승부",
+      "summary": "'보수 경쟁'보다 '유동성 싸움'으로\n10분 거리서 오전·오후 간담회 열어\n삼성 현물납입 구조…미래에셋은 '현금'\n\"업계 최다 공급자\"vs\"외국인 자금 유치\"\n두 개사 상품 모두 ...",
+      "contentText": "'보수 경쟁'보다 '유동성 싸움'으로\n10분 거리서 오전·오후 간담회 열어\n삼성 현물납입 구조…미래에셋은 '현금'\n\"업계 최다 공급자\"vs\"외국인 자금 유치\"\n두 개사 상품 모두 ...",
+      "imageUrls": [
+        "https://image.ajunews.com/content/image/2026/05/26/20260526183833234632.png"
+      ],
+      "source": {
+        "code": "ajukyung",
+        "name": "아주경제",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/ajunews-favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/ajunews-full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/ajunews-full_dark.png"
+      },
+      "relatedNews": [
+        {
+          "id": "financial_202605261805024923",
+          "source": {
+            "code": "financial",
+            "name": "파이낸셜뉴스",
+            "faviconUrl": "https://static.tossinvest.com/assets/image/press/fnnews-favicon.png",
+            "logoImageUrl": "https://static.tossinvest.com/assets/image/press/fnnews-full.png",
+            "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/fnnews-full_dark.png"
+          },
+          "title": "삼전닉스 레버리지 27일 출격.. 미래에셋·삼성운용 선점 경쟁",
+          "createdAt": "2026-05-26T18:05:47"
+        },
+        {
+          "id": "newspim_20260526001070",
+          "source": {
+            "code": "newspim",
+            "name": "뉴스핌",
+            "faviconUrl": "https://static.tossinvest.com/assets/image/press/news_favicon.png",
+            "logoImageUrl": "https://static.tossinvest.com/assets/image/press/news_full.png",
+            "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/news_full_dark.png"
+          },
+          "title": "[종합] 미래에셋·삼성자산, 삼전닉스 레버리지ETF '자존심 대결'",
+          "createdAt": "2026-05-26T16:51:00"
+        },
+        {
+          "id": "newspim_20260526000984",
+          "source": {
+            "code": "newspim",
+            "name": "뉴스핌",
+            "faviconUrl": "https://static.tossinvest.com/assets/image/press/news_favicon.png",
+            "logoImageUrl": "https://static.tossinvest.com/assets/image/press/news_full.png",
+            "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/news_full_dark.png"
+          },
+          "title": "미래에셋운용, 삼전닉스 레버리지ETF에 외국인 3290억 유치",
+          "createdAt": "2026-05-26T16:46:02"
+        },
+        {
+          "id": "edaily_2026052616395900964",
+          "source": {
+            "code": "edaily",
+            "name": "이데일리",
+            "faviconUrl": "https://static.toss.im/illusts/edaily_favicon.png",
+            "logoImageUrl": "https://static.toss.im/illusts/edaily_full.png",
+            "logoImageUrlDark": "https://static.toss.im/illusts/edaily_full.png"
+          },
+          "title": "유동성에 사활 건 삼성·미래운용…삼전닉스 레버리지 ‘격돌’",
+          "createdAt": "2026-05-26T16:39:59"
+        },
+        {
+          "id": "financial_202605261537003359",
+          "source": {
+            "code": "financial",
+            "name": "파이낸셜뉴스",
+            "faviconUrl": "https://static.tossinvest.com/assets/image/press/fnnews-favicon.png",
+            "logoImageUrl": "https://static.tossinvest.com/assets/image/press/fnnews-full.png",
+            "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/fnnews-full_dark.png"
+          },
+          "title": "'삼전닉스' 2배 베팅 시대…미래·삼성운용, 단일종목 ETF 정면승부",
+          "createdAt": "2026-05-26T16:09:04"
+        }
+      ],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:39:13",
+      "updatedAt": "2026-05-26T18:39:13",
+      "category": "시장·반도체 랠리"
+    },
+    {
+      "id": "yna_AKR20260526160900008",
+      "title": "삼성전자, 프리마켓 시초가 18% 급락해 '시끌'…주문실수?",
+      "summary": "삼성전자, 프리마켓 시초가 18% 급락해 '시끌'…주문실수?\n\n    (서울=연합뉴스) 황철환 기자 = 삼성전자[005930]가 26일 프리마켓 개장 직후 전장보다 20% 가까이 ...",
+      "contentText": "삼성전자, 프리마켓 시초가 18% 급락해 '시끌'…주문실수?\n\n    (서울=연합뉴스) 황철환 기자 = 삼성전자[005930]가 26일 프리마켓 개장 직후 전장보다 20% 가까이 ...",
+      "imageUrls": [
+        "https://static.tossinvest.com/assets/image/detail-news-default/image13.png"
+      ],
+      "source": {
+        "code": "yna",
+        "name": "연합뉴스",
+        "faviconUrl": "https://static.toss.im/png-icons/timeline/vna-fill.png",
+        "logoImageUrl": "https://static.toss.im/png-icons/timeline/vna-light.png",
+        "logoImageUrlDark": "https://static.toss.im/png-icons/timeline/vna-dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:33:09",
+      "updatedAt": "2026-05-26T18:33:09",
+      "category": "거래 데이터·프리마켓 노이즈"
+    },
+    {
+      "id": "asiae_2026052618312610012",
+      "title": "이상일 \"반도체 원안 추진, 대통령·중앙정부가 실행의지 천명하라\"",
+      "summary": "이상일 용인시장 후보 “선언 아닌 실행 필요”\n현근택 후보 ‘반도체 원안 추진’ 기자회견 비판\n“용인 반도체 국가산단 지연…정부, 책임 있는 입장 내놔야”\n\"삼성 3·4기 전력공급...",
+      "contentText": "이상일 용인시장 후보 “선언 아닌 실행 필요”\n현근택 후보 ‘반도체 원안 추진’ 기자회견 비판\n“용인 반도체 국가산단 지연…정부, 책임 있는 입장 내놔야”\n\"삼성 3·4기 전력공급...",
+      "imageUrls": [
+        "https://cphoto.asiae.co.kr/listimg_link.php?idx=2&no=2026052618252877062_1779787528.jpg",
+        "https://cphoto.asiae.co.kr/listimg_link.php?idx=2&no=2026052618260077063_1779787560.jpg"
+      ],
+      "source": {
+        "code": "asiae",
+        "name": "아시아경제",
+        "faviconUrl": "https://static.toss.im/illusts/asia_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/asia_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/asia_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:31:25",
+      "updatedAt": "2026-05-26T18:34:58",
+      "category": "정책·지역·반도체 클러스터"
+    },
+    {
+      "id": "financial_202605261823063869",
+      "title": "사상 첫 ‘8000피’ 마감.. ‘200만닉스’도 터졌다",
+      "summary": "2.55% 오른 8047.51\n기관·외국인 매수에 반도체 질주\n장중 한때  8131.15까지 치솟아\n\"종전협상 기대감에 자금 유입\"\n\n<b>2.55% 오른 8047.51기관·외국인...",
+      "contentText": "2.55% 오른 8047.51\n기관·외국인 매수에 반도체 질주\n장중 한때  8131.15까지 치솟아\n\"종전협상 기대감에 자금 유입\"\n\n<b>2.55% 오른 8047.51기관·외국인...",
+      "imageUrls": [
+        "https://image.fnnews.com/resource/media/image/2026/05/26/202605261823506336_l.jpg"
+      ],
+      "source": {
+        "code": "financial",
+        "name": "파이낸셜뉴스",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/fnnews-favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/fnnews-full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/fnnews-full_dark.png"
+      },
+      "relatedNews": [
+        {
+          "id": "yna_AKR20260526034851008",
+          "source": {
+            "code": "yna",
+            "name": "연합뉴스",
+            "faviconUrl": "https://static.toss.im/png-icons/timeline/vna-fill.png",
+            "logoImageUrl": "https://static.toss.im/png-icons/timeline/vna-light.png",
+            "logoImageUrlDark": "https://static.toss.im/png-icons/timeline/vna-dark.png"
+          },
+          "title": "[특징주] 사상 첫 '200만닉스'…삼성전자도 장중 '30만전자'(종합)",
+          "createdAt": "2026-05-26T15:46:11"
+        },
+        {
+          "id": "yna_AKR20260526034800008",
+          "source": {
+            "code": "yna",
+            "name": "연합뉴스",
+            "faviconUrl": "https://static.toss.im/png-icons/timeline/vna-fill.png",
+            "logoImageUrl": "https://static.toss.im/png-icons/timeline/vna-light.png",
+            "logoImageUrlDark": "https://static.toss.im/png-icons/timeline/vna-dark.png"
+          },
+          "title": "[특징주] SK하이닉스 사상 첫 '200만 닉스'…삼성전자도 1.9%↑",
+          "createdAt": "2026-05-26T09:23:26"
+        },
+        {
+          "id": "hankyung_X20260526.091804",
+          "source": {
+            "code": "hankyung",
+            "name": "한국경제",
+            "faviconUrl": "https://static.toss.im/illusts/hankyung_favicon.png",
+            "logoImageUrl": "https://static.toss.im/illusts/hankyung_full.png",
+            "logoImageUrlDark": "https://static.toss.im/illusts/hankyung_full.png"
+          },
+          "title": "SK하이닉스, 사상 첫 '200만닉스'…삼성전자도 '최고가'",
+          "createdAt": "2026-05-26T09:18:04"
+        },
+        {
+          "id": "asiae_2026052609030677246",
+          "source": {
+            "code": "asiae",
+            "name": "아시아경제",
+            "faviconUrl": "https://static.toss.im/illusts/asia_favicon.png",
+            "logoImageUrl": "https://static.toss.im/illusts/asia_full.png",
+            "logoImageUrlDark": "https://static.toss.im/illusts/asia_full_dark.png"
+          },
+          "title": "[속보]코스피, 8000 돌파…30만전자·200만닉스 등극",
+          "createdAt": "2026-05-26T09:03:06"
+        }
+      ],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:23:53",
+      "updatedAt": "2026-05-26T18:23:53",
+      "category": "환율·거시·자금 흐름"
+    },
+    {
+      "id": "financial_202605261822140976",
+      "title": "[사설] 합의안 조속히 확정하고 '뉴삼성' 재건에 힘 모으길",
+      "summary": "노노갈등 장기화 기업 경쟁력 부담\n단합하여 초격차 기술 개발 매진을\n\n삼성전자 임금협상안이 최종 합의를 목전에 뒀다. 삼성전자 노사가 마련한 2026년 임금협상 잠정합의안에 대한 ...",
+      "contentText": "노노갈등 장기화 기업 경쟁력 부담\n단합하여 초격차 기술 개발 매진을\n\n삼성전자 임금협상안이 최종 합의를 목전에 뒀다. 삼성전자 노사가 마련한 2026년 임금협상 잠정합의안에 대한 ...",
+      "imageUrls": [
+        "https://image.fnnews.com/resource/media/image/2026/05/26/202605261822585633_l.jpg"
+      ],
+      "source": {
+        "code": "financial",
+        "name": "파이낸셜뉴스",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/fnnews-favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/fnnews-full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/fnnews-full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:23:01",
+      "updatedAt": "2026-05-26T21:28:22",
+      "category": "노사·성과급·임금"
+    },
+    {
+      "id": "financial_202605261818440121",
+      "title": "삼성전자, 외부 AI 도입… DX부문 경쟁력 강화",
+      "summary": "null\n\n삼성전자가 오는 6월부터 디바이스경험(DX)부문 임직원을 대상으로 외부 생성형 인공지능(AI) 서비스를 공식 도입한다. 자체 생성형 AI 모델인 '삼성 가우스' 중심 체...",
+      "contentText": "null\n\n삼성전자가 오는 6월부터 디바이스경험(DX)부문 임직원을 대상으로 외부 생성형 인공지능(AI) 서비스를 공식 도입한다. 자체 생성형 AI 모델인 '삼성 가우스' 중심 체...",
+      "imageUrls": [
+        "https://static.tossinvest.com/assets/image/detail-news-default/image14.png"
+      ],
+      "source": {
+        "code": "financial",
+        "name": "파이낸셜뉴스",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/fnnews-favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/fnnews-full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/fnnews-full_dark.png"
+      },
+      "relatedNews": [
+        {
+          "id": "asiae_2026052614104417147",
+          "source": {
+            "code": "asiae",
+            "name": "아시아경제",
+            "faviconUrl": "https://static.toss.im/illusts/asia_favicon.png",
+            "logoImageUrl": "https://static.toss.im/illusts/asia_full.png",
+            "logoImageUrlDark": "https://static.toss.im/illusts/asia_full_dark.png"
+          },
+          "title": "삼성전자, 사내에 외부 생성형 AI 전격 도입…\"글로벌 경쟁력 강화\"",
+          "createdAt": "2026-05-26T14:10:44"
+        }
+      ],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:19:30",
+      "updatedAt": "2026-05-26T18:19:30",
+      "category": "AI·사업전략·제품"
+    },
+    {
+      "id": "financial_202605261818179981",
+      "title": "'억대 성과급' 사정권… '내부 봉합'은 숙제",
+      "summary": "삼전 잠정합의안 투표 27일 종료\n투표율 90% 돌파…가결 가능성\nDX노조, 투표 중지 가처분 신청\n성과급 차이 勞勞갈등 막판 변수\n\n삼성전자 임금협상 잠정합의안에 대한 투표 종료...",
+      "contentText": "삼전 잠정합의안 투표 27일 종료\n투표율 90% 돌파…가결 가능성\nDX노조, 투표 중지 가처분 신청\n성과급 차이 勞勞갈등 막판 변수\n\n삼성전자 임금협상 잠정합의안에 대한 투표 종료...",
+      "imageUrls": [
+        "https://image.fnnews.com/resource/media/image/2026/05/26/202605261819016217_l.jpg",
+        "https://image.fnnews.com/resource/media/image/2026/05/26/202605261819052156_l.jpg"
+      ],
+      "source": {
+        "code": "financial",
+        "name": "파이낸셜뉴스",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/fnnews-favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/fnnews-full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/fnnews-full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:19:10",
+      "updatedAt": "2026-05-26T19:37:31",
+      "category": "노사·성과급·임금"
+    },
+    {
+      "id": "financial_202605261818127710",
+      "title": "'200만닉스·30만전자' 주도… 2배 레버리지ETF에 돈 몰린다",
+      "summary": "외국인, 현·선물 동반  순매수  전환\n삼전닉스 레버리지ETF 27일 상장\n최초 설정 금액만 4조로 최대 규모\n투자수요 유입 기대… 변동성 유의\n\n<b>외국인, 현·선물 동반 순매...",
+      "contentText": "외국인, 현·선물 동반  순매수  전환\n삼전닉스 레버리지ETF 27일 상장\n최초 설정 금액만 4조로 최대 규모\n투자수요 유입 기대… 변동성 유의\n\n<b>외국인, 현·선물 동반 순매...",
+      "imageUrls": [
+        "https://image.fnnews.com/resource/media/image/2026/05/26/202605261818566220_l.jpg"
+      ],
+      "source": {
+        "code": "financial",
+        "name": "파이낸셜뉴스",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/fnnews-favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/fnnews-full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/fnnews-full_dark.png"
+      },
+      "relatedNews": [
+        {
+          "id": "financial_202605261348097204",
+          "source": {
+            "code": "financial",
+            "name": "파이낸셜뉴스",
+            "faviconUrl": "https://static.tossinvest.com/assets/image/press/fnnews-favicon.png",
+            "logoImageUrl": "https://static.tossinvest.com/assets/image/press/fnnews-full.png",
+            "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/fnnews-full_dark.png"
+          },
+          "title": "'닉스 200만·삼전 30만' 주도장 굳어지나...2배 ETF에 돈 몰린다",
+          "createdAt": "2026-05-26T15:49:53"
+        }
+      ],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:19:01",
+      "updatedAt": "2026-05-26T18:19:01",
+      "category": "시장·반도체 랠리"
+    },
+    {
+      "id": "financial_202605261818129627",
+      "title": "삼성·SK, 美마이크론에 '판정패'.. 차량용 메모리 점유율 격차 확대",
+      "summary": "국내 19.8% vs 마이크론 51%\nAI센터 메모리 공급 집중 영향\nSDV 확산으로 수요 급증 예고\nOEM 협력·판매 기반 구축 시급\n\n글로벌 메모리 반도체 시장을 주도하는 삼성...",
+      "contentText": "국내 19.8% vs 마이크론 51%\nAI센터 메모리 공급 집중 영향\nSDV 확산으로 수요 급증 예고\nOEM 협력·판매 기반 구축 시급\n\n글로벌 메모리 반도체 시장을 주도하는 삼성...",
+      "imageUrls": [
+        "https://static.tossinvest.com/assets/image/detail-news-default/image8.png"
+      ],
+      "source": {
+        "code": "financial",
+        "name": "파이낸셜뉴스",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/fnnews-favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/fnnews-full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/fnnews-full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:18:57",
+      "updatedAt": "2026-05-26T18:18:57",
+      "category": "정책·지역·반도체 클러스터"
+    },
+    {
+      "id": "hankyung_X20260526.181625",
+      "title": "삼성 성과급 합의안 통과 유력하지만…DX·주주 줄소송 '후폭풍'",
+      "summary": "노조 성과급 찬반투표 27일 마감…투표율 90% 넘어\n\nDX 노조 '투표 중지' 가처분 이어\n합의안 효력 정지도 신청하기로\n\n주주단체들도 무효소송 예고\n\"사법부 판단 기점으로 2라...",
+      "contentText": "노조 성과급 찬반투표 27일 마감…투표율 90% 넘어\n\nDX 노조 '투표 중지' 가처분 이어\n합의안 효력 정지도 신청하기로\n\n주주단체들도 무효소송 예고\n\"사법부 판단 기점으로 2라...",
+      "imageUrls": [
+        "https://img.hankyung.com/photo/202605/AA.44426209.1.jpg"
+      ],
+      "source": {
+        "code": "hankyung",
+        "name": "한국경제",
+        "faviconUrl": "https://static.toss.im/illusts/hankyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/hankyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/hankyung_full.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:16:25",
+      "updatedAt": "2026-05-26T18:37:24",
+      "category": "노사·성과급·임금"
+    },
+    {
+      "id": "hankyung_X20260526.181523",
+      "title": "\"외국인, 반도체 사이클 의구심 거둬\"…삼전닉스 신고가 썼다",
+      "summary": "코스피 8000 시대 열렸다\n\n8047 사상 최고치\n\n外人 13거래일 만에 \"사자\"\n반도체 투톱 5800억 담아\n\n[ 이선아 기자 ] 지난 2주간 유가증권시장에서 거센 매도 공세를...",
+      "contentText": "코스피 8000 시대 열렸다\n\n8047 사상 최고치\n\n外人 13거래일 만에 \"사자\"\n반도체 투톱 5800억 담아\n\n[ 이선아 기자 ] 지난 2주간 유가증권시장에서 거센 매도 공세를...",
+      "imageUrls": [
+        "https://img.hankyung.com/photo/202605/AA.44427106.1.jpg",
+        "https://img.hankyung.com/photo/202605/AA.44427105.1.jpg"
+      ],
+      "source": {
+        "code": "hankyung",
+        "name": "한국경제",
+        "faviconUrl": "https://static.toss.im/illusts/hankyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/hankyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/hankyung_full.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:15:23",
+      "updatedAt": "2026-05-26T19:50:17",
+      "category": "정책·지역·반도체 클러스터"
+    },
+    {
+      "id": "hankyung_X20260526.181424",
+      "title": "최저임금委 회의서도 '삼성 성과급' 갑론을박",
+      "summary": "민노총, 내년 26.6% 인상 요구\n\n[ 정희원 기자 ] 민주노동조합총연맹이 내년 최저임금을 올해보다 26.6% 오른 시간당 1만3070원으로 요구하기로 했다. 최근 3년간 최저임...",
+      "contentText": "민노총, 내년 26.6% 인상 요구\n\n[ 정희원 기자 ] 민주노동조합총연맹이 내년 최저임금을 올해보다 26.6% 오른 시간당 1만3070원으로 요구하기로 했다. 최근 3년간 최저임...",
+      "imageUrls": [
+        "https://static.tossinvest.com/assets/image/detail-news-default/image5.png"
+      ],
+      "source": {
+        "code": "hankyung",
+        "name": "한국경제",
+        "faviconUrl": "https://static.toss.im/illusts/hankyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/hankyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/hankyung_full.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:14:24",
+      "updatedAt": "2026-05-26T18:36:23",
+      "category": "노사·성과급·임금"
+    },
+    {
+      "id": "maekyung_000012058135",
+      "title": "반도체+포모 합작 코스피 8000 돌파",
+      "summary": "코스피가 4000선을 돌파한 지 불과 7개월 만에 '8천피' 고지를 등정하며 종가 기준으로 사상 최고가를 갈아치웠다.\n\n연휴로 월요일에 휴장했던 코스피는 26일 전 거래일 대비 2...",
+      "contentText": "코스피가 4000선을 돌파한 지 불과 7개월 만에 '8천피' 고지를 등정하며 종가 기준으로 사상 최고가를 갈아치웠다.\n\n연휴로 월요일에 휴장했던 코스피는 26일 전 거래일 대비 2...",
+      "imageUrls": [
+        "https://wimg.mk.co.kr/news/cms/202605/27/20260527_01160101000003_S00.jpg"
+      ],
+      "source": {
+        "code": "maekyung",
+        "name": "매일경제",
+        "faviconUrl": "https://static.toss.im/illusts/maekyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/maekyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/maekyung_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:14:00",
+      "updatedAt": "2026-05-26T20:12:48",
+      "category": "시장·반도체 랠리"
+    },
+    {
+      "id": "seokyung_2KCK1WK8EF",
+      "title": "외부 AI 빗장 푼 삼성전자…휴머노이드도 단계적 도입 채비",
+      "summary": "내달 DX, 자체 모델 가우스와 병용\n글로벌 트렌드 대응?비즈니스 혁신\n2030년 AI 자율공장 전환 속도전\n\n삼성전자가 스마트폰과 가전 사업을 담당하는 디바이스경험(DX)부문 임...",
+      "contentText": "내달 DX, 자체 모델 가우스와 병용\n글로벌 트렌드 대응?비즈니스 혁신\n2030년 AI 자율공장 전환 속도전\n\n삼성전자가 스마트폰과 가전 사업을 담당하는 디바이스경험(DX)부문 임...",
+      "imageUrls": [
+        "https://wimg.sedaily.com/news/cms/2026/05/26/rcv.YNA.20260522.PYH2026052205690001300_P1.jpg"
+      ],
+      "source": {
+        "code": "seokyung",
+        "name": "서울경제",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/seoul_favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/seoul_full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/seoul_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:13:45",
+      "updatedAt": "2026-05-26T18:14:32",
+      "category": "AI·사업전략·제품"
+    },
+    {
+      "id": "hankyung_X20260526.181206",
+      "title": "코스피 8000 시대 열렸다",
+      "summary": "8047 사상 최고치\n\n外人 13거래일 만에 \"사자\"\n반도체 투톱 5800억 담아\n\n[ 이선아 기자 ] 지난 2주간 유가증권시장에서 거센 매도 공세를 펼친 외국인 투자자가 돌아왔다...",
+      "contentText": "8047 사상 최고치\n\n外人 13거래일 만에 \"사자\"\n반도체 투톱 5800억 담아\n\n[ 이선아 기자 ] 지난 2주간 유가증권시장에서 거센 매도 공세를 펼친 외국인 투자자가 돌아왔다...",
+      "imageUrls": [
+        "https://static.tossinvest.com/assets/image/detail-news-default/image2.png"
+      ],
+      "source": {
+        "code": "hankyung",
+        "name": "한국경제",
+        "faviconUrl": "https://static.toss.im/illusts/hankyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/hankyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/hankyung_full.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:12:06",
+      "updatedAt": "2026-05-26T19:47:33",
+      "category": "정책·지역·반도체 클러스터"
+    },
+    {
+      "id": "seokyung_2KCK3JWWA6",
+      "title": "“타우의 법칙으로 1.4나노 수준 칩 양산”…美 규제에 승부수 던진 화웨이",
+      "summary": "EUV 없이도 구현되는 우회전략 \n수율?비용?전력 소모 등은 과제로\n성공시 삼전 격차 2~3년까지 단축\n\n중국 화웨이가 기존 반도체 업계가 따라온 무어의 법칙 대신 ‘타우의 법칙’...",
+      "contentText": "EUV 없이도 구현되는 우회전략 \n수율?비용?전력 소모 등은 과제로\n성공시 삼전 격차 2~3년까지 단축\n\n중국 화웨이가 기존 반도체 업계가 따라온 무어의 법칙 대신 ‘타우의 법칙’...",
+      "imageUrls": [
+        "https://wimg.sedaily.com/news/cms/2026/05/26/news-p.v1.20260526.92976e0a718a4abe854abb81d6dd2e00_P1.jpg",
+        "https://wimg.sedaily.com/news/cms/2026/05/26/news-g.v1.20260526.80f85a7d6d3e496a84bc9034203bcc48_P1.jpg"
+      ],
+      "source": {
+        "code": "seokyung",
+        "name": "서울경제",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/seoul_favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/seoul_full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/seoul_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:11:52",
+      "updatedAt": "2026-05-26T18:12:27",
+      "category": "기술경쟁·화웨이"
+    },
+    {
+      "id": "hankyung_X20260526.181013",
+      "title": "반도체 초호황 속 양극화…韓소부장 절반, 영업이익률 한자릿수",
+      "summary": "한경, 시총 5000억 이상 국내기업 83곳 분석\n\n삼전·SK 납품땐 매출 확 늘지만\n원가 절감 압박 커 수익성은 낮아\n\n인텔 손잡은 HPSP 영업익 50%↑\n혁신기술 티씨케이도 ...",
+      "contentText": "한경, 시총 5000억 이상 국내기업 83곳 분석\n\n삼전·SK 납품땐 매출 확 늘지만\n원가 절감 압박 커 수익성은 낮아\n\n인텔 손잡은 HPSP 영업익 50%↑\n혁신기술 티씨케이도 ...",
+      "imageUrls": [
+        "https://img.hankyung.com/photo/202605/AA.44426243.1.jpg"
+      ],
+      "source": {
+        "code": "hankyung",
+        "name": "한국경제",
+        "faviconUrl": "https://static.toss.im/illusts/hankyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/hankyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/hankyung_full.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:10:13",
+      "updatedAt": "2026-05-26T18:44:15",
+      "category": "시장·반도체 랠리"
+    },
+    {
+      "id": "maekyung_000012058107",
+      "title": "삼성전자 \"생산성 올리자\" … 빅테크 AI서비스 공식 도입",
+      "summary": "삼성전자가 DX(디바이스경험)부문 임직원을 대상으로 6월 중 외부 생성형 인공지능(AI) 서비스를 공식 도입한다고 26일 밝혔다. 기존에 운영해온 자체 개발 생성형 AI 모델 '삼...",
+      "contentText": "삼성전자가 DX(디바이스경험)부문 임직원을 대상으로 6월 중 외부 생성형 인공지능(AI) 서비스를 공식 도입한다고 26일 밝혔다. 기존에 운영해온 자체 개발 생성형 AI 모델 '삼...",
+      "imageUrls": [
+        "https://static.tossinvest.com/assets/image/detail-news-default/image1.png"
+      ],
+      "source": {
+        "code": "maekyung",
+        "name": "매일경제",
+        "faviconUrl": "https://static.toss.im/illusts/maekyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/maekyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/maekyung_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:07:07",
+      "updatedAt": "2026-05-26T18:07:07",
+      "category": "AI·사업전략·제품"
+    },
+    {
+      "id": "news1_6178156",
+      "title": "1년 새 19만원→208만원…\"하이닉스 덕에 부자됐어요\" 인증 속출",
+      "summary": "SK하이닉스 주가가 1년 새 10배 넘게 폭등하자 수십억 원대 계좌 인증은 물론 일반 투자자부터 해외 투자자, 연예인까지 '하이닉스 대박' 사례를 공개하면서 시장의 포모(FOMO·...",
+      "contentText": "SK하이닉스 주가가 1년 새 10배 넘게 폭등하자 수십억 원대 계좌 인증은 물론 일반 투자자부터 해외 투자자, 연예인까지 '하이닉스 대박' 사례를 공개하면서 시장의 포모(FOMO·...",
+      "imageUrls": [
+        "https://image.news1.kr/system/photos/2026/5/26/7926382/high.jpg",
+        "https://image.news1.kr/system/photos/2026/5/26/7926393/high.jpg"
+      ],
+      "source": {
+        "code": "news1",
+        "name": "뉴스1",
+        "faviconUrl": "https://static.toss.im/png-icons/timeline/news1-fill.png",
+        "logoImageUrl": "https://static.toss.im/png-icons/timeline/news1-light.png",
+        "logoImageUrlDark": "https://static.toss.im/png-icons/timeline/news1-dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:06:43",
+      "updatedAt": "2026-05-26T18:06:43",
+      "category": "정책·지역·반도체 클러스터"
+    },
+    {
+      "id": "financial_202605261805024923",
+      "title": "삼전닉스 레버리지 27일 출격.. 삼성·미래에셋운용 선점 경쟁",
+      "summary": "\"횡보장에서 손실 주의해야\"\n\n삼성자산운용과 미래에셋자산운용이 국내 최초 단일종목 레버리지 상장지수펀드(ETF)를 동시에 선보인다. 코스피 8000 시대 핵심 주도주에 대한 투자 ...",
+      "contentText": "\"횡보장에서 손실 주의해야\"\n\n삼성자산운용과 미래에셋자산운용이 국내 최초 단일종목 레버리지 상장지수펀드(ETF)를 동시에 선보인다. 코스피 8000 시대 핵심 주도주에 대한 투자 ...",
+      "imageUrls": [
+        "https://static.tossinvest.com/assets/image/detail-news-default/image15.png"
+      ],
+      "source": {
+        "code": "financial",
+        "name": "파이낸셜뉴스",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/fnnews-favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/fnnews-full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/fnnews-full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:05:47",
+      "updatedAt": "2026-05-26T19:13:58",
+      "category": "시장·반도체 랠리"
+    },
+    {
+      "id": "financial_202605261804595712",
+      "title": "ETF 시총 500조 눈앞… 코스피 상승 주도하며 '선순환'",
+      "summary": "예·적금에 넣던 돈 대규모 유입\n이달 일평균 거래대금만 28조\n아직 코스피 시총의 8% 수준\n\"올해 600조 달성할것\" 전망도\n\n증시 활황에 상장지수펀드(ETF) 시장이 '500조...",
+      "contentText": "예·적금에 넣던 돈 대규모 유입\n이달 일평균 거래대금만 28조\n아직 코스피 시총의 8% 수준\n\"올해 600조 달성할것\" 전망도\n\n증시 활황에 상장지수펀드(ETF) 시장이 '500조...",
+      "imageUrls": [
+        "https://image.fnnews.com/resource/media/image/2026/05/26/202605261826559880_l.jpg"
+      ],
+      "source": {
+        "code": "financial",
+        "name": "파이낸셜뉴스",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/fnnews-favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/fnnews-full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/fnnews-full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:05:46",
+      "updatedAt": "2026-05-26T19:39:49",
+      "category": "정책·지역·반도체 클러스터"
+    },
+    {
+      "id": "hankyung_X20260526.180542",
+      "title": "\"첨단 패키징이 핵심\"…대덕전자 주가 1054%·티엘비 643% 질주",
+      "summary": "증시 달구는 新 밸류체인\n(1) 반도체 공급망 대해부…뜨는 강소기업\n\n미세공정 기술 한계에 효율적 칩 연결기술 혁신\n'HBM 본딩 장비' 한미반도체·엠케이전자 수혜\n기가비스·티에스...",
+      "contentText": "증시 달구는 新 밸류체인\n(1) 반도체 공급망 대해부…뜨는 강소기업\n\n미세공정 기술 한계에 효율적 칩 연결기술 혁신\n'HBM 본딩 장비' 한미반도체·엠케이전자 수혜\n기가비스·티에스...",
+      "imageUrls": [
+        "https://img.hankyung.com/photo/202605/AA.44427051.1.jpg",
+        "https://img.hankyung.com/photo/202605/AA.44427052.1.jpg"
+      ],
+      "source": {
+        "code": "hankyung",
+        "name": "한국경제",
+        "faviconUrl": "https://static.toss.im/illusts/hankyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/hankyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/hankyung_full.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:05:42",
+      "updatedAt": "2026-05-26T19:50:35",
+      "category": "AI·사업전략·제품"
+    },
+    {
+      "id": "maekyung_000012058095",
+      "title": "외국인 매도 잠재운 개미의 힘 … 올들어 54조 폭풍 매수",
+      "summary": "26일 코스피가 8047.51에 거래를 마치며 사상 처음 종가 기준으로 8000선을 돌파했다. 지난 1월 27일 5000선, 2월 25일 6000선, 5월 6일 7000선을 넘어선...",
+      "contentText": "26일 코스피가 8047.51에 거래를 마치며 사상 처음 종가 기준으로 8000선을 돌파했다. 지난 1월 27일 5000선, 2월 25일 6000선, 5월 6일 7000선을 넘어선...",
+      "imageUrls": [
+        "https://wimg.mk.co.kr/news/cms/202605/27/20260527_01110102000005_L00.jpg",
+        "https://wimg.mk.co.kr/news/cms/202605/27/20260527_01110102000005_L01.jpg"
+      ],
+      "source": {
+        "code": "maekyung",
+        "name": "매일경제",
+        "faviconUrl": "https://static.toss.im/illusts/maekyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/maekyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/maekyung_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:05:33",
+      "updatedAt": "2026-05-26T18:09:36",
+      "category": "시장·반도체 랠리"
+    },
+    {
+      "id": "seokyung_2KCK2ZBIX8",
+      "title": "반도체 개미가 떠받친 증시…“변동성 낮출 대안주 찾을 때”[코스피 8000]",
+      "summary": "■삼전하닉 쏠림 심화는 부담\n주도주 동조화에 순환매 신호 분석\n실적주 투자로 추가 수익 확보할만\n他업종 비중 늘어야 外人자금 유입\nLG이노텍은 12번째 황제주에 올라\n\n국내 증시에...",
+      "contentText": "■삼전하닉 쏠림 심화는 부담\n주도주 동조화에 순환매 신호 분석\n실적주 투자로 추가 수익 확보할만\n他업종 비중 늘어야 外人자금 유입\nLG이노텍은 12번째 황제주에 올라\n\n국내 증시에...",
+      "imageUrls": [
+        "https://wimg.sedaily.com/news/cms/2026/05/26/news-p.v1.20260526.1d5ac6163bf8486fb429945e8baa2c04_P1.png",
+        "https://wimg.sedaily.com/news/cms/2026/05/26/news-g.v1.20260526.4c6749a74ea14ffe8fa77e20741147bb_P1.jpg"
+      ],
+      "source": {
+        "code": "seokyung",
+        "name": "서울경제",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/seoul_favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/seoul_full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/seoul_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:02:29",
+      "updatedAt": "2026-05-26T18:02:29",
+      "category": "시장·반도체 랠리"
+    },
+    {
+      "id": "seokyung_2KCK34N21A",
+      "title": "고교생도 경제지 보며 차트 분석…은퇴자 모임선 ‘용돈 챌린지’[코스피 8000]",
+      "summary": "■불장에 바뀐 투자문화\n전 연령층 재테크 수단 자리매김\n올해 삼전 151%?하닉 223% 뛰자\n고객이 PB에 선물공세 ‘역조공’도\n투자해도 안 해도 “포모” 하소연\n레버리지?인버스...",
+      "contentText": "■불장에 바뀐 투자문화\n전 연령층 재테크 수단 자리매김\n올해 삼전 151%?하닉 223% 뛰자\n고객이 PB에 선물공세 ‘역조공’도\n투자해도 안 해도 “포모” 하소연\n레버리지?인버스...",
+      "imageUrls": [
+        "https://wimg.sedaily.com/news/cms/2026/05/26/news-p.v1.20260526.9c635a9b4af54fd4a849b7b36bd00212_P1.jpg",
+        "https://wimg.sedaily.com/news/cms/2026/05/26/news-g.v1.20260526.b95ae24c04de40eaac005b7c0646912d_P1.jpg"
+      ],
+      "source": {
+        "code": "seokyung",
+        "name": "서울경제",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/seoul_favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/seoul_full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/seoul_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:01:25",
+      "updatedAt": "2026-05-26T18:01:25",
+      "category": "시장·반도체 랠리"
+    },
+    {
+      "id": "etoday_2026052600393",
+      "title": "8000 안착 코스피 시총 지도 격변···외국인 ‘46조 팔자’ 개인이 메워 [종합]",
+      "summary": "코스피 지수가 종가 기준 8000선에 안착하면서 시가총액 지도도 바뀌었다. 수급 주체 역시 외국인에서 개인으로 움직이는 모습이다.\n\n26일 한국거래소에 따르면 코스피 시가총액은 종...",
+      "contentText": "코스피 지수가 종가 기준 8000선에 안착하면서 시가총액 지도도 바뀌었다. 수급 주체 역시 외국인에서 개인으로 움직이는 모습이다.\n\n26일 한국거래소에 따르면 코스피 시가총액은 종...",
+      "imageUrls": [
+        "https://img.etoday.co.kr/pto_db/2026/05/600/20260526165704_2338204_1200_675.png",
+        "https://img.etoday.co.kr/pto_db/2026/05/600/20260526171922_2338217_1200_690.jpg"
+      ],
+      "source": {
+        "code": "etoday",
+        "name": "이투데이",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/etoday-favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/etoday_full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/etoday_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:00:52",
+      "updatedAt": "2026-05-26T18:00:52",
+      "category": "시장·반도체 랠리"
+    },
+    {
+      "id": "maekyung_000012058073",
+      "title": "글로벌 반도체 나노경쟁 한계 … 새 승부처는 '첨단 패키징'",
+      "summary": "미세 공정 경쟁에 집중됐던 반도체 업계의 승부처가 '첨단 패키징'으로 빠르게 이동하고 있다. 트랜지스터 크기를 줄여 집적도를 높이는 방식으로 성능을 끌어올려온 '무어의 법칙'이 물...",
+      "contentText": "미세 공정 경쟁에 집중됐던 반도체 업계의 승부처가 '첨단 패키징'으로 빠르게 이동하고 있다. 트랜지스터 크기를 줄여 집적도를 높이는 방식으로 성능을 끌어올려온 '무어의 법칙'이 물...",
+      "imageUrls": [
+        "https://wimg.mk.co.kr/news/cms/202605/27/20260527_01110104000003_L00.jpg"
+      ],
+      "source": {
+        "code": "maekyung",
+        "name": "매일경제",
+        "faviconUrl": "https://static.toss.im/illusts/maekyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/maekyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/maekyung_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:00:15",
+      "updatedAt": "2026-05-26T18:24:07",
+      "category": "시장·반도체 랠리"
+    },
+    {
+      "id": "maekyung_000012058072",
+      "title": "하닉, iHBM 공개 냉각 탑재 신기술",
+      "summary": "SK하이닉스가 고대역폭메모리(HBM) 패키지에 일체형 냉각 요소(Integrated Cooling Elements·ICE)를 내재해 발열을 획기적으로 낮춘 'iHBM' 신기술을 공...",
+      "contentText": "SK하이닉스가 고대역폭메모리(HBM) 패키지에 일체형 냉각 요소(Integrated Cooling Elements·ICE)를 내재해 발열을 획기적으로 낮춘 'iHBM' 신기술을 공...",
+      "imageUrls": [
+        "https://wimg.mk.co.kr/news/cms/202605/27/20260527_01110104000002_S00.jpg"
+      ],
+      "source": {
+        "code": "maekyung",
+        "name": "매일경제",
+        "faviconUrl": "https://static.toss.im/illusts/maekyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/maekyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/maekyung_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:00:14",
+      "updatedAt": "2026-05-26T18:24:07",
+      "category": "AI·사업전략·제품"
+    },
+    {
+      "id": "hankyung_X20260526.180004",
+      "title": "코스피지수 16배 이긴 승부사…그가 꼽은 차기 주도주 2개 [한경 프리미엄9 TODAY]",
+      "summary": "코스피지수 16배 이긴 승부사…그가 꼽은 차기 주도주 2개\n\n2009년 이후 8658%라는 놀라운 수익률을 기록한 토러스자산운용의 김영민 대표(사진). 그는 삼성전자를 ‘원픽’으로...",
+      "contentText": "코스피지수 16배 이긴 승부사…그가 꼽은 차기 주도주 2개\n\n2009년 이후 8658%라는 놀라운 수익률을 기록한 토러스자산운용의 김영민 대표(사진). 그는 삼성전자를 ‘원픽’으로...",
+      "imageUrls": [
+        "https://img.hankyung.com/photo/202605/AA.44426290.1.jpg",
+        "https://img.hankyung.com/photo/202605/AA.44426291.1.jpg",
+        "https://img.hankyung.com/photo/202605/AA.44426292.1.jpg",
+        "https://img.hankyung.com/photo/202605/AA.44426293.1.jpg"
+      ],
+      "source": {
+        "code": "hankyung",
+        "name": "한국경제",
+        "faviconUrl": "https://static.toss.im/illusts/hankyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/hankyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/hankyung_full.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:00:04",
+      "updatedAt": "2026-05-26T18:00:04",
+      "category": "시장·반도체 랠리"
+    },
+    {
+      "id": "yna_AKR20260526153200011",
+      "title": "[연합뉴스 이 시각 헤드라인] - 18:00",
+      "summary": "[연합뉴스 이 시각 헤드라인] - 18:00\n\n    ■ 서소문고가차도 붕괴 현장 목격자 \"흙먼지 어마어마…상황 처참해\"\n\n    서울 서대문구 서소문고가차도 철거현장에서 상판 일...",
+      "contentText": "[연합뉴스 이 시각 헤드라인] - 18:00\n\n    ■ 서소문고가차도 붕괴 현장 목격자 \"흙먼지 어마어마…상황 처참해\"\n\n    서울 서대문구 서소문고가차도 철거현장에서 상판 일...",
+      "imageUrls": [
+        "https://static.tossinvest.com/assets/image/detail-news-default/image12.png"
+      ],
+      "source": {
+        "code": "yna",
+        "name": "연합뉴스",
+        "faviconUrl": "https://static.toss.im/png-icons/timeline/vna-fill.png",
+        "logoImageUrl": "https://static.toss.im/png-icons/timeline/vna-light.png",
+        "logoImageUrlDark": "https://static.toss.im/png-icons/timeline/vna-dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:00:02",
+      "updatedAt": "2026-05-26T18:00:02",
+      "category": "기타"
+    },
+    {
+      "id": "hankyung_X20260526.175700",
+      "title": "\"웬만한 아파트 한 채값\"…애플 출신이 디자인한 페라리 '첫 전기차'",
+      "summary": "페라리 최초 4도어 5인승\n55만유로 책정…약 9.6억원\n\n이탈리아 완성차 브랜드 페라리가 26일 브랜드 최초의 순수 전기차 '루체'를 세계에서 처음으로 공개했다. 루체는 전기 엔...",
+      "contentText": "페라리 최초 4도어 5인승\n55만유로 책정…약 9.6억원\n\n이탈리아 완성차 브랜드 페라리가 26일 브랜드 최초의 순수 전기차 '루체'를 세계에서 처음으로 공개했다. 루체는 전기 엔...",
+      "imageUrls": [
+        "https://img.hankyung.com/photo/202605/01.44424191.1.jpg",
+        "https://img.hankyung.com/photo/202605/01.44424189.1.jpg",
+        "https://img.hankyung.com/photo/202605/01.44424190.1.jpg",
+        "https://img.hankyung.com/photo/202605/01.44424193.1.jpg",
+        "https://img.hankyung.com/photo/202605/01.44424192.1.jpg"
+      ],
+      "source": {
+        "code": "hankyung",
+        "name": "한국경제",
+        "faviconUrl": "https://static.toss.im/illusts/hankyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/hankyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/hankyung_full.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T17:57:00",
+      "updatedAt": "2026-05-26T17:57:00",
+      "category": "기타"
+    },
+    {
+      "id": "hankyung_X20260526.175509",
+      "title": "올해만 주가 '360%' 폭등…삼전닉스 제친 '슈퍼乙' 9곳",
+      "summary": "증시 달구는 新 밸류체인\n\n올 평균 주가상승률 360%\n반도체 소부장 시총 400조\n\n[ 이광식/강해령 기자 ] 국내 반도체 소부장(소재·부품·장비) 업체가 올해 주식시장에서 질주...",
+      "contentText": "증시 달구는 新 밸류체인\n\n올 평균 주가상승률 360%\n반도체 소부장 시총 400조\n\n[ 이광식/강해령 기자 ] 국내 반도체 소부장(소재·부품·장비) 업체가 올해 주식시장에서 질주...",
+      "imageUrls": [
+        "https://img.hankyung.com/photo/202605/AA.44427051.1.jpg",
+        "https://img.hankyung.com/photo/202605/AA.44427052.1.jpg"
+      ],
+      "source": {
+        "code": "hankyung",
+        "name": "한국경제",
+        "faviconUrl": "https://static.toss.im/illusts/hankyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/hankyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/hankyung_full.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T17:55:09",
+      "updatedAt": "2026-05-26T19:48:22",
+      "category": "정책·지역·반도체 클러스터"
+    },
+    {
+      "id": "seokyung_2KCK33PEAI",
+      "title": "“주도주 실적이 금리상승 부담 상쇄…1만피 기대감 커진다” [리서치센터장 5인 진단]",
+      "summary": "■코스피 8000 돌파\n삼성전자?하이닉스 실적 상향 지속\n비반도체 영업익 45% 개선땐 재평가\n스페이스X 등 상장에 수급 블랙홀\n외인 수급?지정학적 리스크는 변수\n올인 투자 위험…...",
+      "contentText": "■코스피 8000 돌파\n삼성전자?하이닉스 실적 상향 지속\n비반도체 영업익 45% 개선땐 재평가\n스페이스X 등 상장에 수급 블랙홀\n외인 수급?지정학적 리스크는 변수\n올인 투자 위험…...",
+      "imageUrls": [
+        "https://wimg.sedaily.com/news/cms/2026/05/26/news-p.v1.20260526.a059ef2838f24dc98993aac439c1ba81_P1.jpg",
+        "https://wimg.sedaily.com/news/cms/2026/05/26/news-g.v1.20260526.2519bb45bf9f4e15976e34e9363b9b58_P1.jpg"
+      ],
+      "source": {
+        "code": "seokyung",
+        "name": "서울경제",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/seoul_favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/seoul_full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/seoul_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T17:54:50",
+      "updatedAt": "2026-05-26T17:54:50",
+      "category": "환율·거시·자금 흐름"
+    },
+    {
+      "id": "seokyung_2KCK3XAFWB",
+      "title": "코스피 뛸때 코스닥은 박스권…성장 체력서 벌어진 격차",
+      "summary": "거래소 종목별 잠재력 지표 분석\n올릭스 등 4곳 제외 코스닥 대부분 0점대\n코스피 시장은 40개 종목이 1점 이상\n수익성?성장성 상대적으로 높아\n\n코스피가 8000 선을 돌파하며 ...",
+      "contentText": "거래소 종목별 잠재력 지표 분석\n올릭스 등 4곳 제외 코스닥 대부분 0점대\n코스피 시장은 40개 종목이 1점 이상\n수익성?성장성 상대적으로 높아\n\n코스피가 8000 선을 돌파하며 ...",
+      "imageUrls": [
+        "https://wimg.sedaily.com/news/cms/2026/05/26/rcv.YNA.20260526.PYH2026052602600001300_P1.jpg",
+        "https://wimg.sedaily.com/news/cms/2026/05/26/news-g.v1.20260526.9c4546eca9f44ed28ba7b81a4c9dce0f_P2.jpg"
+      ],
+      "source": {
+        "code": "seokyung",
+        "name": "서울경제",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/seoul_favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/seoul_full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/seoul_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T17:51:38",
+      "updatedAt": "2026-05-26T17:51:38",
+      "category": "정책·지역·반도체 클러스터"
+    },
+    {
+      "id": "moneys_2026052616303659857",
+      "title": "8000 돌파한 코스피, 리서치센터장들 \"반도체 랠리 영향…1만 간다\"",
+      "summary": "[코스피 8000 시대 개막]\r\n코스피 종가 사상 최고가 8047.51 마감…\"한국 증시 밸류에이션 재평가\"\n\n코스피 지수가 사상 처음으로 종가 8000선을 기록했다. 주요 증권사...",
+      "contentText": "[코스피 8000 시대 개막]\r\n코스피 종가 사상 최고가 8047.51 마감…\"한국 증시 밸류에이션 재평가\"\n\n코스피 지수가 사상 처음으로 종가 8000선을 기록했다. 주요 증권사...",
+      "imageUrls": [
+        "https://menu.sidae.com/moneyweek/thumb/2026/05/26/05/2026052616303659857_1.jpg",
+        "https://menu.sidae.com/moneyweek/thumb/2026/05/26/05/2026052616303659857_2.jpg",
+        "https://menu.sidae.com/moneyweek/thumb/2026/05/26/05/2026052616303659857_3.jpg"
+      ],
+      "source": {
+        "code": "moneys",
+        "name": "동행미디어시대",
+        "faviconUrl": "https://static.toss.im/illusts/donghaengmedia_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/donghaengmedia-full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/donghaengmedia-full-dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T17:50:44",
+      "updatedAt": "2026-05-26T17:50:44",
+      "category": "시장·반도체 랠리"
+    },
+    {
+      "id": "maekyung_000012058056",
+      "title": "삼성전자 성과급에 … 내년 건보료 2조 더 걷힐듯",
+      "summary": "삼성전자 직원이 1인당 6억원에 달하는 성과급을 받게 되면 근로소득세뿐만 아니라 건강보험료 납부액도 대폭 상향될 예정이다. 정부가 초과세수를 어떻게 활용할지를 고심하는 가운데, 건...",
+      "contentText": "삼성전자 직원이 1인당 6억원에 달하는 성과급을 받게 되면 근로소득세뿐만 아니라 건강보험료 납부액도 대폭 상향될 예정이다. 정부가 초과세수를 어떻게 활용할지를 고심하는 가운데, 건...",
+      "imageUrls": [
+        "https://wimg.mk.co.kr/news/cms/202605/27/20260527_01160112000001_S00.jpg"
+      ],
+      "source": {
+        "code": "maekyung",
+        "name": "매일경제",
+        "faviconUrl": "https://static.toss.im/illusts/maekyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/maekyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/maekyung_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T17:49:18",
+      "updatedAt": "2026-05-26T19:48:46",
+      "category": "노사·성과급·임금"
+    },
+    {
+      "id": "hankyung_X20260526.174911",
+      "title": "삼전 뛰자…보험주도 '동반랠리'",
+      "summary": "'KRX 보험' 한달 새 15% 상승 \n삼전 지분보유 삼성생명 40%↑\n\n[ 고송희 기자 ] 최근 한 달 새 보험주가 15% 넘는 상승률을 기록하며 강세를 나타내고 있다. 보험업종...",
+      "contentText": "'KRX 보험' 한달 새 15% 상승 \n삼전 지분보유 삼성생명 40%↑\n\n[ 고송희 기자 ] 최근 한 달 새 보험주가 15% 넘는 상승률을 기록하며 강세를 나타내고 있다. 보험업종...",
+      "imageUrls": [
+        "https://img.hankyung.com/photo/202605/AA.44427038.1.jpg"
+      ],
+      "source": {
+        "code": "hankyung",
+        "name": "한국경제",
+        "faviconUrl": "https://static.toss.im/illusts/hankyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/hankyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/hankyung_full.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T17:49:11",
+      "updatedAt": "2026-05-26T19:55:07",
+      "category": "시장·반도체 랠리"
+    },
+    {
+      "id": "maekyung_000012058045",
+      "title": "[김선걸칼럼] 노동자인가",
+      "summary": "1844년 산업혁명의 중심지인 영국 맨체스터.\n\n여섯 살짜리 아이가 하루 14시간씩 방직공장에서 일했다. 벨트에 끼어 손가락을 잃거나 열악한 환경에 폐병에 걸려 죽는 사람도 부지기...",
+      "contentText": "1844년 산업혁명의 중심지인 영국 맨체스터.\n\n여섯 살짜리 아이가 하루 14시간씩 방직공장에서 일했다. 벨트에 끼어 손가락을 잃거나 열악한 환경에 폐병에 걸려 죽는 사람도 부지기...",
+      "imageUrls": [
+        "https://wimg.mk.co.kr/news/cms/202605/27/20260527_01110130000005_M00.jpg"
+      ],
+      "source": {
+        "code": "maekyung",
+        "name": "매일경제",
+        "faviconUrl": "https://static.toss.im/illusts/maekyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/maekyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/maekyung_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T17:48:32",
+      "updatedAt": "2026-05-26T17:48:32",
+      "category": "기타"
+    },
+    {
+      "id": "chosunbiz_2026052604188",
+      "title": "삼성전자, 임직원에 레버리지 거래주의보… “법 위반 유의해야”",
+      "summary": "삼성전자가 오는 27일 출시 예정인 단일종목 레버리지·인버스 상품 거래와 관련해 임직원들에게 법적 의무 준수를 당부했다.\n\n26일 관련업계에 따르면 삼성전자는 이날 임직원들에게 ‘...",
+      "contentText": "삼성전자가 오는 27일 출시 예정인 단일종목 레버리지·인버스 상품 거래와 관련해 임직원들에게 법적 의무 준수를 당부했다.\n\n26일 관련업계에 따르면 삼성전자는 이날 임직원들에게 ‘...",
+      "imageUrls": [
+        "https://biz.chosun.com/resizer/v2/MUZWCZRYG5SDIZRRMU2DSOLBGU.jpg?auth=ea43918023c24c00311ec5e1db748b80bc997a1b3cacd7572e7c21ba2de74748&width=5646&height=2951&smart=true"
+      ],
+      "source": {
+        "code": "chosunbiz",
+        "name": "조선비즈",
+        "faviconUrl": "https://static.toss.im/illusts/cho_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/cho_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/cho_full_dark.png"
+      },
+      "relatedNews": [
+        {
+          "id": "newspim_20260526001110",
+          "source": {
+            "code": "newspim",
+            "name": "뉴스핌",
+            "faviconUrl": "https://static.tossinvest.com/assets/image/press/news_favicon.png",
+            "logoImageUrl": "https://static.tossinvest.com/assets/image/press/news_full.png",
+            "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/news_full_dark.png"
+          },
+          "title": "\"자사주 거래와 같다\"…삼성전자, 임직원에 레버리지 주의보",
+          "createdAt": "2026-05-26T17:31:29"
+        },
+        {
+          "id": "moneytoday_2026052614493995067",
+          "source": {
+            "code": "moneytoday",
+            "name": "머니투데이",
+            "faviconUrl": "https://static.toss.im/illusts/money_favicon.png",
+            "logoImageUrl": "https://static.toss.im/illusts/money_full.png",
+            "logoImageUrlDark": "https://static.toss.im/illusts/money_full.png"
+          },
+          "title": "삼성전자, 단일종목 레버리지 출시 앞두고 '법위반' 주의보",
+          "createdAt": "2026-05-26T14:58:19"
+        },
+        {
+          "id": "yna_AKR20260526085200003",
+          "source": {
+            "code": "yna",
+            "name": "연합뉴스",
+            "faviconUrl": "https://static.toss.im/png-icons/timeline/vna-fill.png",
+            "logoImageUrl": "https://static.toss.im/png-icons/timeline/vna-light.png",
+            "logoImageUrlDark": "https://static.toss.im/png-icons/timeline/vna-dark.png"
+          },
+          "title": "삼성전자, 임직원에 레버리지 거래주의보…\"법 위반 유의해야\"",
+          "createdAt": "2026-05-26T13:28:58"
+        }
+      ],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T17:47:08",
+      "updatedAt": "2026-05-26T17:47:08",
+      "category": "기타"
+    },
+    {
+      "id": "hankyung_X20260526.174501",
+      "title": "삼성전자 성과급, 최저임금에도 영향?…노사 모두 '박탈감' 호소",
+      "summary": "최저임금위원회 2차 전원회의 개최 \n노동계 \"취약 근로자 박탈감\"...인상 주문\n경영계 \"소상공인은 호황에서 소외\" 주장\n민주노총, 내년 최저임금 1만3070원 요구 방침\n\n최근 ...",
+      "contentText": "최저임금위원회 2차 전원회의 개최 \n노동계 \"취약 근로자 박탈감\"...인상 주문\n경영계 \"소상공인은 호황에서 소외\" 주장\n민주노총, 내년 최저임금 1만3070원 요구 방침\n\n최근 ...",
+      "imageUrls": [
+        "https://img.hankyung.com/photo/202605/01.44426287.1.jpg"
+      ],
+      "source": {
+        "code": "hankyung",
+        "name": "한국경제",
+        "faviconUrl": "https://static.toss.im/illusts/hankyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/hankyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/hankyung_full.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T17:45:01",
+      "updatedAt": "2026-05-26T17:49:11",
+      "category": "노사·성과급·임금"
+    },
+    {
+      "id": "maekyung_000012058022",
+      "title": "\"1만피 벽도 깬다\" 전망 쏟아져 … 고개드는 금리 인상론은 복병",
+      "summary": "코스피가 파죽지세를 떨치고 있다. '7천피'에 오른 지 불과 13거래일 만에 '8천피' 고지마저 밟았다. 증권가에서는 코스피가 꿈의 '1만선'도 조만간 돌파가 가능하다는 전망이 확...",
+      "contentText": "코스피가 파죽지세를 떨치고 있다. '7천피'에 오른 지 불과 13거래일 만에 '8천피' 고지마저 밟았다. 증권가에서는 코스피가 꿈의 '1만선'도 조만간 돌파가 가능하다는 전망이 확...",
+      "imageUrls": [
+        "https://wimg.mk.co.kr/news/cms/202605/27/20260527_01160103000001_L00.jpg"
+      ],
+      "source": {
+        "code": "maekyung",
+        "name": "매일경제",
+        "faviconUrl": "https://static.toss.im/illusts/maekyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/maekyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/maekyung_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T17:40:15",
+      "updatedAt": "2026-05-26T19:45:15",
+      "category": "환율·거시·자금 흐름"
+    },
+    {
+      "id": "maekyung_000012058021",
+      "title": "삼전닉스 '2배 ETF' 출격 … 활력소 될까, 변동성 키울까",
+      "summary": "삼성전자와 SK하이닉스 주가를 2배로 추종하는 국내 첫 단일종목 레버리지 상장지수펀드(ETF)가 상장하면서 '8천피'를 돌파한 코스피에 변수로 작용할 전망이다. 상장 전부터 선물시...",
+      "contentText": "삼성전자와 SK하이닉스 주가를 2배로 추종하는 국내 첫 단일종목 레버리지 상장지수펀드(ETF)가 상장하면서 '8천피'를 돌파한 코스피에 변수로 작용할 전망이다. 상장 전부터 선물시...",
+      "imageUrls": [
+        "https://wimg.mk.co.kr/news/cms/202605/27/20260527_01160103000002_L00.jpg"
+      ],
+      "source": {
+        "code": "maekyung",
+        "name": "매일경제",
+        "faviconUrl": "https://static.toss.im/illusts/maekyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/maekyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/maekyung_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T17:40:14",
+      "updatedAt": "2026-05-26T19:45:15",
+      "category": "시장·반도체 랠리"
+    },
+    {
+      "id": "hankyung_X20260526.173901",
+      "title": "페라리, 첫 전기차 루체 출시…삼성은 센터 디스플레이 공급",
+      "summary": "OLED 패널 4종 첫 탑재\n\n[ 김채연 기자 ] 삼성디스플레이가 이탈리아 슈퍼카 브랜드 페라리의 첫 전기 스포츠카 ‘페라리 루체’에 차세대 OLED(유기발광다이오드) 디스플레이 ...",
+      "contentText": "OLED 패널 4종 첫 탑재\n\n[ 김채연 기자 ] 삼성디스플레이가 이탈리아 슈퍼카 브랜드 페라리의 첫 전기 스포츠카 ‘페라리 루체’에 차세대 OLED(유기발광다이오드) 디스플레이 ...",
+      "imageUrls": [
+        "https://img.hankyung.com/photo/202605/AA.44426187.1.jpg",
+        "https://img.hankyung.com/photo/202605/AA.44426188.1.jpg"
+      ],
+      "source": {
+        "code": "hankyung",
+        "name": "한국경제",
+        "faviconUrl": "https://static.toss.im/illusts/hankyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/hankyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/hankyung_full.png"
+      },
+      "relatedNews": [
+        {
+          "id": "chosunbiz_2026052601142",
+          "source": {
+            "code": "chosunbiz",
+            "name": "조선비즈",
+            "faviconUrl": "https://static.toss.im/illusts/cho_favicon.png",
+            "logoImageUrl": "https://static.toss.im/illusts/cho_full.png",
+            "logoImageUrlDark": "https://static.toss.im/illusts/cho_full_dark.png"
+          },
+          "title": "삼성디스플레이, 페라리 새 전기 스포츠카에 OLED 4종 단독 공급",
+          "createdAt": "2026-05-26T09:37:38"
+        },
+        {
+          "id": "edaily_2026052608290700325",
+          "source": {
+            "code": "edaily",
+            "name": "이데일리",
+            "faviconUrl": "https://static.toss.im/illusts/edaily_favicon.png",
+            "logoImageUrl": "https://static.toss.im/illusts/edaily_full.png",
+            "logoImageUrlDark": "https://static.toss.im/illusts/edaily_full.png"
+          },
+          "title": "삼성디스플레이, 페라리 전기 스포츠카에 OLED 4종 단독 공급",
+          "createdAt": "2026-05-26T08:29:07"
+        },
+        {
+          "id": "moneytoday_2026052607570541753",
+          "source": {
+            "code": "moneytoday",
+            "name": "머니투데이",
+            "faviconUrl": "https://static.toss.im/illusts/money_favicon.png",
+            "logoImageUrl": "https://static.toss.im/illusts/money_full.png",
+            "logoImageUrlDark": "https://static.toss.im/illusts/money_full.png"
+          },
+          "title": "삼성디스플레이, 페라리 전기 스포츠카에 OLED 4종 단독 공급",
+          "createdAt": "2026-05-26T08:17:00"
+        }
+      ],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T17:39:01",
+      "updatedAt": "2026-05-26T17:39:01",
+      "category": "기타"
+    },
+    {
+      "id": "news1_6178115",
+      "title": "삼성전자, 임직원에 레버리지 투자 경고…\"주식 거래와 동일 규제\"",
+      "summary": "삼성전자가 주가를 2배로 추종하는 레버리지·인버스 상장지수상품(ETF) 출시를 앞두고 임직원들에게 투자 유의 사항을 공지한 것으로 알려졌다.\n\n해당 상품 거래도 삼성전자 주식을 직...",
+      "contentText": "삼성전자가 주가를 2배로 추종하는 레버리지·인버스 상장지수상품(ETF) 출시를 앞두고 임직원들에게 투자 유의 사항을 공지한 것으로 알려졌다.\n\n해당 상품 거래도 삼성전자 주식을 직...",
+      "imageUrls": [
+        "https://image.news1.kr/system/photos/2026/5/26/7925536/high.jpg",
+        "https://image.news1.kr/system/photos/2026/5/25/7924181/high.jpg"
+      ],
+      "source": {
+        "code": "news1",
+        "name": "뉴스1",
+        "faviconUrl": "https://static.toss.im/png-icons/timeline/news1-fill.png",
+        "logoImageUrl": "https://static.toss.im/png-icons/timeline/news1-light.png",
+        "logoImageUrlDark": "https://static.toss.im/png-icons/timeline/news1-dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T17:38:18",
+      "updatedAt": "2026-05-26T17:38:18",
+      "category": "시장·반도체 랠리"
+    },
+    {
+      "id": "seokyung_2KCK3JO7RA",
+      "title": "“韓증시 낙관론 정점 근접”…월가, 반도체 쏠림에 경고",
+      "summary": "AI發 메모리 긍정적 전망에도\n“경기 순환성 간과 안돼” 지적\n\n국내 증시가 인공지능(AI) 열풍을 타고 메모리반도체 위주 호황을 누리고 있는 가운데 낙관론이 정점에 근접하고 있다...",
+      "contentText": "AI發 메모리 긍정적 전망에도\n“경기 순환성 간과 안돼” 지적\n\n국내 증시가 인공지능(AI) 열풍을 타고 메모리반도체 위주 호황을 누리고 있는 가운데 낙관론이 정점에 근접하고 있다...",
+      "imageUrls": [
+        "https://wimg.sedaily.com/news/cms/2026/05/26/rcv.YNA.20260526.PYH2026052603490001300_P1.jpg"
+      ],
+      "source": {
+        "code": "seokyung",
+        "name": "서울경제",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/seoul_favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/seoul_full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/seoul_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T17:38:11",
+      "updatedAt": "2026-05-26T17:38:11",
+      "category": "시장·반도체 랠리"
+    },
+    {
+      "id": "maekyung_000012058006",
+      "title": "삼성전자 전문가 참여해 현장 난제 해결 … 산학협력 차별화",
+      "summary": "김상호 국립금오공과대 총장(사진)은 삼성전자와 함께 추진하는 '스마트팩토리 아카데미'를 단순한 산학협력이 아니라 중소기업 제조 경쟁력의 체질을 바꾸는 'AX(AI 전환) 거점 프로...",
+      "contentText": "김상호 국립금오공과대 총장(사진)은 삼성전자와 함께 추진하는 '스마트팩토리 아카데미'를 단순한 산학협력이 아니라 중소기업 제조 경쟁력의 체질을 바꾸는 'AX(AI 전환) 거점 프로...",
+      "imageUrls": [
+        "https://wimg.mk.co.kr/news/cms/202605/27/20260527_01110116000003_L00.jpg",
+        "https://wimg.mk.co.kr/news/cms/202605/27/20260527_01110116000003_L01.jpg"
+      ],
+      "source": {
+        "code": "maekyung",
+        "name": "매일경제",
+        "faviconUrl": "https://static.toss.im/illusts/maekyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/maekyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/maekyung_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T17:36:29",
+      "updatedAt": "2026-05-26T17:36:29",
+      "category": "AI·사업전략·제품"
+    },
+    {
+      "id": "maekyung_000012058005",
+      "title": "[스마트산업강국 함께하는 제조혁신4.0] \"눈으로 확인하고 실습했더니 … AI 스마트공장 확신 생겼죠\"",
+      "summary": "\"예전에는 스마트공장 구축만 하면 끝이라고 생각했는데 이제는 인공지능(AI)을 실제 현장에 어떻게 적용하느냐가 더 중요해졌습니다.\"\n\n지난 20일 찾은 경북 구미 국립금오공과대 내...",
+      "contentText": "\"예전에는 스마트공장 구축만 하면 끝이라고 생각했는데 이제는 인공지능(AI)을 실제 현장에 어떻게 적용하느냐가 더 중요해졌습니다.\"\n\n지난 20일 찾은 경북 구미 국립금오공과대 내...",
+      "imageUrls": [
+        "https://wimg.mk.co.kr/news/cms/202605/27/20260527_01110116000002_L00.jpg",
+        "https://wimg.mk.co.kr/news/cms/202605/27/20260527_01110116000002_L01.jpg"
+      ],
+      "source": {
+        "code": "maekyung",
+        "name": "매일경제",
+        "faviconUrl": "https://static.toss.im/illusts/maekyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/maekyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/maekyung_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T17:36:28",
+      "updatedAt": "2026-05-26T17:36:28",
+      "category": "기타"
+    },
+    {
+      "id": "edaily_2026052617360501043",
+      "title": "내년 최저임금 '동상이몽'…\"배달라이더 적용\"vs\"업종별 차등\"",
+      "summary": "삼성 성과급 논쟁에…노동계, 소득 격차 주장\n 경영계, 중소기업 위주 '상대적 박탈감' 강조\n\n[세종=이데일리 조민정 기자] 최저임금위원회(최임위)가 내년도 최저임금을 결정하기 위...",
+      "contentText": "삼성 성과급 논쟁에…노동계, 소득 격차 주장\n 경영계, 중소기업 위주 '상대적 박탈감' 강조\n\n[세종=이데일리 조민정 기자] 최저임금위원회(최임위)가 내년도 최저임금을 결정하기 위...",
+      "imageUrls": [
+        "https://image.edaily.co.kr/images/photo/files/NP/S/2026/05/PS26052601292.jpg"
+      ],
+      "source": {
+        "code": "edaily",
+        "name": "이데일리",
+        "faviconUrl": "https://static.toss.im/illusts/edaily_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/edaily_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/edaily_full.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T17:36:05",
+      "updatedAt": "2026-05-26T19:14:12",
+      "category": "노사·성과급·임금"
+    },
+    {
+      "id": "businesswatch_202605260042",
+      "title": "삼성전자, 사내 AI 빗장 풀었다…챗GPT·제미나이 전면 도입",
+      "summary": "6월부터 DX 업무에 외부 생성형 AI 공식 도입\n챗GPT·제미나이·클로드 활용…업무 생산성 극대화\n'삼성 가우스+외부 AI' 투트랙…공장 AX 확대 계획도\n\n삼성전자가 오는 6월...",
+      "contentText": "6월부터 DX 업무에 외부 생성형 AI 공식 도입\n챗GPT·제미나이·클로드 활용…업무 생산성 극대화\n'삼성 가우스+외부 AI' 투트랙…공장 AX 확대 계획도\n\n삼성전자가 오는 6월...",
+      "imageUrls": [
+        "https://cdn.bizwatch.co.kr/news/photo/2024/08/01/6d116936cd39d97c13dacc702fb47575.jpg"
+      ],
+      "source": {
+        "code": "businesswatch",
+        "name": "비즈워치",
+        "faviconUrl": "https://static.toss.im/assets/securities/image/press/bizwatch-full_favicon.png",
+        "logoImageUrl": "https://static.toss.im/assets/securities/image/press/bizwatch-full.png",
+        "logoImageUrlDark": "https://static.toss.im/assets/securities/image/press/bizwatch-full-dark.png"
+      },
+      "relatedNews": [
+        {
+          "id": "hankyung_X20260526.144328",
+          "source": {
+            "code": "hankyung",
+            "name": "한국경제",
+            "faviconUrl": "https://static.toss.im/illusts/hankyung_favicon.png",
+            "logoImageUrl": "https://static.toss.im/illusts/hankyung_full.png",
+            "logoImageUrlDark": "https://static.toss.im/illusts/hankyung_full.png"
+          },
+          "title": "\"6월부터 챗GPT 써라\"…삼성전자, '외부 AI' 전격 도입",
+          "createdAt": "2026-05-26T14:43:28"
+        },
+        {
+          "id": "moneys_2026052613472969429",
+          "source": {
+            "code": "moneys",
+            "name": "동행미디어시대",
+            "faviconUrl": "https://static.toss.im/illusts/donghaengmedia_favicon.png",
+            "logoImageUrl": "https://static.toss.im/illusts/donghaengmedia-full.png",
+            "logoImageUrlDark": "https://static.toss.im/illusts/donghaengmedia-full-dark.png"
+          },
+          "title": "삼성전자 DX부문, '제미나이·챗GPT·클로드' 쓴다…6월 공식 도입",
+          "createdAt": "2026-05-26T13:51:55"
+        },
+        {
+          "id": "chosunbiz_2026052601837",
+          "source": {
+            "code": "chosunbiz",
+            "name": "조선비즈",
+            "faviconUrl": "https://static.toss.im/illusts/cho_favicon.png",
+            "logoImageUrl": "https://static.toss.im/illusts/cho_full.png",
+            "logoImageUrlDark": "https://static.toss.im/illusts/cho_full_dark.png"
+          },
+          "title": "삼성전자 DX부문, 내달 AI 사용 빗장 연다… 챗GPT·제미나이·클로드 도입 검증",
+          "createdAt": "2026-05-26T11:37:27"
+        },
+        {
+          "id": "seokyung_2KCK1WK8EF",
+          "source": {
+            "code": "seokyung",
+            "name": "서울경제",
+            "faviconUrl": "https://static.tossinvest.com/assets/image/press/seoul_favicon.png",
+            "logoImageUrl": "https://static.tossinvest.com/assets/image/press/seoul_full.png",
+            "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/seoul_full_dark.png"
+          },
+          "title": "챗GPT?제미나이 빗장 푼 삼성전자…휴머노이드도 단계적 추진",
+          "createdAt": "2026-05-26T11:34:42"
+        },
+        {
+          "id": "newspim_20260526000553",
+          "source": {
+            "code": "newspim",
+            "name": "뉴스핌",
+            "faviconUrl": "https://static.tossinvest.com/assets/image/press/news_favicon.png",
+            "logoImageUrl": "https://static.tossinvest.com/assets/image/press/news_full.png",
+            "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/news_full_dark.png"
+          },
+          "title": "삼성전자, 챗GPT 업무에 쓴다…외부 AI 공식 도입",
+          "createdAt": "2026-05-26T11:24:42"
+        }
+      ],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T17:33:03",
+      "updatedAt": "2026-05-26T17:33:03",
+      "category": "AI·사업전략·제품"
+    },
+    {
+      "id": "etoday_2026052600389",
+      "title": "종전 기대감·반도체 재평가…코스피, 진짜 ‘8000피’ 열었다",
+      "summary": "종가 기준 첫 8000선 안착…장중 8131.15 사상 최고치\nSK하이닉스 첫 ‘200만닉스’…삼성전자 장중 30만원\n\n코스피가 종가 기준 처음으로 8000선을 넘어섰다. 15일 ...",
+      "contentText": "종가 기준 첫 8000선 안착…장중 8131.15 사상 최고치\nSK하이닉스 첫 ‘200만닉스’…삼성전자 장중 30만원\n\n코스피가 종가 기준 처음으로 8000선을 넘어섰다. 15일 ...",
+      "imageUrls": [
+        "https://img.etoday.co.kr/pto_db/2026/05/600/20260526171259_2338216_654_439.jpg",
+        "https://img.etoday.co.kr/pto_db/2026/05/600/20260526161524_2338152_1199_669.png"
+      ],
+      "source": {
+        "code": "etoday",
+        "name": "이투데이",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/etoday-favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/etoday_full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/etoday_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T17:30:38",
+      "updatedAt": "2026-05-26T17:30:38",
+      "category": "환율·거시·자금 흐름"
+    },
+    {
+      "id": "hankyung_X20260526.172828",
+      "title": "민주노총 \"내년 최저임금 1만3070원\" 요구하기로 [30초 퇴근길 경제]",
+      "summary": "◇ \"내년 최저임금 1만3070원\" 민주노총 요구하기로\n\n민주노동조합총연맹이 내년 최저임금을 올해보다 26.6% 오른 시간당 1만3070원으로 요구하기로 했습니다. 최근 3년간 최...",
+      "contentText": "◇ \"내년 최저임금 1만3070원\" 민주노총 요구하기로\n\n민주노동조합총연맹이 내년 최저임금을 올해보다 26.6% 오른 시간당 1만3070원으로 요구하기로 했습니다. 최근 3년간 최...",
+      "imageUrls": [
+        "https://static.tossinvest.com/assets/image/detail-news-default/image18.png"
+      ],
+      "source": {
+        "code": "hankyung",
+        "name": "한국경제",
+        "faviconUrl": "https://static.toss.im/illusts/hankyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/hankyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/hankyung_full.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T17:28:28",
+      "updatedAt": "2026-05-26T18:14:50",
+      "category": "노사·성과급·임금"
+    },
+    {
+      "id": "edaily_2026052617191801012",
+      "title": "젠슨 황, 내달 삼성·SK·현대차·LG 경영진 회동…'AI 동맹' 힘준다(종합)",
+      "summary": "엔비디아, 내달 1일 대만서 '코리아 파트너 나이트'\n 삼성·SK·현대차·LG·두산·네이버 등 韓 기업들 참석\n AI칩·자율주행·로봇 등 전방위 협력 더 구체화할듯\n\n[이데일리 공...",
+      "contentText": "엔비디아, 내달 1일 대만서 '코리아 파트너 나이트'\n 삼성·SK·현대차·LG·두산·네이버 등 韓 기업들 참석\n AI칩·자율주행·로봇 등 전방위 협력 더 구체화할듯\n\n[이데일리 공...",
+      "imageUrls": [
+        "https://image.edaily.co.kr/images/photo/files/NP/S/2026/05/PS26052601310.jpg"
+      ],
+      "source": {
+        "code": "edaily",
+        "name": "이데일리",
+        "faviconUrl": "https://static.toss.im/illusts/edaily_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/edaily_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/edaily_full.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T17:19:18",
+      "updatedAt": "2026-05-26T19:19:23",
+      "category": "기타"
+    },
+    {
+      "id": "maekyung_000012057966",
+      "title": "“원금 녹아버릴 수도”…‘삼전닉스 레버리지’ 경쟁 막 오른다",
+      "summary": "‘삼전닉스 레버리지’ 상품 경쟁 본격화\n\n삼성·미래 등 8개 운용사 27일 동시 상장\n\n“음의 복리 효과 유의해야” 한목소리\n\n국내 자산운용사들이 27일 국내 최초 ‘단일종목 레버...",
+      "contentText": "‘삼전닉스 레버리지’ 상품 경쟁 본격화\n\n삼성·미래 등 8개 운용사 27일 동시 상장\n\n“음의 복리 효과 유의해야” 한목소리\n\n국내 자산운용사들이 27일 국내 최초 ‘단일종목 레버...",
+      "imageUrls": [
+        "https://wimg.mk.co.kr/news/cms/202605/26/news-p.v1.20260526.96e27ef5a2dd4ece90755a963114468c_P1.jpg",
+        "https://wimg.mk.co.kr/news/cms/202605/26/news-p.v1.20260526.b84f41553d264621b93b9adcef90d4e9_P1.jpg"
+      ],
+      "source": {
+        "code": "maekyung",
+        "name": "매일경제",
+        "faviconUrl": "https://static.toss.im/illusts/maekyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/maekyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/maekyung_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T17:17:55",
+      "updatedAt": "2026-05-26T17:17:55",
+      "category": "시장·반도체 랠리"
+    },
+    {
+      "id": "infostockdaily_0000216036",
+      "title": "[0526마감체크] 코스피, 미국-이란 협상 진전 기대감에 8000선 돌파 마감",
+      "summary": "[인포스탁데일리=윤서연 기자]\n\n▶마감체크\n\n■ 코스피지수\n\n코스피지수는 2.55% 상승한 8047.51에 마감했다.\n\n지난밤 뉴욕증시가 메모리얼데이로 휴장한 가운데, 영국 휴장 ...",
+      "contentText": "[인포스탁데일리=윤서연 기자]\n\n▶마감체크\n\n■ 코스피지수\n\n코스피지수는 2.55% 상승한 8047.51에 마감했다.\n\n지난밤 뉴욕증시가 메모리얼데이로 휴장한 가운데, 영국 휴장 ...",
+      "imageUrls": [
+        "https://www.infostockdaily.co.kr/news/photo/202605/216036_220880_1429.jpg",
+        "https://www.infostockdaily.co.kr/news/photo/202605/216036_220874_450.png",
+        "https://www.infostockdaily.co.kr/news/photo/20260/216036_220875_450.png",
+        "https://www.infostockdaily.co.kr/news/photo/202605/216036_220876_459.png"
+      ],
+      "source": {
+        "code": "infostockdaily",
+        "name": "인포스탁데일리",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/infostockdaily-favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/infostockdaily-full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/infostockdaily-full-dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T17:17:00",
+      "updatedAt": "2026-05-26T17:17:00",
+      "category": "시장·반도체 랠리"
+    },
+    {
+      "id": "maekyung_000012057963",
+      "title": "직원 성과급에 턱없이 못 미치는 삼성전자 주주 배당금 [사설]",
+      "summary": "삼성전자 직원이 받게 될 과도한 성과급이 주식회사 체제의 근간을 흔들고 있다. 노사의 잠정합의안에 따르면 DS(반도체) 부문은 노사 합의로 선정한 사업 성과의 10.5%를 자사주 ...",
+      "contentText": "삼성전자 직원이 받게 될 과도한 성과급이 주식회사 체제의 근간을 흔들고 있다. 노사의 잠정합의안에 따르면 DS(반도체) 부문은 노사 합의로 선정한 사업 성과의 10.5%를 자사주 ...",
+      "imageUrls": [
+        "https://static.tossinvest.com/assets/image/detail-news-default/image8.png"
+      ],
+      "source": {
+        "code": "maekyung",
+        "name": "매일경제",
+        "faviconUrl": "https://static.toss.im/illusts/maekyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/maekyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/maekyung_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T17:15:22",
+      "updatedAt": "2026-05-26T17:15:22",
+      "category": "노사·성과급·임금"
+    },
+    {
+      "id": "etoday_2026052600388",
+      "title": "삼전·SK하닉 더 간다고?···\"밸류에이션 기준 여전히 싸다\"",
+      "summary": "삼성전자와 SK하이닉스가 강세를 이어가는 가운데, 반도체 대형주의 추가 상승 여력이 여전히 남아 있다는 분석이 나왔다.\n\n박석현 우리은행 WM그룹 부부장은 26일 YTN 라디오 '...",
+      "contentText": "삼성전자와 SK하이닉스가 강세를 이어가는 가운데, 반도체 대형주의 추가 상승 여력이 여전히 남아 있다는 분석이 나왔다.\n\n박석현 우리은행 WM그룹 부부장은 26일 YTN 라디오 '...",
+      "imageUrls": [
+        "https://img.etoday.co.kr/pto_db/2026/05/600/20260526170244_2338208_1199_680.jpg"
+      ],
+      "source": {
+        "code": "etoday",
+        "name": "이투데이",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/etoday-favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/etoday_full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/etoday_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T17:13:24",
+      "updatedAt": "2026-05-26T17:13:24",
+      "category": "시장·반도체 랠리"
+    },
+    {
+      "id": "moneytoday_2026052616381834345",
+      "title": "현근택 \"반도체 국가산단 원안 사수…삼성전자 팹, 지방 이전 시 사퇴\"",
+      "summary": "현근택 더불어민주당 경기 용인시장 후보가 26일 \"국가산단에 계획된 삼성전자 반도체 팹(Fab)이 지방으로 이전되는 사태가 발생한다면 책임지고 시장직을 사퇴하겠다\"며 용인 반도체 ...",
+      "contentText": "현근택 더불어민주당 경기 용인시장 후보가 26일 \"국가산단에 계획된 삼성전자 반도체 팹(Fab)이 지방으로 이전되는 사태가 발생한다면 책임지고 시장직을 사퇴하겠다\"며 용인 반도체 ...",
+      "imageUrls": [
+        "https://thumb.mt.co.kr/06/2026/05/2026052616381834345_1.jpg"
+      ],
+      "source": {
+        "code": "moneytoday",
+        "name": "머니투데이",
+        "faviconUrl": "https://static.toss.im/illusts/money_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/money_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/money_full.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T17:08:18",
+      "updatedAt": "2026-05-26T17:08:18",
+      "category": "정책·지역·반도체 클러스터"
+    },
+    {
+      "id": "maekyung_000012057946",
+      "title": "‘8천피’",
+      "summary": "코스피가 4000선을 돌파한지 불과 7개월 만에 ‘8천피’ 고지에 등정하며 종가 기준으로 사상 최고가를 갈아치웠다.\n\n연휴로 월요일에 휴장했던 코스피는 26일 전거래일 대비 2.5...",
+      "contentText": "코스피가 4000선을 돌파한지 불과 7개월 만에 ‘8천피’ 고지에 등정하며 종가 기준으로 사상 최고가를 갈아치웠다.\n\n연휴로 월요일에 휴장했던 코스피는 26일 전거래일 대비 2.5...",
+      "imageUrls": [
+        "https://wimg.mk.co.kr/news/cms/202605/26/news-p.v1.20260526.d15f560e9e6044278ddaea687b4bec2d_P1.jpg",
+        "https://wimg.mk.co.kr/news/cms/202605/26/news-p.v1.20260526.72da18115fbe40588a70a979e0a8a385_P1.jpg"
+      ],
+      "source": {
+        "code": "maekyung",
+        "name": "매일경제",
+        "faviconUrl": "https://static.toss.im/illusts/maekyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/maekyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/maekyung_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T17:06:30",
+      "updatedAt": "2026-05-26T17:06:30",
+      "category": "시장·반도체 랠리"
+    },
+    {
+      "id": "moneys_2026052615304319521",
+      "title": "민주당 압승이라더니 광역 7~8곳 접전…막판 보수 결집에 판세 대혼돈",
+      "summary": "여야 막판 총력전\r\n민주당, 스타벅스 사태로 지지층 결집\r\n 국민의힘, 박근혜 카드로 보수층 호소\n\n6·3 지방선거를 8일 앞두고 더불어민주당의 '압승론'이 흔들리고 있다. 선거 ...",
+      "contentText": "여야 막판 총력전\r\n민주당, 스타벅스 사태로 지지층 결집\r\n 국민의힘, 박근혜 카드로 보수층 호소\n\n6·3 지방선거를 8일 앞두고 더불어민주당의 '압승론'이 흔들리고 있다. 선거 ...",
+      "imageUrls": [
+        "https://menu.sidae.com/moneyweek/thumb/2026/05/26/05/2026052615304319521_1.jpg"
+      ],
+      "source": {
+        "code": "moneys",
+        "name": "동행미디어시대",
+        "faviconUrl": "https://static.toss.im/illusts/donghaengmedia_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/donghaengmedia-full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/donghaengmedia-full-dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T17:05:54",
+      "updatedAt": "2026-05-26T19:04:51",
+      "category": "기타"
+    },
+    {
+      "id": "moneytoday_2026052615494453270",
+      "title": "삼전닉스 레버리지 동시출격 준비완료...개미들의 선택은?",
+      "summary": "27일 단일종목 레버리지·인버스 16종 출시...운용사 '격돌'\n\n\"레버리지 ETF 상품은 투자자가 원할 때 적정 가격으로 즉시 매수·매도할 수 있는 유동성이 가장 중요합니다\"(임...",
+      "contentText": "27일 단일종목 레버리지·인버스 16종 출시...운용사 '격돌'\n\n\"레버리지 ETF 상품은 투자자가 원할 때 적정 가격으로 즉시 매수·매도할 수 있는 유동성이 가장 중요합니다\"(임...",
+      "imageUrls": [
+        "https://thumb.mt.co.kr/06/2026/05/2026052615494453270_1.jpg",
+        "https://thumb.mt.co.kr/06/2026/05/2026052615494453270_2.jpg"
+      ],
+      "source": {
+        "code": "moneytoday",
+        "name": "머니투데이",
+        "faviconUrl": "https://static.toss.im/illusts/money_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/money_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/money_full.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T17:02:37",
+      "updatedAt": "2026-05-26T17:02:37",
+      "category": "시장·반도체 랠리"
+    },
+    {
+      "id": "hankyung_X20260526.170153",
+      "title": "삼성전자 덕에 '잭팟'…한 달새 39% 급등한 '이 주식' 정체",
+      "summary": "삼성전자 덕분에 웃는다…조용히 오르는 보험주\n\n최근 한달새 보험주가 일제히 강세를 나타내고 있다. 보험업종 펀더멘털(내재가치)보다는 지분 가치와 그룹 지배구조 개편 기대감이 부각된...",
+      "contentText": "삼성전자 덕분에 웃는다…조용히 오르는 보험주\n\n최근 한달새 보험주가 일제히 강세를 나타내고 있다. 보험업종 펀더멘털(내재가치)보다는 지분 가치와 그룹 지배구조 개편 기대감이 부각된...",
+      "imageUrls": [
+        "https://img.hankyung.com/photo/202605/01.43608952.1.jpg"
+      ],
+      "source": {
+        "code": "hankyung",
+        "name": "한국경제",
+        "faviconUrl": "https://static.toss.im/illusts/hankyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/hankyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/hankyung_full.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T17:01:53",
+      "updatedAt": "2026-05-26T18:06:42",
+      "category": "시장·반도체 랠리"
+    },
+    {
+      "id": "electronicnews_202605260218",
+      "title": "삼성전자, 내년 칩렛 기반 '피지컬 AI 반도체' 플랫폼 파운드리 추진",
+      "summary": "삼성전자가 내년부터 '피지컬 AI'를 위한 반도체 플랫폼 위탁생산(파운드리) 사업을 본격화한다. 글로벌 설계자동화(EDA) 및 자산(IP) 기업인 케이던스와 협력, 자동차·로봇·산...",
+      "contentText": "삼성전자가 내년부터 '피지컬 AI'를 위한 반도체 플랫폼 위탁생산(파운드리) 사업을 본격화한다. 글로벌 설계자동화(EDA) 및 자산(IP) 기업인 케이던스와 협력, 자동차·로봇·산...",
+      "imageUrls": [
+        "https://img.etnews.com/news/article/2026/05/26/news-p.v1.20260526.9d3ff3bcee2d42e29f79fd203954b3e9_P1.jpg",
+        "https://img.etnews.com/news/article/2026/05/26/news-p.v1.20260526.6d9b704d0b6942a0b24f83ae98ac7a1d_P1.png"
+      ],
+      "source": {
+        "code": "electronicnews",
+        "name": "전자신문",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/etnews-full_favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/etnews-full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/etnews-full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T17:00:00",
+      "updatedAt": "2026-05-26T17:00:00",
+      "category": "시장·반도체 랠리"
+    },
+    {
+      "id": "hankyung_X20260526.165732",
+      "title": "외국인 삼전닉스 선물 대거 순매수…코스피 다시 8000돌파",
+      "summary": "55조원. 지난 7일부터 12거래일간 외국인 투자자가 유가증권시장에서 순매도한 주식 규모다. 2주 가까이 외국인이 ‘팔자’ 모드를 유지하면서 지난 15일 8000을 터치했던 코스피...",
+      "contentText": "55조원. 지난 7일부터 12거래일간 외국인 투자자가 유가증권시장에서 순매도한 주식 규모다. 2주 가까이 외국인이 ‘팔자’ 모드를 유지하면서 지난 15일 8000을 터치했던 코스피...",
+      "imageUrls": [
+        "https://img.hankyung.com/photo/202605/01.44425687.1.jpg",
+        "https://img.hankyung.com/photo/202605/01.44425688.1.jpg",
+        "https://img.hankyung.com/photo/202605/01.44425685.1.jpg"
+      ],
+      "source": {
+        "code": "hankyung",
+        "name": "한국경제",
+        "faviconUrl": "https://static.toss.im/illusts/hankyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/hankyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/hankyung_full.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T16:57:32",
+      "updatedAt": "2026-05-26T17:57:29",
+      "category": "정책·지역·반도체 클러스터"
+    },
+    {
+      "id": "ajukyung_20260526152144660",
+      "title": "'코스피 1만 시대' 기대 커진다…하반기 변수는 금리와 실적",
+      "summary": "26일 코스피는 전 거래일 대비 223.20포인트(2.84%) 오른 8070.91, 코스닥 지수는 28.15포인트(2.42%) 오른 1189.28로 출발했다. [사진=연합뉴스]\n\n...",
+      "contentText": "26일 코스피는 전 거래일 대비 223.20포인트(2.84%) 오른 8070.91, 코스닥 지수는 28.15포인트(2.42%) 오른 1189.28로 출발했다. [사진=연합뉴스]\n\n...",
+      "imageUrls": [
+        "https://image.ajunews.com/content/image/2026/05/26/20260526153838719730.jpg"
+      ],
+      "source": {
+        "code": "ajukyung",
+        "name": "아주경제",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/ajunews-favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/ajunews-full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/ajunews-full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T16:56:25",
+      "updatedAt": "2026-05-26T16:56:25",
+      "category": "환율·거시·자금 흐름"
+    },
+    {
+      "id": "ajukyung_20260526152038658",
+      "title": "코스피, 8000 고지도 넘었다",
+      "summary": "26일 서울 영등포구 여의도 한국거래소에 코스피 지수가 표시되고 있다. 이날 코스피는 전 거래일 대비 199.80포인트(2.55%) 오른 8047.51에 장을 마쳤다. [사진=한국...",
+      "contentText": "26일 서울 영등포구 여의도 한국거래소에 코스피 지수가 표시되고 있다. 이날 코스피는 전 거래일 대비 199.80포인트(2.55%) 오른 8047.51에 장을 마쳤다. [사진=한국...",
+      "imageUrls": [
+        "https://image.ajunews.com/content/image/2026/05/26/20260526161612199443.jpg",
+        "https://image.ajunews.com/content/image/2026/05/26/20260526181949464700.jpg"
+      ],
+      "source": {
+        "code": "ajukyung",
+        "name": "아주경제",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/ajunews-favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/ajunews-full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/ajunews-full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T16:56:13",
+      "updatedAt": "2026-05-26T18:54:36",
+      "category": "시장·반도체 랠리"
+    },
+    {
+      "id": "maekyung_001005843918",
+      "title": "\"차량용 반도체 수익 안정적…삼성·SK 공략 강화해야\"",
+      "summary": "삼성전자와 SK하이닉스 등 국내 반도체 기업들이 차량용 반도체 시장 공략을 강화해야 한다는 제언이 나왔습니다.\n\n한국자동차연구원은 오늘(26일) 보고서를 통해 국내 기업들이 AI ...",
+      "contentText": "삼성전자와 SK하이닉스 등 국내 반도체 기업들이 차량용 반도체 시장 공략을 강화해야 한다는 제언이 나왔습니다.\n\n한국자동차연구원은 오늘(26일) 보고서를 통해 국내 기업들이 AI ...",
+      "imageUrls": [
+        "https://static.tossinvest.com/assets/image/detail-news-default/image11.png"
+      ],
+      "source": {
+        "code": "maekyung",
+        "name": "매일경제",
+        "faviconUrl": "https://static.toss.im/illusts/maekyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/maekyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/maekyung_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T16:55:52",
+      "updatedAt": "2026-05-26T16:55:52",
+      "category": "정책·지역·반도체 클러스터"
+    },
+    {
+      "id": "moneytoday_2026052616492771169",
+      "title": "단일종목 레버리지 드디어 뜬다…삼전닉스 주가 탄력 더 받나",
+      "summary": "내일의전략\n\n코스피가 꿈의 8000피 안착에 성공한 가운데, 증시 상승의 원동력인 삼성전자와 SK하이닉스의 단일종목 레버리지 상품이 상장된다. 증권가는 반도체 투톱 자금유입이 확대...",
+      "contentText": "내일의전략\n\n코스피가 꿈의 8000피 안착에 성공한 가운데, 증시 상승의 원동력인 삼성전자와 SK하이닉스의 단일종목 레버리지 상품이 상장된다. 증권가는 반도체 투톱 자금유입이 확대...",
+      "imageUrls": [
+        "https://thumb.mt.co.kr/06/2026/05/2026052616492771169_1.jpg"
+      ],
+      "source": {
+        "code": "moneytoday",
+        "name": "머니투데이",
+        "faviconUrl": "https://static.toss.im/illusts/money_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/money_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/money_full.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T16:55:03",
+      "updatedAt": "2026-05-26T16:55:03",
+      "category": "시장·반도체 랠리"
+    },
+    {
+      "id": "newspim_20260526001044",
+      "title": "印 전자제품 제조업계, 中 수출제한 조치에 '긴장'...\"정부, 지원 및 구제 방안 강구해야\" 촉구",
+      "summary": "ICEA \"'차이나 플러스 원' 전략 흔들리지 않도록 고위급 범부처 실무그룹 구성해야\"\n\n[방콕=뉴스핌] 홍우리 특파원 = 인도가 글로벌 전자제품 제조 허브로 도약하겠다는 목표를 ...",
+      "contentText": "ICEA \"'차이나 플러스 원' 전략 흔들리지 않도록 고위급 범부처 실무그룹 구성해야\"\n\n[방콕=뉴스핌] 홍우리 특파원 = 인도가 글로벌 전자제품 제조 허브로 도약하겠다는 목표를 ...",
+      "imageUrls": [
+        "https://img.newspim.com/news/2026/05/26/2605261639019760.jpg"
+      ],
+      "source": {
+        "code": "newspim",
+        "name": "뉴스핌",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/news_favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/news_full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/news_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T16:53:11",
+      "updatedAt": "2026-05-26T16:53:11",
+      "category": "기타"
+    },
+    {
+      "id": "yna_AKR20260526067551008",
+      "title": "'삼전닉스 질주·종전 기대'에 '8천피' 탈환…'1만피' 기대도(종합)",
+      "summary": "'삼전닉스 질주·종전 기대'에 '8천피' 탈환…'1만피' 기대도(종합)\n\n15일 장중 터치 이후 6거래일만…'200만닉스' 돌파, 장중 '30만전자'\n\n기관 '사자', 외국인은 1...",
+      "contentText": "'삼전닉스 질주·종전 기대'에 '8천피' 탈환…'1만피' 기대도(종합)\n\n15일 장중 터치 이후 6거래일만…'200만닉스' 돌파, 장중 '30만전자'\n\n기관 '사자', 외국인은 1...",
+      "imageUrls": [
+        "https://static.tossinvest.com/assets/image/detail-news-default/image9.png"
+      ],
+      "source": {
+        "code": "yna",
+        "name": "연합뉴스",
+        "faviconUrl": "https://static.toss.im/png-icons/timeline/vna-fill.png",
+        "logoImageUrl": "https://static.toss.im/png-icons/timeline/vna-light.png",
+        "logoImageUrlDark": "https://static.toss.im/png-icons/timeline/vna-dark.png"
+      },
+      "relatedNews": [
+        {
+          "id": "yna_AKR20260526067500008",
+          "source": {
+            "code": "yna",
+            "name": "연합뉴스",
+            "faviconUrl": "https://static.toss.im/png-icons/timeline/vna-fill.png",
+            "logoImageUrl": "https://static.toss.im/png-icons/timeline/vna-light.png",
+            "logoImageUrlDark": "https://static.toss.im/png-icons/timeline/vna-dark.png"
+          },
+          "title": "외인 복귀에 8천선 탈환…안착여부 주목 속 '1만피' 기대도",
+          "createdAt": "2026-05-26T11:11:13"
+        },
+        {
+          "id": "yna_AKR20260526015800008",
+          "source": {
+            "code": "yna",
+            "name": "연합뉴스",
+            "faviconUrl": "https://static.toss.im/png-icons/timeline/vna-fill.png",
+            "logoImageUrl": "https://static.toss.im/png-icons/timeline/vna-light.png",
+            "logoImageUrlDark": "https://static.toss.im/png-icons/timeline/vna-dark.png"
+          },
+          "title": "[마켓뷰] 미-이란 종전 기대감…'8천피' 탈환 시도 주목",
+          "createdAt": "2026-05-26T08:17:41"
+        }
+      ],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T16:51:23",
+      "updatedAt": "2026-05-26T16:51:23",
+      "category": "환율·거시·자금 흐름"
+    },
+    {
+      "id": "moneytoday_2026052616254094792",
+      "title": "\"하반기에도 코스피 최고치 행진 계속\"…그럼 뭐 사지?",
+      "summary": "1만피 전망 늘어난다…\"주도주 계속 가져가라\"\n\n올해가 절반도 지나가기 전에 코스피가 8000 시대를 열었다. 올해 들어 코스피는 90.96% 급등했고, 3833.34였던 지수는 ...",
+      "contentText": "1만피 전망 늘어난다…\"주도주 계속 가져가라\"\n\n올해가 절반도 지나가기 전에 코스피가 8000 시대를 열었다. 올해 들어 코스피는 90.96% 급등했고, 3833.34였던 지수는 ...",
+      "imageUrls": [
+        "https://thumb.mt.co.kr/06/2026/05/2026052616254094792_1.jpg"
+      ],
+      "source": {
+        "code": "moneytoday",
+        "name": "머니투데이",
+        "faviconUrl": "https://static.toss.im/illusts/money_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/money_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/money_full.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T16:50:17",
+      "updatedAt": "2026-05-26T17:12:56",
+      "category": "시장·반도체 랠리"
+    },
+    {
+      "id": "seokyung_2KCK2ZTGO4",
+      "title": "개인?외국인 매도에도…사상 첫 8000피 마감 [코주부]",
+      "summary": "8047.51서 장 마감\n삼성전자 2%?SK하이닉스 5% 상승\n미국?이란 60일 휴전 연장에\n중동 전쟁 불확실성 누그러져\n\n유가증권시장 지수가 사상 처음으로 8000선에서 마감했다...",
+      "contentText": "8047.51서 장 마감\n삼성전자 2%?SK하이닉스 5% 상승\n미국?이란 60일 휴전 연장에\n중동 전쟁 불확실성 누그러져\n\n유가증권시장 지수가 사상 처음으로 8000선에서 마감했다...",
+      "imageUrls": [
+        "https://wimg.sedaily.com/news/cms/2026/05/26/news-p.v1.20260526.94d0e112d90c4e7cbf3a0a0d1f67f328_P1.jpg",
+        "https://wimg.sedaily.com/news/cms/2026/05/26/news-p.v1.20260525.7393fe3ca6a64e628a872958ed90f71b_P1.jpg"
+      ],
+      "source": {
+        "code": "seokyung",
+        "name": "서울경제",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/seoul_favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/seoul_full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/seoul_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T16:49:49",
+      "updatedAt": "2026-05-26T16:49:49",
+      "category": "정책·지역·반도체 클러스터"
+    },
+    {
+      "id": "newspim_20260526000967",
+      "title": "[마감시황] 미·이란 종전 기대에 코스피 8047 급등…사상 첫 8000 돌파",
+      "summary": "코스피, 전거래일 대비 199.80포인트 오른 8047.51 마감\n코스닥은 11.39포인트 오른 1172.52, 반도체·IT하드웨어·조선 강세\n\n[서울=뉴스핌] 양태훈 기자 = 2...",
+      "contentText": "코스피, 전거래일 대비 199.80포인트 오른 8047.51 마감\n코스닥은 11.39포인트 오른 1172.52, 반도체·IT하드웨어·조선 강세\n\n[서울=뉴스핌] 양태훈 기자 = 2...",
+      "imageUrls": [
+        "https://img.newspim.com/news/2026/05/26/260526153909965_w.jpg"
+      ],
+      "source": {
+        "code": "newspim",
+        "name": "뉴스핌",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/news_favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/news_full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/news_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T16:44:50",
+      "updatedAt": "2026-05-26T16:44:50",
+      "category": "환율·거시·자금 흐름"
+    },
+    {
+      "id": "maekyung_000012057907",
+      "title": "“내 월급서 건보료만 250만원”…삼성전자 성과급이 건보 재정 살릴까",
+      "summary": "성과급 31조5천억원 유입 시\n\n건보 수입 2.2조원 증가 추산\n\n삼전 직원 납부 건보료 5배 쑥\n\n복지부 “일시적 수입일 뿐”\n\n중장기 재정 전망 반영엔 선 그어\n\n건강보험 개혁...",
+      "contentText": "성과급 31조5천억원 유입 시\n\n건보 수입 2.2조원 증가 추산\n\n삼전 직원 납부 건보료 5배 쑥\n\n복지부 “일시적 수입일 뿐”\n\n중장기 재정 전망 반영엔 선 그어\n\n건강보험 개혁...",
+      "imageUrls": [
+        "https://wimg.mk.co.kr/news/cms/202605/26/news-p.v1.20260407.bc447d6ecfed413387524751edbce4f2_P1.png"
+      ],
+      "source": {
+        "code": "maekyung",
+        "name": "매일경제",
+        "faviconUrl": "https://static.toss.im/illusts/maekyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/maekyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/maekyung_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T16:44:33",
+      "updatedAt": "2026-05-26T16:44:33",
+      "category": "노사·성과급·임금"
+    },
+    {
+      "id": "news1_6177985",
+      "title": "'1만피 시대' 꿈이라 말하는 사람 없다…\"금리·반도체 실적 관건\"",
+      "summary": "코스피가 거침없는 상승세로 8000포인트(p)를 돌파하면서 투자자들의 관심은 이미 '1만피'로 향하고 있다. 증권가에서는 인공지능(AI) 인프라 확산에 따른 메모리 반도체 실적의 ...",
+      "contentText": "코스피가 거침없는 상승세로 8000포인트(p)를 돌파하면서 투자자들의 관심은 이미 '1만피'로 향하고 있다. 증권가에서는 인공지능(AI) 인프라 확산에 따른 메모리 반도체 실적의 ...",
+      "imageUrls": [
+        "https://image.news1.kr/system/photos/2026/5/26/7926089/high.jpg"
+      ],
+      "source": {
+        "code": "news1",
+        "name": "뉴스1",
+        "faviconUrl": "https://static.toss.im/png-icons/timeline/news1-fill.png",
+        "logoImageUrl": "https://static.toss.im/png-icons/timeline/news1-light.png",
+        "logoImageUrlDark": "https://static.toss.im/png-icons/timeline/news1-dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T16:44:28",
+      "updatedAt": "2026-05-26T17:28:02",
+      "category": "환율·거시·자금 흐름"
+    },
+    {
+      "id": "ajukyung_20260526162048749",
+      "title": "[오늘의 픽] MLCC 훈풍에 삼성전기 급등…전자부품주까지 번진 AI 랠리",
+      "summary": "[사진=삼성전기]\n\n삼성전기가 26일 17% 넘게 급등하며 전자부품주 강세를 이끌었다. 삼성전자와 SK하이닉스를 중심으로 시작된 인공지능(AI) 반도체 랠리가 적층세라믹캐패시터(M...",
+      "contentText": "[사진=삼성전기]\n\n삼성전기가 26일 17% 넘게 급등하며 전자부품주 강세를 이끌었다. 삼성전자와 SK하이닉스를 중심으로 시작된 인공지능(AI) 반도체 랠리가 적층세라믹캐패시터(M...",
+      "imageUrls": [
+        "https://image.ajunews.com/content/image/2026/05/26/20260526162457354973.jpg"
+      ],
+      "source": {
+        "code": "ajukyung",
+        "name": "아주경제",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/ajunews-favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/ajunews-full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/ajunews-full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T16:42:57",
+      "updatedAt": "2026-05-26T16:42:57",
+      "category": "AI·사업전략·제품"
+    },
+    {
+      "id": "maekyung_000012057901",
+      "title": "부결되든 가결되든 ‘후폭풍’ 불가피…삼성전자 임단협 투표에 쏠린 눈",
+      "summary": "삼성전자 노사가 잠정 도출한 합의안 찬반 투표 마감을 하루 앞둔 가운데 노조 안팎에서는 가결 여부를 두고 긴장감이 고조되고 있다. 반도체(DS) 메모리 사업부 중심의 특별성과급 신...",
+      "contentText": "삼성전자 노사가 잠정 도출한 합의안 찬반 투표 마감을 하루 앞둔 가운데 노조 안팎에서는 가결 여부를 두고 긴장감이 고조되고 있다. 반도체(DS) 메모리 사업부 중심의 특별성과급 신...",
+      "imageUrls": [
+        "https://wimg.mk.co.kr/news/cms/202605/26/rcv.YNA.20260526.PYH2026052610410006100_P1.jpg",
+        "https://wimg.mk.co.kr/news/cms/202605/26/news-p.v1.20260526.7f0230317a8e442e87cafe5b11cb93c6_P1.png"
+      ],
+      "source": {
+        "code": "maekyung",
+        "name": "매일경제",
+        "faviconUrl": "https://static.toss.im/illusts/maekyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/maekyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/maekyung_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T16:42:26",
+      "updatedAt": "2026-05-26T16:42:26",
+      "category": "노사·성과급·임금"
+    },
+    {
+      "id": "edaily_2026052616395900964",
+      "title": "유동성에 사활 건 삼성·미래운용…삼전닉스 레버리지 ‘격돌’",
+      "summary": "27일 단일종목 레버리지 출시…8개 운용사 참전\n 업계 투톱 나란히 간담회…“유동성이 가장 중요”\n 초기 상장 규모는 삼성, 보수는 미래에셋 우위\n 설정·환매방식 차이…삼성 ‘현물...",
+      "contentText": "27일 단일종목 레버리지 출시…8개 운용사 참전\n 업계 투톱 나란히 간담회…“유동성이 가장 중요”\n 초기 상장 규모는 삼성, 보수는 미래에셋 우위\n 설정·환매방식 차이…삼성 ‘현물...",
+      "imageUrls": [
+        "https://image.edaily.co.kr/images/photo/files/NP/S/2026/05/PS26052601264.jpg"
+      ],
+      "source": {
+        "code": "edaily",
+        "name": "이데일리",
+        "faviconUrl": "https://static.toss.im/illusts/edaily_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/edaily_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/edaily_full.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T16:39:59",
+      "updatedAt": "2026-05-26T19:05:08",
+      "category": "시장·반도체 랠리"
+    },
+    {
+      "id": "etoday_2026052600359",
+      "title": "미 제재에도 질주…화웨이 “2031년 1.4나노 반도체 구현” 자신",
+      "summary": "‘타오의 법칙’으로 삼전·TSMC 추격\n“ASML 첨단 EUV 장비 없이 가능”\n\n반도체 업계에서 ‘무어의 법칙’의 한계에 대한 지적이 나오는 가운데 중국 화웨이가 이른바 ‘타오의...",
+      "contentText": "‘타오의 법칙’으로 삼전·TSMC 추격\n“ASML 첨단 EUV 장비 없이 가능”\n\n반도체 업계에서 ‘무어의 법칙’의 한계에 대한 지적이 나오는 가운데 중국 화웨이가 이른바 ‘타오의...",
+      "imageUrls": [
+        "https://img.etoday.co.kr/pto_db/2026/05/600/20260526163850_2338180_1200_839.jpg"
+      ],
+      "source": {
+        "code": "etoday",
+        "name": "이투데이",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/etoday-favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/etoday_full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/etoday_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T16:39:51",
+      "updatedAt": "2026-05-26T16:39:51",
+      "category": "기술경쟁·화웨이"
+    },
+    {
+      "id": "seokyung_2KCK2N7IBI",
+      "title": "코스피, 사상 최초 8,000 돌파",
+      "summary": "코스피지수가 미국과 이란의 종전에 대한 기대가 커지면서 종가 기준 사상 처음으로 ‘8천피’(코스피 8,000) 탈환에 성공했다. ‘반도체 투톱’ 삼성전자와 SK하이닉스는 각각 30...",
+      "contentText": "코스피지수가 미국과 이란의 종전에 대한 기대가 커지면서 종가 기준 사상 처음으로 ‘8천피’(코스피 8,000) 탈환에 성공했다. ‘반도체 투톱’ 삼성전자와 SK하이닉스는 각각 30...",
+      "imageUrls": [
+        "https://wimg.sedaily.com/news/cms/2026/05/26/news-p.v1.20260526.32170ff4e8e148aea742bc7446bbe2a5_P1.jpg",
+        "https://wimg.sedaily.com/news/cms/2026/05/26/news-p.v1.20260526.961e4138c54249efb9afad3228ff2de2_P1.jpg"
+      ],
+      "source": {
+        "code": "seokyung",
+        "name": "서울경제",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/seoul_favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/seoul_full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/seoul_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T16:34:44",
+      "updatedAt": "2026-05-26T16:34:44",
+      "category": "환율·거시·자금 흐름"
+    },
+    {
+      "id": "moneytoday_2026052616154958713",
+      "title": "\"올해 초에만 샀어도\" 5000→8000피까지 4개월...삼전닉스가 이끌었다",
+      "summary": "코스피가 꿈의 8000피 안착에 성공했다. 반도체 슈퍼사이클에 힘입어 삼성전자와 SK하이닉스 주가가 상승한 영향으로 풀이된다.\n\n26일 코스피는 전 거래일 대비 199.80포인트(...",
+      "contentText": "코스피가 꿈의 8000피 안착에 성공했다. 반도체 슈퍼사이클에 힘입어 삼성전자와 SK하이닉스 주가가 상승한 영향으로 풀이된다.\n\n26일 코스피는 전 거래일 대비 199.80포인트(...",
+      "imageUrls": [
+        "https://thumb.mt.co.kr/06/2026/05/2026052616154958713_2.jpg",
+        "https://thumb.mt.co.kr/06/2026/05/2026052616154958713_1.jpg"
+      ],
+      "source": {
+        "code": "moneytoday",
+        "name": "머니투데이",
+        "faviconUrl": "https://static.toss.im/illusts/money_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/money_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/money_full.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T16:34:33",
+      "updatedAt": "2026-05-26T16:46:28",
+      "category": "시장·반도체 랠리"
+    },
+    {
+      "id": "etoday_2026052600356",
+      "title": "비전으론 부족하다···테슬라·스페이스X, 올여름 시험대 [찐코노미]",
+      "summary": "글로벌 인공지능(AI) 시장과 자율주행 모빌리티 산업이 막연한 미래 비전 경쟁을 끝내고, 구체적인 재무적 성과를 입증해야 하는 냉혹한 '자본력과 속도'의 싸움으로 완전히 전환됐다는...",
+      "contentText": "글로벌 인공지능(AI) 시장과 자율주행 모빌리티 산업이 막연한 미래 비전 경쟁을 끝내고, 구체적인 재무적 성과를 입증해야 하는 냉혹한 '자본력과 속도'의 싸움으로 완전히 전환됐다는...",
+      "imageUrls": [
+        "https://img.etoday.co.kr/pto_db/2026/05/600/20260526162033_2338159_1200_675.png"
+      ],
+      "source": {
+        "code": "etoday",
+        "name": "이투데이",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/etoday-favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/etoday_full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/etoday_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T16:34:24",
+      "updatedAt": "2026-05-26T16:34:24",
+      "category": "정책·지역·반도체 클러스터"
+    },
+    {
+      "id": "news1_6177970",
+      "title": "삼성전자 N% 성과급 파장, 삼성그룹으로 확산…산업계 전반 영향(종합)",
+      "summary": "삼성전자 노사의 N% 성과급 잠정 합의 후폭풍이 삼성그룹 전반으로 확산하고 있다.\n\n삼성전기 노동조합은 이미 노사협의회를 통해 성과급 산정 방식을 확정했음에도 영업이익의 12%를 ...",
+      "contentText": "삼성전자 노사의 N% 성과급 잠정 합의 후폭풍이 삼성그룹 전반으로 확산하고 있다.\n\n삼성전기 노동조합은 이미 노사협의회를 통해 성과급 산정 방식을 확정했음에도 영업이익의 12%를 ...",
+      "imageUrls": [
+        "https://image.news1.kr/system/photos/2026/5/26/7925458/high.jpg",
+        "https://image.news1.kr/system/photos/2026/5/20/7916202/high.jpg"
+      ],
+      "source": {
+        "code": "news1",
+        "name": "뉴스1",
+        "faviconUrl": "https://static.toss.im/png-icons/timeline/news1-fill.png",
+        "logoImageUrl": "https://static.toss.im/png-icons/timeline/news1-light.png",
+        "logoImageUrlDark": "https://static.toss.im/png-icons/timeline/news1-dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T16:34:06",
+      "updatedAt": "2026-05-26T17:08:02",
+      "category": "노사·성과급·임금"
+    },
+    {
+      "id": "financial_202605261629507467",
+      "title": "코스피, 기관 '사자'에 첫 8000선 마감...외국인은 13거래일째 순매도",
+      "summary": "[파이낸셜뉴스] 코스피가 기관 순매수세에 힘입어 종가 기준 사상 처음으로 8000선을 돌파했다. 장 초반 기관과 외국인이 쌍끌이 순매수세를 보이면서 8100선을 돌파하기도 했으나 ...",
+      "contentText": "[파이낸셜뉴스] 코스피가 기관 순매수세에 힘입어 종가 기준 사상 처음으로 8000선을 돌파했다. 장 초반 기관과 외국인이 쌍끌이 순매수세를 보이면서 8100선을 돌파하기도 했으나 ...",
+      "imageUrls": [
+        "https://image.fnnews.com/resource/media/image/2026/05/26/202605261622164617_l.jpg"
+      ],
+      "source": {
+        "code": "financial",
+        "name": "파이낸셜뉴스",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/fnnews-favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/fnnews-full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/fnnews-full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T16:32:34",
+      "updatedAt": "2026-05-26T16:32:34",
+      "category": "시장·반도체 랠리"
+    },
+    {
+      "id": "moneytoday_2026052615383380181",
+      "title": "종전 기대감에도 환율 1500원대…언제까지 지속되나",
+      "summary": "미국과 이란 간 종전 협상이 막바지에 이르렀다는 기대감에도 원/달러 환율은 좀처럼 1500원대를 벗어나지 못하고 있다. 외국인 증시 순매도가 13거래일 연속 이어지면서 원화 약세 ...",
+      "contentText": "미국과 이란 간 종전 협상이 막바지에 이르렀다는 기대감에도 원/달러 환율은 좀처럼 1500원대를 벗어나지 못하고 있다. 외국인 증시 순매도가 13거래일 연속 이어지면서 원화 약세 ...",
+      "imageUrls": [
+        "https://thumb.mt.co.kr/06/2026/05/2026052615383380181_1.jpg"
+      ],
+      "source": {
+        "code": "moneytoday",
+        "name": "머니투데이",
+        "faviconUrl": "https://static.toss.im/illusts/money_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/money_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/money_full.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T16:31:30",
+      "updatedAt": "2026-05-26T16:31:30",
+      "category": "환율·거시·자금 흐름"
+    },
+    {
+      "id": "news1_6177964",
+      "title": "[뉴스1 PICK] 코스피 사상 첫 '8천피' 마감… 삼전·하이닉스 동반 랠리",
+      "summary": "코스피가 26일 장 중 최고치를 경신하며 '8천피'(코스피 8,000) 탈환에 성공했다.\n\n한국거래소에 따르면 이날 코스피는 전 거래일 대비 199.80포인트(2.55%) 오른 8...",
+      "contentText": "코스피가 26일 장 중 최고치를 경신하며 '8천피'(코스피 8,000) 탈환에 성공했다.\n\n한국거래소에 따르면 이날 코스피는 전 거래일 대비 199.80포인트(2.55%) 오른 8...",
+      "imageUrls": [
+        "https://image.news1.kr/system/photos/2026/5/26/7926006/high.jpg",
+        "https://image.news1.kr/system/photos/2026/5/26/7926019/high.jpg",
+        "https://image.news1.kr/system/photos/2026/5/26/7925975/high.jpg",
+        "https://image.news1.kr/system/photos/2026/5/26/7926020/high.jpg",
+        "https://image.news1.kr/system/photos/2026/5/26/7926094/high.jpg",
+        "https://image.news1.kr/system/photos/2026/5/26/7926086/high.jpg",
+        "https://image.news1.kr/system/photos/2026/5/26/7926054/high.jpg",
+        "https://image.news1.kr/system/photos/2026/5/26/7926020/high.jpg",
+        "https://image.news1.kr/system/photos/2026/5/26/7926055/high.jpg",
+        "https://image.news1.kr/system/photos/2026/5/26/7926025/high.jpg",
+        "https://image.news1.kr/system/photos/2026/5/26/7926094/high.jpg",
+        "https://image.news1.kr/system/photos/2026/5/26/7926097/high.jpg"
+      ],
+      "source": {
+        "code": "news1",
+        "name": "뉴스1",
+        "faviconUrl": "https://static.toss.im/png-icons/timeline/news1-fill.png",
+        "logoImageUrl": "https://static.toss.im/png-icons/timeline/news1-light.png",
+        "logoImageUrlDark": "https://static.toss.im/png-icons/timeline/news1-dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T16:31:25",
+      "updatedAt": "2026-05-26T16:31:25",
+      "category": "시장·반도체 랠리"
+    },
+    {
+      "id": "newspim_20260526001038",
+      "title": "\"삼전닉스 성과급, 인플레·집값에 부담...한은 금리인상 압박\"",
+      "summary": "[서울=뉴스핌] 오상용 기자 = 삼성전자와 SK하이닉스의 대규모 성과급이 한국의 인플레이션과 집값 불안을 야기, 한국은행의 금리인상을 압박할 수 있다고 블룸버그 이코노믹스가 26일...",
+      "contentText": "[서울=뉴스핌] 오상용 기자 = 삼성전자와 SK하이닉스의 대규모 성과급이 한국의 인플레이션과 집값 불안을 야기, 한국은행의 금리인상을 압박할 수 있다고 블룸버그 이코노믹스가 26일...",
+      "imageUrls": [
+        "https://img.newspim.com/news/2026/05/15/260515171702928.jpg"
+      ],
+      "source": {
+        "code": "newspim",
+        "name": "뉴스핌",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/news_favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/news_full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/news_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T16:31:21",
+      "updatedAt": "2026-05-26T16:31:21",
+      "category": "노사·성과급·임금"
+    }
+  ],
+  "lastPage": false
+}

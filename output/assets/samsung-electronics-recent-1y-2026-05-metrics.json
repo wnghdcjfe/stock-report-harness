@@ -1,0 +1,19 @@
+{
+  "start_date": "2025-05-27",
+  "end_date": "2026-05-26",
+  "start_close": 53900.0,
+  "end_close": 299000.0,
+  "return_pct": 454.73098330241186,
+  "low_close": 53900.0,
+  "low_close_date": "2025-05-27",
+  "high_close": 299500.0,
+  "high_close_date": "2026-05-21",
+  "max_up_pct": 14.40860215053763,
+  "max_up_date": "2026-05-06",
+  "max_down_pct": -11.737570476678627,
+  "max_down_date": "2026-03-04",
+  "max_volume": 89427954,
+  "max_volume_date": "2026-03-04",
+  "trading_days": 242,
+  "volatility_daily_pct": 3.389889795407713
+}

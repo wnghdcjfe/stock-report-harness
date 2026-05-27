@@ -1,0 +1,598 @@
+{
+  "pagingParam": {
+    "number": 2,
+    "size": 20,
+    "key": null
+  },
+  "body": [
+    {
+      "id": "hankyung_X20260526.205534",
+      "title": "블룸버그 \"반도체 보너스, 한국 물가와 주택 시장 압박\" 경고",
+      "summary": "\"반도체 업계 기록적 이익, 거시경제 전파 경로로 진화\"\n\"물가 및 주택 압박 대비, 한국 은행 대책 서둘러야\"\n\n한국의 AI 기반 반도체붐에 따른 대규모 보너스 상승이 새로운 인...",
+      "contentText": "\"반도체 업계 기록적 이익, 거시경제 전파 경로로 진화\"\n\"물가 및 주택 압박 대비, 한국 은행 대책 서둘러야\"\n\n한국의 AI 기반 반도체붐에 따른 대규모 보너스 상승이 새로운 인...",
+      "imageUrls": [
+        "https://static.tossinvest.com/assets/image/detail-news-default/image1.png"
+      ],
+      "source": {
+        "code": "hankyung",
+        "name": "한국경제",
+        "faviconUrl": "https://static.toss.im/illusts/hankyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/hankyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/hankyung_full.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T20:55:34",
+      "updatedAt": "2026-05-26T20:58:41"
+    },
+    {
+      "id": "seokyung_2KCK2NGW0O",
+      "title": "李 “환율 상승, 외인 자금 이동 영향”…중동 긴장 완화에 1504원 마감  [김혜란의 FX]",
+      "summary": "원?달러 환율이 중동 지정학적 긴장 완화와 외국인 수급 변화 영향으로 1504원대로 내려왔다. 최근 1500원을 웃돌며 고공행진하던 환율을 두고 정부가 ‘경제 체력이 과거와 다르다...",
+      "contentText": "원?달러 환율이 중동 지정학적 긴장 완화와 외국인 수급 변화 영향으로 1504원대로 내려왔다. 최근 1500원을 웃돌며 고공행진하던 환율을 두고 정부가 ‘경제 체력이 과거와 다르다...",
+      "imageUrls": [
+        "https://wimg.sedaily.com/news/cms/2026/05/26/rcv.YNA.20260526.PYH2026052607340001300_P1.jpg",
+        "https://wimg.sedaily.com/news/cms/2026/05/26/news-p.v1.20260126.fc345c5a59f24c4896af1104f3474dfb_P1.jpg"
+      ],
+      "source": {
+        "code": "seokyung",
+        "name": "서울경제",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/seoul_favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/seoul_full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/seoul_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T20:26:25",
+      "updatedAt": "2026-05-26T20:26:57"
+    },
+    {
+      "id": "hankyung_X20260526.201643",
+      "title": "AI가 밀어붙인 한국 증시 세계 7위…대만 증시는 5위",
+      "summary": "AI 밸류체인 핵심 대만과 한국 부상에 인도 등 밀려\n미국-중국본토-일본-홍콩-대만-인도-한국-캐나다 순\n\nAI 투자 심리의 바로미터로 평가되는 대만 증시와 한국 증시가 시가총액으...",
+      "contentText": "AI 밸류체인 핵심 대만과 한국 부상에 인도 등 밀려\n미국-중국본토-일본-홍콩-대만-인도-한국-캐나다 순\n\nAI 투자 심리의 바로미터로 평가되는 대만 증시와 한국 증시가 시가총액으...",
+      "imageUrls": [
+        "https://img.hankyung.com/photo/202605/AA.44427106.1.jpg",
+        "https://img.hankyung.com/photo/202605/01.44427373.1.png"
+      ],
+      "source": {
+        "code": "hankyung",
+        "name": "한국경제",
+        "faviconUrl": "https://static.toss.im/illusts/hankyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/hankyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/hankyung_full.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T20:16:43",
+      "updatedAt": "2026-05-26T20:21:06"
+    },
+    {
+      "id": "asiae_2026052619531690662",
+      "title": "최저임금 '월 환산액 표시' 결정…내달 4일 도급제 적용 논의(종합)",
+      "summary": "26일 2차 전원회의 열고 월환산액 표시 결정\n노사 모두 \"삼성 성과급\" 주장 근거로 제시\n\n내년도 최저임금 결정을 위한 최저임금위원회 전원회의가 한 달 만에 재개됐다. 사용자 측...",
+      "contentText": "26일 2차 전원회의 열고 월환산액 표시 결정\n노사 모두 \"삼성 성과급\" 주장 근거로 제시\n\n내년도 최저임금 결정을 위한 최저임금위원회 전원회의가 한 달 만에 재개됐다. 사용자 측...",
+      "imageUrls": [
+        "https://cphoto.asiae.co.kr/listimg_link.php?idx=2&no=2026052619512277094_1779792682.jpg",
+        "https://cphoto.asiae.co.kr/listimg_link.php?idx=2&no=2026052619513577095_1779792695.jpg"
+      ],
+      "source": {
+        "code": "asiae",
+        "name": "아시아경제",
+        "faviconUrl": "https://static.toss.im/illusts/asia_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/asia_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/asia_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T19:53:16",
+      "updatedAt": "2026-05-26T19:53:16"
+    },
+    {
+      "id": "maekyung_000012058235",
+      "title": "“이십만전자 깨지는 줄 알았다”…프리마켓 시초가 18% 급락, 이유가?",
+      "summary": "삼성전자가 26일 프리마켓 개장 직후 전장보다 20% 가까이 내린 24만원에 거래되는 일이 벌어졌다.\n\n금융정보서비스업체 연합인포맥스 자료에 따르면 이날 오전 8시 프리마켓 개장 ...",
+      "contentText": "삼성전자가 26일 프리마켓 개장 직후 전장보다 20% 가까이 내린 24만원에 거래되는 일이 벌어졌다.\n\n금융정보서비스업체 연합인포맥스 자료에 따르면 이날 오전 8시 프리마켓 개장 ...",
+      "imageUrls": [
+        "https://wimg.mk.co.kr/news/cms/202605/26/news-p.v1.20260523.923f34179ff64af99be8190256d01b1d_P1.jpeg"
+      ],
+      "source": {
+        "code": "maekyung",
+        "name": "매일경제",
+        "faviconUrl": "https://static.toss.im/illusts/maekyung_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/maekyung_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/maekyung_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T19:46:47",
+      "updatedAt": "2026-05-26T19:46:47"
+    },
+    {
+      "id": "asiae_2026052619405382699",
+      "title": "삼성전자 임협 잠정합의안 투표율 92%…가결 가능성 커져",
+      "summary": "27일 오전 10시 투표 마감\n반도체 성과급 신설·OPI 기준 변경\nDX 중심 반발·가처분은 변수\n\n삼성전자 임금협상 잠정합의안에 대한 찬반투표가 막바지에 접어든 가운데 가결 가능...",
+      "contentText": "27일 오전 10시 투표 마감\n반도체 성과급 신설·OPI 기준 변경\nDX 중심 반발·가처분은 변수\n\n삼성전자 임금협상 잠정합의안에 대한 찬반투표가 막바지에 접어든 가운데 가결 가능...",
+      "imageUrls": [
+        "https://cphoto.asiae.co.kr/listimg_link.php?idx=2&no=2026052619341477086_1779791654.jpg"
+      ],
+      "source": {
+        "code": "asiae",
+        "name": "아시아경제",
+        "faviconUrl": "https://static.toss.im/illusts/asia_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/asia_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/asia_full_dark.png"
+      },
+      "relatedNews": [
+        {
+          "id": "yna_AKR20260526053101003",
+          "source": {
+            "code": "yna",
+            "name": "연합뉴스",
+            "faviconUrl": "https://static.toss.im/png-icons/timeline/vna-fill.png",
+            "logoImageUrl": "https://static.toss.im/png-icons/timeline/vna-light.png",
+            "logoImageUrlDark": "https://static.toss.im/png-icons/timeline/vna-dark.png"
+          },
+          "title": "삼전 임협 잠정합의안 투표율 92%…가결 가능성 높아져(종합)",
+          "createdAt": "2026-05-26T17:43:40"
+        },
+        {
+          "id": "yna_AKR20260526053100003",
+          "source": {
+            "code": "yna",
+            "name": "연합뉴스",
+            "faviconUrl": "https://static.toss.im/png-icons/timeline/vna-fill.png",
+            "logoImageUrl": "https://static.toss.im/png-icons/timeline/vna-light.png",
+            "logoImageUrlDark": "https://static.toss.im/png-icons/timeline/vna-dark.png"
+          },
+          "title": "삼성전자 임협 투표율 90%…가결 가능성 높지만 가처분 리스크",
+          "createdAt": "2026-05-26T11:21:17"
+        }
+      ],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T19:40:53",
+      "updatedAt": "2026-05-26T19:40:53"
+    },
+    {
+      "id": "tokenpost_P00420260526363221",
+      "title": "한국 법원, 삼성 주요 노조 교섭 중단 가처분 기각",
+      "summary": "오데일리에 따르면 한국 법원이 삼성 주요 노동조합의 교섭을 중단해 달라는 가처분 신청을 기각했다.\n\n이번 결정으로 해당 노조 관련 교섭 절차는 법원의 제동 없이 이어질 수 있게 됐...",
+      "contentText": "오데일리에 따르면 한국 법원이 삼성 주요 노동조합의 교섭을 중단해 달라는 가처분 신청을 기각했다.\n\n이번 결정으로 해당 노조 관련 교섭 절차는 법원의 제동 없이 이어질 수 있게 됐...",
+      "imageUrls": [
+        "https://static.tossinvest.com/assets/image/detail-news-default/image7.png"
+      ],
+      "source": {
+        "code": "tokenpost",
+        "name": "토큰포스트",
+        "faviconUrl": "https://static.toss.im/illusts/tokenpost-favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/tokenpost-full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/tokenpost-full-dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T19:30:53",
+      "updatedAt": "2026-05-26T19:30:53"
+    },
+    {
+      "id": "seokyung_2KCK3CKQV8",
+      "title": "[6?3지선 우리 동네는]이재준 수원시장 후보 “글로벌 핵심 기술이 모이는 첨단과학 연구도시로”",
+      "summary": "AI?반도체?바이오 기반 첨단과학 연구 클러스터 조성 계획\n“협력업체와 중소기업까지 함께 성장하는 산업 생태계 구축”\n\n이재준 더불어민주당 수원시장 후보가 26일 “수원을 반도체와...",
+      "contentText": "AI?반도체?바이오 기반 첨단과학 연구 클러스터 조성 계획\n“협력업체와 중소기업까지 함께 성장하는 산업 생태계 구축”\n\n이재준 더불어민주당 수원시장 후보가 26일 “수원을 반도체와...",
+      "imageUrls": [
+        "https://wimg.sedaily.com/news/cms/2026/05/26/news-p.v1.20260526.e108375e22804ceeaa58109360ed6620_P1.jpg"
+      ],
+      "source": {
+        "code": "seokyung",
+        "name": "서울경제",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/seoul_favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/seoul_full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/seoul_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T19:27:03",
+      "updatedAt": "2026-05-26T19:27:03"
+    },
+    {
+      "id": "yna_AKR20260526133651530",
+      "title": "내년 최저임금 2차심의…사용자 \"업종 구분\" 근로자 \"도급 적용\"(종합)",
+      "summary": "내년 최저임금 2차심의…사용자 \"업종 구분\" 근로자 \"도급 적용\"(종합)\n\n노사 모두 \"반도체 성과급 상대적 박탈감\"…3차심의서 도급제 논의 시작\n\n    (세종=연합뉴스) 한혜원...",
+      "contentText": "내년 최저임금 2차심의…사용자 \"업종 구분\" 근로자 \"도급 적용\"(종합)\n\n노사 모두 \"반도체 성과급 상대적 박탈감\"…3차심의서 도급제 논의 시작\n\n    (세종=연합뉴스) 한혜원...",
+      "imageUrls": [
+        "https://static.tossinvest.com/assets/image/detail-news-default/image8.png"
+      ],
+      "source": {
+        "code": "yna",
+        "name": "연합뉴스",
+        "faviconUrl": "https://static.toss.im/png-icons/timeline/vna-fill.png",
+        "logoImageUrl": "https://static.toss.im/png-icons/timeline/vna-light.png",
+        "logoImageUrlDark": "https://static.toss.im/png-icons/timeline/vna-dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T19:24:58",
+      "updatedAt": "2026-05-26T19:24:58"
+    },
+    {
+      "id": "edaily_2026052619070001153",
+      "title": "나노칩 기술자립 선언한 화웨이…삼성·TSMC 완전 대체 '임박'",
+      "summary": "[초미세 공정 도전장]\n EUV 장비 없이…속도로 승부\n 1.4나노칩 2031년 출시 예고\n \"물리적 한계…수율 지켜봐야\"\n\n[베이징=이데일리 이명철 특파원] 중국 화웨이와 국영 ...",
+      "contentText": "[초미세 공정 도전장]\n EUV 장비 없이…속도로 승부\n 1.4나노칩 2031년 출시 예고\n \"물리적 한계…수율 지켜봐야\"\n\n[베이징=이데일리 이명철 특파원] 중국 화웨이와 국영 ...",
+      "imageUrls": [
+        "https://image.edaily.co.kr/images/photo/files/NP/S/2026/05/PS26052601337.jpg",
+        "https://image.edaily.co.kr/images/photo/files/NP/S/2026/05/PS26052601336.jpg"
+      ],
+      "source": {
+        "code": "edaily",
+        "name": "이데일리",
+        "faviconUrl": "https://static.toss.im/illusts/edaily_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/edaily_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/edaily_full.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T19:07:00",
+      "updatedAt": "2026-05-26T19:29:01"
+    },
+    {
+      "id": "edaily_2026052619042501149",
+      "title": "삼전 턱밑추격 화웨이, 첨단 칩 독자생산 속도",
+      "summary": "ISCAS서 새 설계방식 발표\n 美 제재 우회, 기술격차 줄이기 나서\n\n[베이징=이데일리 이명철 특파원] 중국 화웨이와 국영 파운드리 SMIC(중신궈지) 동맹이 ‘타우(τ)의 법칙...",
+      "contentText": "ISCAS서 새 설계방식 발표\n 美 제재 우회, 기술격차 줄이기 나서\n\n[베이징=이데일리 이명철 특파원] 중국 화웨이와 국영 파운드리 SMIC(중신궈지) 동맹이 ‘타우(τ)의 법칙...",
+      "imageUrls": [
+        "https://image.edaily.co.kr/images/photo/files/NP/S/2026/05/PS26052601271.jpg"
+      ],
+      "source": {
+        "code": "edaily",
+        "name": "이데일리",
+        "faviconUrl": "https://static.toss.im/illusts/edaily_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/edaily_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/edaily_full.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T19:04:25",
+      "updatedAt": "2026-05-26T19:06:35"
+    },
+    {
+      "id": "seokyung_2KCK3J9HGZ",
+      "title": "[6?3지선 우리 동네는]이상일 용인시장 후보 “반도체 원안 추진…대통령?중앙정부 실행 의지 천명해야”",
+      "summary": "현근택 민주당 후보, ‘원안 사수…사퇴 배수진‘ 기자회견에 맞대응\n“선언만으로 시민 불안 해소 못 해” 삼성전자 3?4기 전력 공급 계획 원안 이행 등 요구\n\n이상일 국민의힘 용인...",
+      "contentText": "현근택 민주당 후보, ‘원안 사수…사퇴 배수진‘ 기자회견에 맞대응\n“선언만으로 시민 불안 해소 못 해” 삼성전자 3?4기 전력 공급 계획 원안 이행 등 요구\n\n이상일 국민의힘 용인...",
+      "imageUrls": [
+        "https://wimg.sedaily.com/news/cms/2026/05/26/news-p.v1.20260526.f90cad169c0247b4b86872406d7cc93a_P1.jpg"
+      ],
+      "source": {
+        "code": "seokyung",
+        "name": "서울경제",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/seoul_favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/seoul_full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/seoul_full_dark.png"
+      },
+      "relatedNews": [
+        {
+          "id": "seokyung_2KCK3W5OVC",
+          "source": {
+            "code": "seokyung",
+            "name": "서울경제",
+            "faviconUrl": "https://static.tossinvest.com/assets/image/press/seoul_favicon.png",
+            "logoImageUrl": "https://static.tossinvest.com/assets/image/press/seoul_full.png",
+            "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/seoul_full_dark.png"
+          },
+          "title": "[6?3지선 우리 동네는]현근택 용인시장 후보 “삼성전자 팹 지방가면 당선돼도 사퇴”",
+          "createdAt": "2026-05-26T18:28:17"
+        }
+      ],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:49:34",
+      "updatedAt": "2026-05-26T18:49:34"
+    },
+    {
+      "id": "chosunbiz_2026052604465",
+      "title": "삼성전자 노사합의안 투표율, 마감 16시간 전 93%… 교섭중지 가처분 기각에 가결 무게",
+      "summary": "삼성전자 노사가 마련한 2026년 임금·성과급 잠정합의안에 대한 삼성그룹 초기업노동조합 삼성전자지부(초기업노조) 조합원 찬반 투표의 투표율이 마감을 약 16시간 앞두고 93%를 넘...",
+      "contentText": "삼성전자 노사가 마련한 2026년 임금·성과급 잠정합의안에 대한 삼성그룹 초기업노동조합 삼성전자지부(초기업노조) 조합원 찬반 투표의 투표율이 마감을 약 16시간 앞두고 93%를 넘...",
+      "imageUrls": [
+        "https://biz.chosun.com/resizer/v2/IGYMQQ3K3RPRFNG2HQVXERDXLU.JPG?auth=81a0e43397dfb850040e36d7f87f9184ea74cc8a185f0276e6ffbd915a123770&width=4291&height=2573&smart=true",
+        "https://biz.chosun.com/resizer/v2/BPYLWKONHZMO5JDG6XOYINH6VA.jpg?auth=c56d3bf76e0be99595be930a3b4cb7e3473aece2e5d33596d9e428b9e32e76df&width=5292&height=3485&smart=true"
+      ],
+      "source": {
+        "code": "chosunbiz",
+        "name": "조선비즈",
+        "faviconUrl": "https://static.toss.im/illusts/cho_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/cho_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/cho_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:39:16",
+      "updatedAt": "2026-05-26T18:54:01"
+    },
+    {
+      "id": "ajukyung_20260526153937686",
+      "title": "\"삼전·닉스 레버리지 ETF는 내가 1등\"… 삼성운용 VS 미래에셋 정면승부",
+      "summary": "'보수 경쟁'보다 '유동성 싸움'으로\n10분 거리서 오전·오후 간담회 열어\n삼성 현물납입 구조…미래에셋은 '현금'\n\"업계 최다 공급자\"vs\"외국인 자금 유치\"\n두 개사 상품 모두 ...",
+      "contentText": "'보수 경쟁'보다 '유동성 싸움'으로\n10분 거리서 오전·오후 간담회 열어\n삼성 현물납입 구조…미래에셋은 '현금'\n\"업계 최다 공급자\"vs\"외국인 자금 유치\"\n두 개사 상품 모두 ...",
+      "imageUrls": [
+        "https://image.ajunews.com/content/image/2026/05/26/20260526183833234632.png"
+      ],
+      "source": {
+        "code": "ajukyung",
+        "name": "아주경제",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/ajunews-favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/ajunews-full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/ajunews-full_dark.png"
+      },
+      "relatedNews": [
+        {
+          "id": "financial_202605261805024923",
+          "source": {
+            "code": "financial",
+            "name": "파이낸셜뉴스",
+            "faviconUrl": "https://static.tossinvest.com/assets/image/press/fnnews-favicon.png",
+            "logoImageUrl": "https://static.tossinvest.com/assets/image/press/fnnews-full.png",
+            "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/fnnews-full_dark.png"
+          },
+          "title": "삼전닉스 레버리지 27일 출격.. 미래에셋·삼성운용 선점 경쟁",
+          "createdAt": "2026-05-26T18:05:47"
+        },
+        {
+          "id": "newspim_20260526001070",
+          "source": {
+            "code": "newspim",
+            "name": "뉴스핌",
+            "faviconUrl": "https://static.tossinvest.com/assets/image/press/news_favicon.png",
+            "logoImageUrl": "https://static.tossinvest.com/assets/image/press/news_full.png",
+            "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/news_full_dark.png"
+          },
+          "title": "[종합] 미래에셋·삼성자산, 삼전닉스 레버리지ETF '자존심 대결'",
+          "createdAt": "2026-05-26T16:51:00"
+        },
+        {
+          "id": "newspim_20260526000984",
+          "source": {
+            "code": "newspim",
+            "name": "뉴스핌",
+            "faviconUrl": "https://static.tossinvest.com/assets/image/press/news_favicon.png",
+            "logoImageUrl": "https://static.tossinvest.com/assets/image/press/news_full.png",
+            "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/news_full_dark.png"
+          },
+          "title": "미래에셋운용, 삼전닉스 레버리지ETF에 외국인 3290억 유치",
+          "createdAt": "2026-05-26T16:46:02"
+        },
+        {
+          "id": "edaily_2026052616395900964",
+          "source": {
+            "code": "edaily",
+            "name": "이데일리",
+            "faviconUrl": "https://static.toss.im/illusts/edaily_favicon.png",
+            "logoImageUrl": "https://static.toss.im/illusts/edaily_full.png",
+            "logoImageUrlDark": "https://static.toss.im/illusts/edaily_full.png"
+          },
+          "title": "유동성에 사활 건 삼성·미래운용…삼전닉스 레버리지 ‘격돌’",
+          "createdAt": "2026-05-26T16:39:59"
+        },
+        {
+          "id": "financial_202605261537003359",
+          "source": {
+            "code": "financial",
+            "name": "파이낸셜뉴스",
+            "faviconUrl": "https://static.tossinvest.com/assets/image/press/fnnews-favicon.png",
+            "logoImageUrl": "https://static.tossinvest.com/assets/image/press/fnnews-full.png",
+            "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/fnnews-full_dark.png"
+          },
+          "title": "'삼전닉스' 2배 베팅 시대…미래·삼성운용, 단일종목 ETF 정면승부",
+          "createdAt": "2026-05-26T16:09:04"
+        }
+      ],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:39:13",
+      "updatedAt": "2026-05-26T18:39:13"
+    },
+    {
+      "id": "yna_AKR20260526160900008",
+      "title": "삼성전자, 프리마켓 시초가 18% 급락해 '시끌'…주문실수?",
+      "summary": "삼성전자, 프리마켓 시초가 18% 급락해 '시끌'…주문실수?\n\n    (서울=연합뉴스) 황철환 기자 = 삼성전자[005930]가 26일 프리마켓 개장 직후 전장보다 20% 가까이 ...",
+      "contentText": "삼성전자, 프리마켓 시초가 18% 급락해 '시끌'…주문실수?\n\n    (서울=연합뉴스) 황철환 기자 = 삼성전자[005930]가 26일 프리마켓 개장 직후 전장보다 20% 가까이 ...",
+      "imageUrls": [
+        "https://static.tossinvest.com/assets/image/detail-news-default/image11.png"
+      ],
+      "source": {
+        "code": "yna",
+        "name": "연합뉴스",
+        "faviconUrl": "https://static.toss.im/png-icons/timeline/vna-fill.png",
+        "logoImageUrl": "https://static.toss.im/png-icons/timeline/vna-light.png",
+        "logoImageUrlDark": "https://static.toss.im/png-icons/timeline/vna-dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:33:09",
+      "updatedAt": "2026-05-26T18:33:09"
+    },
+    {
+      "id": "asiae_2026052618312610012",
+      "title": "이상일 \"반도체 원안 추진, 대통령·중앙정부가 실행의지 천명하라\"",
+      "summary": "이상일 용인시장 후보 “선언 아닌 실행 필요”\n현근택 후보 ‘반도체 원안 추진’ 기자회견 비판\n“용인 반도체 국가산단 지연…정부, 책임 있는 입장 내놔야”\n\"삼성 3·4기 전력공급...",
+      "contentText": "이상일 용인시장 후보 “선언 아닌 실행 필요”\n현근택 후보 ‘반도체 원안 추진’ 기자회견 비판\n“용인 반도체 국가산단 지연…정부, 책임 있는 입장 내놔야”\n\"삼성 3·4기 전력공급...",
+      "imageUrls": [
+        "https://cphoto.asiae.co.kr/listimg_link.php?idx=2&no=2026052618252877062_1779787528.jpg",
+        "https://cphoto.asiae.co.kr/listimg_link.php?idx=2&no=2026052618260077063_1779787560.jpg"
+      ],
+      "source": {
+        "code": "asiae",
+        "name": "아시아경제",
+        "faviconUrl": "https://static.toss.im/illusts/asia_favicon.png",
+        "logoImageUrl": "https://static.toss.im/illusts/asia_full.png",
+        "logoImageUrlDark": "https://static.toss.im/illusts/asia_full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:31:25",
+      "updatedAt": "2026-05-26T18:34:58"
+    },
+    {
+      "id": "financial_202605261823063869",
+      "title": "사상 첫 ‘8000피’ 마감.. ‘200만닉스’도 터졌다",
+      "summary": "2.55% 오른 8047.51\n기관·외국인 매수에 반도체 질주\n장중 한때  8131.15까지 치솟아\n\"종전협상 기대감에 자금 유입\"\n\n<b>2.55% 오른 8047.51기관·외국인...",
+      "contentText": "2.55% 오른 8047.51\n기관·외국인 매수에 반도체 질주\n장중 한때  8131.15까지 치솟아\n\"종전협상 기대감에 자금 유입\"\n\n<b>2.55% 오른 8047.51기관·외국인...",
+      "imageUrls": [
+        "https://image.fnnews.com/resource/media/image/2026/05/26/202605261823506336_l.jpg"
+      ],
+      "source": {
+        "code": "financial",
+        "name": "파이낸셜뉴스",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/fnnews-favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/fnnews-full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/fnnews-full_dark.png"
+      },
+      "relatedNews": [
+        {
+          "id": "yna_AKR20260526034851008",
+          "source": {
+            "code": "yna",
+            "name": "연합뉴스",
+            "faviconUrl": "https://static.toss.im/png-icons/timeline/vna-fill.png",
+            "logoImageUrl": "https://static.toss.im/png-icons/timeline/vna-light.png",
+            "logoImageUrlDark": "https://static.toss.im/png-icons/timeline/vna-dark.png"
+          },
+          "title": "[특징주] 사상 첫 '200만닉스'…삼성전자도 장중 '30만전자'(종합)",
+          "createdAt": "2026-05-26T15:46:11"
+        },
+        {
+          "id": "yna_AKR20260526034800008",
+          "source": {
+            "code": "yna",
+            "name": "연합뉴스",
+            "faviconUrl": "https://static.toss.im/png-icons/timeline/vna-fill.png",
+            "logoImageUrl": "https://static.toss.im/png-icons/timeline/vna-light.png",
+            "logoImageUrlDark": "https://static.toss.im/png-icons/timeline/vna-dark.png"
+          },
+          "title": "[특징주] SK하이닉스 사상 첫 '200만 닉스'…삼성전자도 1.9%↑",
+          "createdAt": "2026-05-26T09:23:26"
+        },
+        {
+          "id": "hankyung_X20260526.091804",
+          "source": {
+            "code": "hankyung",
+            "name": "한국경제",
+            "faviconUrl": "https://static.toss.im/illusts/hankyung_favicon.png",
+            "logoImageUrl": "https://static.toss.im/illusts/hankyung_full.png",
+            "logoImageUrlDark": "https://static.toss.im/illusts/hankyung_full.png"
+          },
+          "title": "SK하이닉스, 사상 첫 '200만닉스'…삼성전자도 '최고가'",
+          "createdAt": "2026-05-26T09:18:04"
+        },
+        {
+          "id": "asiae_2026052609030677246",
+          "source": {
+            "code": "asiae",
+            "name": "아시아경제",
+            "faviconUrl": "https://static.toss.im/illusts/asia_favicon.png",
+            "logoImageUrl": "https://static.toss.im/illusts/asia_full.png",
+            "logoImageUrlDark": "https://static.toss.im/illusts/asia_full_dark.png"
+          },
+          "title": "[속보]코스피, 8000 돌파…30만전자·200만닉스 등극",
+          "createdAt": "2026-05-26T09:03:06"
+        }
+      ],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:23:53",
+      "updatedAt": "2026-05-26T18:23:53"
+    },
+    {
+      "id": "financial_202605261822140976",
+      "title": "[사설] 합의안 조속히 확정하고 '뉴삼성' 재건에 힘 모으길",
+      "summary": "노노갈등 장기화 기업 경쟁력 부담\n단합하여 초격차 기술 개발 매진을\n\n삼성전자 임금협상안이 최종 합의를 목전에 뒀다. 삼성전자 노사가 마련한 2026년 임금협상 잠정합의안에 대한 ...",
+      "contentText": "노노갈등 장기화 기업 경쟁력 부담\n단합하여 초격차 기술 개발 매진을\n\n삼성전자 임금협상안이 최종 합의를 목전에 뒀다. 삼성전자 노사가 마련한 2026년 임금협상 잠정합의안에 대한 ...",
+      "imageUrls": [
+        "https://image.fnnews.com/resource/media/image/2026/05/26/202605261822585633_l.jpg"
+      ],
+      "source": {
+        "code": "financial",
+        "name": "파이낸셜뉴스",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/fnnews-favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/fnnews-full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/fnnews-full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:23:01",
+      "updatedAt": "2026-05-26T21:28:22"
+    },
+    {
+      "id": "financial_202605261818440121",
+      "title": "삼성전자, 외부 AI 도입… DX부문 경쟁력 강화",
+      "summary": "null\n\n삼성전자가 오는 6월부터 디바이스경험(DX)부문 임직원을 대상으로 외부 생성형 인공지능(AI) 서비스를 공식 도입한다. 자체 생성형 AI 모델인 '삼성 가우스' 중심 체...",
+      "contentText": "null\n\n삼성전자가 오는 6월부터 디바이스경험(DX)부문 임직원을 대상으로 외부 생성형 인공지능(AI) 서비스를 공식 도입한다. 자체 생성형 AI 모델인 '삼성 가우스' 중심 체...",
+      "imageUrls": [
+        "https://static.tossinvest.com/assets/image/detail-news-default/image21.png"
+      ],
+      "source": {
+        "code": "financial",
+        "name": "파이낸셜뉴스",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/fnnews-favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/fnnews-full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/fnnews-full_dark.png"
+      },
+      "relatedNews": [
+        {
+          "id": "asiae_2026052614104417147",
+          "source": {
+            "code": "asiae",
+            "name": "아시아경제",
+            "faviconUrl": "https://static.toss.im/illusts/asia_favicon.png",
+            "logoImageUrl": "https://static.toss.im/illusts/asia_full.png",
+            "logoImageUrlDark": "https://static.toss.im/illusts/asia_full_dark.png"
+          },
+          "title": "삼성전자, 사내에 외부 생성형 AI 전격 도입…\"글로벌 경쟁력 강화\"",
+          "createdAt": "2026-05-26T14:10:44"
+        }
+      ],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:19:30",
+      "updatedAt": "2026-05-26T18:19:30"
+    },
+    {
+      "id": "financial_202605261818179981",
+      "title": "'억대 성과급' 사정권… '내부 봉합'은 숙제",
+      "summary": "삼전 잠정합의안 투표 27일 종료\n투표율 90% 돌파…가결 가능성\nDX노조, 투표 중지 가처분 신청\n성과급 차이 勞勞갈등 막판 변수\n\n삼성전자 임금협상 잠정합의안에 대한 투표 종료...",
+      "contentText": "삼전 잠정합의안 투표 27일 종료\n투표율 90% 돌파…가결 가능성\nDX노조, 투표 중지 가처분 신청\n성과급 차이 勞勞갈등 막판 변수\n\n삼성전자 임금협상 잠정합의안에 대한 투표 종료...",
+      "imageUrls": [
+        "https://image.fnnews.com/resource/media/image/2026/05/26/202605261819016217_l.jpg",
+        "https://image.fnnews.com/resource/media/image/2026/05/26/202605261819052156_l.jpg"
+      ],
+      "source": {
+        "code": "financial",
+        "name": "파이낸셜뉴스",
+        "faviconUrl": "https://static.tossinvest.com/assets/image/press/fnnews-favicon.png",
+        "logoImageUrl": "https://static.tossinvest.com/assets/image/press/fnnews-full.png",
+        "logoImageUrlDark": "https://static.tossinvest.com/assets/image/press/fnnews-full_dark.png"
+      },
+      "relatedNews": [],
+      "stockCodes": null,
+      "stockInfo": null,
+      "createdAt": "2026-05-26T18:19:10",
+      "updatedAt": "2026-05-26T19:37:31"
+    }
+  ],
+  "lastPage": false
+}

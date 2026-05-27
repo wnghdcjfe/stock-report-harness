@@ -1,0 +1,20 @@
+Create a premium hero image for a Korean stock market economic report.
+
+Topic: 엔비디아 최근 4개월 동향
+Subtitle/context: 중국 H200 변수, Vera Rubin 로드맵, AWS 대형 계약, 그리고 다시 커진 실적
+Report summary cues: 엔비디아 최근 4개월 동향 2026년 1월 26일부터 2026년 5월 26일까지 엔비디아는 중국 규제 변수에 흔들리면서도, 차세대 AI 인프라 로드맵과 대형 고객 계약, 그리고 다시 커진 실적으로 시장의 중심을 유지했다. 개요 최근 4개월 엔비디아를 이해하는 가장 좋은 방법은 이 회사를 단순한 반도체 기업이 아니라 AI 인프라의 공급 기준을 만드는 회사 로 보는 것이다. 1월에는 중국향 H200 출하가 막힐 수 있다는 뉴스가 나왔고, 3월에는 Vera Rubin과 AWS 계약이 이어졌으며, 5월에는 FY27 1분기 실적이 다시 기록을 갈아치웠다. 이 4개월을 한 문장으로 줄이면 이렇다. 엔비디아는 규제 리스크를 안고 있었지만, 시장은 여전히 블랙웰 다음 세대와 AI 데이터센터 확장 속도를 더 크게 보고 있었다. 배경 이번 4개월 동안 엔비디아를 해석할 때 꼭 봐야 할 배경은 세 가지다. 첫째, 중국 H200 변수 다. 2026년 1월 중순 로이터는 중국 세관이 H200 반입을 허용하
+
+The visual must reflect this report topic specifically.
+Variant C: emphasize event-driven market momentum with premium semiconductor storytelling, while preserving minimal composition.
+
+Minimal futuristic 3D infographic, ultra clean white studio background, premium semiconductor industry visualization, single floating AI memory chip as the central focus, HBM4 inspired chip design, glossy white circular pedestal, minimal RAM modules behind the chip, soft blue and green accent colors only
+
+Simple upward growth graph floating on one side, abstract cloud server icon on the other side, symbolic investor flow visualization, all elements separated with large clean spacing
+
+Apple keynote presentation aesthetic, Toss-inspired minimal UI, enterprise presentation style, smooth rounded geometry, subtle glassmorphism, premium material rendering, cinematic soft lighting, soft ambient shadows, ultra polished surfaces
+
+Isometric composition, centered camera angle, balanced visual hierarchy, minimalist storytelling, no clutter, no complex dashboard, no unnecessary icons
+
+No text, no typography, no labels, no paragraphs, no UI screenshots, no watermark, no busy background
+
+High-end 3D render, octane render, blender style, unreal engine quality, ultra detailed materials, 8k

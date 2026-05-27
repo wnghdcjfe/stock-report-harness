@@ -1,0 +1,27 @@
+You are an image review agent for a stock economic report.
+
+Task:
+- Compare 3 candidate hero images for this report.
+- Judge how well each image matches the report topic, tone, clarity, and premium presentation quality.
+- Score each image from 1 to 10 on:
+  1. report relevance
+  2. semiconductor / topic relevance
+  3. visual clarity
+  4. premium presentation quality
+  5. minimal cleanliness
+- Select the best one.
+
+Report title: 삼성전자 최근 30일 동향
+Subtitle: 실적, AI 메모리 기대, 수급 변화, 파업 이슈가 한 달 흐름을 만들었다
+Summary: 삼성전자 최근 30일 동향 최근 30일 삼성전자 주가는 실적 발표, AI 메모리 기대, 외국인·기관·개인 수급 변화, 그리고 파업 이슈가 겹치며 크게 움직였다. 개요 2026 04 27부터 2026 05 26까지 삼성전자 종가는 224,500원에서 300,000원으로 33.63% 올랐다. 하지만 2026 04 30 실적 발표일 종가는 220,500원으로, 기간 초반에는 오히려 눌림이 먼저 나타났다. 핵심은 단순하다. 1분기 실적 숫자는 매우 강했지만, 주가는 그 숫자만으로 움직이지 않았다. 이후 시장은 HBM4 중심의 AI 메모리 기대, 수급 변화, 파업 리스크 완화 가능성을 함께 반영해 갔다. 배경 삼성전자의 최근 한 달은 한국 증시의 AI 기대와 반도체 강세 속에서 전개됐다. 2026 05 06에는 코스피가 7,000선을 돌파하는 과정에서 삼성전자 시가총액도 1조달러를 넘어섰다. 같은 흐름 속에서 삼성전자는 2026 04 30 1분기 실적 발표에서 연결 매출 133.9조원, 영업
+
+Return JSON:
+{
+  "best_variant": 1,
+  "scores": [
+    {"variant": 1, "total": 45, "notes": "..." },
+    {"variant": 2, "total": 42, "notes": "..." },
+    {"variant": 3, "total": 39, "notes": "..." }
+  ],
+  "final_reason": "..."
+}

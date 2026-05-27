@@ -1,0 +1,26 @@
+{
+  "slug": "nvidia-recent-6m-2026-05",
+  "title": "엔비디아 최근 6개월 동향",
+  "subtitle": "블랙웰 수요, 루빈 로드맵, 중국 변수, 그리고 너무 높아진 기대가 함께 만든 6개월",
+  "review_prompt_file": "nvidia-recent-6m-2026-05-image-review.txt",
+  "variants": [
+    {
+      "variant": 1,
+      "prompt_file": "nvidia-recent-6m-2026-05-hero-v1.prompt.txt",
+      "image_file": "nvidia-recent-6m-2026-05-hero-v1.png",
+      "score_file": "nvidia-recent-6m-2026-05-hero-v1.score.json"
+    },
+    {
+      "variant": 2,
+      "prompt_file": "nvidia-recent-6m-2026-05-hero-v2.prompt.txt",
+      "image_file": "nvidia-recent-6m-2026-05-hero-v2.png",
+      "score_file": "nvidia-recent-6m-2026-05-hero-v2.score.json"
+    },
+    {
+      "variant": 3,
+      "prompt_file": "nvidia-recent-6m-2026-05-hero-v3.prompt.txt",
+      "image_file": "nvidia-recent-6m-2026-05-hero-v3.png",
+      "score_file": "nvidia-recent-6m-2026-05-hero-v3.score.json"
+    }
+  ]
+}

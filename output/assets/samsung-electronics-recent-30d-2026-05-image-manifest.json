@@ -1,0 +1,26 @@
+{
+  "slug": "samsung-electronics-recent-30d-2026-05",
+  "title": "삼성전자 최근 30일 동향",
+  "subtitle": "실적, AI 메모리 기대, 수급 변화, 파업 이슈가 한 달 흐름을 만들었다",
+  "review_prompt_file": "samsung-electronics-recent-30d-2026-05-image-review.txt",
+  "variants": [
+    {
+      "variant": 1,
+      "prompt_file": "samsung-electronics-recent-30d-2026-05-hero-v1.prompt.txt",
+      "image_file": "samsung-electronics-recent-30d-2026-05-hero-v1.png",
+      "score_file": "samsung-electronics-recent-30d-2026-05-hero-v1.score.json"
+    },
+    {
+      "variant": 2,
+      "prompt_file": "samsung-electronics-recent-30d-2026-05-hero-v2.prompt.txt",
+      "image_file": "samsung-electronics-recent-30d-2026-05-hero-v2.png",
+      "score_file": "samsung-electronics-recent-30d-2026-05-hero-v2.score.json"
+    },
+    {
+      "variant": 3,
+      "prompt_file": "samsung-electronics-recent-30d-2026-05-hero-v3.prompt.txt",
+      "image_file": "samsung-electronics-recent-30d-2026-05-hero-v3.png",
+      "score_file": "samsung-electronics-recent-30d-2026-05-hero-v3.score.json"
+    }
+  ]
+}

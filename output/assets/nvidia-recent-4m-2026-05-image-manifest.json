@@ -1,0 +1,26 @@
+{
+  "slug": "nvidia-recent-4m-2026-05",
+  "title": "엔비디아 최근 4개월 동향",
+  "subtitle": "중국 H200 변수, Vera Rubin 로드맵, AWS 대형 계약, 그리고 다시 커진 실적",
+  "review_prompt_file": "nvidia-recent-4m-2026-05-image-review.txt",
+  "variants": [
+    {
+      "variant": 1,
+      "prompt_file": "nvidia-recent-4m-2026-05-hero-v1.prompt.txt",
+      "image_file": "nvidia-recent-4m-2026-05-hero-v1.png",
+      "score_file": "nvidia-recent-4m-2026-05-hero-v1.score.json"
+    },
+    {
+      "variant": 2,
+      "prompt_file": "nvidia-recent-4m-2026-05-hero-v2.prompt.txt",
+      "image_file": "nvidia-recent-4m-2026-05-hero-v2.png",
+      "score_file": "nvidia-recent-4m-2026-05-hero-v2.score.json"
+    },
+    {
+      "variant": 3,
+      "prompt_file": "nvidia-recent-4m-2026-05-hero-v3.prompt.txt",
+      "image_file": "nvidia-recent-4m-2026-05-hero-v3.png",
+      "score_file": "nvidia-recent-4m-2026-05-hero-v3.score.json"
+    }
+  ]
+}
