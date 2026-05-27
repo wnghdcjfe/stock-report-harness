@@ -11,7 +11,7 @@
 ## 기본 워크플로
 
 1. build 직전에 리포트 전체를 읽고 프롬프트 3종 생성
-2. 에이전트가 `image_gen`으로 후보 3장 생성
+2. `python3 scripts/run_stock_image_codex.py <slug>`가 Codex CLI를 열고 `imagegen` skill / built-in `image_gen`으로 후보 3장 생성
 3. 후보별 점수 JSON 생성
 4. 최고점 1장 선택
 5. 선택된 1장만 최종 HTML hero 이미지로 렌더
@@ -31,12 +31,50 @@
 - `output/assets/<slug>-image-manifest.json`
 - `output/assets/<slug>-selected-image.json`
 
+`image-manifest.json`은 최소 아래 provenance 필드를 포함한다.
+
+```json
+{
+  "slug": "<slug>",
+  "status": "complete",
+  "generation_method": "codex-cli-imagegen",
+  "generated_with": "Codex CLI $imagegen / built-in image_gen"
+}
+```
+
+`selected-image.json`은 최소 아래 필드를 포함한다. 이미지 경로는 `assets/<file>.png` 또는
+`output/assets/<file>.png`처럼 검증기가 실제 파일로 해석할 수 있어야 한다.
+
+```json
+{
+  "slug": "<slug>",
+  "selected_candidate": 2,
+  "image_path": "assets/<slug>-hero-v2.png",
+  "reason": "리포트 결론과 가장 잘 맞음",
+  "generated_with": "Codex CLI $imagegen / built-in image_gen"
+}
+```
+
 ## 필수 규칙
 
-- 이미지 생성은 에이전트가 직접 `image_gen`으로 수행한다.
-- 로컬 스크립트는 프롬프트 생성, 파일 정리, 선택만 담당한다.
+- 이미지 생성은 Codex CLI 세션이 `$imagegen` skill / built-in `image_gen`으로 수행한다.
+- 로컬 스크립트는 프롬프트 준비, Codex CLI 호출, 파일 정리, 계약 검증만 담당한다.
+- Pillow/SVG/빈 이미지 같은 절차적 placeholder를 실제 hero 이미지로 대체하지 않는다.
+- `status: complete`라도 `generation_method`, `generated_with`, 선택 이미지 메타데이터에 procedural/Pillow/SVG/placeholder 흔적이 있으면 build 검증 실패로 본다.
 - **최종 리포트에는 선택된 이미지 1장이 반드시 있어야 한다.**
 - 선택 이미지가 없으면 build를 성공 처리하면 안 된다.
+
+## 실행 명령
+
+```bash
+python3 scripts/run_stock_image_codex.py <slug>
+```
+
+디버깅 시에는 실제 생성 없이 Codex CLI 프롬프트만 확인할 수 있다.
+
+```bash
+python3 scripts/run_stock_image_codex.py <slug> --dry-run
+```
 
 ## 프롬프트 작성 규칙
 

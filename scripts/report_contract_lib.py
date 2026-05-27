@@ -29,7 +29,35 @@ H2_RE = re.compile(r"^##\s+(?P<title>.+?)\s*$", re.MULTILINE)
 PRICE_CHART_FENCE_RE = re.compile(r"```price-chart\s*\n(?P<body>.*?)\n```", re.DOTALL)
 SOURCE_MARKER_RE = re.compile(r"\[(?:S|N|P)\d+\]")
 
+REQUIRED_PLAN_FRONTMATTER = [
+    "slug",
+    "topic",
+    "request",
+    "output_type",
+    "audience",
+    "ticker",
+    "period_start",
+    "period_end",
+    "chart_required",
+    "price_data_source",
+    "price_data_interval",
+    "created_at",
+    "assumptions",
+]
 REQUIRED_DRAFT_SECTIONS = ["개요", "배경", "메커니즘", "영향과 적용", "References"]
+CANONICAL_SELECTED_IMAGE_PATH_KEYS = ("image_path", "selected_image")
+SELECTED_IMAGE_PATH_KEYS = (
+    "image_path",
+    "selected_image",
+    "selectedImage",
+    "image",
+    "path",
+    "file",
+    # Legacy keys kept readable so old artifacts produce useful diagnostics.
+    "selected_path",
+    "selected_file",
+)
+PROHIBITED_IMAGE_GENERATION_TERMS = ("pillow", "procedural", "programmatic", "svg", "placeholder", "blank")
 
 
 @dataclass(frozen=True)
@@ -40,6 +68,7 @@ class ArtifactPaths:
     draft: Path
     review: Path
     html: Path
+    image_manifest_json: Path
     selected_image_json: Path
     price_chart_json: Path
 
@@ -52,6 +81,7 @@ def artifact_paths(slug: str) -> ArtifactPaths:
         draft=DRAFT_DIR / f"{slug}.md",
         review=REVIEW_DIR / f"{slug}.md",
         html=OUTPUT_DIR / f"{slug}.html",
+        image_manifest_json=ASSET_DIR / f"{slug}-image-manifest.json",
         selected_image_json=ASSET_DIR / f"{slug}-selected-image.json",
         price_chart_json=ASSET_DIR / f"{slug}-price-chart-v1.json",
     )
@@ -184,6 +214,29 @@ def load_json(path: Path) -> Any:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def iter_json_strings(value: Any, prefix: str = "$") -> list[tuple[str, str]]:
+    strings: list[tuple[str, str]] = []
+    if isinstance(value, str):
+        strings.append((prefix, value))
+    elif isinstance(value, dict):
+        for key, child in value.items():
+            strings.extend(iter_json_strings(child, f"{prefix}.{key}"))
+    elif isinstance(value, list):
+        for index, child in enumerate(value):
+            strings.extend(iter_json_strings(child, f"{prefix}[{index}]"))
+    return strings
+
+
+def prohibited_image_generation_hits(value: Any) -> list[str]:
+    hits: list[str] = []
+    for path, text in iter_json_strings(value):
+        lowered = text.lower()
+        for term in PROHIBITED_IMAGE_GENERATION_TERMS:
+            if term in lowered:
+                hits.append(f"{path} contains {term!r}")
+    return hits
+
+
 def selected_image_path(slug: str) -> tuple[Path | None, dict[str, Any] | None]:
     selected_json = artifact_paths(slug).selected_image_json
     if not selected_json.is_file():
@@ -191,14 +244,7 @@ def selected_image_path(slug: str) -> tuple[Path | None, dict[str, Any] | None]:
     payload = load_json(selected_json)
     if not isinstance(payload, dict):
         return None, payload
-    value = (
-        payload.get("selected_image")
-        or payload.get("selectedImage")
-        or payload.get("image")
-        or payload.get("image_path")
-        or payload.get("path")
-        or payload.get("file")
-    )
+    value = next((payload.get(key) for key in SELECTED_IMAGE_PATH_KEYS if payload.get(key)), None)
     if not isinstance(value, str) or not value.strip():
         return None, payload
 

@@ -27,7 +27,7 @@ Create `plan/<slug>.md`, the single source of truth for all downstream stock-rep
    - Hero 이미지 방향
    - 리뷰 기준
    - 완료/차단 조건
-5. Do not proceed to research/draft/build in this skill unless the user explicitly asked for multiple stages; if they did, complete the plan first and then invoke the next `/stock-*` stage.
+5. Do not proceed to research/draft/build in this skill unless the user explicitly asked for multiple stages; `stock-goal` counts as that explicit multi-stage request. If they did, complete the plan first and then invoke the next `/stock-*` stage.
 
 ## Constraints
 
@@ -40,3 +40,5 @@ Create `plan/<slug>.md`, the single source of truth for all downstream stock-rep
 
 Report the created plan path, resolved ticker, period, slug, and next command:
 `/stock-research <slug>`.
+
+If invoked by `stock-goal`, this report is only an internal checkpoint. Do not stop or wait for the user; continue immediately to `/stock-research <slug>`.

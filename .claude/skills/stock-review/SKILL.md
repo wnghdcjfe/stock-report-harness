@@ -16,7 +16,7 @@ Create `reviews/<slug>.md` as the review gate before build.
 
 1. Run four review perspectives, preferably in separate Task/subagent sessions:
    - `fact-checker`: ticker, dates, numbers, sources, price data, news links.
-   - `report-designer`: flow, chart/hero fit, readability, section completeness.
+   - `report-designer`: flow, chart/hero fit, readability, section completeness, and `design/toss_design.md` compliance. If `output/<slug>.html` exists, inspect the built HTML; if it does not exist yet, record that final HTML visual verification is deferred to the stock-build validator.
    - `content-editor`: Korean style, clarity, duplication, no investment advice.
    - `codex-independent` or equivalent: blind-spot review of plan/research/draft/build requirements.
 2. Verify invariants:
@@ -25,6 +25,7 @@ Create `reviews/<slug>.md` as the review gate before build.
    - Draft uses `price-chart` block instead of embedded price arrays.
    - References exist and factual claims have source markers.
    - Selected hero image exists.
+   - If HTML exists, it follows the Toss mobile shell/design requirements (`main.shell` 560px, sticky app bar, Toss Blue, 8px dividers, hero image card, Toss chart renderer, footer disclaimer).
    - No prohibited investment-advice wording.
 3. Write `reviews/<slug>.md` frontmatter:
    `slug`, `status`, `created_at` or `reviewed_at`, `plan_source`, `research_source`, `draft_source`, `review_type: separate-session-4way`, `review_execution: separate_subagent_sessions`, `reviewers`.
@@ -44,3 +45,5 @@ If `needs_fix`, list exact upstream stage and file to change. Do not build until
 ## Completion Report
 
 Report review status, major issues if any, and next command: `/stock-build <slug>` only when status is `pass`.
+
+If invoked by `stock-goal` and status is `pass`, this report is only an internal checkpoint. Do not stop or wait for the user; continue immediately to `/stock-build <slug>`.

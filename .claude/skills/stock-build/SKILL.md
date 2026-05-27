@@ -17,6 +17,7 @@ Required files must exist:
 - `research/<slug>.md`
 - `drafts/<slug>.md`
 - `reviews/<slug>.md` with `status: pass`
+- `output/assets/<slug>-image-manifest.json` with `status: complete`, `generation_method: codex-cli-imagegen`, and `generated_with`
 - `output/assets/<slug>-selected-image.json`
 - selected hero PNG referenced by selected-image JSON
 
@@ -31,12 +32,13 @@ If any are missing or review is not pass, stop and route to the required `/stock
    `python3 scripts/build_report.py <slug>`
    - The builder validates frontmatter consistency across plan, research, draft, and review.
    - The builder generates/refreshes `output/assets/<slug>-price-chart-v1.json` from actual yfinance daily data for the full requested period.
-   - The builder renders Markdown/frontmatter into `output/<slug>.html` and removes inline source markers.
+   - The builder renders Markdown/frontmatter into `output/<slug>.html` using the Toss design system in `design/toss_design.md` (see `sample/skhynix.html` for a reference composition) and removes inline source markers.
 3. Confirm the strict post-build gate passed or run it explicitly:
    `python3 scripts/validate_report_contract.py <slug> --require-html --require-price-chart`
 4. The generated HTML must:
-   - include selected hero image once near the top
-   - render `price-chart` blocks as accessible Chart.js-compatible charts
+   - use the Toss-style mobile shell: `max-width: 560px`, sticky app bar, ticker hero card, Pretendard, Toss Blue accent, gray 8px section dividers, and Korean stock color convention (up=red, down=blue)
+   - include selected hero image once near the top, styled as a quiet Toss card to satisfy the report asset contract
+   - render `price-chart` blocks as accessible Chart.js-compatible charts with Toss line styling and right-side Y axis
    - when the draft/research contains sharp rise/fall event metadata, emphasize those dates in the price chart and render short event cards near the chart
    - render fenced `chart` JSON as charts when present
    - remove inline `[S1]`, `[N1]` markers from final body text
@@ -58,6 +60,7 @@ If any are missing or review is not pass, stop and route to the required `/stock
 
 - Do not build without pass review.
 - Do not build without selected hero image.
+- Do not build with procedural/Pillow/SVG/placeholder hero provenance.
 - Do not use fake prices or placeholder charts.
 - Do not add fresh market claims during build; fix research/draft first.
 

@@ -9,12 +9,12 @@
     "oldest": "2026-04-14"
   },
   "category_counts": {
-    "??/??/??/??": 53,
-    "??/??/????/CapEx": 21,
-    "SpaceX/???/????": 18,
-    "????/FSD/????": 4,
-    "??/?????": 3,
-    "???/??/????": 1
+    "주가/실적/전망/밸류에이션": 53,
+    "매출/마진/현금흐름/CapEx": 21,
+    "SpaceX/머스크/지배구조": 18,
+    "로보택시/FSD/자율주행": 4,
+    "회계/감사리스크": 3,
+    "경쟁/전기차/시장점유율": 1
   },
   "source_counts_top20": {
     "Yahoo Finance": 39,
@@ -50,8 +50,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBTQlFZbjZWbW50VHAyckpOOE1UdDNFNWZqRm9ZbV9xcGNsUVd0S01jRjBPaWl5cGV1VEppN05JNVhWS2c2TEtCVWVOVUREaml4cVhadUxUdFhuZk15RG8zSXQ2VU1rZzFJbFFTV244WXhlSWljZ3dQTDZHRkpNQmM?oc=5",
       "guid": "CBMif0FVX3lxTFBTQlFZbjZWbW50VHAyckpOOE1UdDNFNWZqRm9ZbV9xcGNsUVd0S01jRjBPaWl5cGV1VEppN05JNVhWS2c2TEtCVWVOVUREaml4cVhadUxUdFhuZk15RG8zSXQ2VU1rZzFJbFFTV244WXhlSWljZ3dQTDZHRkpNQmM",
       "query": "Tesla stock",
-      "core_issue": "SpaceX/???/????",
-      "price_flow_risk_reading": "??? ????SpaceX ???? TSLA ?? ????? ?? ??? ??? ?? ? ??."
+      "core_issue": "SpaceX/머스크/지배구조",
+      "price_flow_risk_reading": "머스크의 SpaceX 관련 이슈는 TSLA 투자심리와 지배구조 우려를 동시에 흔들 수 있음."
     },
     {
       "rank": 2,
@@ -64,8 +64,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE40cExtblFRQndlbVpQTmNoTXJFLXNhTXZJS0RwT205QWVoTmtMZjFXUU5mN1c3VVBFa1A0LTBuOXR6OXFoODJkV2xGbmtTSmxmT0VsYjk3dllhWkNxSFcwU1BPWGNqTU1JaUg5VEU0NDV3TExjeWhFdDQyU3p4MW8?oc=5",
       "guid": "CBMif0FVX3lxTE40cExtblFRQndlbVpQTmNoTXJFLXNhTXZJS0RwT205QWVoTmtMZjFXUU5mN1c3VVBFa1A0LTBuOXR6OXFoODJkV2xGbmtTSmxmT0VsYjk3dllhWkNxSFcwU1BPWGNqTU1JaUg5VEU0NDV3TExjeWhFdDQyU3p4MW8",
       "query": "Tesla stock",
-      "core_issue": "SpaceX/???/????",
-      "price_flow_risk_reading": "??? ????SpaceX ???? TSLA ?? ????? ?? ??? ??? ?? ? ??."
+      "core_issue": "SpaceX/머스크/지배구조",
+      "price_flow_risk_reading": "머스크의 SpaceX 관련 이슈는 TSLA 투자심리와 지배구조 우려를 동시에 흔들 수 있음."
     },
     {
       "rank": 3,
@@ -78,8 +78,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSGhJbEFxNi1jcVNfN2xiU0pHNGh1Nnh1c3BzOHpXdDM5MnFQRGNXZzZuQkJMeDFkUjBXa1d6RjFKOWpHMmNDMFFXR2gyd21jd1R1MnQ4VlVCVDFWd3hOa1Y5U3ludUZyWDNtSnNrQ2ZqY3JVLVUtdG83c3NFdnd6S0xuVlNRejNQck41eURaWG1uRVZTVV8zcw?oc=5",
       "guid": "CBMimAFBVV95cUxOSGhJbEFxNi1jcVNfN2xiU0pHNGh1Nnh1c3BzOHpXdDM5MnFQRGNXZzZuQkJMeDFkUjBXa1d6RjFKOWpHMmNDMFFXR2gyd21jd1R1MnQ4VlVCVDFWd3hOa1Y5U3ludUZyWDNtSnNrQ2ZqY3JVLVUtdG83c3NFdnd6S0xuVlNRejNQck41eURaWG1uRVZTVV8zcw",
       "query": "Tesla stock",
-      "core_issue": "SpaceX/???/????",
-      "price_flow_risk_reading": "??? ????SpaceX ???? TSLA ?? ????? ?? ??? ??? ?? ? ??."
+      "core_issue": "SpaceX/머스크/지배구조",
+      "price_flow_risk_reading": "머스크의 SpaceX 관련 이슈는 TSLA 투자심리와 지배구조 우려를 동시에 흔들 수 있음."
     },
     {
       "rank": 4,
@@ -92,8 +92,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObzlLbW1fVzlpLUZ4Qmk1dHNfd2d1aGVvbjEtOVVhcWdkYm9CZHRyZVJnTUhMNVJWZGJNNUV4YkpXM1NIdTdMQ1lXdTNvd1B2RE9pdGF0OXJCU3dOczcxbkhRT0JSVkFxd0RYMEstaDY2ZjhUcEpIQjFGS3pxZ2pJZ2tRX1RubVltMFp2WmdTYlAzaWpDN0M4ZFlGRGtJbXQ5V0pqX1RIcUpTeFhyNTBWcA?oc=5",
       "guid": "CBMisAFBVV95cUxObzlLbW1fVzlpLUZ4Qmk1dHNfd2d1aGVvbjEtOVVhcWdkYm9CZHRyZVJnTUhMNVJWZGJNNUV4YkpXM1NIdTdMQ1lXdTNvd1B2RE9pdGF0OXJCU3dOczcxbkhRT0JSVkFxd0RYMEstaDY2ZjhUcEpIQjFGS3pxZ2pJZ2tRX1RubVltMFp2WmdTYlAzaWpDN0M4ZFlGRGtJbXQ5V0pqX1RIcUpTeFhyNTBWcA",
       "query": "Tesla stock",
-      "core_issue": "??/?????",
-      "price_flow_risk_reading": "????? ??? ?? ??? ???? ?? ??? ????? ??."
+      "core_issue": "회계/감사리스크",
+      "price_flow_risk_reading": "감사·회계 관련 논점은 성장 서사의 신뢰도와 할인율에 부담이 될 수 있음."
     },
     {
       "rank": 5,
@@ -106,8 +106,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPenlOaTM5Ul9ISmtNMTQyTktSSHNyUE1hX255bzBfWGN2RXJpaTIzb1c0cXdPUE1JWmxxUHhLeVY0YVp0dTl1cndPVHRrTFl4WXJWTDRhTjBJaHJPbVNTWHRoUzZxU3JTT2E2M0tzOGhIem9FcTUyWVFNcnl4Y2E0NmZ5NHU4WldVcjcwTTlMSmlKVTZUVWw2bXZsSnhBb0YwZ3lnd1hDZ25BTWgzYzNXc0NtSG9JMHNObDJlSGlNR0VDZEo1Q0xQdHpCN196NFZBREI2STE0enQyTm5VMWZXbA?oc=5",
       "guid": "CBMi4AFBVV95cUxPenlOaTM5Ul9ISmtNMTQyTktSSHNyUE1hX255bzBfWGN2RXJpaTIzb1c0cXdPUE1JWmxxUHhLeVY0YVp0dTl1cndPVHRrTFl4WXJWTDRhTjBJaHJPbVNTWHRoUzZxU3JTT2E2M0tzOGhIem9FcTUyWVFNcnl4Y2E0NmZ5NHU4WldVcjcwTTlMSmlKVTZUVWw2bXZsSnhBb0YwZ3lnd1hDZ25BTWgzYzNXc0NtSG9JMHNObDJlSGlNR0VDZEo1Q0xQdHpCN196NFZBREI2STE0enQyTm5VMWZXbA",
       "query": "Tesla stock",
-      "core_issue": "????/FSD/????",
-      "price_flow_risk_reading": "??? ?? ??? ?? ??? ???? ??? ? ??? ???? ?? ??."
+      "core_issue": "로보택시/FSD/자율주행",
+      "price_flow_risk_reading": "자율주행 성과 기대는 장기 성장 서사를 강화하지만 실행 지연 시 변동성 요인이 될 수 있음."
     },
     {
       "rank": 6,
@@ -120,8 +120,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ2cwQVF1MGUtNFlRSlhCMklQT0ZIUmRYb253Wm1sMEFHQ1FydHJDbGpuNGZFZGNSeXJGeUM1cktaaWR6cjJBLVp3blE2YnBfb2Jia1FWdmNNNUtVMWFZaW1zVXM2ZWdweng5bnE1TEJsRFdKMlQ0UmE0bXBOUW44V3RMUG9wU05hUUVEanFuQkhFYmtteURNSA?oc=5",
       "guid": "CBMimAFBVV95cUxPQ2cwQVF1MGUtNFlRSlhCMklQT0ZIUmRYb253Wm1sMEFHQ1FydHJDbGpuNGZFZGNSeXJGeUM1cktaaWR6cjJBLVp3blE2YnBfb2Jia1FWdmNNNUtVMWFZaW1zVXM2ZWdweng5bnE1TEJsRFdKMlQ0UmE0bXBOUW44V3RMUG9wU05hUUVEanFuQkhFYmtteURNSA",
       "query": "Tesla stock",
-      "core_issue": "????/FSD/????",
-      "price_flow_risk_reading": "??? ?? ??? ?? ??? ???? ??? ? ??? ???? ?? ??."
+      "core_issue": "로보택시/FSD/자율주행",
+      "price_flow_risk_reading": "자율주행 성과 기대는 장기 성장 서사를 강화하지만 실행 지연 시 변동성 요인이 될 수 있음."
     },
     {
       "rank": 7,
@@ -134,8 +134,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObjZJZ1JZTlhBWUZfU2h1YTExdzFiVUlCUjMxcURVMWxqbWFDMDA5ajN2azJyUHMwSGd1Q3BYZHNhbGZHYUt1Q2lheE9lOEFhcWVRaEFWM2JkRUxiZ2NVTjNNTXdIbTR5X3NOTHZ3Y1ZxV1lGdnRtSHBtUk5yaXdYb3VPTmNHb2tuLXJ2bzJzdWZNcXo2cXpKcGdlRll0Vjg?oc=5",
       "guid": "CBMinwFBVV95cUxObjZJZ1JZTlhBWUZfU2h1YTExdzFiVUlCUjMxcURVMWxqbWFDMDA5ajN2azJyUHMwSGd1Q3BYZHNhbGZHYUt1Q2lheE9lOEFhcWVRaEFWM2JkRUxiZ2NVTjNNTXdIbTR5X3NOTHZ3Y1ZxV1lGdnRtSHBtUk5yaXdYb3VPTmNHb2tuLXJ2bzJzdWZNcXo2cXpKcGdlRll0Vjg",
       "query": "Tesla stock",
-      "core_issue": "SpaceX/???/????",
-      "price_flow_risk_reading": "??? ????SpaceX ???? TSLA ?? ????? ?? ??? ??? ?? ? ??."
+      "core_issue": "SpaceX/머스크/지배구조",
+      "price_flow_risk_reading": "머스크의 SpaceX 관련 이슈는 TSLA 투자심리와 지배구조 우려를 동시에 흔들 수 있음."
     },
     {
       "rank": 8,
@@ -148,8 +148,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdFo2ZEZkWE1MY3JWaVU3NFNJblNNTjI3WnhmXzlHOVdId2RkZDVyWXo3RF9IWVFEa3VOb1NwRWN5bHlrVVBSUXp2MVZDd2EtMUljX1FDRXhLU1IxdFk5ZVZMVEtKcEV3cmZ0RXB1LUo4WVN5VVh1X1lGQ2lGYXQ4VUJsUHlTVVoyRHNHR2VpZWtoLTB4ZVhySw?oc=5",
       "guid": "CBMimAFBVV95cUxPdFo2ZEZkWE1MY3JWaVU3NFNJblNNTjI3WnhmXzlHOVdId2RkZDVyWXo3RF9IWVFEa3VOb1NwRWN5bHlrVVBSUXp2MVZDd2EtMUljX1FDRXhLU1IxdFk5ZVZMVEtKcEV3cmZ0RXB1LUo4WVN5VVh1X1lGQ2lGYXQ4VUJsUHlTVVoyRHNHR2VpZWtoLTB4ZVhySw",
       "query": "Tesla stock",
-      "core_issue": "SpaceX/???/????",
-      "price_flow_risk_reading": "??? ????SpaceX ???? TSLA ?? ????? ?? ??? ??? ?? ? ??."
+      "core_issue": "SpaceX/머스크/지배구조",
+      "price_flow_risk_reading": "머스크의 SpaceX 관련 이슈는 TSLA 투자심리와 지배구조 우려를 동시에 흔들 수 있음."
     },
     {
       "rank": 9,
@@ -162,8 +162,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQb0JPYkFjOVpZanpZc2JvTzNHSTZpOFFoclN1UmpvSXVMOGdsZHhJZDVGZ21YcVNXVjNpQWxyNW9xUkFmT28yNzdPeHR1aGpVYXJsR1hDQkVMQ2F3VzBvQmczRWs3VVRSMW04Y255NG01Z2ZEeV9BZmNmOV9FSnpmNWVaZ1dON1Q3alJVblIzV0VrQzlLdlpn?oc=5",
       "guid": "CBMilwFBVV95cUxQb0JPYkFjOVpZanpZc2JvTzNHSTZpOFFoclN1UmpvSXVMOGdsZHhJZDVGZ21YcVNXVjNpQWxyNW9xUkFmT28yNzdPeHR1aGpVYXJsR1hDQkVMQ2F3VzBvQmczRWs3VVRSMW04Y255NG01Z2ZEeV9BZmNmOV9FSnpmNWVaZ1dON1Q3alJVblIzV0VrQzlLdlpn",
       "query": "Tesla stock",
-      "core_issue": "??/??/????/CapEx",
-      "price_flow_risk_reading": "?? ??? ????? ??, AI??? ?? ??? ?? FCF ?? ??."
+      "core_issue": "매출/마진/현금흐름/CapEx",
+      "price_flow_risk_reading": "EV 수요와 마진 둔화, AI 투자비 부담은 FCF 경로를 흔들 수 있음."
     },
     {
       "rank": 10,
@@ -176,8 +176,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcnFPajBfMkRXbUlJa1l3LTlNVER3WjVIb1FYSTJPTW5SVlFnTE5Sb3EtS1U5Y25jRkRER0htUXNWUS15RlBHdkxsZWZnT3Nva1lESVNfc09EbHA3LThpT3dVZURSUEN5Nm13MndoV1VGZWh2NzltSzEzUVFFOXoxWFpxQ2hqX09Wa1BPWWxxTldTOURPRFZoYWVWNA?oc=5",
       "guid": "CBMimwFBVV95cUxPcnFPajBfMkRXbUlJa1l3LTlNVER3WjVIb1FYSTJPTW5SVlFnTE5Sb3EtS1U5Y25jRkRER0htUXNWUS15RlBHdkxsZWZnT3Nva1lESVNfc09EbHA3LThpT3dVZURSUEN5Nm13MndoV1VGZWh2NzltSzEzUVFFOXoxWFpxQ2hqX09Wa1BPWWxxTldTOURPRFZoYWVWNA",
       "query": "Tesla stock",
-      "core_issue": "SpaceX/???/????",
-      "price_flow_risk_reading": "??? ????SpaceX ???? TSLA ?? ????? ?? ??? ??? ?? ? ??."
+      "core_issue": "SpaceX/머스크/지배구조",
+      "price_flow_risk_reading": "머스크의 SpaceX 관련 이슈는 TSLA 투자심리와 지배구조 우려를 동시에 흔들 수 있음."
     },
     {
       "rank": 11,
@@ -190,8 +190,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZWRhTG1TQXhub2xQaDZoT0tnWW5GUl9UOUs3MTZ3UGlvY0lBQ0M5bUp2ZUI1ZzJSZHJEOWFOSUFoVGZkTUd0UGdxTmlwd292VlQxODM3TkpKZkd5VUZWNm9YZXRSQUhxNXYyNWdJWTUtV1IyYnl5ZmxXZmVUWERFeGY1ZnNBNU5WczBnNV9oeG1yV1B5TUE?oc=5",
       "guid": "CBMilgFBVV95cUxNZWRhTG1TQXhub2xQaDZoT0tnWW5GUl9UOUs3MTZ3UGlvY0lBQ0M5bUp2ZUI1ZzJSZHJEOWFOSUFoVGZkTUd0UGdxTmlwd292VlQxODM3TkpKZkd5VUZWNm9YZXRSQUhxNXYyNWdJWTUtV1IyYnl5ZmxXZmVUWERFeGY1ZnNBNU5WczBnNV9oeG1yV1B5TUE",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 12,
@@ -204,8 +204,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQ3R1U3Z4MWxyWUI0SmF6Z3NQTFRCenlmUVdWcTNjLS1KMU92LW5rb0pyY2lfQWxSbVcyUE9GTU9sV01fY1lIX0Z1bGYzN3V1Q1RMMENMdXFwdjA4d2ZnMGpfM0ZGSllJQnBwcmJ2MGxaLWJVVG5LU2xETGpLbzBCM1A4LVRwQVBfX1J3VGtQUHdudGR6S0pGMHItNVFfRi1MN3RsVVhzbGVHaHhiS2FJRG1pMVI3Q1ZZSlBwUTNvbWtrOFRSZlYwejZNRzk3eERRczFvYXM1MllHLTQ?oc=5",
       "guid": "CBMi2wFBVV95cUxPQ3R1U3Z4MWxyWUI0SmF6Z3NQTFRCenlmUVdWcTNjLS1KMU92LW5rb0pyY2lfQWxSbVcyUE9GTU9sV01fY1lIX0Z1bGYzN3V1Q1RMMENMdXFwdjA4d2ZnMGpfM0ZGSllJQnBwcmJ2MGxaLWJVVG5LU2xETGpLbzBCM1A4LVRwQVBfX1J3VGtQUHdudGR6S0pGMHItNVFfRi1MN3RsVVhzbGVHaHhiS2FJRG1pMVI3Q1ZZSlBwUTNvbWtrOFRSZlYwejZNRzk3eERRczFvYXM1MllHLTQ",
       "query": "Tesla stock",
-      "core_issue": "SpaceX/???/????",
-      "price_flow_risk_reading": "??? ????SpaceX ???? TSLA ?? ????? ?? ??? ??? ?? ? ??."
+      "core_issue": "SpaceX/머스크/지배구조",
+      "price_flow_risk_reading": "머스크의 SpaceX 관련 이슈는 TSLA 투자심리와 지배구조 우려를 동시에 흔들 수 있음."
     },
     {
       "rank": 13,
@@ -218,8 +218,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE94RG5JUEhfSnNVdjFfSGdLcGlHMVhuemRYRFpzLWhGQnhUazQyaFI1STNKUTlEdVVmdWdqbWZjaXpuSEkyek1EcnplVzJmTzMzSlZxTWxFVVJCSHJ6a3lIalR0aFZGbDdmMjNKdm5nRnpmdnEyWlNJeTdB?oc=5",
       "guid": "CBMiekFVX3lxTE94RG5JUEhfSnNVdjFfSGdLcGlHMVhuemRYRFpzLWhGQnhUazQyaFI1STNKUTlEdVVmdWdqbWZjaXpuSEkyek1EcnplVzJmTzMzSlZxTWxFVVJCSHJ6a3lIalR0aFZGbDdmMjNKdm5nRnpmdnEyWlNJeTdB",
       "query": "Tesla stock",
-      "core_issue": "SpaceX/???/????",
-      "price_flow_risk_reading": "??? ????SpaceX ???? TSLA ?? ????? ?? ??? ??? ?? ? ??."
+      "core_issue": "SpaceX/머스크/지배구조",
+      "price_flow_risk_reading": "머스크의 SpaceX 관련 이슈는 TSLA 투자심리와 지배구조 우려를 동시에 흔들 수 있음."
     },
     {
       "rank": 14,
@@ -232,8 +232,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTFRQMWpELTB1bUtNSzY5RFRPTjVfeS1rWUYweXJveVhDU2h4clk4RC0xRkNha3p4WHJlZm1rOXlTNGNSUDY3MWxJVXJMSW1KYi1kX2g1Wmc1WmNLZk9zbE9vbVcwZGFnRTRhMDRGMGgwQkVoWmcyWjNwRzd6YXE2N053VEpOSFVpZy1LZFZvRng4Tk9wVGprRWdpQ3J4YjRfVnZQcHhybWFvcXF3T1psV2YyLTZLQW8tOWpFeGlrczQtVS1KWjJObw?oc=5",
       "guid": "CBMiyAFBVV95cUxOTFRQMWpELTB1bUtNSzY5RFRPTjVfeS1rWUYweXJveVhDU2h4clk4RC0xRkNha3p4WHJlZm1rOXlTNGNSUDY3MWxJVXJMSW1KYi1kX2g1Wmc1WmNLZk9zbE9vbVcwZGFnRTRhMDRGMGgwQkVoWmcyWjNwRzd6YXE2N053VEpOSFVpZy1LZFZvRng4Tk9wVGprRWdpQ3J4YjRfVnZQcHhybWFvcXF3T1psV2YyLTZLQW8tOWpFeGlrczQtVS1KWjJObw",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 15,
@@ -246,8 +246,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTXFfYjVEbzRKcDA0VWk2M19uNkVwMVlvejMyY3FQaW9xNm90U09BOU9HTEVyaHRScENXVUNGRjdiNUtwOUkyRkpCT3BZZU5pcTFnOTg2THRJbnlqUUhtYnhlbUUxNUtGdHBpNjVpZ292WFYzZktVVGtVTzUwbDdMZmpvZWw5X3M3TUNCd2EyMzgzMEVHNmpVcV9tMV81NnhWd0xBdHJn?oc=5",
       "guid": "CBMipgFBVV95cUxNTXFfYjVEbzRKcDA0VWk2M19uNkVwMVlvejMyY3FQaW9xNm90U09BOU9HTEVyaHRScENXVUNGRjdiNUtwOUkyRkpCT3BZZU5pcTFnOTg2THRJbnlqUUhtYnhlbUUxNUtGdHBpNjVpZ292WFYzZktVVGtVTzUwbDdMZmpvZWw5X3M3TUNCd2EyMzgzMEVHNmpVcV9tMV81NnhWd0xBdHJn",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 16,
@@ -260,8 +260,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZUNENE00Wng2TVMzQnhmVmZQTmg4T2dkZklIMXF4NWxYN29tZm5FUm56VzJwNENHSF9UODh5UUQ3MWFMZG9iMDdzYzdiR21Wdjl2alZHclRpQ25OWXpOQ3ZvUkc1UHVBSHhfTnByQ2FNekUzSUoyMVk1WnRKTmtUb3VVVnM5TDh5c3dhRDZaMzFiMzZNMjJjN1JHdUZoZlQ2Z1I4WHNGUzc2TW5FZW1LYzdn?oc=5",
       "guid": "CBMisgFBVV95cUxNZUNENE00Wng2TVMzQnhmVmZQTmg4T2dkZklIMXF4NWxYN29tZm5FUm56VzJwNENHSF9UODh5UUQ3MWFMZG9iMDdzYzdiR21Wdjl2alZHclRpQ25OWXpOQ3ZvUkc1UHVBSHhfTnByQ2FNekUzSUoyMVk1WnRKTmtUb3VVVnM5TDh5c3dhRDZaMzFiMzZNMjJjN1JHdUZoZlQ2Z1I4WHNGUzc2TW5FZW1LYzdn",
       "query": "Tesla stock",
-      "core_issue": "??/?????",
-      "price_flow_risk_reading": "????? ??? ?? ??? ???? ?? ??? ????? ??."
+      "core_issue": "회계/감사리스크",
+      "price_flow_risk_reading": "감사·회계 관련 논점은 성장 서사의 신뢰도와 할인율에 부담이 될 수 있음."
     },
     {
       "rank": 17,
@@ -274,8 +274,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9fcE5pNmREVmJ5Ukx4SXRtX0lSRXFLc2hmcHVZaDU2dUJza3NBcHM0ampGRzdLY3lWOF9oYlFXM1J3M1c5ODJGb2lJSXd4blZIYkl1ZHh3ZUVaTXFyM0t2QnI0VC01ZDJUbU9YUEltU0huTWU0bDI2NHM5YlZOZw?oc=5",
       "guid": "CBMifkFVX3lxTE9fcE5pNmREVmJ5Ukx4SXRtX0lSRXFLc2hmcHVZaDU2dUJza3NBcHM0ampGRzdLY3lWOF9oYlFXM1J3M1c5ODJGb2lJSXd4blZIYkl1ZHh3ZUVaTXFyM0t2QnI0VC01ZDJUbU9YUEltU0huTWU0bDI2NHM5YlZOZw",
       "query": "Tesla stock",
-      "core_issue": "SpaceX/???/????",
-      "price_flow_risk_reading": "??? ????SpaceX ???? TSLA ?? ????? ?? ??? ??? ?? ? ??."
+      "core_issue": "SpaceX/머스크/지배구조",
+      "price_flow_risk_reading": "머스크의 SpaceX 관련 이슈는 TSLA 투자심리와 지배구조 우려를 동시에 흔들 수 있음."
     },
     {
       "rank": 18,
@@ -288,8 +288,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYmR2dzZ1QXNlRmVvSGp0enBlRjFxV0x0SUUwWmlxMXlQd2s1eVRYSTBPN054OGQtYk1tSmNMMHNDWElYUElZZzF4cEVIR3NUOWMyY1F3NERwMUMzNTdNSVZxVmM2aGwyRkZyNU92MFhWZTd4U2JWSEZNc1VTc2NFYm5KX3JzLXBZR3h6MHo3Q1AwMDdEeXFJcUNrVVlfcHFuZWpCbjFOYnBlS1c4SkgxRGh5WndEa2NWajQ4ajJLVVk5QQ?oc=5",
       "guid": "CBMiwgFBVV95cUxNYmR2dzZ1QXNlRmVvSGp0enBlRjFxV0x0SUUwWmlxMXlQd2s1eVRYSTBPN054OGQtYk1tSmNMMHNDWElYUElZZzF4cEVIR3NUOWMyY1F3NERwMUMzNTdNSVZxVmM2aGwyRkZyNU92MFhWZTd4U2JWSEZNc1VTc2NFYm5KX3JzLXBZR3h6MHo3Q1AwMDdEeXFJcUNrVVlfcHFuZWpCbjFOYnBlS1c4SkgxRGh5WndEa2NWajQ4ajJLVVk5QQ",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 19,
@@ -302,8 +302,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWkVQYUZrTEtHOVJQRjJGZ2VaQnBMYzNQTHZJVlpDU1dxWVZId3B0eHBySnhZbTR6R3NzV2dvdi1DR3N0VU9NZHVxQjk0TzhiZDRLN2NvS21ZczlNbVNVdGtXc3Bfclhnc1FVOExzRzFHMXBOdG1obmc5bnlSZi1rY1JGV3lHVk5oRWtidUowWTlYbnFvRHNFNw?oc=5",
       "guid": "CBMimAFBVV95cUxNWkVQYUZrTEtHOVJQRjJGZ2VaQnBMYzNQTHZJVlpDU1dxWVZId3B0eHBySnhZbTR6R3NzV2dvdi1DR3N0VU9NZHVxQjk0TzhiZDRLN2NvS21ZczlNbVNVdGtXc3Bfclhnc1FVOExzRzFHMXBOdG1obmc5bnlSZi1rY1JGV3lHVk5oRWtidUowWTlYbnFvRHNFNw",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 20,
@@ -316,8 +316,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1nMXlRNzNlMDVYdjVZcjdKWGY1LS05Vkp2cnVIQTN1aGw2Y05qYkJIMWZHaVM0RlJYS0pYRF9keVdXWlMyX2NJOHo3a3NLdlEtcm92SW1ZaGdsWWpwQlNpNExwcVZ3MUw2N2V5ckpvejJNc0RfNmtQVUZ4UQ?oc=5",
       "guid": "CBMie0FVX3lxTE1nMXlRNzNlMDVYdjVZcjdKWGY1LS05Vkp2cnVIQTN1aGw2Y05qYkJIMWZHaVM0RlJYS0pYRF9keVdXWlMyX2NJOHo3a3NLdlEtcm92SW1ZaGdsWWpwQlNpNExwcVZ3MUw2N2V5ckpvejJNc0RfNmtQVUZ4UQ",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 21,
@@ -330,8 +330,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE82MHFrUFhVaElRUnRpd0p6azNlWVZwdHJVTUZhbC1uNThxQm5EZTNoejN1VGpVdzhYN3FIYXlxVS1PVGFhdWRPb3FGR1VCUTA0R1hMUHVWeEpHZWVfa2hxWWd0azVqRWtBcDZqMjZla3RSU3V2WTZkc21B?oc=5",
       "guid": "CBMiekFVX3lxTE82MHFrUFhVaElRUnRpd0p6azNlWVZwdHJVTUZhbC1uNThxQm5EZTNoejN1VGpVdzhYN3FIYXlxVS1PVGFhdWRPb3FGR1VCUTA0R1hMUHVWeEpHZWVfa2hxWWd0azVqRWtBcDZqMjZla3RSU3V2WTZkc21B",
       "query": "Tesla stock",
-      "core_issue": "SpaceX/???/????",
-      "price_flow_risk_reading": "??? ????SpaceX ???? TSLA ?? ????? ?? ??? ??? ?? ? ??."
+      "core_issue": "SpaceX/머스크/지배구조",
+      "price_flow_risk_reading": "머스크의 SpaceX 관련 이슈는 TSLA 투자심리와 지배구조 우려를 동시에 흔들 수 있음."
     },
     {
       "rank": 22,
@@ -344,8 +344,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWGJuRUdUYVl5MnJONVNGandLVUx4d0JHTmtQSUpRQkhOTXMySkZHeGhpcHFveU5XVHZpQmRFODg4c1hkVEMyOFBnWW85OWVPZUdncG5MVkgyX2doNnJlQl9CcDk2VUljU095TmYzSWhLOG5ITVlEdXdRN1BHcHkweVpuTjRXNlI0Q2tBT1BMTkNHYklNay00Unh5WmZfeGJjMzZMdnJEMVlyOUZHaDdGT21MYVFKZ2tz?oc=5",
       "guid": "CBMiuAFBVV95cUxQWGJuRUdUYVl5MnJONVNGandLVUx4d0JHTmtQSUpRQkhOTXMySkZHeGhpcHFveU5XVHZpQmRFODg4c1hkVEMyOFBnWW85OWVPZUdncG5MVkgyX2doNnJlQl9CcDk2VUljU095TmYzSWhLOG5ITVlEdXdRN1BHcHkweVpuTjRXNlI0Q2tBT1BMTkNHYklNay00Unh5WmZfeGJjMzZMdnJEMVlyOUZHaDdGT21MYVFKZ2tz",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 23,
@@ -358,8 +358,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQdFd6SHc3TkhGNkVVcmd5QUkxT2xBekRiWExXb01nM1Awal9BVEN5eHNPaUhuUkc3MTc2cFVVWG40bVhsa1hOdzl6T3ZNMTk1S0V4aTNkM1BOUllqcFZpQWR4N0FiZVJ3bnFzNXIxeTR3WkJ0RkxyU2RSWW1TendROXk3MlpuM09yU05pS0JxeUw?oc=5",
       "guid": "CBMikAFBVV95cUxQdFd6SHc3TkhGNkVVcmd5QUkxT2xBekRiWExXb01nM1Awal9BVEN5eHNPaUhuUkc3MTc2cFVVWG40bVhsa1hOdzl6T3ZNMTk1S0V4aTNkM1BOUllqcFZpQWR4N0FiZVJ3bnFzNXIxeTR3WkJ0RkxyU2RSWW1TendROXk3MlpuM09yU05pS0JxeUw",
       "query": "Tesla stock",
-      "core_issue": "SpaceX/???/????",
-      "price_flow_risk_reading": "??? ????SpaceX ???? TSLA ?? ????? ?? ??? ??? ?? ? ??."
+      "core_issue": "SpaceX/머스크/지배구조",
+      "price_flow_risk_reading": "머스크의 SpaceX 관련 이슈는 TSLA 투자심리와 지배구조 우려를 동시에 흔들 수 있음."
     },
     {
       "rank": 24,
@@ -372,8 +372,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9RVTdkU0NfVVlzWWM3XzhMMmtNbF9ZVXhNM21vV1drMEMyRWVRTU9NZU9yYXpTNzJtQVFmVDN2WW5takVxa3N5ckZEcFR2Sy1pdFV0czNIaFF5V0xUdXV2SE5hV2FudHZadUYzcG9pRnh6Rmh3VG1RRjNR?oc=5",
       "guid": "CBMiekFVX3lxTE9RVTdkU0NfVVlzWWM3XzhMMmtNbF9ZVXhNM21vV1drMEMyRWVRTU9NZU9yYXpTNzJtQVFmVDN2WW5takVxa3N5ckZEcFR2Sy1pdFV0czNIaFF5V0xUdXV2SE5hV2FudHZadUYzcG9pRnh6Rmh3VG1RRjNR",
       "query": "Tesla stock",
-      "core_issue": "SpaceX/???/????",
-      "price_flow_risk_reading": "??? ????SpaceX ???? TSLA ?? ????? ?? ??? ??? ?? ? ??."
+      "core_issue": "SpaceX/머스크/지배구조",
+      "price_flow_risk_reading": "머스크의 SpaceX 관련 이슈는 TSLA 투자심리와 지배구조 우려를 동시에 흔들 수 있음."
     },
     {
       "rank": 25,
@@ -386,8 +386,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPV1VsQzZQaXN1SDFNZGQ5SE9MVzFRQlNtZmh1Slo1RzBHd2EyemhLbGNXbnplV0twNFl0eWZwMXcwR1JrcGJYS1E3a0N0dUtXMTVLVFlDU05PbFpGWFNtaERqbFlxSjlsTGNXbk1UcF9mOTdnTlk3cWpiZXVubXRaTVUyMFB1TjFQY0c5LWx2Vm9LZU5nYTE4V09ZbFVxc1VrVkoxV3hjdFlwODZNNmN5SlZjaUNDUjF6WlpWRXkxRWFTZw?oc=5",
       "guid": "CBMiwgFBVV95cUxPV1VsQzZQaXN1SDFNZGQ5SE9MVzFRQlNtZmh1Slo1RzBHd2EyemhLbGNXbnplV0twNFl0eWZwMXcwR1JrcGJYS1E3a0N0dUtXMTVLVFlDU05PbFpGWFNtaERqbFlxSjlsTGNXbk1UcF9mOTdnTlk3cWpiZXVubXRaTVUyMFB1TjFQY0c5LWx2Vm9LZU5nYTE4V09ZbFVxc1VrVkoxV3hjdFlwODZNNmN5SlZjaUNDUjF6WlpWRXkxRWFTZw",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 26,
@@ -400,8 +400,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE10ckJrNGdZQjJqZDVoMU5KM2JWYm1CZlVCWEN1RXBsdGlqMzVsQTNSUm1EV1RVaFhqOThNUC0wc3ptaTR0WW9HNno3dGEtLUREUTdaOXFhMmdjeXlEQkJBTXpCSC1lUDM0alU4SmpDdlh5SnNyRmlKNFh3?oc=5",
       "guid": "CBMiekFVX3lxTE10ckJrNGdZQjJqZDVoMU5KM2JWYm1CZlVCWEN1RXBsdGlqMzVsQTNSUm1EV1RVaFhqOThNUC0wc3ptaTR0WW9HNno3dGEtLUREUTdaOXFhMmdjeXlEQkJBTXpCSC1lUDM0alU4SmpDdlh5SnNyRmlKNFh3",
       "query": "Tesla stock",
-      "core_issue": "????/FSD/????",
-      "price_flow_risk_reading": "??? ?? ??? ?? ??? ???? ??? ? ??? ???? ?? ??."
+      "core_issue": "로보택시/FSD/자율주행",
+      "price_flow_risk_reading": "자율주행 성과 기대는 장기 성장 서사를 강화하지만 실행 지연 시 변동성 요인이 될 수 있음."
     },
     {
       "rank": 27,
@@ -414,8 +414,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOTzFWOWZyeUxrV0ZhWTBpN3N2bVhtaWIyOGdTZUIxUVhaR1BMWkxZVTF2dmVpQ05Ub3p1bUtpRVR3S2d4ZEp1dkJlTno2cVFhaFYwZVliaUwyMlF5bHNybTlUcDM2eVZsWUpwUk9OSi1uUUNpWGlCeHFfbktSWVlJMUg2WHZtYjZTRlM5eDJubEZ6VTQtSjROWk9RZWhRcTZKVE5yRnk0ZmsweFB3ekZNSE9DV0Y1c0txa3NmaGZoR0ZnbHlGOWtwQVZEdmE?oc=5",
       "guid": "CBMizAFBVV95cUxOTzFWOWZyeUxrV0ZhWTBpN3N2bVhtaWIyOGdTZUIxUVhaR1BMWkxZVTF2dmVpQ05Ub3p1bUtpRVR3S2d4ZEp1dkJlTno2cVFhaFYwZVliaUwyMlF5bHNybTlUcDM2eVZsWUpwUk9OSi1uUUNpWGlCeHFfbktSWVlJMUg2WHZtYjZTRlM5eDJubEZ6VTQtSjROWk9RZWhRcTZKVE5yRnk0ZmsweFB3ekZNSE9DV0Y1c0txa3NmaGZoR0ZnbHlGOWtwQVZEdmE",
       "query": "Tesla stock",
-      "core_issue": "??/??/????/CapEx",
-      "price_flow_risk_reading": "?? ??? ????? ??, AI??? ?? ??? ?? FCF ?? ??."
+      "core_issue": "매출/마진/현금흐름/CapEx",
+      "price_flow_risk_reading": "EV 수요와 마진 둔화, AI 투자비 부담은 FCF 경로를 흔들 수 있음."
     },
     {
       "rank": 28,
@@ -428,8 +428,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPckpaNkx0U1pfNXZ2Rm1Tb09FNlhhUkFOdW5EaTYxTmVfQlZGbmxpTXl0LUpha2JPMW1Pb3lpeXkxV3k5QnZEcElMMURtRHNnM3hZampYd2FOTjdlT29aRERHQkhwMWVzdUFnV3dXRHRJMXd4VHpaTTRsTVptSk02cnFiTXFLUQ?oc=5",
       "guid": "CBMihgFBVV95cUxPckpaNkx0U1pfNXZ2Rm1Tb09FNlhhUkFOdW5EaTYxTmVfQlZGbmxpTXl0LUpha2JPMW1Pb3lpeXkxV3k5QnZEcElMMURtRHNnM3hZampYd2FOTjdlT29aRERHQkhwMWVzdUFnV3dXRHRJMXd4VHpaTTRsTVptSk02cnFiTXFLUQ",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 29,
@@ -442,8 +442,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPN2FZcG45MHNLR3ZaNTFIZWw5VnE4TWFYbVlsQVdvQW53aGxvSk5HRmFuNGFDTk41dEhfWFZRWk1QblFxVk01R0tkNG94X2w1UHNBYlNSYVB1LU00M0U3YnlDVnJVRDRHRDNaOG9VOHljSGVvc0pWZmtSeTBqY3VqYWVJMW1QQQ?oc=5",
       "guid": "CBMihgFBVV95cUxPN2FZcG45MHNLR3ZaNTFIZWw5VnE4TWFYbVlsQVdvQW53aGxvSk5HRmFuNGFDTk41dEhfWFZRWk1QblFxVk01R0tkNG94X2w1UHNBYlNSYVB1LU00M0U3YnlDVnJVRDRHRDNaOG9VOHljSGVvc0pWZmtSeTBqY3VqYWVJMW1QQQ",
       "query": "Tesla stock",
-      "core_issue": "SpaceX/???/????",
-      "price_flow_risk_reading": "??? ????SpaceX ???? TSLA ?? ????? ?? ??? ??? ?? ? ??."
+      "core_issue": "SpaceX/머스크/지배구조",
+      "price_flow_risk_reading": "머스크의 SpaceX 관련 이슈는 TSLA 투자심리와 지배구조 우려를 동시에 흔들 수 있음."
     },
     {
       "rank": 30,
@@ -456,8 +456,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMVZIWE10bWdlTVBGVmx6NGhoOGlzZ0hwT2pKWlpmcl84Z181QXRoUGxBbWNYVDNBcW02VDhSYTRuRlViWElfSFZZd2xNRVNpcElXMGtIeWZiZG5sQ0tabHZMUmhmMnMwNDVLUV9qRlBtYU01aHJvVm80aUNhRDFGM1VjM3cxZE5KTkdXdnIwU1pUdUJXWkNRUHkxSnFBb29kbGJnem9ZR1BoTVNacUJfWHVJdFI5WEE5U0h3X2NB?oc=5",
       "guid": "CBMivgFBVV95cUxQMVZIWE10bWdlTVBGVmx6NGhoOGlzZ0hwT2pKWlpmcl84Z181QXRoUGxBbWNYVDNBcW02VDhSYTRuRlViWElfSFZZd2xNRVNpcElXMGtIeWZiZG5sQ0tabHZMUmhmMnMwNDVLUV9qRlBtYU01aHJvVm80aUNhRDFGM1VjM3cxZE5KTkdXdnIwU1pUdUJXWkNRUHkxSnFBb29kbGJnem9ZR1BoTVNacUJfWHVJdFI5WEE5U0h3X2NB",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 31,
@@ -470,8 +470,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbTRjTDJvNnBILUFpM2VmRURKRFlwMEJwUnVMNEFjUUxHbjNQRUxNUU5udnYzZkdsZDk4VldLZU5HMjUteDFhV29zdFpMdHA2a1d3RTZCaUZEN2ZNaFhZbzZjVEM5TWUydzBleGlGYlNTRHVoTVh2S2RHelRuWXc2MGJ6S2FMVmJKWHZQeHpzOFFMWE0?oc=5",
       "guid": "CBMikwFBVV95cUxQbTRjTDJvNnBILUFpM2VmRURKRFlwMEJwUnVMNEFjUUxHbjNQRUxNUU5udnYzZkdsZDk4VldLZU5HMjUteDFhV29zdFpMdHA2a1d3RTZCaUZEN2ZNaFhZbzZjVEM5TWUydzBleGlGYlNTRHVoTVh2S2RHelRuWXc2MGJ6S2FMVmJKWHZQeHpzOFFMWE0",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 32,
@@ -484,8 +484,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLUF3NEpKTFhqUGpUMFUtYTkydE03eXZkeGV6NlYzYWhqWHFKQ1ZiVmZWZ3ZoS1JqQmhUR2FMT2RfMEZ3dUowUUFrYWU1bjdEbkRLTzVvZi1jY0hsRXItcWRUTGJ1TTF3YWNxRnNjUWd3WFJoSW04c0RfRWlFUi1lTkNCeWlvX25oRkFsOFRnV3p2R3pQOV9Oc09PS2o5UXRKTHFyUzBvUGtLeFE?oc=5",
       "guid": "CBMiqwFBVV95cUxQLUF3NEpKTFhqUGpUMFUtYTkydE03eXZkeGV6NlYzYWhqWHFKQ1ZiVmZWZ3ZoS1JqQmhUR2FMT2RfMEZ3dUowUUFrYWU1bjdEbkRLTzVvZi1jY0hsRXItcWRUTGJ1TTF3YWNxRnNjUWd3WFJoSW04c0RfRWlFUi1lTkNCeWlvX25oRkFsOFRnV3p2R3pQOV9Oc09PS2o5UXRKTHFyUzBvUGtLeFE",
       "query": "Tesla stock",
-      "core_issue": "??/??/????/CapEx",
-      "price_flow_risk_reading": "?? ??? ????? ??, AI??? ?? ??? ?? FCF ?? ??."
+      "core_issue": "매출/마진/현금흐름/CapEx",
+      "price_flow_risk_reading": "EV 수요와 마진 둔화, AI 투자비 부담은 FCF 경로를 흔들 수 있음."
     },
     {
       "rank": 33,
@@ -498,8 +498,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdFpqYjNWcnJmWWszSDNrQjRfZHVDdE53ZGhsb3M3S29Dc3FDZENQMGRpZzB1WHZ1MmJYbm8zaUV0RFR4NVhlQllrTy1ZYXJDaUxfX0doYjlqdDNacV81RWtaQkZJQXlZbFljOTNNRWFjTld3ZU1JVktPclpCUFZ1dVFTUHRVVHd0VTdPSU1wd0pRUVFqQXQ2QQ?oc=5",
       "guid": "CBMimAFBVV95cUxQdFpqYjNWcnJmWWszSDNrQjRfZHVDdE53ZGhsb3M3S29Dc3FDZENQMGRpZzB1WHZ1MmJYbm8zaUV0RFR4NVhlQllrTy1ZYXJDaUxfX0doYjlqdDNacV81RWtaQkZJQXlZbFljOTNNRWFjTld3ZU1JVktPclpCUFZ1dVFTUHRVVHd0VTdPSU1wd0pRUVFqQXQ2QQ",
       "query": "Tesla stock",
-      "core_issue": "??/??/????/CapEx",
-      "price_flow_risk_reading": "?? ??? ????? ??, AI??? ?? ??? ?? FCF ?? ??."
+      "core_issue": "매출/마진/현금흐름/CapEx",
+      "price_flow_risk_reading": "EV 수요와 마진 둔화, AI 투자비 부담은 FCF 경로를 흔들 수 있음."
     },
     {
       "rank": 34,
@@ -512,8 +512,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcTBfZ29iQmNaVDdKeW9WVkl3N3BrbFYzWGpTNzRhTTVBeXhaaUlna3hseG05RVpmTl9yZnNjbW1FRmV5ODl0NEJkcU9BbTd4MHhXU05XZ2tsM053ZEhaYmFuc1pxNVRJaWdkd2xnaHIxbGdEWXF0SV9JdzBGN21OU3B4cjN4OUdVdWl0UHhFSjMyR2s5MWxBR3FJeHhRNUpvLVhvYWhGaUZQVURFQ0NlTHduamgyVGtEZVE?oc=5",
       "guid": "CBMiugFBVV95cUxQcTBfZ29iQmNaVDdKeW9WVkl3N3BrbFYzWGpTNzRhTTVBeXhaaUlna3hseG05RVpmTl9yZnNjbW1FRmV5ODl0NEJkcU9BbTd4MHhXU05XZ2tsM053ZEhaYmFuc1pxNVRJaWdkd2xnaHIxbGdEWXF0SV9JdzBGN21OU3B4cjN4OUdVdWl0UHhFSjMyR2s5MWxBR3FJeHhRNUpvLVhvYWhGaUZQVURFQ0NlTHduamgyVGtEZVE",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 35,
@@ -526,8 +526,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQ1kwa0ZmYlVHeGpSdVl5cm16bFlkM0FLX0MtODhWYnBvZzlqalN3MlBZLXQxTlF4bTJJWmZMN3ZQX3pIWEtjT0xkUE1UU3N6NV9Va2NaOGdDS3dmUGJEWmVEOVRubWkzY1hvbTB2alpVU25HRG9oMjRCemd5T3h0ZEd3?oc=5",
       "guid": "CBMiggFBVV95cUxOQ1kwa0ZmYlVHeGpSdVl5cm16bFlkM0FLX0MtODhWYnBvZzlqalN3MlBZLXQxTlF4bTJJWmZMN3ZQX3pIWEtjT0xkUE1UU3N6NV9Va2NaOGdDS3dmUGJEWmVEOVRubWkzY1hvbTB2alpVU25HRG9oMjRCemd5T3h0ZEd3",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 36,
@@ -540,8 +540,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNa0dFSUdydEJ1YUk1N21GMWkzZG5kZEJWaTR0UGZpQV9BcXZLc2xRZEFoNWhDbTIyQmotN2NFeG9TS3ZVQmoxZHJvTWV6cmo2Z0MxWkxfN2R1T2pwX0NzdFBMOUhKM25jRWRqS0QydDhHZVMwRHhBczlKWHdSRGpjdkZLWjA4eFdnZF9TT3dWUGdteDU2RkNubGZBOTBHZFU?oc=5",
       "guid": "CBMinwFBVV95cUxNa0dFSUdydEJ1YUk1N21GMWkzZG5kZEJWaTR0UGZpQV9BcXZLc2xRZEFoNWhDbTIyQmotN2NFeG9TS3ZVQmoxZHJvTWV6cmo2Z0MxWkxfN2R1T2pwX0NzdFBMOUhKM25jRWRqS0QydDhHZVMwRHhBczlKWHdSRGpjdkZLWjA4eFdnZF9TT3dWUGdteDU2RkNubGZBOTBHZFU",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 37,
@@ -554,8 +554,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTTBEanFRbUJiRUxhSFRocng4ejlMYU1BYUxPbnBpanJNeWtoWF9kTmpvMmhNVjZZaFI3ZW5IYTJWNEJRYzQwcmRqREpZcmxWbTVFRzNnSUJfR2lQNEc0VEQxOFlYM3lVYy1UWkt0dlA1Uk5OQmJLWlhZVS02M2F0bkxUeVA?oc=5",
       "guid": "CBMihAFBVV95cUxOTTBEanFRbUJiRUxhSFRocng4ejlMYU1BYUxPbnBpanJNeWtoWF9kTmpvMmhNVjZZaFI3ZW5IYTJWNEJRYzQwcmRqREpZcmxWbTVFRzNnSUJfR2lQNEc0VEQxOFlYM3lVYy1UWkt0dlA1Uk5OQmJLWlhZVS02M2F0bkxUeVA",
       "query": "Tesla stock",
-      "core_issue": "??/??/????/CapEx",
-      "price_flow_risk_reading": "?? ??? ????? ??, AI??? ?? ??? ?? FCF ?? ??."
+      "core_issue": "매출/마진/현금흐름/CapEx",
+      "price_flow_risk_reading": "EV 수요와 마진 둔화, AI 투자비 부담은 FCF 경로를 흔들 수 있음."
     },
     {
       "rank": 38,
@@ -568,8 +568,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOV3FTTzl2SHplZ1dGVGkyLTVSNWR2VDhBbkU3UXQ2c3N3RTl4dkZRTlNOb3hRcHJZS012azFDNnNCZldEMm0ySzFXWTgzWnJRX2lTbkJTZnlZY1pYU2dIcGZmMjVnUmVGQzVSVWFNNFQwakM1SlJaUzRCZzB5Q2laeEptaDhQcG05NmhCb0dhMHpjS3FyRGlZZVpDeU8tMXRsVzV2RS1DYkZJeFg1bEF1M2twTElsTFlOdVFacExJY1ZETzg?oc=5",
       "guid": "CBMiwwFBVV95cUxOV3FTTzl2SHplZ1dGVGkyLTVSNWR2VDhBbkU3UXQ2c3N3RTl4dkZRTlNOb3hRcHJZS012azFDNnNCZldEMm0ySzFXWTgzWnJRX2lTbkJTZnlZY1pYU2dIcGZmMjVnUmVGQzVSVWFNNFQwakM1SlJaUzRCZzB5Q2laeEptaDhQcG05NmhCb0dhMHpjS3FyRGlZZVpDeU8tMXRsVzV2RS1DYkZJeFg1bEF1M2twTElsTFlOdVFacExJY1ZETzg",
       "query": "Tesla stock",
-      "core_issue": "??/??/????/CapEx",
-      "price_flow_risk_reading": "?? ??? ????? ??, AI??? ?? ??? ?? FCF ?? ??."
+      "core_issue": "매출/마진/현금흐름/CapEx",
+      "price_flow_risk_reading": "EV 수요와 마진 둔화, AI 투자비 부담은 FCF 경로를 흔들 수 있음."
     },
     {
       "rank": 39,
@@ -582,8 +582,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1abnBzbHc4UHJ3NUR4bWdHMVlsYVhibXBMNHI5QWQwc2pDUG9XYmJnVEhTS0xnX2dYVEJlc0VYT0ozMWJ3cFdxUkJ5dHNFbjNLMk9zOXRzT3ZnM1FZbWFzcHlTSWRHamlHaERONzZ4aTJTb2RvVVRGd0NvNA?oc=5",
       "guid": "CBMie0FVX3lxTE1abnBzbHc4UHJ3NUR4bWdHMVlsYVhibXBMNHI5QWQwc2pDUG9XYmJnVEhTS0xnX2dYVEJlc0VYT0ozMWJ3cFdxUkJ5dHNFbjNLMk9zOXRzT3ZnM1FZbWFzcHlTSWRHamlHaERONzZ4aTJTb2RvVVRGd0NvNA",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 40,
@@ -596,8 +596,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQWtma1FKUGppdHhJY3NSUmY2U1dVZ2NzV3BvbTZhTUN1RGN2N0ZyZmNySTJHWVVNRGN0WDdMNnR2Vzl0ZHM4c0NJWmY3bUxFaGNnOXJCYk1TOTRZV0dJMHUtZlJjRGxBOTN6VmstZ092T202SjlrUHRnYjlSSFp3VEdTS3ZmaFpuMXd5aUE1MWtEdDVHenJDcU9mazktTmpVYlp6aHhNckRLcm1Z?oc=5",
       "guid": "CBMirAFBVV95cUxPQWtma1FKUGppdHhJY3NSUmY2U1dVZ2NzV3BvbTZhTUN1RGN2N0ZyZmNySTJHWVVNRGN0WDdMNnR2Vzl0ZHM4c0NJWmY3bUxFaGNnOXJCYk1TOTRZV0dJMHUtZlJjRGxBOTN6VmstZ092T202SjlrUHRnYjlSSFp3VEdTS3ZmaFpuMXd5aUE1MWtEdDVHenJDcU9mazktTmpVYlp6aHhNckRLcm1Z",
       "query": "Tesla stock",
-      "core_issue": "SpaceX/???/????",
-      "price_flow_risk_reading": "??? ????SpaceX ???? TSLA ?? ????? ?? ??? ??? ?? ? ??."
+      "core_issue": "SpaceX/머스크/지배구조",
+      "price_flow_risk_reading": "머스크의 SpaceX 관련 이슈는 TSLA 투자심리와 지배구조 우려를 동시에 흔들 수 있음."
     },
     {
       "rank": 41,
@@ -610,8 +610,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVkUwSkFpZW9ucFB3R3NaWENLcmFRTVk0ckFkOGhMNEU3cjh3czI3bWtiZi1oQWpCSVFOcHN5WDdSc3FubVVzVHZMR3MwY05HQ1NKTUI3NFRTX2gwZml0RllTU2VNQmx6MFlpb0YwWUM0RHFhNktoQ1JsZFVMYXBQQmRBTjBDa18xVWk5V00wTXhVR2VfMkNac2J4N2ZEWWxw?oc=5",
       "guid": "CBMioAFBVV95cUxOVkUwSkFpZW9ucFB3R3NaWENLcmFRTVk0ckFkOGhMNEU3cjh3czI3bWtiZi1oQWpCSVFOcHN5WDdSc3FubVVzVHZMR3MwY05HQ1NKTUI3NFRTX2gwZml0RllTU2VNQmx6MFlpb0YwWUM0RHFhNktoQ1JsZFVMYXBQQmRBTjBDa18xVWk5V00wTXhVR2VfMkNac2J4N2ZEWWxw",
       "query": "Tesla stock",
-      "core_issue": "??/??/????/CapEx",
-      "price_flow_risk_reading": "?? ??? ????? ??, AI??? ?? ??? ?? FCF ?? ??."
+      "core_issue": "매출/마진/현금흐름/CapEx",
+      "price_flow_risk_reading": "EV 수요와 마진 둔화, AI 투자비 부담은 FCF 경로를 흔들 수 있음."
     },
     {
       "rank": 42,
@@ -624,8 +624,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMmItX2VMQTBaSEVuamhFdGNVLUxJZW5wVnlaSTZQaHFtYTZuYmRIUER4NThwUXhBQldaM2tBbkdpQWVDOThjLTFJa3ZVT25mczYtdUhQUkpHUXUteGY1eXJ3ZHJvNXFvUUNid0pRYVhkYXB6ZnlqaC1pSWF6UUxzSFNNa05aaDlKZlo0?oc=5",
       "guid": "CBMiiwFBVV95cUxOMmItX2VMQTBaSEVuamhFdGNVLUxJZW5wVnlaSTZQaHFtYTZuYmRIUER4NThwUXhBQldaM2tBbkdpQWVDOThjLTFJa3ZVT25mczYtdUhQUkpHUXUteGY1eXJ3ZHJvNXFvUUNid0pRYVhkYXB6ZnlqaC1pSWF6UUxzSFNNa05aaDlKZlo0",
       "query": "Tesla stock",
-      "core_issue": "????/FSD/????",
-      "price_flow_risk_reading": "??? ?? ??? ?? ??? ???? ??? ? ??? ???? ?? ??."
+      "core_issue": "로보택시/FSD/자율주행",
+      "price_flow_risk_reading": "자율주행 성과 기대는 장기 성장 서사를 강화하지만 실행 지연 시 변동성 요인이 될 수 있음."
     },
     {
       "rank": 43,
@@ -638,8 +638,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1INWZNQnptbnpWdU04YjJ0WFJTMEd4aVpzMnEyWHZxZWlFMC1mMjNLZGZzUUJmV056YWtsT3VFT2ZSSUh3SjlaNHB1WDhycEtIVDN0YU5sRVFiSVJfQUlPX00tbTltVGZQTDZ1dWZyV0EwQVQ4MGd4VVRPWQ?oc=5",
       "guid": "CBMie0FVX3lxTE1INWZNQnptbnpWdU04YjJ0WFJTMEd4aVpzMnEyWHZxZWlFMC1mMjNLZGZzUUJmV056YWtsT3VFT2ZSSUh3SjlaNHB1WDhycEtIVDN0YU5sRVFiSVJfQUlPX00tbTltVGZQTDZ1dWZyV0EwQVQ4MGd4VVRPWQ",
       "query": "Tesla stock",
-      "core_issue": "???/??/????",
-      "price_flow_risk_reading": "?? ?????? ??? ?? ??? ??? ??? ?? ??? ???."
+      "core_issue": "경쟁/전기차/시장점유율",
+      "price_flow_risk_reading": "전기차 경쟁 심화는 가격과 점유율 압박으로 이어질 수 있음."
     },
     {
       "rank": 44,
@@ -652,8 +652,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE92Njltby13VjNiX2l3LXFaUjhIQ1dBUzZvbXBId041NkdPd3NtQkxyZE9wZ1FoUktPX3RXZmFUYU1mU1dkRWM5b1dpY1RaTVY1TDMteGV6Z0lvUllrcjJGZWF5Vlk1WWY1bVQ4bmZ5ZENZWndfRTYtQTBn?oc=5",
       "guid": "CBMiekFVX3lxTE92Njltby13VjNiX2l3LXFaUjhIQ1dBUzZvbXBId041NkdPd3NtQkxyZE9wZ1FoUktPX3RXZmFUYU1mU1dkRWM5b1dpY1RaTVY1TDMteGV6Z0lvUllrcjJGZWF5Vlk1WWY1bVQ4bmZ5ZENZWndfRTYtQTBn",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 45,
@@ -666,8 +666,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBveW1zNDFmbWZUdWMyVGMwbVpmaHJsT2pLb09YQ0doU25nZmo4amlKMFNxT1V4TThFMlhNVWF1RWFXR0FwYndqQ1p0cUVjNXBwODgzLWgydFNSOWlkU3FHRU5tTi0yeVE2eEFlYy04Vl9DaFFCSFpiWnc1aw?oc=5",
       "guid": "CBMie0FVX3lxTFBveW1zNDFmbWZUdWMyVGMwbVpmaHJsT2pLb09YQ0doU25nZmo4amlKMFNxT1V4TThFMlhNVWF1RWFXR0FwYndqQ1p0cUVjNXBwODgzLWgydFNSOWlkU3FHRU5tTi0yeVE2eEFlYy04Vl9DaFFCSFpiWnc1aw",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 46,
@@ -680,8 +680,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORnNBWWRqSjN0cWhfVHpfU0R4YlFmSEFXN0xwOHZOQ3VBM2xfcUpqT1o3UnlaUm5BVU9ObHFPcWJabG5JQkJEWkFQd3Zka2h0c1I1Z252MVZaaUNwR01ybnEyZE1HWlRNTDFDamlGUV9SQk5feTBOaDBtRTN0ZXVYZVpEdGVLZGxmdFlWM0JtME94TndnN1lEVlZGeWttN2NwSV9LRkdkVmNSY1NOeV9TY2drYkhfUVU?oc=5",
       "guid": "CBMitwFBVV95cUxORnNBWWRqSjN0cWhfVHpfU0R4YlFmSEFXN0xwOHZOQ3VBM2xfcUpqT1o3UnlaUm5BVU9ObHFPcWJabG5JQkJEWkFQd3Zka2h0c1I1Z252MVZaaUNwR01ybnEyZE1HWlRNTDFDamlGUV9SQk5feTBOaDBtRTN0ZXVYZVpEdGVLZGxmdFlWM0JtME94TndnN1lEVlZGeWttN2NwSV9LRkdkVmNSY1NOeV9TY2drYkhfUVU",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 47,
@@ -694,8 +694,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPa3RMMmRoaTIxNlhTMUo5MlRxb2xlbmZZOGNpVWhiMVZnVnRuaTQ1ZUlhMVA4SnFFaEJTQnBMdC1GR3BkLTNfRnNOaTJqelZXQk1KWm05YmkwaUdEMC14MGhfS2tQbklVeFNTTEpoYkdVM25JQWVEZUlaclZ0YlVKYm1B?oc=5",
       "guid": "CBMiggFBVV95cUxPa3RMMmRoaTIxNlhTMUo5MlRxb2xlbmZZOGNpVWhiMVZnVnRuaTQ1ZUlhMVA4SnFFaEJTQnBMdC1GR3BkLTNfRnNOaTJqelZXQk1KWm05YmkwaUdEMC14MGhfS2tQbklVeFNTTEpoYkdVM25JQWVEZUlaclZ0YlVKYm1B",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 48,
@@ -708,8 +708,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMW15LTNCMDZqb2lKSlZYU1l4elFlMEV6RmNWbUpidm5wVTZXblVuaExreDlSUEExTFltZURtR0Q2ZDlBOEdETWZjN0EtOC0xdmpDbUZ1WlJCOVVEYlN0RndqdmRlaTZVbkltZThOdE5pRERsVmtvM19ZVDdKQTlHT3ItSklZVmRkU1RGWE5aRVZmQV81?oc=5",
       "guid": "CBMilAFBVV95cUxPMW15LTNCMDZqb2lKSlZYU1l4elFlMEV6RmNWbUpidm5wVTZXblVuaExreDlSUEExTFltZURtR0Q2ZDlBOEdETWZjN0EtOC0xdmpDbUZ1WlJCOVVEYlN0RndqdmRlaTZVbkltZThOdE5pRERsVmtvM19ZVDdKQTlHT3ItSklZVmRkU1RGWE5aRVZmQV81",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 49,
@@ -722,8 +722,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQM2piT2pvMDdKZkhyeUlpb280NEttQUh2RWN2NEJqbUdEZDZzWWRpMmpPdENJRDlLb1Vaczc3R0tqQS14cHl2Qm12a2NXbDZxNTlRUW9HY3ExNWdWZXctUUhxaTdrWnFiX0lTVFd5QjBXYWZic3ItTWJScXJ4Z1lWZ3plbk83Zzd2THhEcnN0MGs1YkxOTVlmOGJSOUVDYmRFNk51R2hnbEtrWWswbk5NWVNhS2FJMDE3RlZ3eGxveWpNSUlleEHSAcsBQVVfeXFMTlhmckpmY01JM1huMUExSnBDM3hjVHFrSWNSRFJVQl9oemRfSE9TbVdyczlfZ2pYUGZUekpNeGNkNXZua1V3Y3Y2R2Njel9iMmRrSWpCYlNxekRqbGVfM3pIcXdaS2NhOHRuZVpvVDhGcVBMX0J4czJqcWxlUEN4T2cwRlBISjFTVlkyV0NOTDl0WW83N3pjZE1FRm5vMUNlaUlxeTdiX1p2bFduYkFfbVpnb25KcExSUWJkbXRUUzBsWTRwU3pNdTY0Yzg?oc=5",
       "guid": "CBMixgFBVV95cUxQM2piT2pvMDdKZkhyeUlpb280NEttQUh2RWN2NEJqbUdEZDZzWWRpMmpPdENJRDlLb1Vaczc3R0tqQS14cHl2Qm12a2NXbDZxNTlRUW9HY3ExNWdWZXctUUhxaTdrWnFiX0lTVFd5QjBXYWZic3ItTWJScXJ4Z1lWZ3plbk83Zzd2THhEcnN0MGs1YkxOTVlmOGJSOUVDYmRFNk51R2hnbEtrWWswbk5NWVNhS2FJMDE3RlZ3eGxveWpNSUlleEHSAcsBQVVfeXFMTlhmckpmY01JM1huMUExSnBDM3hjVHFrSWNSRFJVQl9oemRfSE9TbVdyczlfZ2pYUGZUekpNeGNkNXZua1V3Y3Y2R2Njel9iMmRrSWpCYlNxekRqbGVfM3pIcXdaS2NhOHRuZVpvVDhGcVBMX0J4czJqcWxlUEN4T2cwRlBISjFTVlkyV0NOTDl0WW83N3pjZE1FRm5vMUNlaUlxeTdiX1p2bFduYkFfbVpnb25KcExSUWJkbXRUUzBsWTRwU3pNdTY0Yzg",
       "query": "Tesla stock",
-      "core_issue": "??/?????",
-      "price_flow_risk_reading": "????? ??? ?? ??? ???? ?? ??? ????? ??."
+      "core_issue": "회계/감사리스크",
+      "price_flow_risk_reading": "감사·회계 관련 논점은 성장 서사의 신뢰도와 할인율에 부담이 될 수 있음."
     },
     {
       "rank": 50,
@@ -736,8 +736,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5rcjRVR2ZoVnF6TFQxMGJ3dDhYcjlDWTZLODZxT1plV1VfYWtVbF9JVGwxQXl1dDJJTHg4bXVrS1gwRmdDRWhnVDZSWG12dTV1QkhXejluM0tDM1V5SGZVZHR2WVBLSUk2X0J6Z0I0M1NsNFFsTTV3V0pOTHhqUQ?oc=5",
       "guid": "CBMifkFVX3lxTE5rcjRVR2ZoVnF6TFQxMGJ3dDhYcjlDWTZLODZxT1plV1VfYWtVbF9JVGwxQXl1dDJJTHg4bXVrS1gwRmdDRWhnVDZSWG12dTV1QkhXejluM0tDM1V5SGZVZHR2WVBLSUk2X0J6Z0I0M1NsNFFsTTV3V0pOTHhqUQ",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 51,
@@ -750,8 +750,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNm53NW9oWm9hSktXNFBRR1VLcE54YzUzMU1hVDNHbG00MEYzczlFdVVWY0U0cDR0aGhBQUFEMktURjlDVVB2S19fNjkwSWlRLWVNck9xN1d4cV9DanlxSG13ME1mdUxKQmFRTjB0UUM3aS1NOHNCVDNERXVNcTVoS1NDRG9XRVBaS3FqVWlsR3dXTndhZXFZN1d2QlJLeFctdXY4?oc=5",
       "guid": "CBMiowFBVV95cUxQNm53NW9oWm9hSktXNFBRR1VLcE54YzUzMU1hVDNHbG00MEYzczlFdVVWY0U0cDR0aGhBQUFEMktURjlDVVB2S19fNjkwSWlRLWVNck9xN1d4cV9DanlxSG13ME1mdUxKQmFRTjB0UUM3aS1NOHNCVDNERXVNcTVoS1NDRG9XRVBaS3FqVWlsR3dXTndhZXFZN1d2QlJLeFctdXY4",
       "query": "Tesla stock",
-      "core_issue": "??/??/????/CapEx",
-      "price_flow_risk_reading": "?? ??? ????? ??, AI??? ?? ??? ?? FCF ?? ??."
+      "core_issue": "매출/마진/현금흐름/CapEx",
+      "price_flow_risk_reading": "EV 수요와 마진 둔화, AI 투자비 부담은 FCF 경로를 흔들 수 있음."
     },
     {
       "rank": 52,
@@ -764,8 +764,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNOVhYSUxpbmVkWGtnODhMbEphdElsSHJPdlFvN0J2eUFGclRVZVFaTTNva3cyMGhjSkR5MmtsVWVXVXY3dEhzNzczem5NNC1OSG5yRVkyV3c4QjhvZmJUcEZrdldlZTVEU1hYV2RYcEEwQUNTQlkzSFpHLWlHNWczbmo3REVBVnNfVVJhMk5mWmlzdkJKN1Q2X1NyZEthcUt6U2RkY0R2RUFjUzR4MEJzc09TXzRNSkhScGlDVWhHLWt4WWY5?oc=5",
       "guid": "CBMixAFBVV95cUxNOVhYSUxpbmVkWGtnODhMbEphdElsSHJPdlFvN0J2eUFGclRVZVFaTTNva3cyMGhjSkR5MmtsVWVXVXY3dEhzNzczem5NNC1OSG5yRVkyV3c4QjhvZmJUcEZrdldlZTVEU1hYV2RYcEEwQUNTQlkzSFpHLWlHNWczbmo3REVBVnNfVVJhMk5mWmlzdkJKN1Q2X1NyZEthcUt6U2RkY0R2RUFjUzR4MEJzc09TXzRNSkhScGlDVWhHLWt4WWY5",
       "query": "Tesla stock",
-      "core_issue": "??/??/????/CapEx",
-      "price_flow_risk_reading": "?? ??? ????? ??, AI??? ?? ??? ?? FCF ?? ??."
+      "core_issue": "매출/마진/현금흐름/CapEx",
+      "price_flow_risk_reading": "EV 수요와 마진 둔화, AI 투자비 부담은 FCF 경로를 흔들 수 있음."
     },
     {
       "rank": 53,
@@ -778,8 +778,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPSkprNkdxdTUxdTJYN0d0Q2g5bzdpQ09TRnBUWkdoZFZrRmFLZDB6VmxmUVQycEQ3eHBRUlBiZVluLVNEcXhTNDEwZEZDMHFYRGFmbUlVRnQ5OEZXaV82UEhKVVcyREtScUVBN202VEpXTXh2VHJWVFpNX2l5ckdVMXFLY0h5aEV2SUtwdmNRT1VzODJYcFhhdVJHdHdZWmRld0ZmS25sd3ZxWGNDS3FVVjFTNC1RanNzSzkyWVZsMG5pcVdFUnd1cGtB?oc=5",
       "guid": "CBMiygFBVV95cUxPSkprNkdxdTUxdTJYN0d0Q2g5bzdpQ09TRnBUWkdoZFZrRmFLZDB6VmxmUVQycEQ3eHBRUlBiZVluLVNEcXhTNDEwZEZDMHFYRGFmbUlVRnQ5OEZXaV82UEhKVVcyREtScUVBN202VEpXTXh2VHJWVFpNX2l5ckdVMXFLY0h5aEV2SUtwdmNRT1VzODJYcFhhdVJHdHdZWmRld0ZmS25sd3ZxWGNDS3FVVjFTNC1RanNzSzkyWVZsMG5pcVdFUnd1cGtB",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 54,
@@ -792,8 +792,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONVhvRUxjTHl3a21ldlp0N3VGNlQwMG4wc0tBWFB3bFE3aWZIY21qOHB1WVUtNjJKTWUzZGlBYkQtZVU3RURBWUZHOWJiaGdwUHF0a3Z5RVdUSE1BdDhFM215NGc1RnFmT3BiWHNBZzVBc2xFMTMtMWxhZGZDUUREWmhaRkNMU2RzOE92OGt3NlRFcmUzcjRqeGJR?oc=5",
       "guid": "CBMimgFBVV95cUxONVhvRUxjTHl3a21ldlp0N3VGNlQwMG4wc0tBWFB3bFE3aWZIY21qOHB1WVUtNjJKTWUzZGlBYkQtZVU3RURBWUZHOWJiaGdwUHF0a3Z5RVdUSE1BdDhFM215NGc1RnFmT3BiWHNBZzVBc2xFMTMtMWxhZGZDUUREWmhaRkNMU2RzOE92OGt3NlRFcmUzcjRqeGJR",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 55,
@@ -806,8 +806,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbmJkQnNXRHZNdWhPYWFqUTJNYThBaU94ZzB4bGJHUkI4czEzUHdJbFFNTml5RDhNV01SOXpwbnlZSUZ3OTdRWVRyVVFOZGVqU2dlTHNaRGZvMW5tbWljdEV0eHJIRFV6S3FhU0ZuV1JzY3NhOEMxbmNGNWF3S3RqRlYxbGxyNHJta1dEU1luVi0tMmdQYzViMw?oc=5",
       "guid": "CBMimAFBVV95cUxPbmJkQnNXRHZNdWhPYWFqUTJNYThBaU94ZzB4bGJHUkI4czEzUHdJbFFNTml5RDhNV01SOXpwbnlZSUZ3OTdRWVRyVVFOZGVqU2dlTHNaRGZvMW5tbWljdEV0eHJIRFV6S3FhU0ZuV1JzY3NhOEMxbmNGNWF3S3RqRlYxbGxyNHJta1dEU1luVi0tMmdQYzViMw",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 56,
@@ -820,8 +820,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcWpObHRfY1VhOS1meVQxamx5RHpLSUYzdGNRcHEwRFlrVGRFT3pwWXh4SlpPakR4aFNuaC1uVUdZa3lLRzJ5cWRmbzRta0s3aDZrb1JXd1V2ZWJSVHBKOTdHTm5ua0Z3SFdyVEtncXpwa1VJeC1MTmN0aEV2ZmtWR05NLWw3ME5zcEpxV0ZET2N0bl96VGk4SEo1WUdGZHJtWG44VDh2NXQxdEpXcEE?oc=5",
       "guid": "CBMirgFBVV95cUxPcWpObHRfY1VhOS1meVQxamx5RHpLSUYzdGNRcHEwRFlrVGRFT3pwWXh4SlpPakR4aFNuaC1uVUdZa3lLRzJ5cWRmbzRta0s3aDZrb1JXd1V2ZWJSVHBKOTdHTm5ua0Z3SFdyVEtncXpwa1VJeC1MTmN0aEV2ZmtWR05NLWw3ME5zcEpxV0ZET2N0bl96VGk4SEo1WUdGZHJtWG44VDh2NXQxdEpXcEE",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 57,
@@ -834,8 +834,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWldtdVdTOUZRNXZ3V09FSjVoRnkyTVZHUE1DY0FtZXlHVTk4VXUzM1QySE41VXd5TkR3UFN1N3ZneURMZTRGeEQ5Q3k0VjJtbndPZkV4dHNKd2VSSDR5OHZTRnhZUHR3a0xhZHZvTnpBQUllVE9GRW0ybDdNR00xd08yMWxjUzV3R1g4LUdBVFFfV0VIbXNUMHJRenpLOElxMEYzYzMyUF90U1BrNWZWb0dxLTBaOTVCU196VWhSTQ?oc=5",
       "guid": "CBMivwFBVV95cUxPWldtdVdTOUZRNXZ3V09FSjVoRnkyTVZHUE1DY0FtZXlHVTk4VXUzM1QySE41VXd5TkR3UFN1N3ZneURMZTRGeEQ5Q3k0VjJtbndPZkV4dHNKd2VSSDR5OHZTRnhZUHR3a0xhZHZvTnpBQUllVE9GRW0ybDdNR00xd08yMWxjUzV3R1g4LUdBVFFfV0VIbXNUMHJRenpLOElxMEYzYzMyUF90U1BrNWZWb0dxLTBaOTVCU196VWhSTQ",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 58,
@@ -848,8 +848,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9tOVVYeWhOeXZoS0gxaGM5QjBSaVpsTm5WNnRxZGRkdEIxSWloajlGZkFzRXFSUGhqUm04Vm9IcFd5amxiTXFMdkpfTWx1Y0pzWk1uUHlVVDNBdmdBY2pBT2lUV2xUTmVsbWIyME5JMlItbnBIWmdEb3lONA?oc=5",
       "guid": "CBMie0FVX3lxTE9tOVVYeWhOeXZoS0gxaGM5QjBSaVpsTm5WNnRxZGRkdEIxSWloajlGZkFzRXFSUGhqUm04Vm9IcFd5amxiTXFMdkpfTWx1Y0pzWk1uUHlVVDNBdmdBY2pBT2lUV2xUTmVsbWIyME5JMlItbnBIWmdEb3lONA",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 59,
@@ -862,8 +862,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeEpCbnBub0YxTExTbTVIZXZCU1JrdTJRMFYwNWlOSzQ3QnNBaEM2WUtlZFpUdEt4cmIteFhqc2tkcHJSajM2cnlqbjlSUy01VmZDYzVpcDBHWkJNdVVIRHo2TGxzcmxEUmpnM3dvOWNwYU9NXzRvV3lnc3dYRDVyaUhxU3ozVWlkTDFHS0oyeVg0Ui1EcHc?oc=5",
       "guid": "CBMilgFBVV95cUxPeEpCbnBub0YxTExTbTVIZXZCU1JrdTJRMFYwNWlOSzQ3QnNBaEM2WUtlZFpUdEt4cmIteFhqc2tkcHJSajM2cnlqbjlSUy01VmZDYzVpcDBHWkJNdVVIRHo2TGxzcmxEUmpnM3dvOWNwYU9NXzRvV3lnc3dYRDVyaUhxU3ozVWlkTDFHS0oyeVg0Ui1EcHc",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 60,
@@ -876,8 +876,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaVB5bWltWW5ia011eGtVeHdpOTBrV0U4YUhsN2VDaXVuOXdxT2FxeGVWOWdWX0hqQlZEdFR6MkpoM2ZsN0pTdS03Mi1TSEhjT05MX3E3TVctWmVmNHZxVkRKelVnenpETDFFY1NGMi1DeDRpZm9qUjhRRTdLQVRPNVotRTM5RTc2ejB4N216cmhod3lyZ1ZWUXpaM2VxLUNMZ0tTVFdoemU?oc=5",
       "guid": "CBMiqAFBVV95cUxNaVB5bWltWW5ia011eGtVeHdpOTBrV0U4YUhsN2VDaXVuOXdxT2FxeGVWOWdWX0hqQlZEdFR6MkpoM2ZsN0pTdS03Mi1TSEhjT05MX3E3TVctWmVmNHZxVkRKelVnenpETDFFY1NGMi1DeDRpZm9qUjhRRTdLQVRPNVotRTM5RTc2ejB4N216cmhod3lyZ1ZWUXpaM2VxLUNMZ0tTVFdoemU",
       "query": "Tesla stock",
-      "core_issue": "??/??/????/CapEx",
-      "price_flow_risk_reading": "?? ??? ????? ??, AI??? ?? ??? ?? FCF ?? ??."
+      "core_issue": "매출/마진/현금흐름/CapEx",
+      "price_flow_risk_reading": "EV 수요와 마진 둔화, AI 투자비 부담은 FCF 경로를 흔들 수 있음."
     },
     {
       "rank": 61,
@@ -890,8 +890,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CTWtXZlF1TUwyeURnYXZrQUVQMXJMcXNMOEs3ZmpYRGRQbHFqUTdBZ1JWMFJPV1dwYVVCRlhfNEk0bC15cy13eXpBcWFHMGlKT3BOZEVSbXJxSFZBTGx0eXhGcW9NdndtemxpcmdiSUVFY09TRU4xX3dBbDVMRmc?oc=5",
       "guid": "CBMif0FVX3lxTE9CTWtXZlF1TUwyeURnYXZrQUVQMXJMcXNMOEs3ZmpYRGRQbHFqUTdBZ1JWMFJPV1dwYVVCRlhfNEk0bC15cy13eXpBcWFHMGlKT3BOZEVSbXJxSFZBTGx0eXhGcW9NdndtemxpcmdiSUVFY09TRU4xX3dBbDVMRmc",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 62,
@@ -904,8 +904,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeDV2YmsxWDNQaVdiUjkxWXI2bVBqaTZGdXUxLWJQX00yNGhHUjJTWDExZW1yMDdYUDZsMlB2djktcDNmZnVRUHpROTZ6Q19rMkRrR1pDMUlNbUtfTU54YnJPNWZEdUxlWWJaRTdERW56M1Vrc0hhdVhpc1pKei1qckxZcUEtQWVXWWZlb2dUa9IBlAFBVV95cUxOb19aOEFjQng2YlNVN1JsVmpsVlpTVmxOOGY0eVAwX095TFEwSzFwYjM3MEVLSV8xMnZkOUwwQTdubC1zc3l6alNLVVBtY3JlNDkzS0FQWWFVd21ZcVpxN09PZjMzajBRdnNVVFlRNHFSY3ViWkNXdXd0Q2U5RmpZejYxaEFlWWItekd2RE1iSkxWd2M5?oc=5",
       "guid": "CBMijwFBVV95cUxPeDV2YmsxWDNQaVdiUjkxWXI2bVBqaTZGdXUxLWJQX00yNGhHUjJTWDExZW1yMDdYUDZsMlB2djktcDNmZnVRUHpROTZ6Q19rMkRrR1pDMUlNbUtfTU54YnJPNWZEdUxlWWJaRTdERW56M1Vrc0hhdVhpc1pKei1qckxZcUEtQWVXWWZlb2dUa9IBlAFBVV95cUxOb19aOEFjQng2YlNVN1JsVmpsVlpTVmxOOGY0eVAwX095TFEwSzFwYjM3MEVLSV8xMnZkOUwwQTdubC1zc3l6alNLVVBtY3JlNDkzS0FQWWFVd21ZcVpxN09PZjMzajBRdnNVVFlRNHFSY3ViWkNXdXd0Q2U5RmpZejYxaEFlWWItekd2RE1iSkxWd2M5",
       "query": "Tesla stock",
-      "core_issue": "SpaceX/???/????",
-      "price_flow_risk_reading": "??? ????SpaceX ???? TSLA ?? ????? ?? ??? ??? ?? ? ??."
+      "core_issue": "SpaceX/머스크/지배구조",
+      "price_flow_risk_reading": "머스크의 SpaceX 관련 이슈는 TSLA 투자심리와 지배구조 우려를 동시에 흔들 수 있음."
     },
     {
       "rank": 63,
@@ -918,8 +918,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbWFxQ1RLajlyMXJoZDZXV1I0cW16bHp6VE9XZ0hUaVl4ZUMyenhpREhQeDJ1UHhQVkU1R1NZODA5SmpqajF3bUNtU1VvbWRKYWZDbGV4VXUyVndob2sxZ0RuUHk0Unl6dlQxdHJqb254cEJjRkI0YXJVNWtEVjlTZkEwSkl1WDlrRXFFWkw0VUlQT0JlaVY1VU9lZHNqS3pv?oc=5",
       "guid": "CBMioAFBVV95cUxPbWFxQ1RLajlyMXJoZDZXV1I0cW16bHp6VE9XZ0hUaVl4ZUMyenhpREhQeDJ1UHhQVkU1R1NZODA5SmpqajF3bUNtU1VvbWRKYWZDbGV4VXUyVndob2sxZ0RuUHk0Unl6dlQxdHJqb254cEJjRkI0YXJVNWtEVjlTZkEwSkl1WDlrRXFFWkw0VUlQT0JlaVY1VU9lZHNqS3pv",
       "query": "Tesla stock",
-      "core_issue": "SpaceX/???/????",
-      "price_flow_risk_reading": "??? ????SpaceX ???? TSLA ?? ????? ?? ??? ??? ?? ? ??."
+      "core_issue": "SpaceX/머스크/지배구조",
+      "price_flow_risk_reading": "머스크의 SpaceX 관련 이슈는 TSLA 투자심리와 지배구조 우려를 동시에 흔들 수 있음."
     },
     {
       "rank": 64,
@@ -932,8 +932,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQXY3bVh1RUlwX3VlVUV3cVdqcXZVbWN4U0VIbmFEWHdfRHN4UEtHX1E1QUdyZEtPRm10WEU4RE5Fa0d2NVRWRDcwWjR1d3FLYWxwZy1Cb1M5eEt0U3VTM0NQS21sc0FuaWhJNFVtQjdCSUVteW5KYTBqZEFWUHFhUG81TE03T3F6MGhuLQ?oc=5",
       "guid": "CBMijAFBVV95cUxOQXY3bVh1RUlwX3VlVUV3cVdqcXZVbWN4U0VIbmFEWHdfRHN4UEtHX1E1QUdyZEtPRm10WEU4RE5Fa0d2NVRWRDcwWjR1d3FLYWxwZy1Cb1M5eEt0U3VTM0NQS21sc0FuaWhJNFVtQjdCSUVteW5KYTBqZEFWUHFhUG81TE03T3F6MGhuLQ",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 65,
@@ -946,8 +946,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPeW03TEdjR3hQWE1oU05hOVhLbFQtZEVqajIwNFR3Wjllb1FkUHV4dzZqVU5xLVduVTE1V3ZDU3A1U3RSSml4bGtzMlVHcElmN1ZkQ2NvQ1l0ZkJpYkltcWVsZk0wdlNGZm16YnR6QW5TczN6bS1RZS1JUVNwd1BGd3dVcmxWYU5tbC1qaEtCUjYzVkhwZERlRWMyQW9HdVVrOFRpOXIyYWxsTFZKdjZBc1JfdWlEcFN4M1FXajN2X0Rib21V?oc=5",
       "guid": "CBMixAFBVV95cUxPeW03TEdjR3hQWE1oU05hOVhLbFQtZEVqajIwNFR3Wjllb1FkUHV4dzZqVU5xLVduVTE1V3ZDU3A1U3RSSml4bGtzMlVHcElmN1ZkQ2NvQ1l0ZkJpYkltcWVsZk0wdlNGZm16YnR6QW5TczN6bS1RZS1JUVNwd1BGd3dVcmxWYU5tbC1qaEtCUjYzVkhwZERlRWMyQW9HdVVrOFRpOXIyYWxsTFZKdjZBc1JfdWlEcFN4M1FXajN2X0Rib21V",
       "query": "Tesla stock",
-      "core_issue": "??/??/????/CapEx",
-      "price_flow_risk_reading": "?? ??? ????? ??, AI??? ?? ??? ?? FCF ?? ??."
+      "core_issue": "매출/마진/현금흐름/CapEx",
+      "price_flow_risk_reading": "EV 수요와 마진 둔화, AI 투자비 부담은 FCF 경로를 흔들 수 있음."
     },
     {
       "rank": 66,
@@ -960,8 +960,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMnIyWU5YXzFtNkxpam9MS25CVURITzF3Zlg4X2xVb25oZlluejhiRjlOOTZ4RDBWbzNxbWNmVWJMNkNKU1BRM2UwRkc2TDJwem9KSVVlUXRZdHBDSzBGNTA1b0tRVEVGUXAxRjVMQ3R2U0o2cWNtQm43dkZQZVZRMA?oc=5",
       "guid": "CBMigAFBVV95cUxNMnIyWU5YXzFtNkxpam9MS25CVURITzF3Zlg4X2xVb25oZlluejhiRjlOOTZ4RDBWbzNxbWNmVWJMNkNKU1BRM2UwRkc2TDJwem9KSVVlUXRZdHBDSzBGNTA1b0tRVEVGUXAxRjVMQ3R2U0o2cWNtQm43dkZQZVZRMA",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 67,
@@ -974,8 +974,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUG56UGdsN05FTE5iSmxUTzNDXzNySFFvaTFZZTREM3RMenY3RmE1UDl1cHo0eFBLS1FkNHZhY2V3MXZFa2pCZDVtVXpmaDZjZ0RmX0FGX0d4Mi1VVEZSb05VNXV0WThSeXhEb1dWRHlJSG9oMkp5WllFN3c1blhYTjRGRkRDWFBmZldxMEpnZ2FuYTY5cXdXTExYaXhyOHY0TEZNSnRqbmVDeUpHTHhlZ1VTYWdPb2xoTW52dWRyOVhaeUpH?oc=5",
       "guid": "CBMixAFBVV95cUxNUG56UGdsN05FTE5iSmxUTzNDXzNySFFvaTFZZTREM3RMenY3RmE1UDl1cHo0eFBLS1FkNHZhY2V3MXZFa2pCZDVtVXpmaDZjZ0RmX0FGX0d4Mi1VVEZSb05VNXV0WThSeXhEb1dWRHlJSG9oMkp5WllFN3c1blhYTjRGRkRDWFBmZldxMEpnZ2FuYTY5cXdXTExYaXhyOHY0TEZNSnRqbmVDeUpHTHhlZ1VTYWdPb2xoTW52dWRyOVhaeUpH",
       "query": "Tesla stock",
-      "core_issue": "SpaceX/???/????",
-      "price_flow_risk_reading": "??? ????SpaceX ???? TSLA ?? ????? ?? ??? ??? ?? ? ??."
+      "core_issue": "SpaceX/머스크/지배구조",
+      "price_flow_risk_reading": "머스크의 SpaceX 관련 이슈는 TSLA 투자심리와 지배구조 우려를 동시에 흔들 수 있음."
     },
     {
       "rank": 68,
@@ -988,8 +988,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQS3k2QkZHdnF2ZFFTX2UtWHRaQWRiOW81aGZqS3JpT3hjT2RZRXBlajRsd0EwcXR5OFZxQVZhTS1NSmt1eFF2am1MWk5NWjJJSHNORDc0ZnFmSUNQS3FOaGFZU2VYakExRkN2dkF3czFxNkxMT1g4U3F4eVhhRnotRlFYQ2pya3drUlVrZExiTzZFYXE4SmxR?oc=5",
       "guid": "CBMilwFBVV95cUxQS3k2QkZHdnF2ZFFTX2UtWHRaQWRiOW81aGZqS3JpT3hjT2RZRXBlajRsd0EwcXR5OFZxQVZhTS1NSmt1eFF2am1MWk5NWjJJSHNORDc0ZnFmSUNQS3FOaGFZU2VYakExRkN2dkF3czFxNkxMT1g4U3F4eVhhRnotRlFYQ2pya3drUlVrZExiTzZFYXE4SmxR",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 69,
@@ -1002,8 +1002,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1yN3FLM2hCNzJJem5xeXJ5YVFpMGFtenY0RzFSSWYxc0xDUWl3aDBEcEJaaTRkUzFuLUYxYnFXSTI4Uk5neGc3b0JQNVo0SHB1Sm9Jd0VNWkZNcW1uYWxNZ1BvU09HWHJDODZBRXRHOWx5ckdJWUhzVg?oc=5",
       "guid": "CBMieEFVX3lxTE1yN3FLM2hCNzJJem5xeXJ5YVFpMGFtenY0RzFSSWYxc0xDUWl3aDBEcEJaaTRkUzFuLUYxYnFXSTI4Uk5neGc3b0JQNVo0SHB1Sm9Jd0VNWkZNcW1uYWxNZ1BvU09HWHJDODZBRXRHOWx5ckdJWUhzVg",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 70,
@@ -1016,8 +1016,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNOGNCNHVDTC1pdmx3TE9UMm5oTzdHYWxieTl0V29YMEpoV0lod1NOYk1URm0tR3lpWHlwQ216Y0dkSVEyZXV5VHFkeEJSUzB5Z1pQVWVpcXlmckR2b2VyMzhUZkt5ajVUT0YxTjUzSWxHTEFaemZsTVZUWkIyU19hUQ?oc=5",
       "guid": "CBMigAFBVV95cUxNOGNCNHVDTC1pdmx3TE9UMm5oTzdHYWxieTl0V29YMEpoV0lod1NOYk1URm0tR3lpWHlwQ216Y0dkSVEyZXV5VHFkeEJSUzB5Z1pQVWVpcXlmckR2b2VyMzhUZkt5ajVUT0YxTjUzSWxHTEFaemZsTVZUWkIyU19hUQ",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 71,
@@ -1030,8 +1030,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPd1VaUkhJWnJ6c29kRzd0czFlSERhOWRwN2NSdWVGcmRtNFVJdEJPTzZZN0VUM0ZaRnJVZTZiSTRURTBXU0xEVTRuSUl5NHpEV3ZsRXhPVmJPdkNKOG1XWHJQdzBlTWJKN21VS3FrdEZ1V0xQOV9IMFJ2b3BJWDZERnlwYU02bGpqdmRQaktmbVVIVnQzVEFoUTJmeVk?oc=5",
       "guid": "CBMinAFBVV95cUxPd1VaUkhJWnJ6c29kRzd0czFlSERhOWRwN2NSdWVGcmRtNFVJdEJPTzZZN0VUM0ZaRnJVZTZiSTRURTBXU0xEVTRuSUl5NHpEV3ZsRXhPVmJPdkNKOG1XWHJQdzBlTWJKN21VS3FrdEZ1V0xQOV9IMFJ2b3BJWDZERnlwYU02bGpqdmRQaktmbVVIVnQzVEFoUTJmeVk",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 72,
@@ -1044,8 +1044,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQOFpISFFETzlDbHRmakY4dGVrb3dQeXQ0NV80NjBUR3hldU1mbHhLQXdIQk5jeS1tUjNwNUpDUHNYSTNmVzRZLVRXWnhMdzA0cVZYeXdzX0o3QWl2WXRuSHZBOGcycjdjOHJ0dklJZ1Q5bkRLcVBydE4wTUEyM3FoNVhsd1RRRUpHUVA3Q1JHTEFSaTQ?oc=5",
       "guid": "CBMikwFBVV95cUxQOFpISFFETzlDbHRmakY4dGVrb3dQeXQ0NV80NjBUR3hldU1mbHhLQXdIQk5jeS1tUjNwNUpDUHNYSTNmVzRZLVRXWnhMdzA0cVZYeXdzX0o3QWl2WXRuSHZBOGcycjdjOHJ0dklJZ1Q5bkRLcVBydE4wTUEyM3FoNVhsd1RRRUpHUVA3Q1JHTEFSaTQ",
       "query": "Tesla stock",
-      "core_issue": "??/??/????/CapEx",
-      "price_flow_risk_reading": "?? ??? ????? ??, AI??? ?? ??? ?? FCF ?? ??."
+      "core_issue": "매출/마진/현금흐름/CapEx",
+      "price_flow_risk_reading": "EV 수요와 마진 둔화, AI 투자비 부담은 FCF 경로를 흔들 수 있음."
     },
     {
       "rank": 73,
@@ -1058,8 +1058,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZU1NZ1E3eHpEMjhtMWxsSERYUDRoRElGZTRBNEVFSnhUbUR0QnlySC1HWkFYSE9aRGwwb3BqZ3lkNzBib2hNVnNnY2pkUEtuXzVEWTd3bHhqNjlXZG40UWlZc3pKdmt0U0dOVmlrTlhMRjlOTGVoc1NRQ2xKVDc1YzUzbENfb0Nlbkx4SWkwRVZ3VE1JYWc?oc=5",
       "guid": "CBMilgFBVV95cUxQZU1NZ1E3eHpEMjhtMWxsSERYUDRoRElGZTRBNEVFSnhUbUR0QnlySC1HWkFYSE9aRGwwb3BqZ3lkNzBib2hNVnNnY2pkUEtuXzVEWTd3bHhqNjlXZG40UWlZc3pKdmt0U0dOVmlrTlhMRjlOTGVoc1NRQ2xKVDc1YzUzbENfb0Nlbkx4SWkwRVZ3VE1JYWc",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 74,
@@ -1072,8 +1072,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMzNvY01yVXMzUU1kZkg5Znp3WkZhY2NEYXQtT0QzU1Q4bGV1S3h0eHUwYjI4eWh4aW9OSU5UTkJZQjNRbjlUbE9lYktHNWhFTW5ON2JXdmZ6bVFxcDdQanU0emlkc2hYWjRXaUh5NVM2M3VHdS1BUTBhVnNsdm1hNjRkanQwRVRpUGFGdHREMW9RR29W?oc=5",
       "guid": "CBMilAFBVV95cUxNMzNvY01yVXMzUU1kZkg5Znp3WkZhY2NEYXQtT0QzU1Q4bGV1S3h0eHUwYjI4eWh4aW9OSU5UTkJZQjNRbjlUbE9lYktHNWhFTW5ON2JXdmZ6bVFxcDdQanU0emlkc2hYWjRXaUh5NVM2M3VHdS1BUTBhVnNsdm1hNjRkanQwRVRpUGFGdHREMW9RR29W",
       "query": "Tesla stock",
-      "core_issue": "??/??/????/CapEx",
-      "price_flow_risk_reading": "?? ??? ????? ??, AI??? ?? ??? ?? FCF ?? ??."
+      "core_issue": "매출/마진/현금흐름/CapEx",
+      "price_flow_risk_reading": "EV 수요와 마진 둔화, AI 투자비 부담은 FCF 경로를 흔들 수 있음."
     },
     {
       "rank": 75,
@@ -1086,8 +1086,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdEU3dVVVUkczb1k1OGllMjZUTjgydXRMaFZRazdDNmE2Z2dSOVN3aXNySWh3Uk1XTkxHQ211VGpKbVJPNEFxSjhXS0x4UXRWalptUTZEOU04MlFEWkJXZHA5Zmoyamc3SUpRdjdFTXpOM2lpOVVvRGZLUXZoa1ZBTHpuZWU?oc=5",
       "guid": "CBMihAFBVV95cUxQdEU3dVVVUkczb1k1OGllMjZUTjgydXRMaFZRazdDNmE2Z2dSOVN3aXNySWh3Uk1XTkxHQ211VGpKbVJPNEFxSjhXS0x4UXRWalptUTZEOU04MlFEWkJXZHA5Zmoyamc3SUpRdjdFTXpOM2lpOVVvRGZLUXZoa1ZBTHpuZWU",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 76,
@@ -1100,8 +1100,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdnJYeFVQdGRDclFLOGJjR2dyYldXOWRNUzMwUFBoV2dibmdGLXdpWUFBdUZtN243MzdTd01WOXdJTTdpQnVLYXNWcFlvYW5xeVZUSUtFOVNScWF3MkZFbUVlaWZYMWlvbFNiZngyR3oyRm5mMlhCM2hrWElNQzFvZ0ZKZGJod2xxMVpfRG5ZaF95Zmc1MmJpNFBydjBsY2hvWGdVYkVQZUx6emZ5VzVaOF9hYmozWW9IVlBFTjFrQUJzNHpKTmwtQmxYNHdnOXJYeE13?oc=5",
       "guid": "CBMi0wFBVV95cUxOdnJYeFVQdGRDclFLOGJjR2dyYldXOWRNUzMwUFBoV2dibmdGLXdpWUFBdUZtN243MzdTd01WOXdJTTdpQnVLYXNWcFlvYW5xeVZUSUtFOVNScWF3MkZFbUVlaWZYMWlvbFNiZngyR3oyRm5mMlhCM2hrWElNQzFvZ0ZKZGJod2xxMVpfRG5ZaF95Zmc1MmJpNFBydjBsY2hvWGdVYkVQZUx6emZ5VzVaOF9hYmozWW9IVlBFTjFrQUJzNHpKTmwtQmxYNHdnOXJYeE13",
       "query": "Tesla stock",
-      "core_issue": "??/??/????/CapEx",
-      "price_flow_risk_reading": "?? ??? ????? ??, AI??? ?? ??? ?? FCF ?? ??."
+      "core_issue": "매출/마진/현금흐름/CapEx",
+      "price_flow_risk_reading": "EV 수요와 마진 둔화, AI 투자비 부담은 FCF 경로를 흔들 수 있음."
     },
     {
       "rank": 77,
@@ -1114,8 +1114,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNHQ2N3hkaXlEMXF4aU80TWlhV0Rjcy1QdlliNXdBYjFldWUtTnQxck5IUF9ycWVLS1k4U1JKUk9mWGJDQU1wenZqSnVLWC1jNHdTekxjamJQSXV3aUIwLWJqYVp1WUE5R2VMRzJMdl9JYy1KS09TcXhIeVJEUDJaZTZkWHBOdzRYekFGdGlWc0FQazgwR01fcV9VNmNfTlRid2xGb0cxX09zQTZqcmQ5RGdGcWlXSExybURFUW5jZ29pcmc0?oc=5",
       "guid": "CBMixAFBVV95cUxQNHQ2N3hkaXlEMXF4aU80TWlhV0Rjcy1QdlliNXdBYjFldWUtTnQxck5IUF9ycWVLS1k4U1JKUk9mWGJDQU1wenZqSnVLWC1jNHdTekxjamJQSXV3aUIwLWJqYVp1WUE5R2VMRzJMdl9JYy1KS09TcXhIeVJEUDJaZTZkWHBOdzRYekFGdGlWc0FQazgwR01fcV9VNmNfTlRid2xGb0cxX09zQTZqcmQ5RGdGcWlXSExybURFUW5jZ29pcmc0",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 78,
@@ -1128,8 +1128,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOa2d1TlFUTWF4ci1lbGV2TXg1X2dRZmJhY1VQR0RWMVd4UUR3NFlQejd6Sm9idUNmeXBrMGVZbzlhWWJ4a2h3NU5qbUhPSmVGNmhhWm5ieWl0WXVXUWFmQnJMQmxNT2pxVjlXT3AxaHMwQnV0R01yekJ5MlI2c3RtYQ?oc=5",
       "guid": "CBMigAFBVV95cUxOa2d1TlFUTWF4ci1lbGV2TXg1X2dRZmJhY1VQR0RWMVd4UUR3NFlQejd6Sm9idUNmeXBrMGVZbzlhWWJ4a2h3NU5qbUhPSmVGNmhhWm5ieWl0WXVXUWFmQnJMQmxNT2pxVjlXT3AxaHMwQnV0R01yekJ5MlI2c3RtYQ",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 79,
@@ -1142,8 +1142,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVXYzSnI4UGItNkNtbnd6LVE1MERiLVF1Tnl4T3FGZ1ZUODBwcHIzYm5uaWZHUl9OT2NEZUdOUU1ZZWFvSVJMcTJ4TExhZmxWWXhoZUREVlBRVVdJa1IxVGU3bi1PVFVvSVljNGFObWJ5S3JGYURmTWxMVlJoNDFPbGhXb3RLSDlEWEw1RzBUcjVIdGxtTkl1UnJoMmRxbHFxa2dLRHFGSDZJTXlHemJnZExaekprRUEteEZlRm5vWjRzQTRIWlJWM0lSTl9EZ0JjdW84d2ZIV09qSlow?oc=5",
       "guid": "CBMi3AFBVV95cUxQVXYzSnI4UGItNkNtbnd6LVE1MERiLVF1Tnl4T3FGZ1ZUODBwcHIzYm5uaWZHUl9OT2NEZUdOUU1ZZWFvSVJMcTJ4TExhZmxWWXhoZUREVlBRVVdJa1IxVGU3bi1PVFVvSVljNGFObWJ5S3JGYURmTWxMVlJoNDFPbGhXb3RLSDlEWEw1RzBUcjVIdGxtTkl1UnJoMmRxbHFxa2dLRHFGSDZJTXlHemJnZExaekprRUEteEZlRm5vWjRzQTRIWlJWM0lSTl9EZ0JjdW84d2ZIV09qSlow",
       "query": "Tesla stock",
-      "core_issue": "??/??/????/CapEx",
-      "price_flow_risk_reading": "?? ??? ????? ??, AI??? ?? ??? ?? FCF ?? ??."
+      "core_issue": "매출/마진/현금흐름/CapEx",
+      "price_flow_risk_reading": "EV 수요와 마진 둔화, AI 투자비 부담은 FCF 경로를 흔들 수 있음."
     },
     {
       "rank": 80,
@@ -1156,8 +1156,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTGJXZG14NnRQVG5mNDJVS1FpWHhOeFN1X05GQ3FZZlhkdnFvQVRQRWJTd3pJT1FGNnhZdXp4cTEwVURhcWtMeUlNU0ZXRFA1bUZodDR2UUh1aHZ1R21Ia1BxNnYyLWRDcWp0WDdLQ0wwdDJ5Skh2bl8yMXdUNGtxU25Gc1BPQlpidVpxX3c2SUFVdG8?oc=5",
       "guid": "CBMikwFBVV95cUxOTGJXZG14NnRQVG5mNDJVS1FpWHhOeFN1X05GQ3FZZlhkdnFvQVRQRWJTd3pJT1FGNnhZdXp4cTEwVURhcWtMeUlNU0ZXRFA1bUZodDR2UUh1aHZ1R21Ia1BxNnYyLWRDcWp0WDdLQ0wwdDJ5Skh2bl8yMXdUNGtxU25Gc1BPQlpidVpxX3c2SUFVdG8",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 81,
@@ -1170,8 +1170,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQODYyNjYzTHZLNzAyM3hJMG9vX0MyeW9teVFaR192WWJRM2ZycExNbldqVEZjV2FFZ2dWNHJkUkJCS2h0MW9KZkVJbjNob0NNTUVMamxyZmJuM08zRmhidmtURVVSazljenltX2duZy0xemc5N2paNGRwMkVzRXdLLXJCZFRzX2dSdURWS3NWekZJcGdydHlEVF8zSzItRHZIYXFRSHIwbllhZlhmTF9yUllTZml5VGFZdlg4XzRPdm1lbTd4akFjdDJ0TU1icm91dHA2YlFfVGptLWwtZ1RSRzAtWXYxM3hEY2NSZFBoaG0yRlZ1bjJTSF9wZWJ1Ujg?oc=5",
       "guid": "CBMi_wFBVV95cUxQODYyNjYzTHZLNzAyM3hJMG9vX0MyeW9teVFaR192WWJRM2ZycExNbldqVEZjV2FFZ2dWNHJkUkJCS2h0MW9KZkVJbjNob0NNTUVMamxyZmJuM08zRmhidmtURVVSazljenltX2duZy0xemc5N2paNGRwMkVzRXdLLXJCZFRzX2dSdURWS3NWekZJcGdydHlEVF8zSzItRHZIYXFRSHIwbllhZlhmTF9yUllTZml5VGFZdlg4XzRPdm1lbTd4akFjdDJ0TU1icm91dHA2YlFfVGptLWwtZ1RSRzAtWXYxM3hEY2NSZFBoaG0yRlZ1bjJTSF9wZWJ1Ujg",
       "query": "Tesla stock",
-      "core_issue": "SpaceX/???/????",
-      "price_flow_risk_reading": "??? ????SpaceX ???? TSLA ?? ????? ?? ??? ??? ?? ? ??."
+      "core_issue": "SpaceX/머스크/지배구조",
+      "price_flow_risk_reading": "머스크의 SpaceX 관련 이슈는 TSLA 투자심리와 지배구조 우려를 동시에 흔들 수 있음."
     },
     {
       "rank": 82,
@@ -1184,8 +1184,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOc0ZRSkFwUEpnR0lsRmg3SWkxT1g3QmVEaUpjTFhrOXF5d0dwTVRwWmhhWHFWdzFvejFLaVdLRml0cHAtTHhlaHUwNXlwOUFJamM4ZDNIRGFuc19BZzBDTEd5WGdnMXlJcndOejdZd3c2SWNnU2dwYUdCcVE3UzNRSmhWR0FXVGhCWjlsclc0V28wZ1BSRHlxSmNnUWxlQjhYeVRsTDloSHZJSWlxNUxWb3lndWt3aEZ0WkFqdkJoWQ?oc=5",
       "guid": "CBMivwFBVV95cUxOc0ZRSkFwUEpnR0lsRmg3SWkxT1g3QmVEaUpjTFhrOXF5d0dwTVRwWmhhWHFWdzFvejFLaVdLRml0cHAtTHhlaHUwNXlwOUFJamM4ZDNIRGFuc19BZzBDTEd5WGdnMXlJcndOejdZd3c2SWNnU2dwYUdCcVE3UzNRSmhWR0FXVGhCWjlsclc0V28wZ1BSRHlxSmNnUWxlQjhYeVRsTDloSHZJSWlxNUxWb3lndWt3aEZ0WkFqdkJoWQ",
       "query": "Tesla stock",
-      "core_issue": "??/??/????/CapEx",
-      "price_flow_risk_reading": "?? ??? ????? ??, AI??? ?? ??? ?? FCF ?? ??."
+      "core_issue": "매출/마진/현금흐름/CapEx",
+      "price_flow_risk_reading": "EV 수요와 마진 둔화, AI 투자비 부담은 FCF 경로를 흔들 수 있음."
     },
     {
       "rank": 83,
@@ -1198,8 +1198,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOODNRODU2Tl9uY0dtQmNSRi1mR1VGbE1NamZWTHFGQ2FUVWVmY1JjNFFLd21oRjRnZ1NKVzh3eE9pMURTeFY4ZzI0MFdWOFV4ekNxNy0wOEZ6cVdEZ0pUeHNYaDRRclZFdElyR2pPMGV1SzdYRWxBV0FNOVRiMTUxSGQ2NzE1ejh0V3FMTndfRzFTVGZacU9ibFlqRTRUU2hld2gzNEJGTXlPcE1DT2FXS0dZcFl1RHFwN1ZiRnY5NXJ1ZjlEZDNRRW90MEJrZUU2UHVzRWhMekhyRzQ?oc=5",
       "guid": "CBMi2wFBVV95cUxOODNRODU2Tl9uY0dtQmNSRi1mR1VGbE1NamZWTHFGQ2FUVWVmY1JjNFFLd21oRjRnZ1NKVzh3eE9pMURTeFY4ZzI0MFdWOFV4ekNxNy0wOEZ6cVdEZ0pUeHNYaDRRclZFdElyR2pPMGV1SzdYRWxBV0FNOVRiMTUxSGQ2NzE1ejh0V3FMTndfRzFTVGZacU9ibFlqRTRUU2hld2gzNEJGTXlPcE1DT2FXS0dZcFl1RHFwN1ZiRnY5NXJ1ZjlEZDNRRW90MEJrZUU2UHVzRWhMekhyRzQ",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 84,
@@ -1212,8 +1212,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOOGJCNFA0N3VnU2VFdzBSbkZwbGhRU1Q1VXhjWU1MUXFPbGVacUlvVTNtNDVpUC0zM2IxSHB6U1FzT3ZyUHVuTWc5NHI0LTA0d3lTM3BCSVNjUTJ4ZWw4UDltOHRzdzBLQS11VUtuc0k4S2dTbW9ZcXZKcDRoNjgtTVREQ3FrZ3U1UUdadF85bUI2cUZ4X1ZsalFHMWlfNWdGZWVnQmNwYmxZaXA0emc?oc=5",
       "guid": "CBMirgFBVV95cUxOOGJCNFA0N3VnU2VFdzBSbkZwbGhRU1Q1VXhjWU1MUXFPbGVacUlvVTNtNDVpUC0zM2IxSHB6U1FzT3ZyUHVuTWc5NHI0LTA0d3lTM3BCSVNjUTJ4ZWw4UDltOHRzdzBLQS11VUtuc0k4S2dTbW9ZcXZKcDRoNjgtTVREQ3FrZ3U1UUdadF85bUI2cUZ4X1ZsalFHMWlfNWdGZWVnQmNwYmxZaXA0emc",
       "query": "Tesla stock",
-      "core_issue": "??/??/????/CapEx",
-      "price_flow_risk_reading": "?? ??? ????? ??, AI??? ?? ??? ?? FCF ?? ??."
+      "core_issue": "매출/마진/현금흐름/CapEx",
+      "price_flow_risk_reading": "EV 수요와 마진 둔화, AI 투자비 부담은 FCF 경로를 흔들 수 있음."
     },
     {
       "rank": 85,
@@ -1226,8 +1226,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPam5yNno3VUhEZTVobjhpQXdPS0RITjBRNnZNSFVTaHNuM0xUck1kUnlLMk5ZNThaLWZyRlB0c1RLQWVaZ0hLTG1PZDFTbFpPZXJFQjBsdTlac0w5UG9wUnQ1TEQtWmlJaVFLU1lPd3MtSkprSVZZeXBhZFhvQURkeUxaa1E5VFVHY2RBaE45SFVtUkpHUWc?oc=5",
       "guid": "CBMilgFBVV95cUxPam5yNno3VUhEZTVobjhpQXdPS0RITjBRNnZNSFVTaHNuM0xUck1kUnlLMk5ZNThaLWZyRlB0c1RLQWVaZ0hLTG1PZDFTbFpPZXJFQjBsdTlac0w5UG9wUnQ1TEQtWmlJaVFLU1lPd3MtSkprSVZZeXBhZFhvQURkeUxaa1E5VFVHY2RBaE45SFVtUkpHUWc",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 86,
@@ -1240,8 +1240,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQczhPcXBxUXEtWkxNRmt5d0lHVWJfZ1ItWmdNdU5EbHNxZjAyU0RmRkFsUWVwSjVnbF8tSWRMYXdnRHlSUVVLeTd3dEdORDJ0cXdDOFEyYXN3OGJnYUlEOFkzdUtHcTZKZHNKUHFOQU52bGhiMllsOFdQLXdpRzhULWYyQzU5R0dXc1NpWWF0YmZiaXdzT0dNaQ?oc=5",
       "guid": "CBMimAFBVV95cUxQczhPcXBxUXEtWkxNRmt5d0lHVWJfZ1ItWmdNdU5EbHNxZjAyU0RmRkFsUWVwSjVnbF8tSWRMYXdnRHlSUVVLeTd3dEdORDJ0cXdDOFEyYXN3OGJnYUlEOFkzdUtHcTZKZHNKUHFOQU52bGhiMllsOFdQLXdpRzhULWYyQzU5R0dXc1NpWWF0YmZiaXdzT0dNaQ",
       "query": "Tesla stock",
-      "core_issue": "??/??/????/CapEx",
-      "price_flow_risk_reading": "?? ??? ????? ??, AI??? ?? ??? ?? FCF ?? ??."
+      "core_issue": "매출/마진/현금흐름/CapEx",
+      "price_flow_risk_reading": "EV 수요와 마진 둔화, AI 투자비 부담은 FCF 경로를 흔들 수 있음."
     },
     {
       "rank": 87,
@@ -1254,8 +1254,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1qc0VKeWlhYkZoTVZBTmpSRkQzd3haM1FYWmhTWXdwdDBKUjZfMVQxNVZGT0Rucl9zOHM4WmZEdmxaaWdzWUV1TkVuOWxwOXcxTEhxQy1VMGNkWkxqM2JaRFZ2UXprWTJLMXR3NmJmZzhlbWxld3BsSGJLVFpXQQ?oc=5",
       "guid": "CBMifkFVX3lxTE1qc0VKeWlhYkZoTVZBTmpSRkQzd3haM1FYWmhTWXdwdDBKUjZfMVQxNVZGT0Rucl9zOHM4WmZEdmxaaWdzWUV1TkVuOWxwOXcxTEhxQy1VMGNkWkxqM2JaRFZ2UXprWTJLMXR3NmJmZzhlbWxld3BsSGJLVFpXQQ",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 88,
@@ -1268,8 +1268,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE93Tlh2alo1UjNNOXljOVRjQ1p5V3J6ZDhuZjQ0MWF1S1QtMFprMFhxaXhWSHNENG0xbkNRNzJkcU91anJJa0V2b3RNNXVQSUZfa2VQV29CVFBYNTdoVzBmbFZCY0lqbVVEd1phSHdNMFBSZWg3WU1MTTY3MA?oc=5",
       "guid": "CBMie0FVX3lxTE93Tlh2alo1UjNNOXljOVRjQ1p5V3J6ZDhuZjQ0MWF1S1QtMFprMFhxaXhWSHNENG0xbkNRNzJkcU91anJJa0V2b3RNNXVQSUZfa2VQV29CVFBYNTdoVzBmbFZCY0lqbVVEd1phSHdNMFBSZWg3WU1MTTY3MA",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 89,
@@ -1282,8 +1282,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9zd3BqSlp0dkdmUkIwR1NlNGl5bHNMSU16R3ZqbWV2V1luSFB3OXZBaUkwZUVQN0pWZ3k1VEp1cVZ5UERwX1A2MEUtdW1HOFFHNUJaMHU1d2VqWnRoVC1GWHV0ZGhMekZiSFRqc05NeFNqM21JX2pNNmQwTFQ?oc=5",
       "guid": "CBMifEFVX3lxTE9zd3BqSlp0dkdmUkIwR1NlNGl5bHNMSU16R3ZqbWV2V1luSFB3OXZBaUkwZUVQN0pWZ3k1VEp1cVZ5UERwX1A2MEUtdW1HOFFHNUJaMHU1d2VqWnRoVC1GWHV0ZGhMekZiSFRqc05NeFNqM21JX2pNNmQwTFQ",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 90,
@@ -1296,8 +1296,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQa2dJQUtyZzhVN0RkYWR1Z3FnMGZZVnZzTlpZWTBORWhCMjZTdDRITHBVQWFubXpBSW9TcFJjSlVjWURWd2tBTVd2ZWQtN2VzcFpPRUctZU9CdUJGdDVsT2xlUWt1N2NnRTlOZGlraEY3aDBGcDVLOTJYMUM1eUNwaTYtc2ZGM1JVNFM3anQ4YWc1TlMzZUNkcXFJOFpDZWRHT0pZLXQ5RHNzdHVMdmE2LWtfcUxqc3VSb3I5XzE4MU1mMmc?oc=5",
       "guid": "CBMiwwFBVV95cUxQa2dJQUtyZzhVN0RkYWR1Z3FnMGZZVnZzTlpZWTBORWhCMjZTdDRITHBVQWFubXpBSW9TcFJjSlVjWURWd2tBTVd2ZWQtN2VzcFpPRUctZU9CdUJGdDVsT2xlUWt1N2NnRTlOZGlraEY3aDBGcDVLOTJYMUM1eUNwaTYtc2ZGM1JVNFM3anQ4YWc1TlMzZUNkcXFJOFpDZWRHT0pZLXQ5RHNzdHVMdmE2LWtfcUxqc3VSb3I5XzE4MU1mMmc",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 91,
@@ -1310,8 +1310,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQaUd2SVAyWGNyOVcxMXJRZUlGMVRvZlBVbWlfeW43MFptbFNjaXpKbVRmRFkwUE9JR1BsQTN2WElONFdKWWdSYzdQOHh5cUdPa3N6YnVFaFo2bkxIU0VqWV93SmdtdkFkaGUzZDFKRlZqcW82c3Vwd0Rfd3l3NC11SHlYektUc041TW52QXRwcWFEZUNJcXRjZjlUd0g0NDJrVWZkZ2VKRFpVN3hfVE5GUDJhT19jTmUzUzFCemJyOEVyR1dHc1NLeXZSZw?oc=5",
       "guid": "CBMiywFBVV95cUxQaUd2SVAyWGNyOVcxMXJRZUlGMVRvZlBVbWlfeW43MFptbFNjaXpKbVRmRFkwUE9JR1BsQTN2WElONFdKWWdSYzdQOHh5cUdPa3N6YnVFaFo2bkxIU0VqWV93SmdtdkFkaGUzZDFKRlZqcW82c3Vwd0Rfd3l3NC11SHlYektUc041TW52QXRwcWFEZUNJcXRjZjlUd0g0NDJrVWZkZ2VKRFpVN3hfVE5GUDJhT19jTmUzUzFCemJyOEVyR1dHc1NLeXZSZw",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 92,
@@ -1324,8 +1324,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdlJjVUhfbnMtNTMtdlMtOFpGZ0x4dF9qXy1mYnZmLXdOMGc2UHBwTV9UNDhPNG1remxqdVM4SjZZaHEwTUpIUVVpdUl0cFlucFN1SF9NQm83M1gySWxmcTJNRVg2R1RRSnNNb0h0ZHRsXzlQVjI1cGZLT3JuaG5MOHRWMGlyU3NMeldZdnY0bmw1eHRaMW1J?oc=5",
       "guid": "CBMilwFBVV95cUxNdlJjVUhfbnMtNTMtdlMtOFpGZ0x4dF9qXy1mYnZmLXdOMGc2UHBwTV9UNDhPNG1remxqdVM4SjZZaHEwTUpIUVVpdUl0cFlucFN1SF9NQm83M1gySWxmcTJNRVg2R1RRSnNNb0h0ZHRsXzlQVjI1cGZLT3JuaG5MOHRWMGlyU3NMeldZdnY0bmw1eHRaMW1J",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 93,
@@ -1338,8 +1338,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPU1FqanhqY2xKd2JMVHFHbUpuYy1WWTVKM1JldUJsYTFCdzhyajl0Q0Q0dThQM1R0eTA4QnJHUGJySDk1OHM3c0ZYQ0I3SDBjOXRpSUtYVkw5ZW43SUZCVGlTVDN2WUVRX0dNeEc2bXpHS0ZsTUVLSmlzcktZNTZ0SkVMQTd0ek13N0JR?oc=5",
       "guid": "CBMiiwFBVV95cUxPU1FqanhqY2xKd2JMVHFHbUpuYy1WWTVKM1JldUJsYTFCdzhyajl0Q0Q0dThQM1R0eTA4QnJHUGJySDk1OHM3c0ZYQ0I3SDBjOXRpSUtYVkw5ZW43SUZCVGlTVDN2WUVRX0dNeEc2bXpHS0ZsTUVLSmlzcktZNTZ0SkVMQTd0ek13N0JR",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 94,
@@ -1352,8 +1352,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObDdSR0dyNUhmQ0JDZklpVldlQzNMM3RwM0dUWGJpX1dOXzB4SGh0dDlsZENXUERjVjh6dDZzYXJpOGpSUzBnQTVfN3psRFNRQ1JvLXlJMGpueUZ2UllSbkV3TlFKc2E0QjVhQzVpWTR0aVpWU1FMRW50LVFJMTRuZnJJUGVHemdzVEc0M0p5X1J3YWJyS0UtU290NFFXZWx1WTZLMGdaY21uRGlYZ0FaOGxlMjRlZ3I0U2hZa0cydURKS0RFdUhz?oc=5",
       "guid": "CBMixwFBVV95cUxObDdSR0dyNUhmQ0JDZklpVldlQzNMM3RwM0dUWGJpX1dOXzB4SGh0dDlsZENXUERjVjh6dDZzYXJpOGpSUzBnQTVfN3psRFNRQ1JvLXlJMGpueUZ2UllSbkV3TlFKc2E0QjVhQzVpWTR0aVpWU1FMRW50LVFJMTRuZnJJUGVHemdzVEc0M0p5X1J3YWJyS0UtU290NFFXZWx1WTZLMGdaY21uRGlYZ0FaOGxlMjRlZ3I0U2hZa0cydURKS0RFdUhz",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 95,
@@ -1366,8 +1366,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNU2JEQXlTWXliQ3ByejRaQ0NfcFNwU08tay1Zam0zTnNScUdGU1BoNWZwbUYzazdMSlltcWp5MmRqdXJWSmp3elJuYlVSd0x4cWhtdXlzY29SZUJOX3dadmRSZVU5cmszdnd6YVJmME9pbGc4b2FjdzJLaVdXWU5oc3g5X1puMEhqRTdubVV1OTJKNWg2bm90OHRBNTViZXpHU0RMUHkxQ0Y0RmFUZXhLdk1NaXBxVE5PZ1JldGxCT1FqR2pTaTZXWDdjMk1wdGM?oc=5",
       "guid": "CBMizwFBVV95cUxNU2JEQXlTWXliQ3ByejRaQ0NfcFNwU08tay1Zam0zTnNScUdGU1BoNWZwbUYzazdMSlltcWp5MmRqdXJWSmp3elJuYlVSd0x4cWhtdXlzY29SZUJOX3dadmRSZVU5cmszdnd6YVJmME9pbGc4b2FjdzJLaVdXWU5oc3g5X1puMEhqRTdubVV1OTJKNWg2bm90OHRBNTViZXpHU0RMUHkxQ0Y0RmFUZXhLdk1NaXBxVE5PZ1JldGxCT1FqR2pTaTZXWDdjMk1wdGM",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 96,
@@ -1380,8 +1380,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQcFdGbWNKTU9aaU55RGY0V2NDdGE5RHVNOE1wRU0xTFlZNFV2T2ExOEN6RngxaV9PSFJmNUlLZWFEZnZMSG15b2p4MU1UeXBnX3dGZWlnb3l2S0d4Zlc4eEllTTlPblczTy1KN01lVFZkT2xNRVlPM3ByZ2YxSHo5UDVPT0RyTHlYb05hVFNKMDVSNWFDQS1XblUxRDBxZE5YYnNoVnJxTjFzMHFkMDlpSDZqSUFPRmh0X0pCWFNualBpSG85dVpNSTljSnE3WFZoODZBMnhuZ3VmamtqS3g4eC1n?oc=5",
       "guid": "CBMi4gFBVV95cUxQcFdGbWNKTU9aaU55RGY0V2NDdGE5RHVNOE1wRU0xTFlZNFV2T2ExOEN6RngxaV9PSFJmNUlLZWFEZnZMSG15b2p4MU1UeXBnX3dGZWlnb3l2S0d4Zlc4eEllTTlPblczTy1KN01lVFZkT2xNRVlPM3ByZ2YxSHo5UDVPT0RyTHlYb05hVFNKMDVSNWFDQS1XblUxRDBxZE5YYnNoVnJxTjFzMHFkMDlpSDZqSUFPRmh0X0pCWFNualBpSG85dVpNSTljSnE3WFZoODZBMnhuZ3VmamtqS3g4eC1n",
       "query": "Tesla stock",
-      "core_issue": "??/??/????/CapEx",
-      "price_flow_risk_reading": "?? ??? ????? ??, AI??? ?? ??? ?? FCF ?? ??."
+      "core_issue": "매출/마진/현금흐름/CapEx",
+      "price_flow_risk_reading": "EV 수요와 마진 둔화, AI 투자비 부담은 FCF 경로를 흔들 수 있음."
     },
     {
       "rank": 97,
@@ -1394,8 +1394,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZjdjVmJwTjliNG1nY3FwOVlFRVVnQXRxdFJaSk5lb3FGTHhQZ1lzWlRuODJhbE5OTHFOSEtzSkVmVkpPLTVVSTYtNDdJSXlpcWNMeDktLVdyUEtaV1hfalM2UGVoNEktRHU3dlZLQ00yQUtCU2phamVJaWtNYTZTXzhB?oc=5",
       "guid": "CBMiggFBVV95cUxNZjdjVmJwTjliNG1nY3FwOVlFRVVnQXRxdFJaSk5lb3FGTHhQZ1lzWlRuODJhbE5OTHFOSEtzSkVmVkpPLTVVSTYtNDdJSXlpcWNMeDktLVdyUEtaV1hfalM2UGVoNEktRHU3dlZLQ00yQUtCU2phamVJaWtNYTZTXzhB",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     },
     {
       "rank": 98,
@@ -1408,8 +1408,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVVA2LW9qVW9Ialc0c0p0U0pKcU5Ub1VobEJUcGt5M3NkTG9IVU5nMGw2UVMtUkZQYjBwSmlGR0FyRkRCZWlZZFE0RWxFWFVoUnpTZXJCc3l1ZmQweUZlbGdZOVlaNzh0LXZ4U0ZOQW5BLU80dXJJYWNLdldPWkJKSWZiUWpSTGxya3NibmtuNXdza1hWUWow?oc=5",
       "guid": "CBMilwFBVV95cUxOVVA2LW9qVW9Ialc0c0p0U0pKcU5Ub1VobEJUcGt5M3NkTG9IVU5nMGw2UVMtUkZQYjBwSmlGR0FyRkRCZWlZZFE0RWxFWFVoUnpTZXJCc3l1ZmQweUZlbGdZOVlaNzh0LXZ4U0ZOQW5BLU80dXJJYWNLdldPWkJKSWZiUWpSTGxya3NibmtuNXdza1hWUWow",
       "query": "Tesla stock",
-      "core_issue": "??/??/????/CapEx",
-      "price_flow_risk_reading": "?? ??? ????? ??, AI??? ?? ??? ?? FCF ?? ??."
+      "core_issue": "매출/마진/현금흐름/CapEx",
+      "price_flow_risk_reading": "EV 수요와 마진 둔화, AI 투자비 부담은 FCF 경로를 흔들 수 있음."
     },
     {
       "rank": 99,
@@ -1422,8 +1422,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5acjlTUFo2Vkk1TUFQeWZITmVPYkxEdlZ1bTk2ZkxJTDV3ZjItQzRsTzdMcDFjWEM2bGUwdUlTdUExc1F3S1JjMm9kTXBSQXNsaFR3YjRnYUxJQ19NTW5OdUJjTjRkZzdSdXhsRERjV0o5VDRZWGQybnNGY9IBgAFBVV95cUxPQWk3UmpFYTZXaElZMFNOcG0zejRmUEZ3V18xbnRnYkVvTzlIQkNVMWgtbDJjVDR6dWQ4V3dpTVF6dXJsWWlRM1R1M1hCQktnMUNJVE5HQ0d4dzhrd3Q5RlJfaFh4cU1hUDRENWFFM0ljeFJhU3RCWEJZRVlodDQ1bg?oc=5",
       "guid": "CBMie0FVX3lxTE5acjlTUFo2Vkk1TUFQeWZITmVPYkxEdlZ1bTk2ZkxJTDV3ZjItQzRsTzdMcDFjWEM2bGUwdUlTdUExc1F3S1JjMm9kTXBSQXNsaFR3YjRnYUxJQ19NTW5OdUJjTjRkZzdSdXhsRERjV0o5VDRZWGQybnNGY9IBgAFBVV95cUxPQWk3UmpFYTZXaElZMFNOcG0zejRmUEZ3V18xbnRnYkVvTzlIQkNVMWgtbDJjVDR6dWQ4V3dpTVF6dXJsWWlRM1R1M1hCQktnMUNJVE5HQ0d4dzhrd3Q5RlJfaFh4cU1hUDRENWFFM0ljeFJhU3RCWEJZRVlodDQ1bg",
       "query": "Tesla stock",
-      "core_issue": "??/??/????/CapEx",
-      "price_flow_risk_reading": "?? ??? ????? ??, AI??? ?? ??? ?? FCF ?? ??."
+      "core_issue": "매출/마진/현금흐름/CapEx",
+      "price_flow_risk_reading": "EV 수요와 마진 둔화, AI 투자비 부담은 FCF 경로를 흔들 수 있음."
     },
     {
       "rank": 100,
@@ -1436,8 +1436,8 @@
       "google_news_link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZkhGamlKcFBWY2JtOVBjY0dGWnl0aGdva3g0X1BKb1NuSWpsSzdKU2c3S0F3ZmUtbFNJQ2VuV0U2NEhBMkd0MlgwbFIwTlZEWUMtaF9NZXN1ZDhtd1FTS1BBNFEtX19DYnF2UlpjT1hOa3RTdmdqaVZndWxjUUlkZUQ2d3Z0RzZvaU93UFJURXFWWlZiYmc?oc=5",
       "guid": "CBMilgFBVV95cUxNZkhGamlKcFBWY2JtOVBjY0dGWnl0aGdva3g0X1BKb1NuSWpsSzdKU2c3S0F3ZmUtbFNJQ2VuV0U2NEhBMkd0MlgwbFIwTlZEWUMtaF9NZXN1ZDhtd1FTS1BBNFEtX19DYnF2UlpjT1hOa3RTdmdqaVZndWxjUUlkZUQ2d3Z0RzZvaU93UFJURXFWWlZiYmc",
       "query": "Tesla stock",
-      "core_issue": "??/??/??/??",
-      "price_flow_risk_reading": "????? ??? ?? ???? ?????? ?? ???? ??."
+      "core_issue": "주가/실적/전망/밸류에이션",
+      "price_flow_risk_reading": "밸류에이션은 실적 대비 높은 성장 기대를 반영하므로 전망 변화에 민감할 수 있음."
     }
   ]
 }

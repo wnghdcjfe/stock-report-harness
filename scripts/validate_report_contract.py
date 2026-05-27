@@ -15,6 +15,8 @@ from pathlib import Path
 from typing import Any
 
 from report_contract_lib import (
+    CANONICAL_SELECTED_IMAGE_PATH_KEYS,
+    REQUIRED_PLAN_FRONTMATTER,
     REQUIRED_DRAFT_SECTIONS,
     ROOT,
     artifact_paths,
@@ -27,9 +29,58 @@ from report_contract_lib import (
     rel,
     selected_image_path,
     load_json,
+    prohibited_image_generation_hits,
 )
 
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+
+
+TOSS_HTML_CHECKS: tuple[tuple[str, re.Pattern[str]], ...] = (
+    (
+        "Toss style builder metadata",
+        re.compile(r'<meta\s+name=["\']generator["\']\s+content=["\']stock-report-harness\s+toss-style-builder["\']', re.I),
+    ),
+    (
+        "Toss mobile shell max-width 560px",
+        re.compile(r"main\.shell\s*\{[^}]*max-width\s*:\s*560px", re.I | re.S),
+    ),
+    (
+        "sticky translucent app bar",
+        re.compile(r"\.appbar\s*\{[^}]*position\s*:\s*sticky[^}]*backdrop-filter\s*:", re.I | re.S),
+    ),
+    (
+        "Pretendard font stack",
+        re.compile(r"Pretendard", re.I),
+    ),
+    (
+        "Toss Blue accent token",
+        re.compile(r"--toss-blue\s*:\s*#3182F6", re.I),
+    ),
+    (
+        "Korean stock color tokens",
+        re.compile(r"--up\s*:\s*#F04452[^}]*--down\s*:\s*#3182F6", re.I | re.S),
+    ),
+    (
+        "8px gray section divider",
+        re.compile(r"\.divider\s*\{[^}]*height\s*:\s*8px[^}]*background\s*:\s*var\(--gray-50\)", re.I | re.S),
+    ),
+    (
+        "Toss hero image card",
+        re.compile(r'<figure\s+class=["\']hero-image["\'][^>]*>\s*<img\s+', re.I | re.S),
+    ),
+    (
+        "Chart.js script",
+        re.compile(r'<script\s+src=["\'][^"\']*chart\.js@4[^"\']*["\']', re.I),
+    ),
+    (
+        "Toss chart renderer",
+        re.compile(r"function\s+createTossChart\s*\(", re.I),
+    ),
+    (
+        "footer investment disclaimer region",
+        re.compile(r'<footer\s+id=["\']disclaimer["\'][^>]*aria-label=["\']투자 유의사항["\']', re.I),
+    ),
+)
 
 
 @dataclass
@@ -70,6 +121,29 @@ def _expect_source_path(frontmatter: dict[str, Any], key: str, expected: Path, o
         return
     if actual != rel(expected):
         result.error(f"{rel(owner)} frontmatter `{key}` 불일치: {actual!r} != {rel(expected)!r}")
+
+
+def _is_missing_frontmatter_value(value: Any) -> bool:
+    if value is None:
+        return True
+    if isinstance(value, str):
+        return not value.strip()
+    if isinstance(value, (list, dict)):
+        return not value
+    return False
+
+
+def _validate_required_frontmatter(
+    path: Path,
+    frontmatter: dict[str, Any],
+    required_keys: list[str],
+    result: ValidationResult,
+) -> None:
+    missing = [key for key in required_keys if _is_missing_frontmatter_value(frontmatter.get(key))]
+    if missing:
+        result.error(f"{rel(path)} frontmatter 필수 키 누락/비어 있음: {', '.join(missing)}")
+    else:
+        result.check(f"{rel(path)} required frontmatter present")
 
 
 def _validate_common_frontmatter(
@@ -157,6 +231,38 @@ def _validate_review(paths, review_fm: dict[str, Any], result: ValidationResult)
 
 def _validate_selected_image(slug: str, result: ValidationResult) -> None:
     paths = artifact_paths(slug)
+    if not paths.image_manifest_json.is_file():
+        result.error(f"image manifest JSON 없음: {rel(paths.image_manifest_json)}")
+    else:
+        try:
+            manifest_payload = load_json(paths.image_manifest_json)
+        except Exception as exc:
+            result.error(f"image manifest JSON 파싱 실패: {rel(paths.image_manifest_json)}: {exc}")
+        else:
+            if not isinstance(manifest_payload, dict):
+                result.error(f"image manifest JSON은 object여야 함: {rel(paths.image_manifest_json)}")
+            else:
+                status = manifest_payload.get("status")
+                if status != "complete":
+                    reason = manifest_payload.get("blocked_reason") or f"status={status!r}"
+                    result.error(f"image manifest가 complete 상태가 아님: {rel(paths.image_manifest_json)}: {reason}")
+                else:
+                    result.check("image manifest status complete")
+                generation_method = str(manifest_payload.get("generation_method") or "").strip()
+                if generation_method != "codex-cli-imagegen":
+                    result.error(
+                        f"image manifest `generation_method`는 codex-cli-imagegen 이어야 함: "
+                        f"{generation_method!r} ({rel(paths.image_manifest_json)})"
+                    )
+                if not str(manifest_payload.get("generated_with") or "").strip():
+                    result.error(f"image manifest `generated_with` 누락: {rel(paths.image_manifest_json)}")
+                prohibited_hits = prohibited_image_generation_hits(manifest_payload)
+                if prohibited_hits:
+                    result.error(
+                        f"image manifest에 금지된 절차적 이미지 생성 흔적: "
+                        f"{'; '.join(prohibited_hits[:5])} ({rel(paths.image_manifest_json)})"
+                    )
+
     if not paths.selected_image_json.is_file():
         result.error(f"selected-image JSON 없음: {rel(paths.selected_image_json)}")
         return
@@ -164,6 +270,24 @@ def _validate_selected_image(slug: str, result: ValidationResult) -> None:
     if not isinstance(payload, dict):
         result.error(f"selected-image JSON은 object여야 함: {rel(paths.selected_image_json)}")
         return
+    selected_slug = str(payload.get("slug") or "").strip()
+    if selected_slug and selected_slug != slug:
+        result.error(f"selected-image JSON `slug` 불일치: {selected_slug!r} != {slug!r}")
+    missing_recommended = [
+        key
+        for key in ("slug", "selected_candidate", "reason", "generated_with")
+        if _is_missing_frontmatter_value(payload.get(key))
+    ]
+    if missing_recommended:
+        result.warn(f"selected-image JSON 권장 스키마 키 누락/비어 있음: {', '.join(missing_recommended)}")
+    if not any(isinstance(payload.get(key), str) and payload.get(key, "").strip() for key in CANONICAL_SELECTED_IMAGE_PATH_KEYS):
+        result.warn("selected-image JSON은 `image_path` 또는 `selected_image` 경로 키 사용을 권장")
+    prohibited_hits = prohibited_image_generation_hits(payload)
+    if prohibited_hits:
+        result.error(
+            f"selected-image JSON에 금지된 절차적 이미지 생성 흔적: "
+            f"{'; '.join(prohibited_hits[:5])} ({rel(paths.selected_image_json)})"
+        )
     if image_path is None:
         result.error(f"selected-image JSON에서 이미지 경로를 찾을 수 없음: {rel(paths.selected_image_json)}")
         return
@@ -254,6 +378,14 @@ def _validate_html(slug: str, require_html: bool, result: ValidationResult) -> N
         image_name = image_path.name
         if image_name not in text:
             result.error(f"최종 HTML에 selected hero 이미지 참조 없음: {image_name}")
+    missing_toss_checks = [label for label, pattern in TOSS_HTML_CHECKS if not pattern.search(text)]
+    if missing_toss_checks:
+        result.error(
+            f"최종 HTML이 design/toss_design.md Toss 렌더링 필수 요소를 만족하지 않음: "
+            f"{', '.join(missing_toss_checks)} ({rel(paths.html)})"
+        )
+    else:
+        result.check("HTML follows design/toss_design.md Toss shell")
     result.check("HTML exists, marker-free, and references selected image")
 
 
@@ -284,11 +416,12 @@ def validate_contract(
 
     if len(loaded) == len(required):
         _validate_common_frontmatter(slug, loaded, result)
-        plan_path, _plan_fm, _plan_body = loaded["plan"]
+        plan_path, plan_fm, _plan_body = loaded["plan"]
         research_path, research_fm, _research_body = loaded["research"]
         draft_path, draft_fm, draft_body = loaded["draft"]
         _review_path, review_fm, _review_body = loaded["review"]
 
+        _validate_required_frontmatter(plan_path, plan_fm, REQUIRED_PLAN_FRONTMATTER, result)
         _expect_source_path(research_fm, "plan_source", paths.plan, research_path, result)
         _expect_source_path(draft_fm, "plan_source", paths.plan, draft_path, result)
         _expect_source_path(draft_fm, "research_source", paths.research, draft_path, result)

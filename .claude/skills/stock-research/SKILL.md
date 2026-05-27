@@ -47,3 +47,5 @@ Create `research/<slug>.md` and raw evidence files under `output/assets/` from `
 ## Completion Report
 
 Report `research/<slug>.md`, key raw JSON files, price data row count, news item count, and next command: `/stock-draft <slug>`.
+
+If invoked by `stock-goal`, this report is only an internal checkpoint. Do not stop or wait for the user; continue immediately to `/stock-draft <slug>`.

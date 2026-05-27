@@ -1,6 +1,16 @@
-# stock-report-harness
+# 주식 리포트 하네스
 
-주식·ETF·섹터 요청을 `plan → research → draft → image → review → build` 단계로 처리해 검증 가능한 HTML 경제 리포트를 만드는 하네스입니다.
+<p align="center">
+  <img src="sample.png" width="380" alt="삼성전자 리포트 예시" />
+</p>
+
+자연어 한 줄이면 Toss 스타일 종목 리포트가 나옵니다.
+
+```
+/stock-goal 삼성전자 1년 분석
+```
+
+Claude Code를 열고 위 명령을 입력하면, 계획 → 리서치 → 원고 → 히어로 이미지 → 4-way 리뷰 → 빌드까지 자동으로 진행되어 검증된 HTML 리포트가 생성됩니다.
 
 `plan/<slug>.md`가 후속 단계의 단일 기준 문서이며, 모든 산출물은 같은 `slug`의 선행 파일을 참조합니다.
 
@@ -43,16 +53,25 @@ drafts/                원고
 reviews/               4-way 리뷰
 output/                최종 HTML 및 assets
 docs/                  스타일·출력·이미지 명세
+design/                최종 HTML 렌더링 디자인 계약
 scripts/               보조/검증 스크립트
 server.js              output 미리보기 서버
 ```
+
+## 디자인 문서 로직
+
+- 리포트 UI의 기준 문서는 `design/toss_design.md`입니다. 색상, 타이포그래피, 간격, 컴포넌트, 차트 스타일, 한국 주식 색상 규칙(상승=빨강, 하락=파랑)을 정의합니다.
+- `scripts/build_report.py`는 이 디자인 문서를 코드로 옮긴 deterministic renderer입니다. build 단계에서 새 디자인 판단을 즉흥적으로 추가하지 않고, draft/research 내용을 승인된 시각 규칙으로만 렌더링합니다.
+- 디자인 변경 순서는 `design/toss_design.md` 갱신 → `scripts/build_report.py` 반영 → 필요 시 `sample/skhynix.html`/`docs/output-spec.md` 동기화 → `npm run check` 및 리포트 build/validate입니다.
+- `sample/skhynix.html`은 참고 composition입니다. 문서와 예시가 충돌하면 `design/toss_design.md`를 우선합니다.
+- review의 `report-designer` 관점은 생성 HTML이 디자인 문서의 모바일 shell, hero 이미지 배치, price chart 스타일, References/footnote 배치 원칙을 지키는지 확인합니다.
 
 ## 단계별 핵심 계약
 
 ### Plan
 
 - 필수 출력: `plan/<slug>.md`
-- 필수 frontmatter: `slug`, `topic`, `request`, `output_type`, `audience`, `ticker`, `period_start`, `period_end`, `chart_required`, `price_data_source`, `price_data_interval`, `created_at`
+- 필수 frontmatter: `slug`, `topic`, `request`, `output_type`, `audience`, `ticker`, `period_start`, `period_end`, `chart_required`, `price_data_source`, `price_data_interval`, `created_at`, `assumptions`
 - 기간이 없으면 최근 6개월을 기본값으로 두고 `assumptions`에 기록합니다.
 
 ### Research
@@ -73,9 +92,24 @@ server.js              output 미리보기 서버
 
 ### Image
 
-- hero 후보 3개를 만들고 평가·선택 기록을 남깁니다.
+- `python3 scripts/run_stock_image_codex.py <slug>`가 Codex CLI를 열어 `imagegen` skill / built-in `image_gen`으로 hero 후보 3개를 만들고 평가·선택 기록을 남깁니다.
 - 필수 출력: `output/assets/<slug>-hero-v1~v3.*`, score JSON, image manifest, `selected-image.json`
 - 이미지에는 텍스트, 숫자, 티커, 로고, 워터마크, UI 스크린샷을 넣지 않습니다.
+- image manifest는 `status: complete`, `generation_method: codex-cli-imagegen`, `generated_with`를 포함해야 하며, procedural/Pillow/SVG/placeholder 방식은 build 검증에서 실패합니다.
+- `selected-image.json`은 최소 `slug`, `selected_candidate`, `image_path` 또는 `selected_image`, `reason`, `generated_with`를 포함합니다. 경로는 `assets/<file>.png` 또는 `output/assets/<file>.png`처럼 resolver가 찾을 수 있는 값으로 둡니다.
+- 이미지 생성 도구가 없으면 prompt 파일과 blocked manifest만 남기고 build로 진행하지 않습니다.
+
+`selected-image.json` 예시:
+
+```json
+{
+  "slug": "<slug>",
+  "selected_candidate": 2,
+  "image_path": "assets/<slug>-hero-v2.png",
+  "reason": "리포트 결론과 가장 잘 맞음",
+  "generated_with": "Codex CLI $imagegen / built-in image_gen"
+}
+```
 
 ### Review
 
@@ -92,6 +126,7 @@ server.js              output 미리보기 서버
 - 필수 출력: `output/<slug>.html`, `output/assets/<slug>-price-chart-v*.json`
 - 빌드는 수동 HTML 작성이 아니라 `python3 scripts/build_report.py <slug>`로 수행합니다.
 - 빌더는 yfinance 1일봉 가격 JSON을 생성/갱신하고, Markdown/frontmatter를 파싱해 HTML 템플릿을 렌더링합니다.
+- HTML 템플릿은 `design/toss_design.md`의 Toss 스타일을 따르며, `sample/skhynix.html`은 참고용 예시입니다.
 - 빌드 완료 후 `python3 scripts/validate_report_contract.py <slug> --require-html --require-price-chart`를 통과해야 합니다.
 - 최종 HTML 본문에는 `[S1]`, `[N1]` 같은 검증용 인라인 표식을 남기지 않습니다.
 - 하단에 투자 유의 문구를 포함합니다.
@@ -137,6 +172,13 @@ deterministic build:
 python3 scripts/build_report.py <slug>
 ```
 
+이미지 단계:
+
+```bash
+python3 scripts/run_stock_image_codex.py <slug>
+python3 scripts/run_stock_image_codex.py <slug> --dry-run  # Codex 프롬프트 확인용
+```
+
 최신 뉴스 5건 추출:
 
 ```bash
@@ -165,5 +207,6 @@ node server.js samsung-electronics-recent-1y-2026-05
 ```
 
 ## 의존 도구
-- Python 3.11+, `requirements.txt`의 yfinance/Markdown/PyYAML, Node.js 18+, jq, Claude/Codex CLI
+- Python 3.11+, `requirements.txt`의 yfinance/Markdown/PyYAML, Node.js 18+, Claude/Codex CLI
+- 선택 도구: jq(수동 JSON 점검용)
 - Node 미리보기/검증 스크립트: `npm run check`, `npm run test`, `npm start -- <slug>`

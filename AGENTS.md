@@ -12,7 +12,7 @@
 
 ## Plan 계약
 - `/stock-plan`은 반드시 `plan/<slug>.md`를 작성한다.
-- frontmatter 필수: `slug`, `topic`, `request`, `output_type`, `audience`, `ticker`, `period_start`, `period_end`, `chart_required`, `price_data_source`, `price_data_interval`, `created_at`.
+- frontmatter 필수: `slug`, `topic`, `request`, `output_type`, `audience`, `ticker`, `period_start`, `period_end`, `chart_required`, `price_data_source`, `price_data_interval`, `created_at`, `assumptions`.
 - 본문 필수: 요청 해석, 이해 목표, 리서치 범위, 데이터 확인 항목, 리포트 구조, 차트 요구, Hero 이미지 방향, 리뷰 기준, 완료/차단 조건.
 - 사용자가 기간을 말하지 않으면 기본값은 최근 6개월이며 `assumptions`에 기록한다.
 
@@ -35,14 +35,17 @@
 
 ## Image 계약
 - `/stock-image`는 plan, research, draft 전체 메시지와 결론 톤을 반영해 hero 후보 3개를 만든다.
-- 가능하면 `imagegen` skill 또는 `image_gen` 도구로 이미지를 직접 생성한다.
+- 이미지 생성은 `python3 scripts/run_stock_image_codex.py <slug>`로 Codex CLI를 열어 `imagegen` skill / built-in `image_gen`이 수행하게 한다.
+- 로컬/Pillow/SVG/빈 placeholder를 실제 hero 이미지로 대체하지 않는다.
 - 이미지에는 텍스트, 숫자, 티커, 로고, 워터마크, UI 스크린샷을 넣지 않는다.
 - 필수 산출물: `output/assets/<slug>-hero-v1~v3.prompt.txt`, `hero-v1~v3.png`, `hero-v1~v3.score.json`, `image-manifest.json`, `selected-image.json`.
+- `image-manifest.json`은 `status: complete`, `generation_method: codex-cli-imagegen`, `generated_with`를 가져야 하며, procedural/Pillow/SVG/placeholder 방식은 실패로 본다.
+- `selected-image.json`은 최소 `slug`, `selected_candidate`, `image_path` 또는 `selected_image`, `reason`, `generated_with`를 포함하고, 경로는 `assets/<file>.png` 또는 `output/assets/<file>.png`처럼 검증기가 찾을 수 있는 값으로 쓴다.
 - 최종 HTML에는 선택된 hero 이미지 1장이 반드시 있어야 하며, 없으면 build를 성공 처리하지 않는다.
 
 ## Review 계약
 - `/stock-review`는 별도 세션/관점의 4-way review로 수행한다.
-- 리뷰어: `fact-checker`, `report-designer`, `content-editor`, `gpt-review.sh` 또는 `gpt-review.ps1`.
+- 리뷰어: `fact-checker`, `report-designer`, `content-editor`, `codex-independent` 또는 동등한 별도 blind-spot review.
 - `reviews/<slug>.md` frontmatter에는 `status: pass | needs_fix | blocked`, `plan_source`, `research_source`, `draft_source`, `review_type: separate-session-4way`, `review_execution: separate_subagent_sessions`를 둔다.
 - 리뷰 작성 후 `python3 scripts/validate_report_contract.py <slug>`를 반드시 실행하고, 실패하면 `needs_fix`로 되돌린다.
 - `needs_fix`이면 generator 단계로 돌아가 수정 후 다시 review한다. 같은 차단 이슈가 3회 반복되거나 외부 데이터/권한 때문에 해결 불가할 때만 `blocked`로 둔다.

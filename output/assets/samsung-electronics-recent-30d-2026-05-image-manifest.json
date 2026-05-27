@@ -22,5 +22,8 @@
       "image_file": "samsung-electronics-recent-30d-2026-05-hero-v3.png",
       "score_file": "samsung-electronics-recent-30d-2026-05-hero-v3.score.json"
     }
-  ]
+  ],
+  "status": "complete",
+  "generation_method": "codex-cli-imagegen",
+  "generated_with": "codex-cli-imagegen"
 }

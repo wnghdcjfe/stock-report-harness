@@ -84,8 +84,11 @@ currency: USD
 ## Hero image 규칙
 
 - build 전에 전체 리포트 기반 프롬프트 3종을 생성한다.
-- 에이전트가 `image_gen`으로 3장을 생성한다.
+- `python3 scripts/run_stock_image_codex.py <slug>`가 Codex CLI를 열어 `$imagegen` skill / built-in `image_gen`으로 3장을 생성한다.
+- 절차적 placeholder(Pillow/SVG/빈 이미지)는 실제 hero 이미지로 인정하지 않는다.
 - 선택 결과는 `output/assets/<slug>-selected-image.json` 으로 남긴다.
+- image manifest는 `status: complete`, `generation_method: codex-cli-imagegen`, `generated_with`를 포함해야 하며 procedural/Pillow/SVG/placeholder provenance는 실패한다.
+- `selected-image.json`은 최소 `slug`, `selected_candidate`, `image_path` 또는 `selected_image`, `reason`, `generated_with`를 포함한다. `image_path` 값은 `assets/<file>.png` 또는 `output/assets/<file>.png`처럼 실제 PNG로 해석 가능해야 한다.
 - **최종 리포트에는 hero 이미지 1장이 반드시 포함되어야 한다.**
 - 선택 이미지가 없거나 파일이 없으면 build 실패.
 

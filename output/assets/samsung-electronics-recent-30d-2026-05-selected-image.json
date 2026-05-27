@@ -1,5 +1,10 @@
 {
-  "selected_image": "samsung-electronics-recent-30d-2026-05-hero-v1.png",
+  "selected_image": "output/assets/samsung-electronics-recent-30d-2026-05-hero-v1.png",
+  "image_path": "output/assets/samsung-electronics-recent-30d-2026-05-hero-v1.png",
   "selected_variant": 1,
-  "score": 47
+  "score": 47,
+  "slug": "samsung-electronics-recent-30d-2026-05",
+  "selected_candidate": "hero-v1",
+  "reason": "Best report fit and premium quality score",
+  "generated_with": "codex-cli-imagegen"
 }

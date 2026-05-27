@@ -42,3 +42,5 @@ Create `drafts/<slug>.md` from the corresponding plan and research.
 ## Completion Report
 
 Report `drafts/<slug>.md`, H1 title, required sections present, and next command: `/stock-image <slug>`.
+
+If invoked by `stock-goal`, this report is only an internal checkpoint. Do not stop or wait for the user; continue immediately to `/stock-image <slug>`.

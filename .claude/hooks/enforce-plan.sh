@@ -57,6 +57,34 @@ def review_is_pass(slug: str) -> bool:
     return bool(re.search(r'^status:\s*pass\s*$', text, re.M)) and 'review_type: separate-session-4way' in text and 'review_execution: separate_subagent_sessions' in text
 
 def selected_image_exists(slug: str) -> bool:
+    def has_prohibited_generation_marker(value) -> bool:
+        terms = ('pillow', 'procedural', 'programmatic', 'svg', 'placeholder', 'blank')
+        if isinstance(value, str):
+            lowered = value.lower()
+            return any(term in lowered for term in terms)
+        if isinstance(value, dict):
+            return any(has_prohibited_generation_marker(child) for child in value.values())
+        if isinstance(value, list):
+            return any(has_prohibited_generation_marker(child) for child in value)
+        return False
+
+    manifest = root / 'output' / 'assets' / f'{slug}-image-manifest.json'
+    if not manifest.is_file():
+        return False
+    try:
+        manifest_payload = json.loads(manifest.read_text(encoding='utf-8'))
+    except Exception:
+        return False
+    if not isinstance(manifest_payload, dict):
+        return False
+    if manifest_payload.get('status') != 'complete':
+        return False
+    if manifest_payload.get('generation_method') != 'codex-cli-imagegen':
+        return False
+    if not str(manifest_payload.get('generated_with') or '').strip():
+        return False
+    if has_prohibited_generation_marker(manifest_payload):
+        return False
     selected = root / 'output' / 'assets' / f'{slug}-selected-image.json'
     if not selected.is_file():
         return False
@@ -64,14 +92,22 @@ def selected_image_exists(slug: str) -> bool:
         payload = json.loads(selected.read_text(encoding='utf-8'))
     except Exception:
         return False
-    image = payload.get('image_path') or payload.get('selected_image') or payload.get('path')
+    if not isinstance(payload, dict) or has_prohibited_generation_marker(payload):
+        return False
+    image = (
+        payload.get('image_path') or payload.get('selected_image') or payload.get('selectedImage')
+        or payload.get('image') or payload.get('path') or payload.get('file')
+        or payload.get('selected_path') or payload.get('selected_file')
+    )
     if isinstance(image, str):
         p = Path(image)
         if not p.is_absolute():
-            p = root / p
+            candidates = [root / p, root / 'output' / p, root / 'output' / 'assets' / p]
+            if image.startswith('assets/'):
+                candidates.append(root / 'output' / p)
+            return any(candidate.is_file() for candidate in candidates)
         return p.is_file()
-    # Existence of selected-image JSON is still enough to avoid false blocks for schema variants.
-    return True
+    return False
 
 def required_for_path(path: str):
     path = path.replace('\\', '/')
