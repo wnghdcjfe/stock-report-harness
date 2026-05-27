@@ -1,375 +1,169 @@
 # stock-report-harness
 
-주식·ETF·섹터 요청을 **계획 → 리서치 → 원고 → 이미지 → 리뷰 → 빌드** 파일 계약으로 처리해 검증 가능한 HTML 경제리포트를 만드는 Claude Code용 하네스입니다.
+주식·ETF·섹터 요청을 `plan → research → draft → image → review → build` 단계로 처리해 검증 가능한 HTML 경제 리포트를 만드는 하네스입니다.
 
-> 현재 코드 기준: 리포트 산출물은 `plan/`, `research/`, `drafts/`, `reviews/`, `output/` 아래 파일로 연결되며, 최종 HTML은 `review status: pass`와 선택된 hero 이미지가 있어야만 빌드됩니다.
+`plan/<slug>.md`가 후속 단계의 단일 기준 문서이며, 모든 산출물은 같은 `slug`의 선행 파일을 참조합니다.
 
-## 전체 파이프라인
-
-```text
-User Request
-  ↓
-Planner             -> plan/<slug>.md
-  ↓
-Research Generator  -> research/<slug>.md + output/assets/*latest100.json 등 원자료
-  ↓
-Report Generator    -> drafts/<slug>.md
-  ↓
-Image Generator     -> output/assets/<slug>-hero-v1~v3.* + selected-image.json
-  ↓
-4-way Evaluators    -> reviews/<slug>.md
-  ↓
-Builder             -> output/<slug>.html + output/assets/<slug>-price-chart-v*.json
-```
-
-핵심 원칙은 `plan/<slug>.md`가 후속 단계의 단일 기준 문서가 된다는 점입니다. 리서치, 원고, 이미지, 리뷰, 빌드는 모두 같은 slug의 선행 산출물을 참조합니다.
-
-## 디렉터리와 주요 파일
+## 파이프라인
 
 ```text
-.claude/
-  agents/
-    fact-checker.md
-    report-designer.md
-    content-editor.md
-  skills/
-    plan/ research/ draft/ image/ review/ build/ ask-gpt/
-  hooks/
-    block-dangerous-bash.sh
-    enforce-plan.sh
-    enforce-citations.sh
-    remind-review.sh
-    review-feedback-loop.sh
-    forbid-financial-advice.sh
-    protect-sensitive-files.sh
-    inject-memory-context.sh
-    enforce-memory.sh
-
-docs/
-  finance-style-guide.md
-  output-spec.md
-  pedagogy.md
-  visual-system.md
-  image-generation-spec.md
-  templates/planning-brief-template.md
-  templates/report-template.md
-
-scripts/
-  memory_context.py
-  news_latest5.py
-  validate_memory.py
-
-plan/ research/ drafts/ reviews/ output/
-server.js
+/stock-plan <요청>      → plan/<slug>.md
+/stock-research <slug> → research/<slug>.md + 원자료 JSON
+/stock-draft <slug>    → drafts/<slug>.md
+/stock-image <slug>    → hero 후보 3개 + selected-image.json
+/stock-review <slug>   → reviews/<slug>.md
+/stock-build <slug>    → scripts/build_report.py가 output/<slug>.html + price-chart JSON 생성
 ```
 
-## Claude skill 명령
+빌드는 `review status: pass`, 선택된 hero 이미지, yfinance 가격 차트, frontmatter/섹션 정합성을
+`scripts/validate_report_contract.py`로 모두 통과해야 성공합니다.
 
-| 명령 | 입력 | 주요 출력 |
-|---|---|---|
-| `/plan <요청>` | 자연어 요청 | `plan/<slug>.md` |
-| `/research <slug>` | 같은 slug의 plan | `research/<slug>.md`, 필요 시 `output/assets/*latest100.json` |
-| `/draft <slug>` | plan + research | `drafts/<slug>.md` |
-| `/image <slug>` | plan + research + draft | hero 후보 3개, manifest, score, selected-image |
-| `/review <slug>` | plan + research + draft | `reviews/<slug>.md` |
-| `/build <slug>` | 통과 리뷰 + draft + selected image | `output/<slug>.html`, yfinance chart JSON |
-| `/ask-gpt <질문>` | 자유 질문 | Codex CLI 교차 의견 |
+### End-to-end skill: `stock-goal`
 
-일반 순서:
+단계별 명령 대신 Claude Code의 `stock-goal` skill을 사용하면 자연어 요청 하나로 전체 파이프라인을 순차 실행합니다.
 
 ```text
-/plan → /research → /draft → /image → /review → /build
+stock-goal: 삼성전자 최근 30일 분석 리포트 생성
+→ plan → research → draft → image → review → build
+→ output/<slug>.html
 ```
 
-## Plan 계약
+`stock-goal`은 각 `/stock-*` 단계의 계약을 그대로 따릅니다. 선행 산출물이 없으면 먼저 만들고, review가 `needs_fix`이면 수정 후 재리뷰 루프를 돌며, 동일 차단 이슈가 반복되면 `blocked`로 멈춥니다. 최종 보고에는 생성 산출물 목록, HTML 경로, 프리뷰 URL, 파이프라인 중 발생한 이슈가 포함됩니다.
 
-`plan/<slug>.md` frontmatter는 다음 필드를 기준으로 합니다.
-
-```yaml
----
-slug: <slug>
-topic: <리포트 주제>
-request: <원문 요청>
-output_type: report
-audience: beginner | intermediate | advanced
-ticker: <yfinance symbol 또는 TBD>
-period_start: YYYY-MM-DD
-period_end: YYYY-MM-DD
-chart_required: true | false
-price_data_source: yfinance
-price_data_interval: 1d
-created_at: YYYY-MM-DD
-assumptions:
-  - <Planner 가정>
----
-```
-
-Planner는 기간, ticker, 차트 필요 여부, 리서치 범위, 리포트 구조, hero 이미지 방향, 리뷰 기준, 차단 조건을 고정합니다. 사용자가 기간을 말하지 않으면 기본값은 최근 6개월입니다.
-
-## Research 계약
-
-`/research`는 plan을 읽고 `research/<slug>.md`를 작성합니다.
-
-필수 확인 항목:
-
-- `ticker`, `period_start`, `period_end`
-- yfinance 기준 가격 데이터 요구사항: `interval=1d`
-- 주요 뉴스, 공시, 실적, 리스크
-- 종목 관련 요청이면 종목별 최신 뉴스 최소 100건
-- 한국 상장 종목이면 가능할 때 토스증권 뉴스·투자자별 매매 동향
-- 항목별 URL 또는 fallback URL 여부
-
-뉴스 원자료는 가능하면 `output/assets/<slug>-*-latest100.json`, 분석 결과는 `output/assets/<slug>-*-analysis100.json`처럼 남깁니다. URL이 제공되지 않는 API는 원문 URL을 추측하지 않고 `url_is_fallback` 또는 본문 주석으로 표시합니다.
-
-## Draft 계약
-
-`drafts/<slug>.md`는 plan과 research를 모두 참조해야 합니다.
-
-필수 frontmatter 예시:
-
-```yaml
----
-slug: nvidia-recent-6m-2026-05
-title: 엔비디아 최근 6개월 경제리포트
-subtitle: 주가 흐름과 핵심 촉매를 함께 보는 리포트
-ticker: NVDA
-period_start: 2025-11-26
-period_end: 2026-05-26
-level: beginner
-duration_minutes: 12
-created_at: 2026-05-26
-plan_source: plan/nvidia-recent-6m-2026-05.md
-research_source: research/nvidia-recent-6m-2026-05.md
----
-```
-
-가격 차트는 숫자 배열을 원고에 직접 넣지 않고 `price-chart` 블록으로 선언합니다.
-
-````markdown
-```price-chart
-title: 엔비디아 최근 6개월 일별 종가
-aria_label: 엔비디아의 요청 기간 전체 일별 종가 추이 차트
-field: Close
-interval: 1d
-currency: USD
-```
-````
-
-원고에는 다음이 필요합니다.
-
-- 정확히 1개의 H1
-- `## 개요`, `## 배경`, `## 메커니즘`, `## 영향과 적용` 필수 섹션
-- `## References`
-- 투자 유의/면책 문구
-- 관련 뉴스 100건이 있으면 `## 최신 뉴스 5건 요약`
-- 본문 숫자·가격 해석의 검증용 출처 표식
-
-최종 HTML에서는 `[S1]`, `[N1]` 같은 검증용 인라인 표식이 제거되고 References 섹션만 남습니다.
-
-## Image 계약
-
-`/image`는 전체 리포트 기반 hero 이미지 후보 3개를 만들고 선택 기록을 남기는 단계입니다.
-
-필수 산출물:
+## 주요 디렉터리
 
 ```text
-output/assets/<slug>-hero-v1.prompt.txt
-output/assets/<slug>-hero-v2.prompt.txt
-output/assets/<slug>-hero-v3.prompt.txt
-output/assets/<slug>-hero-v1.png
-output/assets/<slug>-hero-v2.png
-output/assets/<slug>-hero-v3.png
-output/assets/<slug>-hero-v1.score.json
-output/assets/<slug>-hero-v2.score.json
-output/assets/<slug>-hero-v3.score.json
-output/assets/<slug>-image-manifest.json
-output/assets/<slug>-image-review.txt
-output/assets/<slug>-selected-image.json
+.claude/commands/      slash command 정의
+.claude/skills/        단계별/엔드투엔드 실행 계약
+.claude/agents/        review용 subagent
+.claude/hooks/         Claude Code 훅 기반 가드레일
+plan/                  계획서
+research/              리서치 결과
+drafts/                원고
+reviews/               4-way 리뷰
+output/                최종 HTML 및 assets
+docs/                  스타일·출력·이미지 명세
+scripts/               보조/검증 스크립트
+server.js              output 미리보기 서버
 ```
 
-프롬프트 생성 스크립트:
+## 단계별 핵심 계약
+
+### Plan
+
+- 필수 출력: `plan/<slug>.md`
+- 필수 frontmatter: `slug`, `topic`, `request`, `output_type`, `audience`, `ticker`, `period_start`, `period_end`, `chart_required`, `price_data_source`, `price_data_interval`, `created_at`
+- 기간이 없으면 최근 6개월을 기본값으로 두고 `assumptions`에 기록합니다.
+
+### Research
+
+- plan의 `ticker`, `period_start`, `period_end`를 기준으로 작성합니다.
+- 가격 데이터 요구는 yfinance 일봉(`interval=1d`)입니다.
+- 종목 관련 요청은 최신 뉴스 최소 100건을 수집·분류·분석합니다.
+- 기사 원문 URL이 없으면 조작하지 않고 fallback 여부를 표시합니다.
+
+### Draft
+
+- 필수 출력: `drafts/<slug>.md`
+- plan과 research를 근거로 작성하고 `plan_source`, `research_source`를 남깁니다.
+- H1은 정확히 1개입니다.
+- 필수 섹션: `## 개요`, `## 배경`, `## 메커니즘`, `## 영향과 적용`, `## References`
+- 가격 차트는 데이터 배열 대신 `price-chart` 블록으로 선언합니다.
+- 투자 권유, 수익 보장, 매매 지시 표현은 금지합니다.
+
+### Image
+
+- hero 후보 3개를 만들고 평가·선택 기록을 남깁니다.
+- 필수 출력: `output/assets/<slug>-hero-v1~v3.*`, score JSON, image manifest, `selected-image.json`
+- 이미지에는 텍스트, 숫자, 티커, 로고, 워터마크, UI 스크린샷을 넣지 않습니다.
+
+### Review
+
+- 별도 관점의 4-way review를 수행합니다.
+- 리뷰어: `fact-checker`, `report-designer`, `content-editor`, Codex independent review
+- 필수 출력: `reviews/<slug>.md`
+- `status`는 `pass | needs_fix | blocked` 중 하나입니다.
+- 리뷰 작성 후 `python3 scripts/validate_report_contract.py <slug>`를 실행해 계약을 통과해야 합니다.
+- `needs_fix`이면 선행 단계 수정 후 같은 slug로 다시 review합니다.
+
+### Build
+
+- 필수 입력: plan, research, draft, pass review, selected hero image
+- 필수 출력: `output/<slug>.html`, `output/assets/<slug>-price-chart-v*.json`
+- 빌드는 수동 HTML 작성이 아니라 `python3 scripts/build_report.py <slug>`로 수행합니다.
+- 빌더는 yfinance 1일봉 가격 JSON을 생성/갱신하고, Markdown/frontmatter를 파싱해 HTML 템플릿을 렌더링합니다.
+- 빌드 완료 후 `python3 scripts/validate_report_contract.py <slug> --require-html --require-price-chart`를 통과해야 합니다.
+- 최종 HTML 본문에는 `[S1]`, `[N1]` 같은 검증용 인라인 표식을 남기지 않습니다.
+- 하단에 투자 유의 문구를 포함합니다.
+
+## 훅 기반 가드레일
+
+이 저장소는 Claude Code 프로젝트 훅으로 반복 실패를 사전에 차단합니다. 훅 설정은 `.claude/settings.json`에 있으며, 각 스크립트는 `.claude/hooks/` 아래에서 단일 책임으로 동작합니다.
+
+| 훅 | 이벤트 | 역할 |
+| --- | --- | --- |
+| `block-dangerous-bash.sh` | `PreToolUse(Bash)` | `rm -rf /`, `sudo`, `curl ... | sh`, `git push --force/-f` 등 되돌리기 어려운 명령 차단 |
+| `protect-sensitive-files.sh` | `PreToolUse(Bash/Write/Edit/MultiEdit)` | `.env*`, `.git/`, `.github/workflows/`, `docs/finance-style-guide.md`, `docs/output-spec.md` 수정 차단 |
+| `forbid-financial-advice.sh` | `PreToolUse`, `PostToolUse` | draft/HTML의 투자 권유, 수익 보장, FOMO 표현 차단 |
+| `enforce-plan.sh` | `PreToolUse` | `plan → research → draft → image → review → build` 선행 산출물 순서 강제 |
+| `enforce-citations.sh` | `PreToolUse`, `PostToolUse` | draft 숫자 주장에 `[S1]`, `[N1]`, `[P1]`류 출처 표식 요구 |
+| `remind-review.sh` | `PostToolUse`, `Stop` | draft 변경 후 최신 4-way `pass` review가 없으면 세션 종료 차단 |
+| `inject-memory-context.sh` | `UserPromptSubmit` | 요청 도메인에 맞는 memory topic 자동 주입 |
+| `enforce-memory.sh` | `PostToolUse` | memory 파일 변경 후 `python3 scripts/validate_memory.py` 실행 |
+
+주의: 이 훅들은 Claude Code 에이전트가 이 프로젝트 설정을 읽을 때 자동 적용됩니다. Codex/OMX 런타임의 별도 도구 호출에는 같은 `.claude/settings.json` 훅이 자동으로 걸리지 않으므로 별도 연결이 필요합니다.
+
+## 보조 명령
+
+초기 설치:
 
 ```bash
-python3 .claude/skills/build/scripts/make-image-prompt-variants.py \
-  --draft drafts/<slug>.md \
-  --assets-dir output/assets
+python3 -m venv .venv
+. .venv/bin/activate
+pip install -r requirements.txt
+npm run check
 ```
 
-선택 스크립트:
+계약 검증:
 
 ```bash
-python3 .claude/skills/build/scripts/select-best-image.py \
-  --manifest output/assets/<slug>-image-manifest.json \
-  --selected-out output/assets/<slug>-selected-image.json
+python3 scripts/validate_report_contract.py <slug>
+python3 scripts/validate_report_contract.py <slug> --require-html --require-price-chart
 ```
 
-이미지는 텍스트, 숫자, 티커, 로고, 워터마크, UI 스크린샷을 넣지 않는 프리미엄 editorial hero 스타일을 기준으로 합니다.
-
-## Review 계약
-
-`/review`는 메인 세션 직접 판단이 아니라 별도 세션 기반 4-way review입니다.
-
-| 리뷰어 | 실행 방식 | 책임 |
-|---|---|---|
-| `fact-checker` | Task subagent | ticker, 기간, 숫자, 가격, 출처, research/draft 정합성 |
-| `report-designer` | Task subagent | 리포트 구조, 독자 흐름, 차트/hero 연결성 |
-| `content-editor` | Task subagent | 문장 품질, 톤, 중복, 투자 권유 표현 제거 |
-| Codex independent review | `gpt-review.sh` / `gpt-review.ps1` | blind spot, 논리 비약, plan 누락 교차 검토 |
-
-리뷰 frontmatter 필수값:
-
-```yaml
----
-slug: <slug>
-status: pass | needs_fix | blocked
-reviewed_at: YYYY-MM-DDTHH:mm:ssZ
-plan_source: plan/<slug>.md
-research_source: research/<slug>.md
-draft_source: drafts/<slug>.md
-review_type: separate-session-4way
-review_execution: separate_subagent_sessions
-reviewers: fact-checker, report-designer, content-editor, codex-independent
----
-```
-
-`status: needs_fix`이면 파이프라인은 멈추지 않고 `/research`, `/draft`, `/image`, 필요 시 `/plan`으로 돌아가 수정한 뒤 같은 slug로 `/review`를 다시 실행해야 합니다. 같은 차단 이슈가 3회 반복되거나 외부 데이터/권한 때문에 해결할 수 없을 때만 `blocked`로 남깁니다.
-
-## Build 계약
-
-실행:
+deterministic build:
 
 ```bash
-bash .claude/skills/build/scripts/build-html.sh --slug <slug>
+python3 scripts/build_report.py <slug>
 ```
 
-또는 내부 Python 진입점:
-
-```bash
-python3 .claude/skills/build/scripts/build-html.py \
-  --draft drafts/<slug>.md \
-  --output output/<slug>.html
-```
-
-Build가 검증하는 조건:
-
-- `plan/<slug>.md`, `research/<slug>.md`, `drafts/<slug>.md`, `reviews/<slug>.md` 존재
-- review `status: pass`
-- review `review_type: separate-session-4way`
-- review `review_execution: separate_subagent_sessions`
-- draft `plan_source`, `research_source`, `ticker`, `period_start`, `period_end`, `level`, `duration_minutes`
-- plan/research/draft의 ticker·기간 일치
-- 정확히 1개의 H1
-- 필수 섹션: 개요, 배경, 메커니즘, 영향과 적용
-- References 섹션 존재
-- 본문 footnote 번호 금지
-- yfinance 기반 price chart 최소 1개
-- 가격 차트 기간은 366일 이내
-- 차트 label은 `YYYY-MM-DD` 오름차순
-- 모든 차트에 `ariaLabel`
-- `output/assets/<slug>-selected-image.json` 및 실제 이미지 파일 존재
-
-Build 결과:
-
-- `output/<slug>.html`
-- `output/assets/<slug>-price-chart-v1.json` 등 yfinance 원자료
-- HTML 메타 generator: `stock-report-harness v1`
-- Chart.js v4 CDN 사용
-- Pretendard 폰트 CDN 사용
-- 다크모드, 목차, hero 이미지, chart summary card 포함
-
-## 최신 뉴스 5건 도우미
-
-`output/assets/*latest100.json`에서 최신 5건을 결정론적으로 뽑는 도구입니다.
+최신 뉴스 5건 추출:
 
 ```bash
 python3 scripts/news_latest5.py output/assets/<slug>-*-latest100.json --format markdown
-python3 scripts/news_latest5.py output/assets/<slug>-*-latest100.json --format html
-python3 scripts/news_latest5.py output/assets/<slug>-*-latest100.json --format json
 ```
 
-지원하는 날짜 키: `published_at_utc`, `publishedAt`, `createdAt`, `updatedAt`, `date`.
-지원하는 URL 키: `url`, `link`, `article_url`, `articleUrl`, `original_url`, `canonical_url`, `google_news_link`, `news_url` 등.
-
-URL이 없으면 `--fallback-stock-news-url`을 쓰거나 제목 기반 Google 검색 URL을 fallback으로 생성하고 fallback임을 표시합니다.
-
-## Hook 가드레일
-
-`.claude/settings.json`에 등록된 hooks가 다음을 강제합니다.
-
-| Hook | 시점 | 역할 |
-|---|---|---|
-| `block-dangerous-bash.sh` | PreToolUse Bash | 위험 shell 명령 차단 |
-| `protect-sensitive-files.sh` | PreToolUse Edit/Write | `.env`, `.git`, workflow, 핵심 docs 보호 |
-| `forbid-financial-advice.sh` | PreToolUse Edit/Write | drafts/output 투자 권유·사기성 표현 차단 |
-| `enforce-plan.sh` | Stop | plan → research → draft → image/review/build 순서 강제 |
-| `review-feedback-loop.sh` | Stop | `needs_fix` 리뷰 후 generator 재실행 강제 |
-| `enforce-citations.sh` | Stop | 변경 draft의 면책·숫자 출처 1차 점검 |
-| `remind-review.sh` | Stop | draft 변경 후 4-way review 증거 요구 |
-| `enforce-memory.sh` | Stop | memory 변경 시 schema 검증 |
-| `inject-memory-context.sh` | UserPromptSubmit | prompt 도메인별 memory topic 자동 주입 |
-
-## Memory system
-
-반복 실패를 줄이기 위한 관측 기반 메모리입니다.
-
-```text
-memory/
-  _template.md
-  _daily/YYYY-MM-DD.md
-  topics/{slug}.md
-```
-
-검증:
+메모리 검증:
 
 ```bash
 python3 scripts/validate_memory.py
 ```
 
-프롬프트 도메인 선택기 수동 테스트:
-
-```bash
-echo '{"prompt":"/build samsung-electronics-recent-30d-2026-05 이미지 빌드"}' | python3 scripts/memory_context.py
-```
-
-## 로컬 미리보기 서버
-
-`server.js`는 `output/` 디렉터리를 정적 파일로 제공합니다.
+로컬 미리보기:
 
 ```bash
 node server.js
-# Serving .../output at http://localhost:3000
+# 콘솔에 최신 리포트 URL과 전체 HTML 리포트 목록이 표시됩니다.
+# 예: Report URL: http://localhost:3000/samsung-electronics-recent-1y-2026-05.html
 ```
 
-환경변수 `PORT`로 포트를 바꿀 수 있습니다.
+특정 리포트 링크를 우선 표시하려면 slug 또는 html 파일명을 넘깁니다.
+
+```bash
+node server.js samsung-electronics-recent-1y-2026-05
+# Report URL: http://localhost:3000/samsung-electronics-recent-1y-2026-05.html
+```
 
 ## 의존 도구
-
-- Python 3
-- `yfinance` 및 Python 데이터 의존성
-- `jq` (hook 스크립트)
-- Node.js (선택: `server.js` 미리보기)
-- `claude` CLI (선택: Playwright MCP research 스크립트)
-- `codex` CLI (선택: `/ask-gpt`, Codex independent review)
-- 이미지 생성은 Claude/Codex의 `imagegen` skill 또는 `image_gen` 도구 사용
-
-## 금지/주의 사항
-
-- plan 없이 research/draft/build 산출물을 만들지 않습니다.
-- research 없이 draft를 만들지 않습니다.
-- review 없이 build하지 않습니다.
-- selected hero 이미지 없이 build하지 않습니다.
-- 임의 가격 데이터나 샘플링 차트를 넣지 않습니다.
-- 항목별 기사 URL을 제공하지 않는 API에서 원문 URL을 조작해 만들지 않습니다.
-- 투자 자문, 수익 보장, 매매 지시처럼 읽히는 표현을 쓰지 않습니다.
-
-## 현재 예시 산출물
-
-저장소에는 다음 예시 산출물이 포함되어 있습니다.
-
-- `nvidia-recent-4m-2026-05`
-- `nvidia-recent-6m-2026-05`
-- `samsung-electronics-recent-1y-2026-05`
-- `samsung-electronics-recent-30d-2026-05`
-- `tesla-recent-6m-2026-05` 일부 원자료
-
-예시 HTML은 `output/*.html`에서 확인할 수 있습니다.
+- Python 3.11+, `requirements.txt`의 yfinance/Markdown/PyYAML, Node.js 18+, jq, Claude/Codex CLI
+- Node 미리보기/검증 스크립트: `npm run check`, `npm run test`, `npm start -- <slug>`

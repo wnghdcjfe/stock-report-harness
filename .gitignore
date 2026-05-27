@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Generated report artifacts
+plan/*
+!plan/.gitkeep
+drafts/*
+!drafts/.gitkeep
+output/
+commit.md

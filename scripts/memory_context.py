@@ -10,7 +10,7 @@ Claude Code UserPromptSubmit hook compatible output:
 }
 
 The script is also safe to run manually:
-  echo '{"prompt":"/build foo"}' | python3 scripts/memory_context.py
+  echo '{"prompt":"/stock-build foo"}' | python3 scripts/memory_context.py
 """
 from __future__ import annotations
 
@@ -56,7 +56,7 @@ DOMAIN_RULES: list[dict[str, Any]] = [
         "name": "경제리포트 파이프라인 순서",
         "file": "pipeline-order.md",
         "patterns": [
-            r"\b/plan\b|\b/research\b|\b/draft\b|\b/image\b|\b/review\b|\b/build\b",
+            r"/(?:stock-plan|stock-research|stock-draft|stock-image|stock-review|stock-build)\b",
             r"\b(plan|research|drafts|reviews|output)/",
             r"빌드|리서치|드래프트|리뷰|경제리포트|HTML|파이프라인",
         ],

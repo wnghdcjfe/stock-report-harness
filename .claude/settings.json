@@ -1,0 +1,110 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -lc 'cd \"$(git rev-parse --show-toplevel 2>/dev/null || pwd)\" && bash .claude/hooks/inject-memory-context.sh'",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -lc 'cd \"$(git rev-parse --show-toplevel 2>/dev/null || pwd)\" && bash .claude/hooks/block-dangerous-bash.sh'",
+            "timeout": 5
+          },
+          {
+            "type": "command",
+            "command": "bash -lc 'cd \"$(git rev-parse --show-toplevel 2>/dev/null || pwd)\" && bash .claude/hooks/protect-sensitive-files.sh'",
+            "timeout": 5
+          },
+          {
+            "type": "command",
+            "command": "bash -lc 'cd \"$(git rev-parse --show-toplevel 2>/dev/null || pwd)\" && bash .claude/hooks/enforce-plan.sh'",
+            "timeout": 5
+          }
+        ]
+      },
+      {
+        "matcher": "Write|Edit|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -lc 'cd \"$(git rev-parse --show-toplevel 2>/dev/null || pwd)\" && bash .claude/hooks/protect-sensitive-files.sh'",
+            "timeout": 5
+          },
+          {
+            "type": "command",
+            "command": "bash -lc 'cd \"$(git rev-parse --show-toplevel 2>/dev/null || pwd)\" && bash .claude/hooks/enforce-plan.sh'",
+            "timeout": 5
+          },
+          {
+            "type": "command",
+            "command": "bash -lc 'cd \"$(git rev-parse --show-toplevel 2>/dev/null || pwd)\" && bash .claude/hooks/forbid-financial-advice.sh'",
+            "timeout": 5
+          },
+          {
+            "type": "command",
+            "command": "bash -lc 'cd \"$(git rev-parse --show-toplevel 2>/dev/null || pwd)\" && bash .claude/hooks/enforce-citations.sh'",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -lc 'cd \"$(git rev-parse --show-toplevel 2>/dev/null || pwd)\" && bash .claude/hooks/forbid-financial-advice.sh'",
+            "timeout": 5
+          },
+          {
+            "type": "command",
+            "command": "bash -lc 'cd \"$(git rev-parse --show-toplevel 2>/dev/null || pwd)\" && bash .claude/hooks/enforce-citations.sh'",
+            "timeout": 5
+          },
+          {
+            "type": "command",
+            "command": "bash -lc 'cd \"$(git rev-parse --show-toplevel 2>/dev/null || pwd)\" && bash .claude/hooks/remind-review.sh'",
+            "timeout": 5
+          },
+          {
+            "type": "command",
+            "command": "bash -lc 'cd \"$(git rev-parse --show-toplevel 2>/dev/null || pwd)\" && bash .claude/hooks/enforce-memory.sh'",
+            "timeout": 10
+          }
+        ]
+      },
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -lc 'cd \"$(git rev-parse --show-toplevel 2>/dev/null || pwd)\" && bash .claude/hooks/forbid-financial-advice.sh'",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -lc 'cd \"$(git rev-parse --show-toplevel 2>/dev/null || pwd)\" && bash .claude/hooks/remind-review.sh'",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -98,10 +98,20 @@ currency: USD
 - 링크: 항목별 원문 URL이 있으면 `<a href="..." target="_blank" rel="noopener noreferrer">제목</a>`로 렌더한다.
 - fallback: 항목별 URL이 없으면 제공사 뉴스 탭 또는 제목 검색 URL을 쓰되, 화면 또는 데이터에 `원문 URL 미제공`을 표시한다. 존재하지 않는 원문 URL을 추측해 만들면 안 된다.
 - 최종 HTML 본문에는 `[S1]` 같은 인라인 참조 표식은 노출하지 않는다.
+- 긴 기사 제목·Google News 중계 URL·References URL이 모바일 폭에서 화면 밖으로 벗어나지 않도록 latest-news 링크와 reference 링크에는 `overflow-wrap: anywhere` 또는 동등한 줄바꿈 규칙을 적용한다.
+
+## 가격 급등·급락 이벤트 강조
+
+- build 전 draft/research 단계는 요청 기간 내 일간 종가 변화율 기준 최대 급등일과 최대 급락일을 찾는다.
+- 해당 날짜 전후의 역사적 사건은 웹 검색 또는 검증 가능한 출처로 확인하고, 출처 표식을 research/draft에 남긴다.
+- build는 확인된 급등·급락 이벤트가 있으면 가격 차트에 점/주석/카드 등으로 강조한다.
+- 원인 단정은 금지한다. 출처가 확인한 표현 범위 안에서 “보도와 겹쳤다”, “시장 반응으로 해석됐다”처럼 기술한다.
 
 ## build 검증
 
-build 단계에서 아래 항목을 검증한다.
+build 단계에서 `python3 scripts/validate_report_contract.py {SLUG} --require-html --require-price-chart`로
+아래 항목을 검증한다. HTML 생성은 `python3 scripts/build_report.py {SLUG}`를 사용하며,
+수동 렌더링은 허용하지 않는다.
 
 1. `# 제목` 정확히 1개
 2. 필수 섹션 존재

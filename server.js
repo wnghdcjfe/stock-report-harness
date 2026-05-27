@@ -6,6 +6,7 @@ const path = require('path');
 
 const PORT = Number(process.env.PORT) || 3000;
 const ROOT = path.resolve(__dirname, 'output');
+const REQUESTED_REPORT = process.argv[2] || process.env.REPORT_SLUG || process.env.REPORT;
 
 const MIME_TYPES = {
   '.html': 'text/html; charset=utf-8',
@@ -71,6 +72,66 @@ function renderDirectoryListing(reqPath, entries) {
 </html>`;
 }
 
+function toUrlPath(filePath) {
+  const relativePath = path.relative(ROOT, filePath).split(path.sep).join('/');
+  return `/${relativePath}`;
+}
+
+function reportUrl(filePath) {
+  return `http://localhost:${PORT}${encodeURI(toUrlPath(filePath))}`;
+}
+
+function findHtmlReports() {
+  if (!fs.existsSync(ROOT)) {
+    return [];
+  }
+
+  return fs
+    .readdirSync(ROOT, { withFileTypes: true })
+    .filter((entry) => entry.isFile() && entry.name.endsWith('.html') && !entry.name.startsWith('.'))
+    .map((entry) => {
+      const filePath = path.join(ROOT, entry.name);
+      return { filePath, name: entry.name, mtimeMs: fs.statSync(filePath).mtimeMs };
+    })
+    .sort((a, b) => b.mtimeMs - a.mtimeMs);
+}
+
+function normalizeRequestedReport(value) {
+  if (!value) {
+    return '';
+  }
+
+  const basename = path.basename(String(value).trim());
+  return basename.endsWith('.html') ? basename : `${basename}.html`;
+}
+
+function printReportLinks() {
+  const reports = findHtmlReports();
+  const requestedName = normalizeRequestedReport(REQUESTED_REPORT);
+  const requestedReport = requestedName
+    ? reports.find((report) => report.name === requestedName)
+    : null;
+  const latestReport = requestedReport || reports[0];
+
+  console.log(`Serving ${ROOT} at http://localhost:${PORT}/`);
+
+  if (requestedName && !requestedReport) {
+    console.warn(`Requested report not found: output/${requestedName}`);
+  }
+
+  if (!latestReport) {
+    console.log('No HTML reports found yet. Build a report into output/*.html, then reload this server.');
+    return;
+  }
+
+  console.log(`Report URL: ${reportUrl(latestReport.filePath)}`);
+
+  if (reports.length > 1) {
+    console.log('Available reports:');
+    reports.forEach((report) => console.log(`- ${reportUrl(report.filePath)}`));
+  }
+}
+
 const server = http.createServer((req, res) => {
   if (!['GET', 'HEAD'].includes(req.method)) {
     return send(res, 405, 'Method Not Allowed', { Allow: 'GET, HEAD' });
@@ -117,6 +178,13 @@ const server = http.createServer((req, res) => {
   });
 });
 
-server.listen(PORT, () => {
-  console.log(`Serving ${ROOT} at http://localhost:${PORT}`);
+server.on('error', (error) => {
+  if (error.code === 'EADDRINUSE') {
+    console.error(`Port ${PORT} is already in use. Stop the existing server or run with PORT=<other-port> node server.js.`);
+    process.exit(1);
+  }
+
+  throw error;
 });
+
+server.listen(PORT, printReportLinks);

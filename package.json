@@ -1,0 +1,17 @@
+{
+  "name": "stock-report-harness",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Deterministic stock/ETF/sector report pipeline harness",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && python3 -m py_compile scripts/*.py",
+    "validate:memory": "python3 scripts/validate_memory.py",
+    "validate:report": "python3 scripts/validate_report_contract.py",
+    "build:report": "python3 scripts/build_report.py",
+    "test": "npm run check && npm run validate:memory"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

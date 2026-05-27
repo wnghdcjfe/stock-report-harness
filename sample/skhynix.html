@@ -1,0 +1,865 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="generator" content="toss-style-report">
+<meta name="report-slug" content="sk-hynix-recent-1y-2026-05-toss">
+<meta name="generated-at" content="2026-05-27">
+<title>SK하이닉스 · 최근 1년 분석</title>
+<meta property="og:title" content="SK하이닉스 최근 1년 분석">
+<meta property="og:description" content="HBM 슈퍼사이클과 1조달러 클럽 진입">
+<meta property="og:type" content="article">
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.min.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<style>
+:root {
+  /* Toss design tokens */
+  --toss-blue: #3182F6;
+  --toss-blue-hover: #1B64DA;
+  --toss-blue-bg: #E8F3FF;
+  --toss-blue-bg-soft: #F4F8FF;
+
+  --gray-900: #191F28;
+  --gray-800: #333D4B;
+  --gray-700: #4E5968;
+  --gray-600: #6B7684;
+  --gray-500: #8B95A1;
+  --gray-400: #B0B8C1;
+  --gray-300: #D1D6DB;
+  --gray-200: #E5E8EB;
+  --gray-100: #F2F4F6;
+  --gray-50: #F9FAFB;
+
+  --up: #F04452;       /* 한국 관례: 상승 = 빨강 */
+  --up-bg: #FFF0F1;
+  --down: #3182F6;     /* 하락 = 파랑 (토스 블루와 동일) */
+
+  --bg: #F9FAFB;
+  --card: #FFFFFF;
+  --text-strong: var(--gray-900);
+  --text-base: var(--gray-700);
+  --text-muted: var(--gray-500);
+  --border: var(--gray-100);
+}
+
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+html, body { margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--text-base);
+  font-family: "Pretendard Variable", "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: -0.01em;
+}
+
+main.shell {
+  max-width: 560px;
+  margin: 0 auto;
+  background: var(--card);
+  min-height: 100vh;
+}
+
+/* ===== Top App Bar ===== */
+.appbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(255,255,255,0.95);
+  backdrop-filter: saturate(180%) blur(12px);
+  -webkit-backdrop-filter: saturate(180%) blur(12px);
+  border-bottom: 1px solid var(--border);
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.appbar__back {
+  width: 28px; height: 28px;
+  display: flex; align-items: center; justify-content: center;
+  color: var(--gray-900);
+  font-size: 22px;
+  cursor: pointer;
+}
+.appbar__title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--gray-900);
+}
+
+/* ===== Header / Hero ===== */
+.hero {
+  padding: 24px 20px 28px;
+  border-bottom: 8px solid var(--gray-50);
+}
+.ticker-row {
+  display: flex; align-items: center; gap: 12px;
+  margin-bottom: 6px;
+}
+.ticker-logo {
+  width: 44px; height: 44px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #FF4040 0%, #C50019 100%);
+  color: #fff;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 16px; font-weight: 800;
+  letter-spacing: -0.04em;
+  flex-shrink: 0;
+}
+.ticker-meta { display: flex; flex-direction: column; gap: 2px; }
+.ticker-name { font-size: 17px; font-weight: 700; color: var(--gray-900); }
+.ticker-code { font-size: 12px; color: var(--text-muted); }
+
+.price-block { margin-top: 18px; }
+.price-now {
+  font-size: 34px;
+  font-weight: 800;
+  color: var(--gray-900);
+  letter-spacing: -0.035em;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.15;
+}
+.price-change {
+  margin-top: 6px;
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 14px; font-weight: 600;
+  color: var(--up);
+  font-variant-numeric: tabular-nums;
+}
+.price-change__pill {
+  background: var(--up-bg);
+  color: var(--up);
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 12px; font-weight: 700;
+}
+.price-period { color: var(--text-muted); font-weight: 500; font-size: 13px; }
+
+.subtitle-line {
+  margin-top: 16px;
+  font-size: 14px;
+  color: var(--text-base);
+  line-height: 1.55;
+}
+
+.tag-row { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 16px; }
+.tag {
+  background: var(--gray-100);
+  color: var(--gray-700);
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.tag--blue { background: var(--toss-blue-bg); color: var(--toss-blue); }
+
+/* ===== Section divider ===== */
+.divider {
+  height: 8px;
+  background: var(--gray-50);
+  border: 0;
+  margin: 0;
+}
+
+/* ===== Section ===== */
+section {
+  padding: 28px 20px 8px;
+}
+section h2 {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--gray-900);
+  margin: 0 0 4px;
+  letter-spacing: -0.025em;
+}
+section .section-sub {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-bottom: 18px;
+}
+section h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--gray-900);
+  margin: 24px 0 8px;
+  letter-spacing: -0.02em;
+}
+section p {
+  margin: 8px 0 14px;
+  color: var(--text-base);
+  font-size: 14.5px;
+  line-height: 1.7;
+}
+section p strong, section li strong {
+  color: var(--gray-900);
+  font-weight: 700;
+}
+section ul, section ol {
+  padding-left: 20px;
+  margin: 8px 0 16px;
+}
+section li { margin: 6px 0; color: var(--text-base); font-size: 14.5px; line-height: 1.65; }
+
+/* ===== Stat grid (Toss style summary cards) ===== */
+.stat-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin: 20px 0 4px;
+}
+.stat-card {
+  background: var(--gray-50);
+  border-radius: 14px;
+  padding: 16px;
+}
+.stat-card__label {
+  font-size: 12px;
+  color: var(--text-muted);
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+.stat-card__value {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--gray-900);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+.stat-card--highlight {
+  background: var(--toss-blue-bg);
+}
+.stat-card--highlight .stat-card__value { color: var(--toss-blue); }
+.stat-card--up .stat-card__value { color: var(--up); }
+
+/* ===== Chart ===== */
+.chart-wrap {
+  margin: 14px 0 8px;
+  padding: 4px 0 0;
+  background: var(--card);
+  border-radius: 16px;
+}
+.chart-wrap canvas { width: 100% !important; height: 240px !important; }
+
+/* ===== Highlight blockquote ===== */
+.callout {
+  margin: 18px 0;
+  padding: 16px 18px;
+  background: var(--toss-blue-bg-soft);
+  border-radius: 14px;
+  color: var(--gray-800);
+  font-size: 14px;
+  line-height: 1.65;
+  border-left: 3px solid var(--toss-blue);
+}
+
+/* ===== Phase cards (stage indicator) ===== */
+.phase-list {
+  margin: 16px 0 8px;
+  display: flex; flex-direction: column; gap: 10px;
+}
+.phase {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 16px;
+  display: flex; gap: 14px;
+}
+.phase__num {
+  width: 28px; height: 28px;
+  background: var(--toss-blue);
+  color: #fff;
+  border-radius: 8px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 13px; font-weight: 800;
+  flex-shrink: 0;
+}
+.phase__body { flex: 1; min-width: 0; }
+.phase__title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--gray-900);
+  margin-bottom: 2px;
+}
+.phase__range {
+  font-size: 12px;
+  color: var(--toss-blue);
+  font-weight: 700;
+  margin-bottom: 6px;
+  font-variant-numeric: tabular-nums;
+}
+.phase__desc {
+  font-size: 13.5px;
+  color: var(--text-base);
+  line-height: 1.6;
+}
+
+/* ===== Key fact rows ===== */
+.kv-list { margin: 14px 0; }
+.kv-row {
+  display: flex; justify-content: space-between; align-items: baseline;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border);
+}
+.kv-row:last-child { border-bottom: 0; }
+.kv-label {
+  font-size: 13.5px;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+.kv-value {
+  font-size: 15px;
+  color: var(--gray-900);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+.kv-value--up { color: var(--up); }
+.kv-value--blue { color: var(--toss-blue); }
+
+/* ===== News list ===== */
+.news-list { margin: 12px 0 4px; display: flex; flex-direction: column; gap: 4px; }
+.news-item {
+  display: block;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border);
+  text-decoration: none;
+  color: inherit;
+}
+.news-item:last-child { border-bottom: 0; }
+.news-item__top {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 12px; color: var(--text-muted);
+  margin-bottom: 4px;
+}
+.news-item__source {
+  font-weight: 600; color: var(--toss-blue);
+}
+.news-item__title {
+  font-size: 14.5px;
+  font-weight: 700;
+  color: var(--gray-900);
+  line-height: 1.45;
+  margin-bottom: 4px;
+}
+.news-item__summary {
+  font-size: 13px;
+  color: var(--text-base);
+  line-height: 1.5;
+}
+
+/* ===== Risk chips ===== */
+.risk-list { display: flex; flex-direction: column; gap: 10px; margin: 14px 0; }
+.risk-item {
+  display: flex; gap: 12px; align-items: flex-start;
+  padding: 14px;
+  background: var(--gray-50);
+  border-radius: 12px;
+}
+.risk-item__icon {
+  width: 24px; height: 24px;
+  background: #FFEDED;
+  color: var(--up);
+  border-radius: 7px;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+  font-weight: 800; font-size: 13px;
+}
+.risk-item__body { flex: 1; min-width: 0; }
+.risk-item__title { font-weight: 700; color: var(--gray-900); font-size: 14px; margin-bottom: 2px; }
+.risk-item__desc { font-size: 13px; color: var(--text-base); line-height: 1.55; }
+
+/* ===== References ===== */
+.ref-list { display: flex; flex-direction: column; gap: 10px; margin-top: 12px; }
+.ref-item {
+  display: flex; gap: 10px; align-items: baseline;
+  padding: 12px 14px;
+  background: var(--gray-50);
+  border-radius: 10px;
+  font-size: 13px;
+  text-decoration: none;
+  color: inherit;
+}
+.ref-item__title { color: var(--gray-900); font-weight: 600; }
+.ref-item__source { color: var(--text-muted); }
+.ref-item__tier {
+  margin-left: auto;
+  background: var(--gray-200);
+  color: var(--gray-700);
+  font-size: 11px; font-weight: 700;
+  padding: 2px 6px; border-radius: 5px;
+}
+
+/* ===== Footer / disclaimer ===== */
+footer {
+  margin-top: 24px;
+  padding: 24px 20px 48px;
+  background: var(--gray-50);
+  color: var(--text-muted);
+  font-size: 12px;
+  line-height: 1.6;
+}
+footer p { margin: 0 0 6px; }
+
+/* Mobile tweaks */
+@media (max-width: 380px) {
+  .price-now { font-size: 30px; }
+  .stat-card__value { font-size: 16px; }
+  section h2 { font-size: 18px; }
+}
+
+/* a tag base */
+a { color: var(--toss-blue); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.sr-only { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; }
+</style>
+</head>
+<body>
+<main class="shell">
+
+  <!-- App bar (Toss-style) -->
+  <div class="appbar" role="banner">
+    <div class="appbar__back" aria-hidden="true">‹</div>
+    <div class="appbar__title">종목 리포트</div>
+  </div>
+
+  <!-- Hero / Price Header -->
+  <header class="hero">
+    <div class="ticker-row">
+      <div class="ticker-logo" aria-hidden="true">SK</div>
+      <div class="ticker-meta">
+        <div class="ticker-name">SK하이닉스</div>
+        <div class="ticker-code">000660 · 코스피</div>
+      </div>
+    </div>
+
+    <div class="price-block">
+      <div class="price-now">₩2,243,000</div>
+      <div class="price-change">
+        <span class="price-change__pill">▲ 1,007.7%</span>
+        <span>+2,040,500원</span>
+        <span class="price-period">· 최근 1년</span>
+      </div>
+    </div>
+
+    <p class="subtitle-line">HBM 슈퍼사이클과 1조달러 클럽 진입 — 2025년 5월부터 2026년 5월까지의 1년을 정리했어요.</p>
+
+    <div class="tag-row">
+      <span class="tag tag--blue">AI 메모리</span>
+      <span class="tag tag--blue">HBM</span>
+      <span class="tag">슈퍼사이클</span>
+      <span class="tag">1조달러 클럽</span>
+    </div>
+  </header>
+
+  <hr class="divider">
+
+  <!-- 핵심 요약 -->
+  <section id="overview">
+    <h2>한눈에 보기</h2>
+    <p class="section-sub">1년 만에 약 10배, 한국 증시에서 보기 드문 랠리예요.</p>
+
+    <div class="stat-grid">
+      <div class="stat-card stat-card--up">
+        <div class="stat-card__label">기간 수익률</div>
+        <div class="stat-card__value">+1,007.7%</div>
+      </div>
+      <div class="stat-card stat-card--highlight">
+        <div class="stat-card__label">시가총액</div>
+        <div class="stat-card__value">1,600조원</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-card__label">시작 (2025.05.27)</div>
+        <div class="stat-card__value">₩202,500</div>
+      </div>
+      <div class="stat-card stat-card--up">
+        <div class="stat-card__label">최고 (2026.05.27)</div>
+        <div class="stat-card__value">₩2,243,000</div>
+      </div>
+    </div>
+
+    <div class="chart-wrap" role="img" aria-label="SK하이닉스 1년 주가 추이">
+      <canvas id="priceChart"></canvas>
+    </div>
+
+    <p>분석 기간 중 가장 큰 급등 구간은 <strong>2026년 4월 23일~5월 27일</strong>로, 1분기 실적 발표(매출 52.6조원, 영업이익 37.6조원, 영업이익률 72%)를 계기로 약 100만원대에서 224만원대까지 한 달여 만에 두 배 이상 뛰었어요. 가장 뚜렷한 단기 급락은 <strong>2026년 5월 15일 전후</strong> 약 6% 하락으로, 외국인·기관 동시 매도와 기술적 과열 경고가 겹쳤습니다.</p>
+  </section>
+
+  <hr class="divider">
+
+  <!-- 배경 -->
+  <section id="background">
+    <h2>왜 이렇게 올랐을까?</h2>
+    <p class="section-sub">AI가 바꾼 메모리 반도체 지형을 정리했어요.</p>
+
+    <h3>AI 학습·추론용 메모리 수요 폭발</h3>
+    <p>2025~2026년 글로벌 반도체 시장의 가장 큰 변화는 AI 학습과 추론을 위한 고성능 메모리 수요의 폭발이에요. NVIDIA, AMD 등 GPU 설계사의 차세대 AI 가속기에는 기존 DRAM 대비 수십 배 높은 대역폭을 가진 HBM이 필수적이고, 이 시장에서 SK하이닉스는 62%의 점유율로 압도적 1위를 유지해왔어요.</p>
+
+    <h3>메모리 3사 과점과 가격 결정력</h3>
+    <p>글로벌 메모리 시장은 SK하이닉스, 삼성전자, 마이크론 3사의 과점 구조예요. AI 수요 급증으로 HBM뿐 아니라 서버 DRAM, 엔터프라이즈 SSD(eSSD)까지 공급 부족이 확산되면서, 범용 DRAM 가격이 <strong>2025년 4분기에만 50% 급등</strong>했어요. 일시적 수급 불균형이 아니라 AI 인프라 투자라는 구조적 변화에 기인한 변화입니다.</p>
+
+    <h3>SK하이닉스의 전략적 포지션</h3>
+    <p>SK하이닉스는 2018년부터 HBM에 집중 투자하며 기술 리더십을 구축했어요. HBM2E → HBM3 → HBM3E → HBM4로 이어지는 세대 전환에서 매번 경쟁사보다 6~12개월 앞서 양산을 시작했고, NVIDIA의 최대 메모리 공급사라는 위치를 공고히 했습니다.</p>
+  </section>
+
+  <hr class="divider">
+
+  <!-- 주가 흐름 4단계 -->
+  <section id="price-flow">
+    <h2>주가 흐름 4단계</h2>
+    <p class="section-sub">20만원에서 224만원까지, 단계별로 살펴봤어요.</p>
+
+    <div class="phase-list">
+      <div class="phase">
+        <div class="phase__num">1</div>
+        <div class="phase__body">
+          <div class="phase__title">기반 다지기</div>
+          <div class="phase__range">2025.05~09 · 20만 → 35만원</div>
+          <div class="phase__desc">AI 반도체 수요가 확인되고 HBM3E 공급이 본격화되며 꾸준한 상승. 3분기 사상 최대 분기 실적, 9월 세계 최초 HBM4 양산 체계 구축.</div>
+        </div>
+      </div>
+      <div class="phase">
+        <div class="phase__num">2</div>
+        <div class="phase__body">
+          <div class="phase__title">가속 구간</div>
+          <div class="phase__range">2025.10~2026.01 · 35만 → 65만원</div>
+          <div class="phase__desc">4분기 실적(매출 32.8조, 영업이익 19.2조, 이익률 58%) 분기 최고 경신. 2025년 연간 영업이익 47.2조원으로 창사 이래 처음 삼성전자 추월.</div>
+        </div>
+      </div>
+      <div class="phase">
+        <div class="phase__num">3</div>
+        <div class="phase__body">
+          <div class="phase__title">100만닉스 돌파</div>
+          <div class="phase__range">2026.02~04 · 65만 → 130만원</div>
+          <div class="phase__desc">BofA가 "DRAM 슈퍼사이클 수혜주"로 지목. 4월 말 시가총액 1,000조원을 넘어선 최초의 한국 기업.</div>
+        </div>
+      </div>
+      <div class="phase">
+        <div class="phase__num">4</div>
+        <div class="phase__body">
+          <div class="phase__title">1조달러 클럽 진입</div>
+          <div class="phase__range">2026.04~05 · 130만 → 224만원</div>
+          <div class="phase__desc">1분기 실적(영업이익률 72%)에 시장 목표가 일제히 상향. KB증권 280만원, 일부 300만원 제시. 5월 27일 시총 1,600조원 돌파.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- 핵심 이슈 -->
+  <section id="key-issues">
+    <h2>핵심 이슈</h2>
+    <p class="section-sub">이 랠리를 만든 4가지 동력을 살펴볼게요.</p>
+
+    <h3>HBM, 독점에 가까운 지배력</h3>
+    <p>SK하이닉스의 HBM 점유율은 2025년 기준 <strong>57~62%</strong>로, 삼성전자(22%)와 마이크론(20% 내외)을 크게 앞섰어요. NVIDIA에 대한 HBM 공급 비중은 <strong>약 90%</strong>에 달했으며, 차세대 HBM4에서도 Rubin 플랫폼 공급의 70%를 확보한 것으로 알려졌어요. 2026년 전체 HBM 생산량은 완판 상태이며, 공급 부족은 2028년까지 지속될 전망입니다.</p>
+
+    <h3>실적, 상상을 초월한 성장</h3>
+    <p>2026년 1분기 영업이익 37.6조원은 한국 제조업 역사상 손꼽히는 수치예요. 전년 동기 대비 매출 198% 증가, 영업이익 405% 증가라는 폭발적 성장이었습니다.</p>
+
+    <div class="kv-list">
+      <div class="kv-row">
+        <span class="kv-label">2026 1Q 매출</span>
+        <span class="kv-value">52.6조원</span>
+      </div>
+      <div class="kv-row">
+        <span class="kv-label">2026 1Q 영업이익</span>
+        <span class="kv-value kv-value--up">37.6조원</span>
+      </div>
+      <div class="kv-row">
+        <span class="kv-label">2026 1Q 영업이익률</span>
+        <span class="kv-value kv-value--up">72%</span>
+      </div>
+      <div class="kv-row">
+        <span class="kv-label">2026 연간 영업이익 (전망)</span>
+        <span class="kv-value">124.5조원</span>
+      </div>
+    </div>
+
+    <div class="callout">
+      <strong>성장의 3가지 구조적 배경</strong><br>
+      ① HBM 가격 프리미엄 — GB당 가격이 범용 DRAM의 5~10배<br>
+      ② 범용 DRAM 동반 상승 — 25년 4Q 50% 급등, DDR5 마진이 HBM3E를 추월 전망<br>
+      ③ 공급 독과점 — 메모리 3사 과점 구조에서 가격 결정력 극대화
+    </div>
+
+    <h3>삼성전자와의 역전 드라마</h3>
+    <p>SK하이닉스의 부상은 삼성전자와의 관계 변화로 더 극적이에요. 2025년 연간 영업이익에서 처음 삼성전자를 추월했고, 2026년 5월에는 선행 PER <strong>6.79배로 삼성전자(6.77배)를 역전</strong>했어요. 시가총액은 삼성전자의 82% 수준까지 근접했으며, "30년 만의 코스피 왕좌 교체" 가능성이 본격 논의되고 있습니다.</p>
+
+    <h3>수급: 외국인은 팔고, 기관이 받다</h3>
+    <p>흥미로운 점은 이 랠리가 <strong>외국인 매수가 아닌 기관 매수로 주도</strong>되었다는 사실이에요. 2026년 들어 외국인 보유주식수와 주가의 상관관계는 −52%로, 주가가 오를수록 외국인은 차익을 실현했어요. FMR(Fidelity), JP Morgan 등 주요 기관이 50만~300만주를 줄였습니다.</p>
+    <p>반면 국내 기관은 최근 1개월 130.1만주를 순매수하며 상승을 주도했고, 개인도 32.3만주를 순매수했어요. 외국인 매도 물량을 국내 자금이 흡수하는 구도가 형성되어 있어요.</p>
+
+    <h3>주주환원: 역대급이지만 논란도</h3>
+    <p>2025년 총 주주환원은 <strong>14.3조원</strong>(현금배당 2.1조 + 자사주 소각 12.2조)이었어요. 주당 배당금은 3,000원으로 전년 대비 대폭 상향됐습니다. 잉여현금흐름의 50%를 추가 환원에 사용한다는 정책이 있으나, 성과급 25조원 대비 배당 1조원이라는 비판도 제기됐어요.</p>
+  </section>
+
+  <hr class="divider">
+
+  <!-- 메커니즘 -->
+  <section id="mechanism">
+    <h2>10배 상승의 메커니즘</h2>
+    <p class="section-sub">구조적으로 어떻게 가능했는지 정리했어요.</p>
+
+    <h3>1. AI 인프라 투자의 자기강화 루프</h3>
+    <p>AI 모델의 크기가 커질수록 학습·추론에 필요한 GPU와 HBM이 기하급수적으로 증가해요. 빅테크 CAPEX 확대 → HBM 수요 증가 → SK하이닉스 실적 개선 → 주가 상승이라는 선순환이 1년간 지속됐어요.</p>
+
+    <h3>2. 기술 격차에 기반한 가격 결정력</h3>
+    <p>HBM 제조는 수십 층의 메모리 칩을 정밀하게 적층하는 고난도 기술이 필요해요. SK하이닉스는 이 분야에서 삼성전자·마이크론 대비 6~12개월의 기술 선도를 유지하며, NVIDIA 같은 핵심 고객을 사실상 독점 공급했어요.</p>
+
+    <h3>3. 범용 메모리까지 확산된 슈퍼사이클</h3>
+    <p>AI 수혜가 HBM에 국한되지 않고 서버 DRAM, eSSD 등 범용 메모리로 확산됐어요. DDR5 마진이 HBM3E를 추월할 전망이 나올 정도로, 메모리 사업 전체의 수익성이 역사적 수준으로 올라섰습니다.</p>
+
+    <h3>4. 시장 재평가(리레이팅)</h3>
+    <p>영업이익 삼성전자 추월, 시총 1조달러 돌파 등 상징적 이벤트가 이어지며, SK하이닉스에 대한 시장의 평가 프레임 자체가 바뀌었어요. "삼성전자의 경쟁사"에서 <strong>"한국 대표 AI 반도체 기업"</strong>으로 위상이 격상된 거예요.</p>
+  </section>
+
+  <hr class="divider">
+
+  <!-- 리스크 -->
+  <section id="impact">
+    <h2>주의할 리스크</h2>
+    <p class="section-sub">이렇게 좋아 보이는 흐름에도 점검해야 할 변수가 있어요.</p>
+
+    <div class="risk-list">
+      <div class="risk-item">
+        <div class="risk-item__icon">!</div>
+        <div class="risk-item__body">
+          <div class="risk-item__title">기술적 과열</div>
+          <div class="risk-item__desc">RSI 등 지표가 과열 구간이며, 일부 애널리스트는 "시스코의 유령"을 소환하며 버블 가능성을 경고하고 있어요.</div>
+        </div>
+      </div>
+      <div class="risk-item">
+        <div class="risk-item__icon">!</div>
+        <div class="risk-item__body">
+          <div class="risk-item__title">HBM4 전환기 마진 압박</div>
+          <div class="risk-item__desc">새 세대 초기에는 수율 안정화까지 마진이 일시적으로 하락할 수 있어요.</div>
+        </div>
+      </div>
+      <div class="risk-item">
+        <div class="risk-item__icon">!</div>
+        <div class="risk-item__body">
+          <div class="risk-item__title">경쟁 심화</div>
+          <div class="risk-item__desc">AMD가 HBM4를 채택하면서 삼성전자에 기회가 열리고, SK하이닉스 독주에 균열이 생길 수 있어요.</div>
+        </div>
+      </div>
+      <div class="risk-item">
+        <div class="risk-item__icon">!</div>
+        <div class="risk-item__body">
+          <div class="risk-item__title">외국인 매도 지속</div>
+          <div class="risk-item__desc">주가 상승에도 외국인 보유 비중이 줄어드는 추세가 부담 요인이에요.</div>
+        </div>
+      </div>
+      <div class="risk-item">
+        <div class="risk-item__icon">!</div>
+        <div class="risk-item__body">
+          <div class="risk-item__title">삼성전자 파업</div>
+          <div class="risk-item__desc">2026년 5월 21일~6월 7일 삼성전자 총파업이 산업 전체 공급망 불안을 야기할 수 있어요.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- 최신 뉴스 -->
+  <section id="latest-news">
+    <h2>최신 뉴스</h2>
+    <p class="section-sub">최근 보도된 핵심 5건이에요.</p>
+
+    <div class="news-list">
+      <a class="news-item" href="https://www.mt.co.kr/stock/2026/05/27/2026052709441367932" target="_blank" rel="noopener">
+        <div class="news-item__top">
+          <span class="news-item__source">머니투데이</span>
+          <span>·</span>
+          <span>2026.05.27</span>
+        </div>
+        <div class="news-item__title">SK하이닉스, 시총 1조달러 클럽 진입</div>
+        <div class="news-item__summary">시가총액 1,600조원 돌파, 삼성전자에 이어 한국 두 번째 1조달러 기업</div>
+      </a>
+      <a class="news-item" href="https://www.reportera.co.kr/economy/sk-hynix-peak-warning-signals-hbm-rsi-samsung-strike/" target="_blank" rel="noopener">
+        <div class="news-item__top">
+          <span class="news-item__source">리포터라</span>
+          <span>·</span>
+          <span>2026.05.21</span>
+        </div>
+        <div class="news-item__title">SK하이닉스 영업이익 37조, 과열 경고</div>
+        <div class="news-item__summary">역대급 실적에도 RSI 과열, 삼성전자 파업 등 경고 신호</div>
+      </a>
+      <a class="news-item" href="https://www.sedaily.com/article/20043830" target="_blank" rel="noopener">
+        <div class="news-item__top">
+          <span class="news-item__source">서울경제</span>
+          <span>·</span>
+          <span>2026.05.14</span>
+        </div>
+        <div class="news-item__title">SK하이닉스, 삼성전자 밸류 첫 역전</div>
+        <div class="news-item__summary">선행 PER 6.79배로 삼성전자 6.77배 추월, 30년 만의 왕좌 격전</div>
+      </a>
+      <a class="news-item" href="https://www.newsspace.kr/news/article.html?no=13839" target="_blank" rel="noopener">
+        <div class="news-item__top">
+          <span class="news-item__source">뉴스스페이스</span>
+          <span>·</span>
+          <span>2026.05.12</span>
+        </div>
+        <div class="news-item__title">SK하이닉스 목표주가 300만원</div>
+        <div class="news-item__summary">메모리 밸류에이션 리레이팅 본격화, 일부 증권사 300만원 제시</div>
+      </a>
+      <a class="news-item" href="https://news.bizwatch.co.kr/article/market/2026/05/11/0003" target="_blank" rel="noopener">
+        <div class="news-item__top">
+          <span class="news-item__source">비즈워치</span>
+          <span>·</span>
+          <span>2026.05.11</span>
+        </div>
+        <div class="news-item__title">LS증권, 목표가 210만원 상향</div>
+        <div class="news-item__summary">목표가 150만 → 210만원, 성과급·인건비 변수 지적</div>
+      </a>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- References -->
+  <section id="references">
+    <h2>참고 자료</h2>
+    <p class="section-sub">출처 및 추가 읽을거리예요.</p>
+
+    <div class="ref-list">
+      <a class="ref-item" href="https://www.trendforce.com/news/2026/01/28/news-sk-hynix-reportedly-to-supply-about-two-thirds-of-nvidia-hbm4-samsung-targets-early-delivery/" target="_blank" rel="noopener">
+        <div>
+          <div class="ref-item__title">SK hynix to supply ~2/3 of NVIDIA HBM4</div>
+          <div class="ref-item__source">TrendForce · 2026.01.28</div>
+        </div>
+        <span class="ref-item__tier">B</span>
+      </a>
+      <a class="ref-item" href="https://www.cnbc.com/2026/01/29/sk-hynix-beats-samsung-2025-profit-ai-memory-hbm.html" target="_blank" rel="noopener">
+        <div>
+          <div class="ref-item__title">SK Hynix overtakes Samsung in annual profit</div>
+          <div class="ref-item__source">CNBC · 2026.01.29</div>
+        </div>
+        <span class="ref-item__tier">B</span>
+      </a>
+      <a class="ref-item" href="https://www.cnbc.com/2026/04/23/sk-hynix-earnings-ai-memory-shortage-hbm-demand.html" target="_blank" rel="noopener">
+        <div>
+          <div class="ref-item__title">SK Hynix posts record Q1 profit</div>
+          <div class="ref-item__source">CNBC · 2026.04.23</div>
+        </div>
+        <span class="ref-item__tier">B</span>
+      </a>
+      <a class="ref-item" href="https://www.kedglobal.com/earnings/newsView/ked202604230001" target="_blank" rel="noopener">
+        <div>
+          <div class="ref-item__title">SK Hynix logs 72% operating margin</div>
+          <div class="ref-item__source">KED Global · 2026.04.23</div>
+        </div>
+        <span class="ref-item__tier">B</span>
+      </a>
+      <a class="ref-item" href="https://news.skhynix.co.kr/2025-business-results/" target="_blank" rel="noopener">
+        <div>
+          <div class="ref-item__title">2025년 경영실적 발표</div>
+          <div class="ref-item__source">SK하이닉스 뉴스룸 · 2025.12</div>
+        </div>
+        <span class="ref-item__tier">A</span>
+      </a>
+      <a class="ref-item" href="https://news.skhynix.co.kr/2026-market-outlook/" target="_blank" rel="noopener">
+        <div>
+          <div class="ref-item__title">2026년 시장 전망</div>
+          <div class="ref-item__source">SK하이닉스 뉴스룸 · 2026.01</div>
+        </div>
+        <span class="ref-item__tier">A</span>
+      </a>
+      <a class="ref-item" href="https://www.notebookcheck.net/SK-hynix-sells-out-its-DRAM-NAND-and-HBM-chip-supply-to-Nvidia-through-2026-as-AI-demand-outpaces-Samsung-and-Micron-s-capacity.1151402.0.html" target="_blank" rel="noopener">
+        <div>
+          <div class="ref-item__title">SK hynix sells out supply to Nvidia</div>
+          <div class="ref-item__source">Notebookcheck · 2026.05</div>
+        </div>
+        <span class="ref-item__tier">B</span>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>이 리포트는 교육 및 정보 제공 목적으로 제작되었습니다. 특정 종목의 매수·매도를 권유하지 않으며, 투자 자문이 아닙니다. 모든 투자 결정과 그 결과는 투자자 본인의 책임입니다.</p>
+    <p>작성일 2026.05.27 · 분석 기간 2025.05.27 ~ 2026.05.27</p>
+    <p>Price data: Yahoo Finance (000660.KS, daily, 243 trading days)</p>
+  </footer>
+</main>
+
+<script>
+(function() {
+  const labels = ["2025-05-27", "2025-05-28", "2025-05-29", "2025-05-30", "2025-06-02", "2025-06-04", "2025-06-05", "2025-06-09", "2025-06-10", "2025-06-11", "2025-06-12", "2025-06-13", "2025-06-16", "2025-06-17", "2025-06-18", "2025-06-19", "2025-06-20", "2025-06-23", "2025-06-24", "2025-06-25", "2025-06-26", "2025-06-27", "2025-06-30", "2025-07-01", "2025-07-02", "2025-07-03", "2025-07-04", "2025-07-07", "2025-07-08", "2025-07-09", "2025-07-10", "2025-07-11", "2025-07-14", "2025-07-15", "2025-07-16", "2025-07-17", "2025-07-18", "2025-07-21", "2025-07-22", "2025-07-23", "2025-07-24", "2025-07-25", "2025-07-28", "2025-07-29", "2025-07-30", "2025-07-31", "2025-08-01", "2025-08-04", "2025-08-05", "2025-08-06", "2025-08-07", "2025-08-08", "2025-08-11", "2025-08-12", "2025-08-13", "2025-08-14", "2025-08-18", "2025-08-19", "2025-08-20", "2025-08-21", "2025-08-22", "2025-08-25", "2025-08-26", "2025-08-27", "2025-08-28", "2025-08-29", "2025-09-01", "2025-09-02", "2025-09-03", "2025-09-04", "2025-09-05", "2025-09-08", "2025-09-09", "2025-09-10", "2025-09-11", "2025-09-12", "2025-09-15", "2025-09-16", "2025-09-17", "2025-09-18", "2025-09-22", "2025-09-23", "2025-09-24", "2025-09-25", "2025-09-26", "2025-09-29", "2025-09-30", "2025-10-01", "2025-10-02", "2025-10-10", "2025-10-13", "2025-10-14", "2025-10-15", "2025-10-16", "2025-10-17", "2025-10-20", "2025-10-21", "2025-10-22", "2025-10-23", "2025-10-24", "2025-10-27", "2025-10-28", "2025-10-29", "2025-10-30", "2025-10-31", "2025-11-03", "2025-11-04", "2025-11-05", "2025-11-06", "2025-11-07", "2025-11-10", "2025-11-11", "2025-11-12", "2025-11-13", "2025-11-14", "2025-11-17", "2025-11-18", "2025-11-19", "2025-11-20", "2025-11-21", "2025-11-24", "2025-11-25", "2025-11-26", "2025-11-27", "2025-11-28", "2025-12-01", "2025-12-02", "2025-12-03", "2025-12-04", "2025-12-05", "2025-12-08", "2025-12-09", "2025-12-10", "2025-12-11", "2025-12-12", "2025-12-15", "2025-12-16", "2025-12-17", "2025-12-18", "2025-12-19", "2025-12-22", "2025-12-23", "2025-12-24", "2025-12-26", "2025-12-29", "2025-12-30", "2026-01-02", "2026-01-05", "2026-01-06", "2026-01-07", "2026-01-08", "2026-01-09", "2026-01-12", "2026-01-13", "2026-01-14", "2026-01-15", "2026-01-16", "2026-01-19", "2026-01-20", "2026-01-21", "2026-01-22", "2026-01-23", "2026-01-26", "2026-01-27", "2026-01-28", "2026-01-29", "2026-01-30", "2026-02-02", "2026-02-03", "2026-02-04", "2026-02-05", "2026-02-06", "2026-02-09", "2026-02-10", "2026-02-11", "2026-02-12", "2026-02-13", "2026-02-19", "2026-02-20", "2026-02-23", "2026-02-24", "2026-02-25", "2026-02-26", "2026-02-27", "2026-03-03", "2026-03-04", "2026-03-05", "2026-03-06", "2026-03-09", "2026-03-10", "2026-03-11", "2026-03-12", "2026-03-13", "2026-03-16", "2026-03-17", "2026-03-18", "2026-03-19", "2026-03-20", "2026-03-23", "2026-03-24", "2026-03-25", "2026-03-26", "2026-03-27", "2026-03-30", "2026-03-31", "2026-04-01", "2026-04-02", "2026-04-03", "2026-04-06", "2026-04-07", "2026-04-08", "2026-04-09", "2026-04-10", "2026-04-13", "2026-04-14", "2026-04-15", "2026-04-16", "2026-04-17", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-04", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-26", "2026-05-27"];
+  const closes = [202500, 208000, 212000, 204500, 207500, 217500, 224500, 229000, 230500, 240000, 235500, 235500, 248000, 249000, 246500, 246000, 257000, 259500, 278500, 286000, 293000, 284000, 292000, 285500, 279000, 278500, 270500, 271000, 282000, 281000, 297000, 294500, 300000, 298500, 296000, 269500, 269000, 272500, 268500, 269000, 269500, 266000, 262000, 262500, 263500, 273500, 258000, 258000, 263500, 258500, 262000, 256500, 267000, 269000, 278000, 276500, 267500, 263000, 255500, 245000, 251000, 259500, 261500, 260000, 268500, 269000, 256000, 260500, 262500, 265500, 273500, 277000, 288000, 304000, 307000, 328500, 331000, 348000, 333500, 355500, 351000, 361000, 357500, 356500, 336500, 349000, 347500, 360000, 395500, 428000, 415000, 411500, 422500, 452500, 465500, 485500, 479000, 481500, 478500, 510000, 535000, 521000, 558000, 568000, 559000, 620000, 586000, 579000, 593000, 580000, 606000, 619000, 617000, 612000, 560000, 606000, 570000, 562000, 571000, 521000, 520000, 519000, 524000, 544000, 530000, 538000, 558000, 552000, 542000, 544000, 577000, 566000, 587000, 565000, 571000, 554000, 530000, 551000, 552000, 547000, 580000, 584000, 588000, 599000, 640000, 651000, 677000, 696000, 726000, 742000, 756000, 744000, 749000, 738000, 742000, 749000, 756000, 764000, 743000, 740000, 755000, 767000, 736000, 800000, 841000, 861000, 909000, 830000, 907000, 900000, 842000, 839000, 887000, 876000, 860000, 888000, 880000, 894000, 949000, 951000, 1005000, 1018000, 1099000, 1061000, 939000, 849000, 941000, 924000, 836000, 938000, 955000, 930000, 910000, 974000, 970000, 1056000, 1013000, 1007000, 933000, 986000, 995000, 933000, 933000, 873000, 807000, 897000, 830000, 876000, 886000, 916000, 1033000, 998000, 1027000, 1040000, 1103000, 1136000, 1155000, 1128000, 1166000, 1224000, 1223000, 1225000, 1222000, 1292000, 1300000, 1293000, 1286000, 1447000, 1601000, 1654000, 1686000, 1880000, 1835000, 1976000, 1970000, 1819000, 1840000, 1745000, 1745000, 1940000, 1941000, 2052000, 2243000];
+
+  const ctx = document.getElementById('priceChart').getContext('2d');
+  const gradient = ctx.createLinearGradient(0, 0, 0, 240);
+  gradient.addColorStop(0, 'rgba(49, 130, 246, 0.22)');
+  gradient.addColorStop(1, 'rgba(49, 130, 246, 0.0)');
+
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: 'SK하이닉스 종가',
+        data: closes,
+        borderColor: '#3182F6',
+        backgroundColor: gradient,
+        borderWidth: 2.2,
+        pointRadius: 0,
+        pointHitRadius: 6,
+        fill: true,
+        tension: 0.28,
+        pointHoverRadius: 5,
+        pointHoverBackgroundColor: '#3182F6',
+        pointHoverBorderColor: '#FFFFFF',
+        pointHoverBorderWidth: 2
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: '#191F28',
+          titleColor: '#B0B8C1',
+          bodyColor: '#FFFFFF',
+          padding: 10,
+          cornerRadius: 8,
+          titleFont: { size: 11, weight: 'normal' },
+          bodyFont: { size: 13, weight: 'bold' },
+          displayColors: false,
+          callbacks: {
+            label: function(ctx) { return '₩' + ctx.parsed.y.toLocaleString(); }
+          }
+        }
+      },
+      scales: {
+        x: {
+          ticks: { maxTicksLimit: 6, font: { size: 10, family: 'Pretendard' }, color: '#8B95A1' },
+          grid: { display: false },
+          border: { display: false }
+        },
+        y: {
+          position: 'right',
+          ticks: {
+            callback: function(v) { return (v/10000).toFixed(0) + '만'; },
+            font: { size: 10, family: 'Pretendard' },
+            color: '#8B95A1',
+            padding: 4
+          },
+          grid: { color: '#F2F4F6', drawTicks: false },
+          border: { display: false }
+        }
+      }
+    }
+  });
+})();
+</script>
+</body>
+</html>
