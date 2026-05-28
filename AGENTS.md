@@ -43,9 +43,7 @@
 - `selected-image.json`은 최소 `slug`, `selected_candidate`, `image_path` 또는 `selected_image`, `reason`, `generated_with`를 포함하고, 경로는 `assets/<file>.png` 또는 `output/assets/<file>.png`처럼 검증기가 찾을 수 있는 값으로 쓴다.
 - 최종 HTML에는 선택된 hero 이미지 1장이 반드시 있어야 하며, 없으면 build를 성공 처리하지 않는다.
 
-## Review 계약
-- `/stock-review`는 별도 세션/관점의 4-way review로 수행한다.
-- 리뷰어: `fact-checker`, `report-designer`, `content-editor`, `codex-independent` 또는 동등한 별도 blind-spot review.
+ㅁ
 - `reviews/<slug>.md` frontmatter에는 `status: pass | needs_fix | blocked`, `plan_source`, `research_source`, `draft_source`, `review_type: separate-session-4way`, `review_execution: separate_subagent_sessions`를 둔다.
 - 리뷰 작성 후 `python3 scripts/validate_report_contract.py <slug>`를 반드시 실행하고, 실패하면 `needs_fix`로 되돌린다.
 - `needs_fix`이면 generator 단계로 돌아가 수정 후 다시 review한다. 같은 차단 이슈가 3회 반복되거나 외부 데이터/권한 때문에 해결 불가할 때만 `blocked`로 둔다.
