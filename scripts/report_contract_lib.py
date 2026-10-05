@@ -89,9 +89,9 @@ def artifact_paths(slug: str) -> ArtifactPaths:
 
 def rel(path: Path) -> str:
     try:
-        return str(path.relative_to(ROOT))
+        return path.relative_to(ROOT).as_posix()
     except ValueError:
-        return str(path)
+        return path.as_posix()
 
 
 def _stringify_scalar(value: Any) -> Any:
